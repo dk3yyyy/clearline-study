@@ -34,4 +34,4 @@ This pass builds the complete application shell and the Door Supervisor-first st
 - The app is a static vanilla ES-module SPA. It has no build step, no accounts, no backend and no third-party runtime dependency beyond Google Fonts.
 - Progress uses `localStorage`, keyed `clearline-study-v1`.
 - Shared units are stored once in `syllabus.json` and queried by every qualification that includes them.
-- The site uses the Clearline design language from the earlier prototype: warm paper, near-black ink, burnt-orange signal, moss for correct states.
+- The site uses the ShiftReady design language: night-shift dark surfaces, hi-vis amber fills, Barlow Condensed display type and Atkinson Hyperlegible body text. Light mode follows the system unless the reader chooses otherwise.
