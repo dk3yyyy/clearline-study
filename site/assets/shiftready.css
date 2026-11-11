@@ -468,3 +468,36 @@ a { color: var(--accent-text); }
   .source-list td:last-child::before { content: none; }
   .source-list td:last-child .button { width: 100%; }
 }
+
+/* Home qualification chooser: grouped, not a nine-card wall. */
+.group-heading { margin: 28px 0 12px; color: var(--text-2); font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.group-heading:first-of-type { margin-top: 0; }
+.qual-grid--core { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; border: 0; }
+.qual-grid--core .qual-card { margin: 0; min-height: 232px; padding: 22px; border: 1px solid var(--line); border-radius: 16px; }
+.qual-grid--core .qual-card--featured { grid-column: span 2; border-top: 3px solid var(--accent); }
+.qual-grid--core .qual-card p { margin-bottom: 0; }
+.qual-meta { display: flex; justify-content: space-between; gap: 14px; margin-top: auto; padding-top: 20px; color: var(--muted); font-size: 12px; }
+.qual-meta span:last-child { color: var(--text-2); font-weight: 600; }
+.qual-grid--core .progress-line { margin-top: 10px; }
+.refresher-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.refresher-row { display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 14px; align-items: center; min-height: 86px; padding: 15px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--text); text-decoration: none; transition: border-color 140ms ease, background-color 140ms ease; }
+.refresher-row:hover { border-color: var(--accent); }
+.refresher-copy { display: grid; gap: 3px; min-width: 0; }
+.refresher-copy strong { color: var(--text); font-family: var(--font-display); font-size: 20px; line-height: 1.05; letter-spacing: .01em; text-transform: uppercase; }
+.refresher-copy span { color: var(--muted); font-size: 12px; line-height: 1.35; }
+.refresher-meta { display: grid; gap: 2px; color: var(--text-2); font-size: 12px; text-align: end; white-space: nowrap; }
+.refresher-meta span { color: var(--muted); }
+.legacy-note { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
+.legacy-note .qual-code { margin-inline-end: 2px; }
+.legacy-note a { color: var(--accent-text); font-weight: 600; }
+@media (max-width: 1040px) {
+  .qual-grid--core { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .qual-grid--core .qual-card--featured { grid-column: span 2; }
+}
+@media (max-width: 760px) {
+  .qual-grid--core { grid-template-columns: 1fr; }
+  .qual-grid--core .qual-card--featured { grid-column: auto; }
+  .refresher-grid { grid-template-columns: 1fr; }
+  .refresher-row { grid-template-columns: 56px minmax(0, 1fr) auto; }
+  .refresher-copy span { display: none; }
+}

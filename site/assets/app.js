@@ -1,5 +1,5 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ae';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111af';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -20,7 +20,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111ae';
+const DATA_VERSION = '20261111af';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -184,18 +184,34 @@ function renderHome() {
   setActiveNav('home');
   const activeQuals = DATA.syllabus.qualifications;
   const totalQuestions = DATA.questions.length;
-  const cards = activeQuals.map((qual) => {
-    const qs = qualQuestions(qual);
-    const progress = progressFor(qs);
+  const coreIds = new Set(['DS', 'SO', 'CCTV', 'CP', 'CVIT']);
+  const core = activeQuals.filter((qual) => coreIds.has(qual.id));
+  const refreshers = activeQuals.filter((qual) => qual.id.endsWith('-REF') || qual.id === 'EFAW');
+  const legacy = activeQuals.filter((qual) => !coreIds.has(qual.id) && !qual.id.endsWith('-REF') && qual.id !== 'EFAW');
+
+  const card = (qual) => {
+    const questions = qualQuestions(qual);
+    const progress = progressFor(questions);
     const best = bestScore(qual.id);
-    return `<a class="qual-card ${qual.id === 'DS' ? 'qual-card--featured' : ''}" href="${href(`qual/${qual.id}`)}">
+    const started = progress.answered > 0;
+    return `<a class="qual-card ${qual.id === 'DS' ? 'qual-card--featured' : ''}" href="${href(`qual/${qual.id}`)}" aria-label="Open ${esc(qual.name)}">
       <div class="qual-card-top"><span class="qual-code">${esc(qual.id)}</span><span class="qual-level">${esc(qual.level)}${best !== null ? `<span class="qual-best">Best ${best}%</span>` : ''}</span></div>
       <h3>${esc(qual.name)}</h3>
       <p>${esc(qual.description)}</p>
-      ${progress.total ? `${progressBar(progress.pct, `${qual.name} question progress`)}<div class="progress-meta"><span>${progress.answered}/${progress.total} questions</span><span>${progress.pct}%</span></div>` : '<p class="qual-empty">No questions in this bank yet</p>'}
-      <span class="qual-open">Open qualification</span>
+      <div class="qual-meta"><span>${questions.length} questions</span><span>${started ? `${progress.answered} seen` : 'Not started'}</span></div>
+      ${started ? progressBar(progress.pct, `${qual.name} question progress`) : ''}
     </a>`;
-  }).join('');
+  };
+
+  const row = (qual) => {
+    const questions = qualQuestions(qual);
+    const progress = progressFor(questions);
+    return `<a class="refresher-row" href="${href(`qual/${qual.id}`)}" aria-label="Open ${esc(qual.name)}">
+      <span class="qual-code">${esc(qual.id)}</span>
+      <span class="refresher-copy"><strong>${esc(qual.name)}</strong><span>${esc(qual.description)}</span></span>
+      <span class="refresher-meta">${questions.length ? `${questions.length} questions` : 'No questions yet'}<span>${questions.length ? (progress.answered ? `${progress.answered} seen` : 'Not started') : '—'}</span></span>
+    </a>`;
+  };
 
   $('#app').innerHTML = `<section class="hero"><div class="shell hero-grid">
     <div>
@@ -212,8 +228,12 @@ function renderHome() {
     </aside>
   </div></section>
   <section class="page-section"><div class="shell">
-    <div class="section-heading"><div><h2>Choose the qualification you are studying.</h2></div><p>Door Supervisor currently has the most practice questions. Security Officer and CCTV share the common unit with Door Supervisor. Close Protection, CViT (Cash and Valuables in Transit) and the refreshers have their own units; practice works the same way throughout.</p></div>
-    <div class="qual-grid">${cards}</div>
+    <div class="section-heading"><div><h2>Choose the qualification you are studying.</h2></div><p>Start with the licence you need. Refreshers and supporting modules are grouped below; every card opens its syllabus and practice.</p></div>
+    <h3 class="group-heading">Licence-linked qualifications</h3>
+    <div class="qual-grid qual-grid--core">${core.map(card).join('')}</div>
+    <h3 class="group-heading">Refreshers and supporting modules</h3>
+    <div class="refresher-grid">${refreshers.map(row).join('')}</div>
+    ${legacy.length ? `<p class="legacy-note">${legacy.map((qual) => `<span class="qual-code">${esc(qual.id)}</span> ${esc(qual.name)} <span>${esc(qual.description)}</span> <a href="${href(`qual/${qual.id}`)}">Open qualification</a>`).join('')}</p>` : ''}
   </div></section>
   <section class="page-section"><div class="shell">
     <div class="section-heading"><div><h2>Learn, practice, review.</h2></div><p>Work through the syllabus, answer questions with the source open, then use a timed mock to find the objectives that need another pass.</p></div>
