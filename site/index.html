@@ -4,15 +4,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0B1220" />
-  <meta name="description" content="Independent, source-linked study notes and practice questions for SIA licence-linked qualifications." />
+  <meta name="description" content="Independent, source-linked syllabus maps and practice questions for SIA licence-linked qualifications." />
   <script>try { const t = localStorage.getItem('theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch (e) {}</script>
-  <title>ShiftReady | SIA study notes and practice</title>
-  <link rel="icon" href="assets/favicon.svg?v=20261111b" type="image/svg+xml" />
+  <title>ShiftReady | SIA syllabus and practice</title>
+  <link rel="icon" href="assets/favicon.svg?v=20261111d" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/styles.css?v=20261111b" />
-  <link rel="stylesheet" href="assets/shiftready.css?v=20261111b" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261111d" />
+  <link rel="stylesheet" href="assets/shiftready.css?v=20261111d" />
 </head>
 <body>
   <a class="skip-link" href="#app">Skip to content</a>
@@ -52,13 +52,13 @@
       <div class="footer-links">
         <a href="#/learn/DS">Syllabus</a><a href="#/practice/DS">Practice</a><a href="#/exam/DS">Mock papers</a><a href="#/reports">Question reports</a><a href="#/about">About the sources</a>
       </div>
-      <p class="footer-legal">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noreferrer">Open Government Licence v3.0</a>. Sources include the Security Industry Authority. The current question bank draws on SIA specifications only. This site is not endorsed by or affiliated with the SIA or any awarding organisation. Physical intervention techniques must be learned from a qualified trainer. <span data-year>2026</span>.</p>
+      <p class="footer-legal">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noreferrer">Open Government Licence v3.0</a>. Sources include the Security Industry Authority and the Home Office. The current question bank draws on SIA specifications and one Home Office circular on drug classification. This site is not endorsed by or affiliated with the SIA or any awarding organisation. Physical intervention techniques must be learned from a qualified trainer. <span data-year>2026</span>.</p>
     </div>
   </footer>
 
   <dialog class="report-dialog" id="report-dialog" aria-labelledby="report-title">
     <form method="dialog" id="report-form">
-      <div class="dialog-head"><div><p class="mini-label">Question feedback</p><h2 id="report-title">Report an issue</h2></div><button class="icon-button" value="cancel" type="submit" aria-label="Close">×</button></div>
+      <div class="dialog-head"><div><p class="mini-label">Question feedback</p><h2 id="report-title">Report an issue</h2></div><button class="icon-button" value="cancel" type="submit" formnovalidate aria-label="Close report form">×</button></div>
       <p id="report-question" class="report-question"></p>
       <label for="report-reason">What is wrong?</label>
       <select id="report-reason" required>
@@ -71,11 +71,11 @@
       </select>
       <label for="report-note">Optional note</label>
       <textarea id="report-note" rows="3" placeholder="What should be checked?"></textarea>
-      <div class="dialog-actions"><button class="button button-ghost" value="cancel" type="submit">Cancel</button><button class="button button-primary" id="report-send" value="default" type="submit">Save report</button></div>
+      <div class="dialog-actions"><button class="button button-ghost" value="cancel" type="submit" formnovalidate>Cancel</button><button class="button button-primary" id="report-send" value="default" type="submit">Save report</button></div>
     </form>
   </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script type="module" src="assets/app.js?v=20261111c"></script>
+  <script type="module" src="assets/app.js?v=20261111d"></script>
 </body>
 </html>
