@@ -5,10 +5,20 @@ Coverage is measured as objectives with at least one question. A question attach
 ## U1-COMMON — Principles of Working in the Private Security Industry
 
 - Objectives: 64
-- Covered: 64 (100%)
-- Questions: 72 / target 300
+- Covered: 54 (84%)
+- Questions: 60 / target 300
 
-Every objective in this unit has at least one drafted question.
+Uncovered objectives:
+- `U1-COMMON-S3-O1` — state the meaning of arrest
+- `U1-COMMON-S3-O6` — state the procedures to take following an arrest
+- `U1-COMMON-S4-O2` — describe how to minimise risk to personal safety and security
+- `U1-COMMON-S4-O6` — identify ways to keep personal information safe
+- `U1-COMMON-S5-O3` — describe basic fire prevention measures/controls
+- `U1-COMMON-S5-O6` — state other types of firefighting equipment
+- `U1-COMMON-S6-O1` — define the term “emergency” when used in the workplace
+- `U1-COMMON-S9-O6` — know how to respond to suspicious behaviour
+- `U1-COMMON-S10-O3` — identify the actions that the security operative should take towards vulnerable people
+- `U1-COMMON-S10-O7` — know how to deal with anti-social behaviour, including from members of the public (use of force, law appropriate person, theft, etc.)
 
 ## U3-CONFLICT — Application of Conflict Management in the Private Security Industry
 
@@ -42,18 +52,23 @@ Uncovered objectives:
 ## U4-PI — Application of Physical Intervention Skills in the Private Security Industry
 
 - Objectives: 19
-- Covered: 11 (58%)
-- Questions: 30 / target 80
+- Covered: 6 (32%)
+- Questions: 25 / target 80
 
 Uncovered objectives:
 - `U4-PI-S2-O1` — demonstrate stance and positioning skills
 - `U4-PI-S2-O2` — demonstrate skills used to evade and protect against blows
 - `U4-PI-S2-O3` — demonstrate methods of disengagement from grabs and holds
 - `U4-PI-S2-O4` — demonstrate methods to stop one person assaulting another
+- `U4-PI-S2-O5` — demonstrate non-aggressive methods used to intervene to stop assaults or fights
+- `U4-PI-S2-O7` — describe risks relating to disengagement
 - `U4-PI-S3-O1` — demonstrate the use of a method for physically prompting a person
 - `U4-PI-S3-O3` — demonstrate the use of a one-person low level restrictive standing hold that can be used as an escort
 - `U4-PI-S3-O4` — demonstrate the use of a two-person low level restrictive standing hold that can be used as an escort
+- `U4-PI-S3-O5` — demonstrate how to escort an individual up or down stairs
 - `U4-PI-S3-O6` — demonstrate transitions between disengagement techniques and escorting techniques
+- `U4-PI-S3-O7` — demonstrate how to de-escalate and disengage a physical intervention ensuring safety for all parties
+- `U4-PI-S3-O8` — communicate professionally with the subject of physical intervention
 
 ## DS-U2 — Principles of Working as a Door Supervisor in the Private Security Industry
 
