@@ -6253,6 +6253,37 @@
       "SO"
     ],
     "difficulty": 1,
+    "stem": "A delivery driver arrives outside opening hours with a parcel for the site manager. Which action is within the security officer's responsibilities?",
+    "options": [
+      "Let the driver wait inside the restricted area",
+      "Check the delivery against the site procedure and record the visit",
+      "Sign for the parcel and leave it on the gate",
+      "Refuse every delivery until the police arrive"
+    ],
+    "answer_index": 1,
+    "explanation": "The officer controls access and keeps a record of who comes on site. Letting the driver wait in a restricted area, abandoning the parcel or refusing all deliveries is not following site procedure.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S1"
+    ],
+    "source_quote": "the main responsibilities of a security officer",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0002",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S1-O2",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 1,
     "stem": "Which task is a main responsibility of a security officer?",
     "options": [
       "Patrolling the site and reporting incidents",
@@ -6270,7 +6301,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0002",
+    "id": "SO-U2-0003",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6301,7 +6332,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0003",
+    "id": "SO-U2-0004",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6332,7 +6363,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0004",
+    "id": "SO-U2-0005",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6363,7 +6394,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0005",
+    "id": "SO-U2-0006",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6394,7 +6425,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0006",
+    "id": "SO-U2-0007",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6425,7 +6456,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0007",
+    "id": "SO-U2-0008",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6456,7 +6487,69 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0008",
+    "id": "SO-U2-0009",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S2-O3",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "Two people in plain clothes say they are council inspectors and ask to enter a restricted plant room. What should the officer do first?",
+    "options": [
+      "Refuse entry to anyone who is not in uniform",
+      "Allow entry because they say they are inspectors",
+      "Search them before they enter the plant room",
+      "Ask for their identification and check it with the control room before allowing entry"
+    ],
+    "answer_index": 3,
+    "explanation": "Officers should confirm the identity and authority of statutory agency visitors before granting access. A claim of status is not proof, and a blanket refusal or an unnecessary search is also wrong.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S2"
+    ],
+    "source_quote": "the powers and identification requirements of statutory agencies",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "SO-U2-0010",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S2-O4",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "A person in a high-visibility jacket carrying a toolbox says they are here to fix the lights, but has no pass. Which method of gaining unauthorised access is this?",
+    "options": [
+      "Pretending to be a contractor",
+      "Tailgating behind a member of staff",
+      "Using a forged pass",
+      "Forcing a door open"
+    ],
+    "answer_index": 0,
+    "explanation": "Claiming to be a tradesperson is a common pretext for getting past an access point. Tailgating, forged passes and forced doors are different methods and do not match what the person is doing.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S2"
+    ],
+    "source_quote": "common methods used by people",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0011",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6487,7 +6580,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0009",
+    "id": "SO-U2-0012",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6518,7 +6611,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0010",
+    "id": "SO-U2-0013",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6549,7 +6642,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0011",
+    "id": "SO-U2-0014",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6580,7 +6673,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0012",
+    "id": "SO-U2-0015",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6611,7 +6704,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0013",
+    "id": "SO-U2-0016",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6642,7 +6735,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0014",
+    "id": "SO-U2-0017",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S3-O4",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "A personal attack alarm sounds in a remote part of the car park. What should the officer do?",
+    "options": [
+      "Run to the alarm alone at once",
+      "Ignore it until the patrol ends",
+      "Inform the control room, take a colleague if possible and approach with caution",
+      "Switch off the alarm panel and carry on"
+    ],
+    "answer_index": 2,
+    "explanation": "The response should be coordinated and cautious. Control needs to know what is happening, and going alone, delaying or silencing the alarm without checking are unsafe responses.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S3"
+    ],
+    "source_quote": "actions that may be taken in response to different types of alarm",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0018",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6673,7 +6797,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0015",
+    "id": "SO-U2-0019",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6704,7 +6828,69 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0016",
+    "id": "SO-U2-0020",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S4-O10",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 3,
+    "stem": "Which life-threatening risk is linked to holding a person face down during a restraint?",
+    "options": [
+      "A sprained ankle",
+      "Positional asphyxia",
+      "A minor bruise",
+      "A small cut"
+    ],
+    "answer_index": 1,
+    "explanation": "Being held face down can restrict breathing and cause positional asphyxia, which is a life-threatening risk. The other options are not caused by restraint.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S4"
+    ],
+    "source_quote": "identify types of harm that can occur during physical interventions",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "SO-U2-0021",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S4-O11",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "Why does staying mentally alert help an officer on a quiet night shift?",
+    "options": [
+      "It helps them finish the shift more quickly",
+      "It means they do not need to write reports",
+      "It helps them notice small changes, such as a door left open, before they become a bigger problem",
+      "It allows them to patrol without a radio"
+    ],
+    "answer_index": 2,
+    "explanation": "Alertness is about spotting early signs and responding in time. It does not change the length of the shift or remove the need for reports and communications.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S4"
+    ],
+    "source_quote": "identify the personal safety advantages of mental alertness at work",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0022",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6735,7 +6921,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0017",
+    "id": "SO-U2-0023",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S4-O2",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 3,
+    "stem": "At 02:00 an officer on a lone patrol finds a fire door wedged open. Which factor makes this a personal safety risk?",
+    "options": [
+      "The door is made of metal",
+      "The site alarm system is set",
+      "The officer is carrying a torch",
+      "The officer is alone and cannot see who may be inside"
+    ],
+    "answer_index": 3,
+    "explanation": "Lone working with an unknown person possibly inside is the risk. The door material, the alarm being set and having a torch do not create the danger.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S4"
+    ],
+    "source_quote": "identify situations that might compromise personal safety",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0024",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6766,7 +6983,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0018",
+    "id": "SO-U2-0025",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6797,7 +7014,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0019",
+    "id": "SO-U2-0026",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6828,7 +7045,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0020",
+    "id": "SO-U2-0027",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6859,7 +7076,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0021",
+    "id": "SO-U2-0028",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6890,7 +7107,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0022",
+    "id": "SO-U2-0029",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S4-O7",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 1,
+    "stem": "An officer is about to speak to a shouting customer. How does switching on a body-worn camera help?",
+    "options": [
+      "It records what is said and done, which can support the officer's account later",
+      "It proves the customer is guilty of an offence",
+      "It replaces the need for a written report",
+      "It prevents the customer from becoming violent"
+    ],
+    "answer_index": 0,
+    "explanation": "A body-worn camera gives an accurate record of the encounter that can be used afterwards. It does not decide guilt, replace reports or physically stop anyone.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S4"
+    ],
+    "source_quote": "state the purpose of using body-worn cameras (BWC)",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0030",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6921,7 +7169,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0023",
+    "id": "SO-U2-0031",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S4-O8",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "A customer starts shouting and steps closer to an officer. Which action is a personal safety strategy?",
+    "options": [
+      "Step closer to show confidence",
+      "Turn your back and walk away",
+      "Keep a safe distance, speak calmly and call for support",
+      "Raise your voice to match the customer"
+    ],
+    "answer_index": 2,
+    "explanation": "Distance, calm communication and support reduce the chance of the situation escalating. Moving closer, turning away or shouting back all increase the risk.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S4"
+    ],
+    "source_quote": "identify strategies that can assist personal safety in conflict situations",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0032",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6952,7 +7231,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "SO-U2-0024",
+    "id": "SO-U2-0033",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -6983,7 +7262,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0025",
+    "id": "SO-U2-0034",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S5-O2",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "In a car park, a man keeps looking around while swapping small packets for cash with several different people. What does this most suggest?",
+    "options": [
+      "Possible drug dealing",
+      "A lost visitor asking for directions",
+      "A car park attendant collecting fees",
+      "A shopper waiting for a taxi"
+    ],
+    "answer_index": 0,
+    "explanation": "Repeated small exchanges for cash, with the person checking for watchers, are signs that may indicate drug dealing. The other explanations do not fit the behaviour.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S5"
+    ],
+    "source_quote": "identify the signs that may indicate drug dealing",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "SO-U2-0035",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7014,7 +7324,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0026",
+    "id": "SO-U2-0036",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7045,7 +7355,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0027",
+    "id": "SO-U2-0037",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7076,7 +7386,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0028",
+    "id": "SO-U2-0038",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7107,7 +7417,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "SO-U2-0029",
+    "id": "SO-U2-0039",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S6-O11",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "An officer searches 30 bags at an event and finds nothing. Why should the searches still be recorded?",
+    "options": [
+      "It proves that every bag in the building was searched",
+      "It removes the need for a supervisor to check the officer",
+      "The record shows what was checked and supports the officer if the search is questioned later",
+      "It lets the officer keep any items that are found"
+    ],
+    "answer_index": 2,
+    "explanation": "Search records give an account of what was done and when, which protects the officer and the organisation. They do not prove every bag on site was searched or replace supervision.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S6"
+    ],
+    "source_quote": "reasons for completing search documentation",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0040",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7138,7 +7479,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0030",
+    "id": "SO-U2-0041",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7169,7 +7510,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0031",
+    "id": "SO-U2-0042",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7200,7 +7541,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0032",
+    "id": "SO-U2-0043",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7231,7 +7572,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0033",
+    "id": "SO-U2-0044",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7262,7 +7603,131 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0034",
+    "id": "SO-U2-0045",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S6-O6",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 3,
+    "stem": "While searching a bag, an officer is pricked by a used needle. What should they do?",
+    "options": [
+      "Carry on searching and clean the needle later",
+      "Put the needle back in the bag and say nothing",
+      "Ask the visitor to wash the officer's hand",
+      "Stop the search, wash the area, report the incident and get medical advice"
+    ],
+    "answer_index": 3,
+    "explanation": "A needle injury needs immediate first aid, reporting and medical advice. Continuing, hiding it or asking the visitor to treat the officer delays proper care.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S6"
+    ],
+    "source_quote": "state what actions to take if an accident or incident occurs during searching",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "SO-U2-0046",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S6-O7",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "An officer is going to search a visitor's bag with their consent. Which approach is correct?",
+    "options": [
+      "Take the bag into a closed room and search it alone",
+      "Ask the visitor to open the bag and keep it in their sight during the search",
+      "Empty the bag onto the floor",
+      "Search the bag without telling the visitor"
+    ],
+    "answer_index": 1,
+    "explanation": "The search should be open and done with the owner present. Searching out of sight, emptying belongings onto the floor or acting without consent is not acceptable practice.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S6"
+    ],
+    "source_quote": "demonstrate how to search people and their property",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "SO-U2-0047",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S6-O8",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "A van is being checked at the site gate. Which areas should the officer include in the search?",
+    "options": [
+      "The cab, load space, under the seats and the boot",
+      "Only the driver's door and the wing mirrors",
+      "Only the front bumper and number plate",
+      "The engine oil level and tyre pressures"
+    ],
+    "answer_index": 0,
+    "explanation": "A vehicle search covers the places where people or items can be hidden, including the cab, load space, under the seats and the boot. Body panels and mechanical checks are not a search.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S6"
+    ],
+    "source_quote": "state typical areas of vehicles to be searched",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0048",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S6-O9",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "Why might an officer search the premises at the end of a shift?",
+    "options": [
+      "To clean the floors for the next shift",
+      "To test the sound of the fire alarm",
+      "To count the cash in the tills",
+      "To confirm that no one is hiding inside and that the building is secure"
+    ],
+    "answer_index": 3,
+    "explanation": "An end-of-shift premises search checks for people left inside and for insecure doors, windows or hiding places. Cleaning, alarm testing and cash counting are separate tasks.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S6"
+    ],
+    "source_quote": "identify reasons for carrying out a premises search",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0049",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7293,7 +7758,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0035",
+    "id": "SO-U2-0050",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S7-O10",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "An officer sees a man force open a fire exit and run into the building. What should the officer do?",
+    "options": [
+      "Chase the man and arrest him alone",
+      "Wait until the end of the shift to write it up",
+      "Call the police, tell the control room and keep watch from a safe distance",
+      "Close the fire exit and say nothing"
+    ],
+    "answer_index": 2,
+    "explanation": "An intruder on site is a police matter, and the officer should raise the alarm and observe safely. Chasing alone, delaying the report or hiding the incident puts people at risk.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S7"
+    ],
+    "source_quote": "identify circumstances when a security officer should call the police",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "SO-U2-0051",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7324,7 +7820,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0036",
+    "id": "SO-U2-0052",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S7-O3",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 3,
+    "stem": "An officer walks the same route at the same time every night. Why does this weaken security?",
+    "options": [
+      "It makes the patrol take longer than planned",
+      "Someone watching the site can learn when the officer will be away from each area",
+      "It drains the radio battery faster",
+      "It stops the officer from signing the log"
+    ],
+    "answer_index": 1,
+    "explanation": "A predictable patrol lets an intruder plan around it. Varying the route and timing makes it harder to know where the officer will be.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S7"
+    ],
+    "source_quote": "explain patrolling procedures",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0053",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7355,7 +7882,69 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0037",
+    "id": "SO-U2-0054",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S7-O4",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "An officer needs to report a fight over the radio. Which message is most effective?",
+    "options": [
+      "Control, this is Gate 2. Fight in the east car park, two people, help needed",
+      "There is a big problem over there, come quickly",
+      "You will not believe what is happening outside",
+      "Fight. That is all"
+    ],
+    "answer_index": 0,
+    "explanation": "An effective radio message identifies the caller, gives the location and describes what is happening and what is needed. Vague or incomplete messages waste time.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S7"
+    ],
+    "source_quote": "identify how to communicate effectively using relevant equipment",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0055",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S7-O5",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 1,
+    "stem": "Before an officer starts a night patrol, what should they do with the radio?",
+    "options": [
+      "Turn the volume down so customers do not hear it",
+      "Leave it at the desk so it is not damaged",
+      "Use a personal mobile phone instead",
+      "Check that it is charged, on the correct channel and working"
+    ],
+    "answer_index": 3,
+    "explanation": "A radio that is charged, on the right channel and working is the officer's link to support. Turning it down, leaving it behind or relying on a personal phone removes that link.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S7"
+    ],
+    "source_quote": "demonstrate effective use of communication devices",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0056",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7386,7 +7975,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0038",
+    "id": "SO-U2-0057",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7417,7 +8006,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0039",
+    "id": "SO-U2-0058",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Security Guarding specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "SO-U2",
+    "objective_id": "SO-U2-S7-O8",
+    "qualifications": [
+      "SO"
+    ],
+    "difficulty": 2,
+    "stem": "An officer finds a broken window and a cash box on the floor. Why should the area be cordoned off and left untouched?",
+    "options": [
+      "So the officer can clean the area quickly",
+      "So the evidence is not moved or lost before the police arrive",
+      "So staff can keep using the area",
+      "So the officer can question suspects alone"
+    ],
+    "answer_index": 1,
+    "explanation": "A cordon keeps people out and stops evidence being moved, contaminated or destroyed. Cleaning, reopening the area or interviewing people there would damage the scene.",
+    "source_chunk_ids": [
+      "sia-sg-specification-2021#SO-U2-S7"
+    ],
+    "source_quote": "state reasons for recording and preserving crime scenes",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "SO-U2-0059",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7448,7 +8068,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0040",
+    "id": "SO-U2-0060",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
@@ -7864,6 +8484,37 @@
     "qualifications": [
       "CCTV"
     ],
+    "difficulty": 1,
+    "stem": "A new operator asks where to find the camera call signs and the procedure for reporting a fault. Which document should they be given?",
+    "options": [
+      "The staff rota",
+      "The manufacturer's warranty",
+      "The training certificate",
+      "The operations manual"
+    ],
+    "answer_index": 3,
+    "explanation": "The operations manual sets out how the system is run, including camera call signs and fault reporting. Rotas, warranties and certificates do not contain those operating instructions.",
+    "source_chunk_ids": [
+      "sia-cctv-specification-2021#CCTV-U2-S3"
+    ],
+    "source_quote": "the contents of an operations manual",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "CCTV-U2-0014",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "CCTV-U2",
+    "objective_id": "CCTV-U2-S3-O2",
+    "qualifications": [
+      "CCTV"
+    ],
     "difficulty": 2,
     "stem": "Which of these is likely to be included in a CCTV operations manual?",
     "options": [
@@ -7882,7 +8533,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0014",
+    "id": "CCTV-U2-0015",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -7913,7 +8564,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0015",
+    "id": "CCTV-U2-0016",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -7944,7 +8595,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0016",
+    "id": "CCTV-U2-0017",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -7975,7 +8626,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0017",
+    "id": "CCTV-U2-0018",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8006,7 +8657,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0018",
+    "id": "CCTV-U2-0019",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8037,7 +8688,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0019",
+    "id": "CCTV-U2-0020",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8068,7 +8719,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0020",
+    "id": "CCTV-U2-0021",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8099,7 +8750,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0021",
+    "id": "CCTV-U2-0022",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8130,7 +8781,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0022",
+    "id": "CCTV-U2-0023",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8161,7 +8812,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0023",
+    "id": "CCTV-U2-0024",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "CCTV-U2",
+    "objective_id": "CCTV-U2-S6-O1",
+    "qualifications": [
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "Two people are shouting at each other in a shopping centre but no violence or offence is seen. How should the operator treat this?",
+    "options": [
+      "As a crime, because any argument is an offence",
+      "As a non-crime incident to be monitored, recorded and reported through the agreed channel",
+      "As something to ignore until someone is hurt",
+      "As a reason to stop recording the area"
+    ],
+    "answer_index": 1,
+    "explanation": "No offence has been seen, so this is a non-crime incident. It still needs to be monitored, recorded and reported under procedure; it is not ignored and recording is not stopped.",
+    "source_chunk_ids": [
+      "sia-cctv-specification-2021#CCTV-U2-S6"
+    ],
+    "source_quote": "recognise the difference between a crime and a non-crime incident",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "CCTV-U2-0025",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8192,7 +8874,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0024",
+    "id": "CCTV-U2-0026",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8223,7 +8905,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0025",
+    "id": "CCTV-U2-0027",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8254,7 +8936,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0026",
+    "id": "CCTV-U2-0028",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8285,7 +8967,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0027",
+    "id": "CCTV-U2-0029",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "CCTV-U2",
+    "objective_id": "CCTV-U2-S7-O2",
+    "qualifications": [
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "An operator has watched screens for several hours without a break and is finding it hard to concentrate. What should they do?",
+    "options": [
+      "Keep watching and say nothing",
+      "Ask a colleague to cover without telling the supervisor",
+      "Report how they feel and take a break or rotate duties under the agreed procedure",
+      "Leave the control room unattended"
+    ],
+    "answer_index": 2,
+    "explanation": "Long screen time can cause stress and loss of concentration, so the operator should report it and take the break or rotation that procedure allows. Hiding it, arranging unofficial cover or leaving the room unattended is unsafe.",
+    "source_chunk_ids": [
+      "sia-cctv-specification-2021#CCTV-U2-S7"
+    ],
+    "source_quote": "identify the factors in CCTV operations which may create stress for operators",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "CCTV-U2-0030",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8316,7 +9029,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0028",
+    "id": "CCTV-U2-0031",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8347,7 +9060,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0029",
+    "id": "CCTV-U2-0032",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8378,7 +9091,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0030",
+    "id": "CCTV-U2-0033",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "CCTV-U2",
+    "objective_id": "CCTV-U2-S8-O2",
+    "qualifications": [
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "A person is walking quickly across a wide car park and the camera is on a fixed wide shot. Which controls should the operator use to keep the person in view?",
+    "options": [
+      "Brightness and contrast",
+      "Playback speed",
+      "Pan and tilt",
+      "Zoom and focus only"
+    ],
+    "answer_index": 2,
+    "explanation": "Pan and tilt move the camera across the car park so the person stays in frame. Brightness, playback and zoom or focus change the picture but do not move the camera to follow someone.",
+    "source_chunk_ids": [
+      "sia-cctv-specification-2021#CCTV-U2-S8"
+    ],
+    "source_quote": "demonstrate how to use surveillance equipment",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "CCTV-U2-0034",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8409,7 +9153,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0031",
+    "id": "CCTV-U2-0035",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8440,7 +9184,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0032",
+    "id": "CCTV-U2-0036",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8471,7 +9215,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0033",
+    "id": "CCTV-U2-0037",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "CCTV-U2",
+    "objective_id": "CCTV-U2-S9-O1",
+    "qualifications": [
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "An operator exports footage of an assault for the police. What should be recorded in the audit trail?",
+    "options": [
+      "Who exported the footage, when, and which incident it relates to",
+      "Only the name of the police officer who asked",
+      "The operator's opinion of what happened",
+      "The time of the incident only"
+    ],
+    "answer_index": 0,
+    "explanation": "The audit trail must show who handled the footage, when, and which incident it belongs to, so the evidence can be traced later. A name alone, a personal opinion or a single time does not do that.",
+    "source_chunk_ids": [
+      "sia-cctv-specification-2021#CCTV-U2-S9"
+    ],
+    "source_quote": "produce documents required for the audit trail",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "CCTV-U2-0038",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8502,7 +9277,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0034",
+    "id": "CCTV-U2-0039",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
@@ -8533,7 +9308,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0035",
+    "id": "CCTV-U2-0040",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
