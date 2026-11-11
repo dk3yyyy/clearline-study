@@ -430,39 +430,6 @@
   },
   {
     "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S10-O3",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 2,
-    "stem": "A vulnerable adult at the venue is confused and cannot say where they live. What should the operative do?",
-    "options": [
-      "Put them in a taxi and pay the driver to take them away",
-      "Keep them safe, stay with them and ask a manager or the police for help",
-      "Ask them to leave so they do not block the entrance",
-      "Search their bag for identification without asking"
-    ],
-    "answer_index": 1,
-    "explanation": "The operative should protect the person from harm, stay with them and involve a manager, a carer or the police as appropriate.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S10"
-    ],
-    "source_quote": "identify the actions that the security operative should take",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0014",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
     "objective_id": "U1-COMMON-S10-O4",
     "qualifications": [
       "DS",
@@ -487,7 +454,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0015",
+    "id": "U1-COMMON-0014",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -520,7 +487,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0016",
+    "id": "U1-COMMON-0015",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -553,40 +520,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0017",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S10-O7",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 3,
-    "stem": "A group is shouting abuse at customers and refuses to leave. What is the most appropriate response?",
-    "options": [
-      "Use whatever force is needed to remove them quickly",
-      "Do nothing because nobody has been hit",
-      "Ask them to leave calmly, and use only reasonable and necessary force if they refuse and people are at risk",
-      "Turn off the lights so they cannot find the exit"
-    ],
-    "answer_index": 2,
-    "explanation": "Anti-social behaviour should be managed calmly and proportionately. Any force must be reasonable and necessary, and no more than the situation requires.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S10"
-    ],
-    "source_quote": "know how to deal with anti-social behaviour",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0018",
+    "id": "U1-COMMON-0016",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -619,7 +553,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0019",
+    "id": "U1-COMMON-0017",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -652,7 +586,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0020",
+    "id": "U1-COMMON-0018",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -685,7 +619,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0021",
+    "id": "U1-COMMON-0019",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -718,7 +652,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0022",
+    "id": "U1-COMMON-0020",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -751,7 +685,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0023",
+    "id": "U1-COMMON-0021",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -784,7 +718,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0024",
+    "id": "U1-COMMON-0022",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -817,40 +751,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0025",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S2-O3",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 1,
-    "stem": "An operative repeatedly makes jokes about a customer's religion in front of colleagues. Which principle does this breach?",
-    "options": [
-      "The need to search every customer at the door",
-      "The duty to report all incidents to management",
-      "The requirement to check proof of age",
-      "The duty to treat people fairly and not discriminate"
-    ],
-    "answer_index": 3,
-    "explanation": "Equality means treating people with dignity and respect, and not discriminating because of religion, race, disability, age, gender or sexual orientation.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S2"
-    ],
-    "source_quote": "demonstrate an understanding of equality and diversity",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0026",
+    "id": "U1-COMMON-0023",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -883,7 +784,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0027",
+    "id": "U1-COMMON-0024",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -916,40 +817,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0028",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S3-O1",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 2,
-    "stem": "A door supervisor detains a shoplifter and says, \"You are under arrest.\" What does this mean in practice?",
-    "options": [
-      "The person is banned from the venue until further notice",
-      "The person must answer the operative's questions before leaving",
-      "The person is detained and will be handed to the police",
-      "The person has now been convicted of theft"
-    ],
-    "answer_index": 2,
-    "explanation": "An arrest means taking a person into custody so that they can be dealt with by the police and the courts. It is not a conviction, and it is not the same as a venue ban.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S3"
-    ],
-    "source_quote": "state the meaning of arrest",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0029",
+    "id": "U1-COMMON-0025",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -982,7 +850,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0030",
+    "id": "U1-COMMON-0026",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1015,7 +883,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0031",
+    "id": "U1-COMMON-0027",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1048,7 +916,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0032",
+    "id": "U1-COMMON-0028",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1081,40 +949,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0033",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S3-O6",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 2,
-    "stem": "An operative has just made a lawful citizen's arrest. What should they do next?",
-    "options": [
-      "Question the person in private before calling anyone",
-      "Hand the person to the police as soon as reasonably practicable and record what happened",
-      "Release the person without telling anyone",
-      "Take the person's belongings and send them home"
-    ],
-    "answer_index": 1,
-    "explanation": "After an arrest the person should be handed to the police promptly. The operative should also record the time, what was said and what happened.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S3"
-    ],
-    "source_quote": "state the procedures to take following an arrest",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0034",
+    "id": "U1-COMMON-0029",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1147,40 +982,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0035",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S4-O1",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 3,
-    "stem": "A lone night guard is asked to patrol a dark loading yard. What should the employer do under health and safety law?",
-    "options": [
-      "Nothing, because the guard is responsible for their own safety",
-      "Tell the guard to carry a weapon",
-      "Assess the risks of lone working and put control measures in place",
-      "Cancel all night patrols permanently"
-    ],
-    "answer_index": 2,
-    "explanation": "Employers must assess risks, including the risks of lone working, and introduce suitable controls such as lighting, communication and check-in arrangements.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S4"
-    ],
-    "source_quote": "describe the responsibilities of employees, employers and the self-employed",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": false,
-    "id": "U1-COMMON-0036",
+    "id": "U1-COMMON-0030",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1196,57 +998,57 @@
       "CCTV"
     ],
     "difficulty": 2,
-    "stem": "Who has a duty to take reasonable care of their own health and safety and that of others at work?",
+    "stem": "Under the SIA common specification, which responsibilities must an employer describe?",
     "options": [
-      "Only the employer",
-      "Employees as well as employers",
-      "Only the health and safety officer",
-      "Only self-employed contractors"
-    ],
-    "answer_index": 1,
-    "explanation": "Health and safety law places duties on employers and on employees, who must take reasonable care of themselves and others.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S4"
-    ],
-    "source_quote": "describe the responsibilities of employees, employers and the self-employed",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": false,
-    "id": "U1-COMMON-0037",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S4-O2",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 2,
-    "stem": "A lone operative must patrol a poorly lit yard at night. Which action best reduces the risk to their personal safety?",
-    "options": [
-      "Tell the control room the route and keep in radio contact",
-      "Turn off the radio so nobody can hear where they are",
-      "Confront any group they meet on their own",
-      "Leave the torch behind so they are harder to see"
+      "The responsibilities of employees, employers and the self-employed under health and safety legislation",
+      "The responsibilities of the police for public order",
+      "The responsibilities of the licensing authority for alcohol sales",
+      "The responsibilities of the fire service for evacuations"
     ],
     "answer_index": 0,
-    "explanation": "Lone workers should plan the route, keep in contact with someone and make sure lighting and communication equipment are working.",
+    "explanation": "The common specification asks for the responsibilities of employees, employers and the self-employed under health and safety legislation, including lone working.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S4"
+      "sia-common-specification-2021#U1-COMMON-S4-clean"
     ],
-    "source_quote": "describe how to minimise risk to personal safety and security",
+    "source_quote": "describe the responsibilities of employees, employers and the self-employed under the Health and Safety at Work legislation (e.g. lone working)",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0038",
+    "requires_human_review": false,
+    "id": "U1-COMMON-0031",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Common Security Industry Knowledge specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S4-O1",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "Which example of a health and safety responsibility does the SIA common specification give?",
+    "options": [
+      "Lone working",
+      "Alcohol licensing",
+      "Arrest procedure",
+      "Firearms storage"
+    ],
+    "answer_index": 0,
+    "explanation": "The common specification gives lone working as an example when describing the health and safety responsibilities of employees, employers and the self-employed.",
+    "source_chunk_ids": [
+      "sia-common-specification-2021#U1-COMMON-S4-clean"
+    ],
+    "source_quote": "e.g. lone working",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "U1-COMMON-0032",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1279,7 +1081,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0039",
+    "id": "U1-COMMON-0033",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1312,7 +1114,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0040",
+    "id": "U1-COMMON-0034",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1345,40 +1147,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0041",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S4-O6",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 1,
-    "stem": "An operative finishes a shift with a notebook containing customers' names and phone numbers. What should they do with it?",
-    "options": [
-      "Leave it on the front desk for the next shift",
-      "Take it home and keep it in a kitchen drawer",
-      "Photograph the pages and share them in a staff group chat",
-      "Store it securely and share the details only with people who need them"
-    ],
-    "answer_index": 3,
-    "explanation": "Personal information should be kept secure, shared only when necessary and disposed of safely when it is no longer needed.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S4"
-    ],
-    "source_quote": "identify ways to keep personal information safe",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0042",
+    "id": "U1-COMMON-0035",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1411,7 +1180,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0043",
+    "id": "U1-COMMON-0036",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1444,40 +1213,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0044",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S5-O3",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 2,
-    "stem": "Which action is a fire prevention control in a busy storeroom?",
-    "options": [
-      "Stack cardboard boxes around the heater so they dry out",
-      "Keep flammable materials away from heat sources and check electrical equipment for faults",
-      "Prop open the fire door so the room stays cool",
-      "Store spare fuel next to the cleaning chemicals"
-    ],
-    "answer_index": 1,
-    "explanation": "Fire prevention means controlling sources of fuel, heat and oxygen, for example by keeping flammables away from heaters and checking for electrical faults.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S5"
-    ],
-    "source_quote": "describe basic fire prevention measures/controls",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0045",
+    "id": "U1-COMMON-0037",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1510,7 +1246,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0046",
+    "id": "U1-COMMON-0038",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1543,40 +1279,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0047",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S5-O6",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 1,
-    "stem": "Which item is used to smother a small fire in a pan or on clothing?",
-    "options": [
-      "A smoke detector",
-      "An emergency exit sign",
-      "A fire blanket",
-      "A sprinkler head"
-    ],
-    "answer_index": 2,
-    "explanation": "A fire blanket is used to smother a small fire, such as a pan fire or clothing that has caught alight.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S5"
-    ],
-    "source_quote": "state other types of firefighting equipment",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0048",
+    "id": "U1-COMMON-0039",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1609,40 +1312,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0049",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S6-O1",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 1,
-    "stem": "Which of these is a workplace emergency rather than a routine event?",
-    "options": [
-      "A staff rota change for next week",
-      "A delivery arriving earlier than booked",
-      "A planned fire drill",
-      "A gas leak that forces an immediate evacuation"
-    ],
-    "answer_index": 3,
-    "explanation": "An emergency is an unexpected event that threatens people, property or the environment and needs immediate action.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S6"
-    ],
-    "source_quote": "define the term “emergency” when used in the workplace",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0050",
+    "id": "U1-COMMON-0040",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1675,7 +1345,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0051",
+    "id": "U1-COMMON-0041",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1708,7 +1378,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0052",
+    "id": "U1-COMMON-0042",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1741,7 +1411,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0053",
+    "id": "U1-COMMON-0043",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1774,7 +1444,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0054",
+    "id": "U1-COMMON-0044",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1807,7 +1477,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0055",
+    "id": "U1-COMMON-0045",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1840,7 +1510,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0056",
+    "id": "U1-COMMON-0046",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1873,7 +1543,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0057",
+    "id": "U1-COMMON-0047",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1906,7 +1576,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0058",
+    "id": "U1-COMMON-0048",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1939,7 +1609,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0059",
+    "id": "U1-COMMON-0049",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1972,7 +1642,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0060",
+    "id": "U1-COMMON-0050",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2005,7 +1675,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0061",
+    "id": "U1-COMMON-0051",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2038,7 +1708,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0062",
+    "id": "U1-COMMON-0052",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2071,7 +1741,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0063",
+    "id": "U1-COMMON-0053",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2104,7 +1774,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0064",
+    "id": "U1-COMMON-0054",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2137,7 +1807,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0065",
+    "id": "U1-COMMON-0055",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2170,40 +1840,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0066",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S9-O1",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 2,
-    "stem": "The UK threat level is set to 'severe'. What does this mean?",
-    "options": [
-      "An attack is highly likely",
-      "An attack is unlikely",
-      "An attack is possible but not likely",
-      "An attack is highly likely in the near future"
-    ],
-    "answer_index": 0,
-    "explanation": "Severe means an attack is highly likely. Critical, the highest level, means an attack is highly likely in the near future.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S9"
-    ],
-    "source_quote": "understand the UK threat level assessment system",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0067",
+    "id": "U1-COMMON-0056",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2236,7 +1873,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0068",
+    "id": "U1-COMMON-0057",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2269,7 +1906,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0069",
+    "id": "U1-COMMON-0058",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2302,7 +1939,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0070",
+    "id": "U1-COMMON-0059",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2335,40 +1972,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0071",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U1-COMMON",
-    "objective_id": "U1-COMMON-S9-O6",
-    "qualifications": [
-      "DS",
-      "SO",
-      "CCTV"
-    ],
-    "difficulty": 2,
-    "stem": "A visitor keeps asking about camera blind spots and staff shift changes. The operative is not sure what to do. What is the best response?",
-    "options": [
-      "Report the behaviour to the control room or police and record what was said",
-      "Answer every question so the visitor does not feel unwelcome",
-      "Escort the visitor off site without telling anyone",
-      "Wait and see whether the visitor does anything else"
-    ],
-    "answer_index": 0,
-    "explanation": "Suspicious behaviour should be reported through the site's procedures so that it can be assessed, and the details should be recorded.",
-    "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S9"
-    ],
-    "source_quote": "know how to respond to suspicious behaviour",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U1-COMMON-0072",
+    "id": "U1-COMMON-0060",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -2576,18 +2180,18 @@
     "difficulty": 3,
     "stem": "A customer carrying a knife says it is for work. What must the door supervisor still consider?",
     "options": [
-      "Whether the customer has a receipt",
-      "Whether the blade is shiny",
-      "Whether it was made or adapted to cause injury, or intended for that use",
-      "Whether the customer is over 21"
+      "Only a firearm",
+      "Only an item that has already been used to hurt someone",
+      "Any article made or adapted to cause injury, or intended for that use",
+      "Any item a customer carries in a bag"
     ],
     "answer_index": 2,
-    "explanation": "The reason for carrying the item matters. An item intended for use to cause injury is an offensive weapon.",
+    "explanation": "An item is an offensive weapon if it was made or adapted to cause injury, or if the person carrying it intends to use it to cause injury.",
     "source_chunk_ids": [
-      "door-supervisor-final-unit-content#DS-U2-S1",
-      "sia-ds-specification-2021#DS-U2-S1"
+      "door-supervisor-final-unit-content#offensive-weapon",
+      "door-supervisor-final-unit-content#DS-U2-S1"
     ],
-    "source_quote": "person having it with him for such use",
+    "source_quote": "Any article made or adapted for use to cause injury to the person, or intended by the person having it with him for such use",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -2610,16 +2214,16 @@
     "options": [
       "Only a firearm",
       "Only an item that has already been used to hurt someone",
-      "Any article made or adapted to cause injury",
+      "Any article made or adapted to cause injury, or intended for that use",
       "Any item a customer carries in a bag"
     ],
     "answer_index": 2,
     "explanation": "An item is an offensive weapon if it was made or adapted to cause injury, or if the person carrying it intends to use it to cause injury.",
     "source_chunk_ids": [
-      "door-supervisor-final-unit-content#DS-U2-S1",
-      "sia-ds-specification-2021#DS-U2-S1"
+      "door-supervisor-final-unit-content#offensive-weapon",
+      "door-supervisor-final-unit-content#DS-U2-S1"
     ],
-    "source_quote": "Any article made or adapted for use to cause injury to the person",
+    "source_quote": "Any article made or adapted for use to cause injury to the person, or intended by the person having it with him for such use",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -5265,15 +4869,15 @@
     "options": [
       "So the customer can be disciplined",
       "So the door supervisor can avoid further shifts",
-      "So the employer is aware of the problem",
+      "So the employer can review procedures and share good practice",
       "So the incident is removed from the log"
     ],
     "answer_index": 2,
-    "explanation": "Raising the matter with the employer makes them aware of the problem; the specification also links this to sharing good practice.",
+    "explanation": "Raising the matter with the employer lets them review procedures and share good practice.",
     "source_chunk_ids": [
-      "sia-conflict-management-specification-2021#U3-CONFLICT-S3"
+      "sia-conflict-management-specification-2021#U3-CONFLICT-S3-clean"
     ],
-    "source_quote": "identify the importance of raising matters with your employer",
+    "source_quote": "identify the importance of raising matters with your employer and sharing good practice",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -5969,37 +5573,6 @@
   },
   {
     "unit": "U4-PI",
-    "objective_id": "U4-PI-S2-O5",
-    "qualifications": [
-      "DS"
-    ],
-    "difficulty": 1,
-    "stem": "Two customers begin fighting near the door. Which kind of method should the door supervisor use to intervene?",
-    "options": [
-      "A pain-based hold",
-      "A non-aggressive method",
-      "A strike",
-      "A threat of force"
-    ],
-    "answer_index": 1,
-    "explanation": "Intervening to stop an assault or fight must use non-aggressive methods, not pain-based or striking techniques.",
-    "source_chunk_ids": [
-      "sia-physical-intervention-specification-2021#U4-PI-S2"
-    ],
-    "source_quote": "demonstrate non-aggressive methods used to intervene to stop assaults or fights",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U4-PI-0023",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Physical Intervention Skills specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U4-PI",
     "objective_id": "U4-PI-S2-O6",
     "qualifications": [
       "DS"
@@ -6022,7 +5595,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0024",
+    "id": "U4-PI-0023",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -6053,38 +5626,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0025",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Physical Intervention Skills specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U4-PI",
-    "objective_id": "U4-PI-S2-O7",
-    "qualifications": [
-      "DS"
-    ],
-    "difficulty": 2,
-    "stem": "Before disengaging from a person who is holding on to them, what must a door supervisor describe?",
-    "options": [
-      "The person's history",
-      "The venue's capacity",
-      "The risks relating to disengagement",
-      "The cost of any damage"
-    ],
-    "answer_index": 2,
-    "explanation": "Disengagement has its own risks, and the door supervisor must be able to describe them.",
-    "source_chunk_ids": [
-      "sia-physical-intervention-specification-2021#U4-PI-S2"
-    ],
-    "source_quote": "describe risks relating to disengagement",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U4-PI-0026",
+    "id": "U4-PI-0024",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -6115,100 +5657,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0027",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Physical Intervention Skills specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U4-PI",
-    "objective_id": "U4-PI-S3-O5",
-    "qualifications": [
-      "DS"
-    ],
-    "difficulty": 1,
-    "stem": "A customer has to be moved between floors at a venue. What must the door supervisor know how to do?",
-    "options": [
-      "Escort the individual up or down stairs",
-      "Search the individual on the stairs",
-      "Arrest the individual on the stairs",
-      "Interview the individual on the stairs"
-    ],
-    "answer_index": 0,
-    "explanation": "Escorting an individual up or down stairs is one of the escorting tasks covered.",
-    "source_chunk_ids": [
-      "sia-physical-intervention-specification-2021#U4-PI-S3"
-    ],
-    "source_quote": "demonstrate how to escort an individual up or down stairs",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U4-PI-0028",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Physical Intervention Skills specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U4-PI",
-    "objective_id": "U4-PI-S3-O7",
-    "qualifications": [
-      "DS"
-    ],
-    "difficulty": 2,
-    "stem": "A physical intervention is coming to an end. Which two actions must the door supervisor demonstrate?",
-    "options": [
-      "Arresting and searching",
-      "Reporting and detaining",
-      "Escorting and restraining",
-      "De-escalating and disengaging"
-    ],
-    "answer_index": 3,
-    "explanation": "The door supervisor must de-escalate the situation and disengage from the physical intervention.",
-    "source_chunk_ids": [
-      "sia-physical-intervention-specification-2021#U4-PI-S3"
-    ],
-    "source_quote": "demonstrate how to de-escalate and disengage a physical intervention",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U4-PI-0029",
-    "source_quote_exact": true,
-    "source": {
-      "title": "SIA Physical Intervention Skills specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
-    }
-  },
-  {
-    "unit": "U4-PI",
-    "objective_id": "U4-PI-S3-O8",
-    "qualifications": [
-      "DS"
-    ],
-    "difficulty": 1,
-    "stem": "How should a door supervisor speak to the person they are escorting?",
-    "options": [
-      "As little as possible",
-      "Professionally",
-      "By shouting instructions",
-      "Only through hand signals"
-    ],
-    "answer_index": 1,
-    "explanation": "Communication with the subject of a physical intervention must be professional.",
-    "source_chunk_ids": [
-      "sia-physical-intervention-specification-2021#U4-PI-S3"
-    ],
-    "source_quote": "communicate professionally with the subject of physical intervention",
-    "spec_version": "2021",
-    "jurisdiction": "EW",
-    "status": "draft",
-    "requires_human_review": true,
-    "id": "U4-PI-0030",
+    "id": "U4-PI-0025",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
