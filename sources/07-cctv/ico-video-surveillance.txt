@@ -1,0 +1,880 @@
+# Video surveillance (including guidance for organisations using CCTV)
+
+Publisher: Information Commissioner's Office (ICO)
+Source: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cctv-and-video-surveillance/guidance-on-video-surveillance-including-cctv/
+Licence: Open Government Licence v3.0
+Retrieved: 11 November 2026
+Last updated: 24 January 2024
+
+Note: ICO states that all text content on its website is available under the Open Government Licence v3.0 (https://ico.org.uk/global/copyright-and-re-use-of-materials). The guidance carries a notice that it is under review following the Data (Use and Access) Act.
+
+---
+
+## About this guidance
+
+This guidance provides advice for when you operate video surveillance systems that view or record individuals. It also covers information that relates to individuals, for example vehicle registrations captured by Automatic Number Plate Recognition (ANPR) equipment. It explores emerging capabilities that can assist human decision making, such as the use of Facial Recognition Technology (FRT) and machine learning algorithms.
+
+Information held by organisations that is classed as personal data relating to identifiable living individuals is covered by the UK General Data Protection Regulation (UK GDPR) and Data Protection Act 2018 (DPA 2018). This guidance will help you comply with these legal frameworks. When processing personal data, it is important you comply with key data protection requirements, such as data protection by design and default, fairness, accountability, transparency, and respect for the rights that individuals have.
+
+The recommendations in this guidance are all based on the principles of UK data protection law, and are set out to follow the lifecycle and practical operation of surveillance systems.
+
+Sections of this guidance also provide checklists that you should address to help you achieve the good practice recommendations.
+
+Following the recommendations in this guidance will:
+
+- help you to process personal data lawfully and comply with the UK GDPR, the DPA 2018 and other relevant statutory obligations;
+
+- contribute to the efficient deployment and operation of a surveillance system;
+
+- mean that the personal data you process is usable and the processing can meet your intended objectives;
+
+- re-assure those whose personal data you are processing;
+
+- help inspire wider public trust and confidence in the use of surveillance systems; and
+
+- reduce reputational risks by staying within the law and avoiding regulatory action and penalties.
+This guidance also acknowledges the wider regulatory environment. For example, where public authorities intend to use video surveillance you must comply with data protection law but also a broader framework of legal, procedural and risk based obligations such as:
+
+- obligations under the Freedom of Information Act 2000 (FOIA); Freedom of Information (Scotland) Act 2002 (FOISA);
+
+- the Human Rights Act 1998 (HRA); and
+
+- the Surveillance Camera Code of Practice issued under the Protection of Freedoms Act 2012 (PoFA).
+
+### The Surveillance Camera Code of Practice (PoFA 2012)
+The Protection of Freedoms Act 2012 (PoFA) led to the introduction of the Surveillance Camera code of practice (SC code) in 2013 and the appointment of a Surveillance Camera Commissioner to encourage compliance with the SC code and review its operation and impact. In England and Wales, relevant authorities deploying overt surveillance systems should pay due regard to the SC code, regardless of whether or not there is any live viewing, or recording of images or information or associated data.
+
+Separate to this guidance, the SC code provides supporting advice and guidance for organisations using surveillance systems on issues such as operational requirements, technical standards and governance arrangements.
+
+The PoFA requires relevant authorities to take the 12 guiding principles in the SC code into account. In general terms, the Police, Police and Crime Commissioners and local authorities in England and Wales are designated as relevant authorities, along with the National Crime Agency. All other controllers and operators are encouraged to follow the SC code, templates and toolkits as good practice on a voluntary basis.
+
+Read further details on the Biometrics and Surveillance Camera Commissioner’s website.
+
+The UK GDPR and DPA 2018 apply to all organisations that process personal data across the UK and has the same effect across all sectors. The SC code only applies to relevant authorities across England and Wales. Further, the Scottish government has produced its own separate CCTV Strategy for Scotland (2011). This strategy provides a common set of principles that operators of public space CCTV systems in Scotland should follow. The principles aim to ensure that these systems are operated fairly and lawfully.
+
+## What does this guidance address?
+
+### At a glance
+This guidance covers the processing of personal data by video surveillance systems by public and private sector organisations. Surveillance systems specifically include, but are not limited to traditional CCTV, Automatic Number Plate Recognition (ANPR), Body Worn Video (BWV), Drones (UAVs), Facial Recognition Technology (FRT), dashcams and smart doorbell cameras.
+
+Organisations using surveillance systems that process the personal data of identifiable individuals need to comply with the UK GDPR and DPA 2018.
+
+This particular guidance does not cover:
+
+- covert surveillance techniques;
+
+- processing for specific criminal law enforcement purposes by competent authorities under Part 3 of the DPA 2018;
+
+- processing by intelligence services under Part 4 of the DPA 2018; and
+
+- processing that is purely in the context of personal or household activities, such as home CCTV within the boundaries of private property.
+This guidance also does not cover the use of ‘dummy’ or non-operational systems. However, it does cover pilots or trials as personal data is still processed.
+
+### In detail
+
+- What do we mean by a surveillance system?
+
+- Who is this guidance for?
+
+- What does this guidance address?
+
+- What does this guidance not address?
+
+#### What do we mean by a surveillance system?
+S29(6) of the Protection of Freedoms Act 2012 (PoFA) states that “surveillance camera systems” mean:
+
+(a) closed circuit television or automatic number plate recognition systems,
+
+(b) any other systems for recording or viewing visual images for surveillance purposes,
+
+(c) any systems for storing, receiving, transmitting, processing or checking images or information obtained by systems falling within paragraph (a) or (b), or
+
+(d) any other systems associated with, or otherwise connected with, systems falling within paragraph (a), (b) or (c).
+
+Surveillance systems can be used to monitor and record the activities of individuals, often in high definition and with ease. As such, these systems can capture information about identifiable individuals and how they behave. This is likely to be personal data under data protection law.
+
+“Personal data” under Article 4(1) UK GDPR means any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.
+
+“Biometric data”, in particular, means personal data resulting from specific technical processing relating to the physical, physio-logical or behavioural characteristics of a natural person, which allow or confirm the unique identification of that natural person, such as facial images or dactyloscopic (fingerprint) data, as defined at Article 4(14) UK GDPR.
+
+#### Who is this guidance for?
+This guidance is aimed at organisations in both the public and private sectors who use surveillance systems and are subject to the UK GDPR and the DPA 2018.
+
+This guidance does not apply to domestic surveillance systems or individuals recording footage in a purely personal or household context. See our separate guidance on personal or household processing for more information.
+
+It is also not directed at specified “competent authorities” using surveillance systems for criminal law enforcement purposes, who are subject to the separate law enforcement processing regime under Part 3 of the DPA 2018. However, this guidance as a whole still provides advice for competent authorities using surveillance systems for other non-criminal law enforcement uses under the UK GDPR. For more information on which regime applies to you, see our guidance on which regime.
+
+#### What does this guidance address?
+This guidance covers UK GDPR and DPA 2018 requirements. It applies where personal data is being processed by video surveillance systems in the public and private sectors. From the localised small scale use of more traditional CCTV in shops and premises for security purposes, to the deployment of facial recognition technologies and the processing of personal data on a larger scale.
+
+This guidance outlines additional considerations for the use of:
+
+- Automatic Number Plate Recognition (ANPR);
+
+- Body Worn Video (BWV);
+
+- Unmanned Aerial Vehicles (UAVs, also known as drones);
+
+- Facial Recognition Technology (FRT) and surveillance;
+
+- commercial products such as smart doorbells and surveillance in vehicles;
+
+- workplace monitoring, live streaming; and
+
+- other commercially available surveillance systems that have the potential to process personal data.
+
+#### What does this guidance not address?
+This guidance is not intended to address covert surveillance activities by public authorities governed by the Regulation of Investigatory Powers Act 2000 (RIPA) and the Regulation of Investigatory Powers (Scotland) Act 2000 (RIPSA). This type of recording is covert and directed at a specific individual or individuals.
+
+This guidance also does not address:
+
+- processing for specific criminal law enforcement purposes by competent authorities under Part 3 of the DPA 2018;
+
+- processing by intelligence services under Part 4 of the DPA 2018; and
+
+- processing that is purely in the context of personal or household activities, such as home CCTV within the boundaries of private property.
+Note: The UK GDPR and DPA 2018 apply to information captured by surveillance systems. This guidance does not cover the use of ‘dummy’ or non-operational systems as no personal data is likely to be processed. However, it does cover pilots or trials where personal data is processed.
+
+The use of conventional cameras (not CCTV) by the news media or for artistic purposes, such as for film making, are also not addressed by this guidance. This is because an exemption within data protection legislation applies to certain activities relating to journalistic, artistic and literary purposes. However, this guidance does apply to information collected by surveillance systems that is then provided to the media.
+
+Surveillance systems vary substantially, as do the extent and reasons for use, and how personal data is processed. Therefore not all sections of this guidance are relevant in all cases. A checklist within this guidance for limited surveillance systems provides particular assistance in circumstances where privacy risks are small and resources are limited. To assess the level of risk, you must consider both the likelihood and the severity of any impact on individuals. High risk could result from either a high probability of some harm, or a lower possibility of serious harm. If you use video surveillance in a limited way but you wish to use your surveillance system for a new purpose, you should read the full guidance.
+
+Further reading
+
+Website for the Biometrics and Surveillance Camera Commissioner
+
+## What are our responsibilities in terms of accountability?
+
+### At a glance
+
+Under the UK GDPR and DPA 2018, you have an obligation to implement appropriate technical and organisational measures. These show that you have considered and integrated the principles of data protection law into your processing activities. It is also important that you identify an appropriate lawful basis, and justify any processing to be necessary and proportionate.
+
+If you are a controller, and your surveillance system is processing the personal data of identifiable individuals, you are required to register and pay a data protection fee to the ICO, unless exempt or you already pay the fee..
+
+The accountability principle requires you to take responsibility for what you do with personal data and how you comply with the other principles. You must have appropriate measures and records in place to be able to demonstrate your compliance. Your accountability obligations are maintained throughout the life of the processing.
+
+Specifically under Article 30 of the UK GDPR, organisations are required to maintain a record of the processing activities taking place. This applies to both controllers and processors that use surveillance systems. The records you keep should cover areas such as the purpose(s) for the lawful use of surveillance, any data sharing agreements you have in place and the retention periods of any personal data.
+
+For surveillance systems, you must take a data protection by design and default approach and perform a Data Protection Impact Assessment (DPIA) for any processing that is likely to result in a high risk to individuals. This includes:
+
+- processing special category data;
+
+- monitoring publicly accessible places on a large scale; or
+
+- monitoring individuals at a workplace.
+
+You should assess whether your use of surveillance is appropriate in the circumstances. As part of your assessment, you should also take into account the reasonable expectations of the individuals whose personal data are processed and the potential impact on their rights and freedoms. You should record your considerations and mitigations in a DPIA prior to any deployment of a surveillance system that is likely to result in a high risk to individuals. If high risks cannot be mitigated, prior consultation with the ICO is required.
+
+### In detail
+
+- How do we ensure effective control of our surveillance systems?
+
+- How do we demonstrate accountability?
+
+- What is data protection by design and by default?
+
+- How do we carry out a Data Protection Impact Assessment (DPIA)?
+
+- What about documentation?
+
+- Do we need to pay a data protection fee?
+
+#### How do we ensure effective control of our surveillance systems?
+
+Checklist
+
+☐ We know who has responsibility for the control of information within our organisation and who makes decisions about how it can be used.
+
+☐ We have registered with the ICO if we are a controller, especially for the use of a surveillance system that processes personal data.
+
+☐ We have agreed responsibilities if more than one controller is jointly involved in the processing, and each know their responsibilities in a transparent manner.
+
+☐ We have written contracts in place that clearly define the responsibilities of organisations that provide processing services for us.
+
+☐ We make sure that information is only processed by others in accordance with our instructions, with guarantees about security, storage and the use of properly trained staff.
+
+It is important that you establish who exercises overall control of the personal data being processed. For example, who decides what is to be recorded, how it should be used and to whom it may be disclosed if needed. If you are the organisation that makes these decisions determining the purpose and means of processing, then you are the controller and you are legally responsible for compliance with data protection law.
+
+If you make joint decisions with another organisation about the purposes for, and operation of, the surveillance system then you are joint controllers for this processing. All joint controllers remain responsible for compliance with the controller obligations under the UK GDPR and DPA 2018. For further information see our guidance on joint controllers.
+
+Organisations may share information from a surveillance system in order to assist with joint running costs. This includes situations where the surveillance system is managed by a third-party on behalf of, or in conjunction with, another organisation. For example, this could be a CCTV server hosted by a council, and a feed could be linked into a local law enforcement control room.
+
+The agreement to share services must have strict guidelines and procedures in place to ensure that the control and use of these systems is appropriate. In a shared service situation you should also make clear who is legally in control of what information at any given time.
+
+As a controller, you need clear procedures to determine how you use the system in practice. You should therefore consider the following questions:
+
+- Have you clearly defined the specific purposes for the processing of personal data and use of information? Have you communicated these to those who operate the system?
+
+- Are there clearly documented procedures for how information should be handled in practice? This could include policies and procedures for disclosures and how to keep a record of any data sharing. Are these accessible to the appropriate people?
+
+- Has responsibility for ensuring that procedures are followed been allocated to a data protection officer (DPO) or to an appropriate named individual? They should ensure that standards are set, procedures are put in place to meet these standards, and that the system complies with this guidance and other legal obligations.
+
+- Are proactive checks or audits carried out on a regular basis to ensure that procedures are being complied with? This can be done either by you, as the system operator, or a third party.
+
+#### How do we demonstrate accountability?
+
+The accountability principle requires you to take responsibility for what you do with personal data and how you comply with the other principles. You must have appropriate measures and records in place to be able to demonstrate your compliance. Your accountability obligations are maintained throughout the life of the processing.
+
+Article 24(1) of the UK GDPR says that:
+
+- you must implement technical and organisational measures to ensure, and demonstrate, compliance with the UK GDPR;
+
+- the measures should be risk-based and proportionate; and
+
+- you need to review and update the measures as necessary.
+
+The below headings expand on broader accountability obligations you must adhere to under data protection law.
+
+#### What is data protection by design and by default?
+
+Data protection by design and default is about considering data protection and privacy issues upfront, from the earliest stages of project planning. You must consider this in a consistent manner, in everything you do, where you are processing personal data. It can help you comply with the UK GDPR’s fundamental principles and requirements, and forms part of the focus on accountability.
+
+Under data protection law, you have an obligation to implement appropriate technical and organisational measures to show that you have considered and integrated the principles of data protection into your processing activities. Data protection by design has broad application. Examples include physical design, or developing organisational policies, processes, business practices or strategies that have privacy implications. This requirement is particularly important for the new or novel use of more intrusive surveillance systems such as ANPR, BWV and Facial Recognition Technology (FRT).
+
+Prior to purchasing any surveillance system, you should make decisions based on its ability to provide a data protection compliant solution to a problem. You should not purchase a system because it is new, available, affordable or in the belief that it will gain public approval. You should also establish criteria for procuring systems and the decisions you make about deployment and configuration.
+
+The Biometrics and Surveillance Camera Commissioner’s Buyers’ Toolkit will also help you when planning and installing surveillance camera systems.
+
+You should also ensure that the design of your surveillance system allows you to easily locate and extract personal data in response to individuals exercising their rights. For example, in response to subject access requests or for disclosures to authorised third parties such as law enforcement.
+
+Example
+
+An ambulance service wishes for staff to use a BWV system, so that staff can capture any abusive behaviour towards them when they are on duty. Prior to using the technology, the service should conduct a DPIA to assess whether the use of this technology is a necessary and proportionate response to a problem. The service should not purchase the system just because it is new or useful technology, but because the use of the system is justifiable in the circumstances.
+
+It is also important that there is sufficient focus on the governance of the information that is collected, rather than the technical capability of the cameras. For example, how the information is safely stored, retained or edited if needed. Again, the service should have appropriate policies and procedures for the use of the technology and information collected, with appropriate training for staff who actually wear the cameras or subsequently process the information.
+
+You may also wish to refer to the Biometrics and Surveillance Camera Commissioner’s secure by design, secure by default scheme which outlines requirements for manufacturers of surveillance camera systems and components.
+
+#### How do we carry out a Data Protection Impact Assessment (DPIA)?
+
+To identify and help mitigate risks at an early stage you should perform a DPIA prior to any processing. This is a legal requirement and applies in most cases relating to video surveillance given the inherent privacy risks involved in the use of these systems. This includes systematically monitoring publicly accessible places on a large scale.
+
+For surveillance systems in particular, you must perform a DPIA with balanced consideration for any type of processing that is likely to result in a high risk to individuals. To assess the level of risk, you should consider both the likelihood and the severity of any impact on individuals. High risk could result from either a high probability of some harm, or a lower possibility of serious harm. For example this could involve unexpected or unfair monitoring, or particular decision making against an individual. We have further guidance about the types of risks that DPIAs address.
+
+Your DPIA must:
+
+- describe the nature, scope, context and purposes of the processing;
+
+- assess necessity, proportionality and compliance measures;
+
+- identify and assess risks to individuals; and
+
+- identify any additional measures to mitigate those risks.
+
+If you decide to not do a DPIA you need to document your reasons and be prepared to justify why the processing is not of a type likely to result in high risk. You can use our screening checklists to help you decide.
+
+- You need to consider the privacy issues involved with using new surveillance systems, such as lawfulness and transparency. You should assess whether the use is necessary and proportionate and appropriately solves a problem. You should always consider less privacy intrusive methods of achieving this need where possible, or explain why these alternatives are not suitable or sustainable.
+
+- You should also look at the problem the surveillance system is supposed to address, and show whether or not the system will meet this need. You should base your assessment on reliable evidence and show whether the proposed surveillance system can be justified as proportionate to the problem identified.
+
+The Biometrics and Surveillance Camera Commissioner’s predecessor and the ICO jointly published the SCC DPIA template and associated guidance notes for surveillance systems. The ICO has also produced detailed guidance for conducting DPIAs.
+
+For the purposes of using surveillance systems, you may encounter data protection problems if you fail to take a data protection by design and default approach and do not conduct a DPIA where required. You could avoid these problems by acting at an early stage.
+
+There are also wider benefits in terms of identifying problems early and avoiding unnecessary costs and reputational damage. Further, a failure to carry out a DPIA when required in itself infringes the UK GDPR and may leave you open to enforcement action.
+
+If you have carried out a DPIA that identifies a high residual risk after mitigation measures, you are required to consult with the ICO under data protection law. You cannot go ahead with the processing until you have consulted us. If you have established methods to reduce or mitigate the risk so it is no longer high, you do not need to consult us.
+
+#### What about documentation?
+
+Checklist
+
+☐ If we are a controller for the personal data we process using surveillance systems, we document all the applicable information under Article 30(1) of the UK GDPR.
+
+☐ If we are a processor for the personal data we process using surveillance systems, we document all the applicable information under Article 30(2) of the UK GDPR.
+
+☐ We conduct regular reviews of the personal data we process and update our documentation accordingly.
+
+☐ Our documentation is readily available if it is requested by the ICO, or another regulatory authority.
+
+Documenting your processing activities is a legal requirement under data protection law. It can support good data governance and help you demonstrate your compliance with the UK GDPR and DPA 2018. Knowing what information you have, where it is and what you do with it makes it much easier for you to comply with other aspects of the law. For example, making sure that the information you hold about people is accurate, relevant and secure.
+
+Under Article 30 of the UK GDPR, most organisations are required to maintain a record of their processing activities. This also applies to controllers and processors that use surveillance systems. The records you keep should cover areas such as the purpose(s) for the use of surveillance, data sharing and retention.
+
+Further guidance and templates about documentation are on our webpages.
+
+The UK GDPR and DPA 2018 also outline the legal requirement for an appropriate policy document to be in place when processing special category and criminal offence data under certain specified conditions.
+
+This document should demonstrate that the processing of any special category and criminal offence data is compliant with the requirements of the UK GDPR Article 5 principles.
+
+Read further guidance about appropriate policy documents and special category and criminal offence data.
+
+#### Do we need to pay a data protection fee?
+
+If you are acting as a controller, and your surveillance system is processing the personal data of identifiable individuals, you are required to register and pay a data protection fee to the ICO, unless exempt.
+
+The Data Protection (Charges and Information) Regulations 2018 outline the different tiers of fee controllers are expected to pay. The fees are set by Parliament to reflect what it believes is appropriate based on the risks posed by the processing of personal data by controllers.
+
+In the context of video surveillance, if you are processing images of identifiable individuals outside of purely personal, family or household use, then you may be required to pay a data protection fee and register with the ICO as a controller.
+
+Read further guidance about the data protection fee.
+
+## How can we comply with the data protection principles when using surveillance systems?
+
+### At a glance
+
+Article 5 of the UK GDPR sets out seven key principles. These principles should lie at the heart of your approach to processing personal data. When using surveillance systems, you can encounter data protection problems if your focus is on technical capability over the transparency of the processing or the governance of information. Therefore, you need to consider each aspect equally.
+
+For any use of surveillance systems, you need to identify and document a lawful basis under Article 6 of the UK GDPR. In practice, it is often difficult to obtain genuine consent from individuals for processing their personal data in public spaces. Therefore, it is likely the appropriate lawful basis will be either legitimate interests, or a reliance on public task (if you are carrying out your tasks as a public authority in the public interest or under official authority). A legitimate interests assessment (LIA) can help you demonstrate lawfulness of the processing, and can naturally feed into a DPIA.
+
+You need to identify an Article 9 UK GDPR condition, if you are actively processing special category data, such as biometric data (for example when using facial recognition systems to uniquely identify individuals). If you process criminal conviction data, you need to comply with Article 10 UK GDPR.
+
+The type of surveillance system you choose and the location it operates within must achieve the specific purpose(s) for which you are using it.
+
+The information your surveillance system processes must be of good quality and be adequate, relevant and limited to what is necessary. You should identify the minimum amount of personal data you need to fulfil your purpose(s).
+
+The UK GDPR and the DPA 2018 do not prescribe any specific minimum or maximum retention periods which apply to surveillance systems or the information you may process. Rather, it is the purpose of your processing that should determine your necessary retention period.
+
+You should store recorded information securely in a way that maintains its confidentiality, integrity and availability. This is to ensure that you protect the rights of individuals you record by surveillance systems and use the information effectively for your intended purpose.
+
+### In detail
+
+- What should we generally consider when using surveillance systems?
+
+- How do we demonstrate lawfulness, fairness and transparency?
+
+- How do we comply with the purpose limitation principle?
+
+- How should we minimise the information we process, and ensure its quality?
+
+- What about the retention of information?
+
+- How should we securely store and view the information our surveillance system processes?
+
+#### What should we generally consider when using surveillance systems?
+
+Modern surveillance systems can offer:
+
+- greater clarity of images with high definition picture;
+
+- improved capability due to the size and positioning of lenses; and
+
+- additional functions to post footage online or share information with others in real time.
+
+As such, surveillance systems can be particularly intrusive. Especially if they impact on the private lives of individuals and process personal data beyond their reasonable expectations.
+
+Some systems are also capable of placing large numbers of people under surveillance as they go about their day-to-day activities. For example, this may include the use of ANPR or facial recognition technology in public spaces.
+
+Regardless of the size of the system, you should initially consider achieving your outcome using alternative, less privacy intrusive methods. You may consider that new technology is an attractive or affordable solution. However, the use of surveillance systems should be a necessary and proportionate response to the problem you are addressing. You should therefore carefully consider whether or not to use a surveillance system, if other options are available.
+
+Example
+
+A disused public space is subject to vandalism and antisocial behaviour, and a local authority installs a surveillance system to try and monitor the area.
+
+In order to reduce the amount of CCTV in the area, the local authority may wish to first consider less intrusive alternatives to surveillance systems. For example, improved lighting, fences and improvements to the area to encourage regeneration. This may also discourage antisocial behaviour if the space is used more often by the wider community.
+
+Both fixed and mobile cameras should be focussed on a relevant space, and where wider surveillance is possible but unnecessary, this should be restricted. This ensures that surveillance does not occur in areas which are not of interest and individuals are not unintentionally made the subject of surveillance.
+
+Example
+
+A café installs a surveillance system which captures the entrance of the premises to improve its security, as there have been reports of break-ins in the local area.
+
+When reviewing the system, the café owner realises that the camera’s field of vision also captures footage of a nearby flat, and can see into the property.
+
+The café owner adjusts the field of vision so that the focus of the recording is restricted only on the café entrance to avoid any unnecessary privacy intrusion to nearby residents.
+
+Article 5 of the UK GDPR sets out seven key principles that should lie at the heart of your approach to processing personal data.
+
+You should carefully consider whether it is appropriate to use a surveillance system, and assess any potential impact this may have on the rights and freedoms individuals have under data protection law.
+
+It is also important that you identify an appropriate lawful basis under the UK GDPR and DPA 2018. You should clearly document and justify your reliance on a particular lawful basis in conjunction with the principles of data protection law prior to any deployments.
+
+As previously mentioned, for the use of surveillance systems you must perform a DPIA for any type of processing that is likely to result in a high risk to individuals. This is a legal requirement and applies in most cases, due to the inherent privacy risks involved in the use of surveillance systems as a type of processing. See section on DPIAs.
+
+#### How do we demonstrate lawfulness, fairness and transparency?
+
+##### Lawfulness
+
+Checklist
+
+☐ We have identified an Article 6 lawful basis for the processing of personal data under UK GDPR.
+
+☐ We have also identified an Article 9 UK GDPR condition for the processing of any special category data, especially where the unique identification of individuals occurs.
+
+☐ We have identified an appropriate DPA 2018 Schedule 1 condition where specifically required for the processing of special categories of personal data or criminal conviction data.
+
+☐ Where relevant, we have identified our authority for any processing of criminal offence data under Article 10 UK GDPR.
+
+☐ Where required, we have a readily available appropriate policy document (APD) that demonstrates the above.
+
+For any use of surveillance systems you need to identify and document a lawful basis for processing under Article 6 of the UK GDPR. In practice, it is difficult to obtain genuine consent from individuals that are subject to video surveillance in public spaces. Therefore, it is likely the appropriate lawful basis will be either legitimate interests, or a reliance on public task (if you are carrying out your tasks as a public authority in the public interest or under official authority). A legitimate interests assessment (LIA) can help you demonstrate lawfulness of the processing, especially if you are not carrying out a DPIA. You must however independently identify an appropriate lawful basis that best suits your organisation or method of processing.
+
+You need an Article 9 UK GDPR condition, if you are actively processing special category data, such as biometric data (for example when using facial recognition systems to uniquely identify individuals). There are 10 conditions for processing special category data in Article 9 of the UK GDPR. Five of these require you to meet additional conditions and safeguards set out in UK law, at Section 10 and in Schedule 1 of the DPA 2018. If you record footage involving criminal offence data, you also need to comply with Article 10 of the UK GDPR, Section 10(5) of the DPA 2018 and identify an appropriate condition under Schedule 1 of the DPA 2018. For more information see our guidance on criminal offence data.
+
+Example
+
+A shop manager suspects an employee of stealing money from the till. The manager compiles a report showing the shifts of the individual and collects CCTV footage of them at the till during those shifts.
+
+This personal data is criminal offence data as it relates to the alleged commission of an offence which is unproven and requires compliance with Article 10 UK GDPR.
+
+In some circumstances, the UK GDPR and DPA 2018 also require you to have supporting documentation that explains how you demonstrate lawfulness, in the form of an ‘appropriate policy document’. Read further guidance about documentation.
+
+##### Fairness
+
+Processing of personal data must always be fair as well as lawful. If any aspect of your surveillance is unfair you will be in breach of this principle – even if you can show that you have a lawful basis for the processing.
+
+In general, fairness means that you should only handle personal data in ways that people would reasonably expect and not use it in ways that have unjustified adverse effects on them. You need to stop and think not just about how you can use personal data, but also about whether you should.
+
+Naturally, there are places where individuals have a heightened expectation of privacy, such as private property. But also in public toilets and changing rooms, where the use of visual or audio recording would not be expected and often difficult to justify. If you are considering surveillance systems in these environments, you should only use them in the most exceptional circumstances, where it is necessary to deal with very serious concerns.
+
+Example
+
+An individual walks down a public shopping precinct and expects to be captured on CCTV that is installed for the prevention or detection of crime. When entering a shop, the shop also has a CCTV system installed for similar reasons. But the individual may not expect there to be a camera in the changing rooms where there is often a heightened expectation of personal privacy.
+
+You always need to ensure that those under surveillance are clearly aware that they are being recorded. You should provide individuals with appropriate information about how they can exercise their rights, and that appropriate restrictions on viewing and disclosing images are in place for those using the system.
+
+You need to assess whether the individual can reasonably expect the processing. In particular, you need to take into account when and how you collect the information. This is an objective test. The question is not whether a particular individual actually expects the processing, but whether on balance a person should reasonably expect the processing in the overall set of circumstances.
+
+In terms of the use of surveillance systems, you need to recognise whether you are using a new technology or processing data in a new way that an individual may not reasonably anticipate. Or conversely, whether there are any developments in technology or updates to services that individuals have come to expect. Again, you should reflect this risk assessment in a DPIA prior to any deployment of a surveillance system.
+
+By installing surveillance systems in areas where people have greater expectations of privacy, you may inadvertently increase the intrusion on their private life, especially where their behaviour is not modified. The use of surveillance systems in public spaces may also have a chilling effect on the way in which people behave, interact with each other, or the places that they choose to move freely. It is important that you also consider these issues when planning to use new or existing systems and whether they can be justifiable set against the purpose(s) for the processing.
+
+Example
+
+A business responsible for managing a public multi-storey car park wishes to use CCTV cameras around the premises and in the elevators, to ensure the safety and security of individuals using them. Those using the car park are likely to expect CCTV cameras for general safety reasons, but also in areas where a crime could possibly occur.
+
+The owners of the car park should ensure that there is appropriate signage that people can read within, and prior to entering, the premises. It should include details of the organisation operating the system, the purpose for using it and who to directly contact in the event of a query.
+
+Example
+
+A school wishes to install CCTV cameras in the toilets in order to prevent vandalism.
+
+The school would have to make a rigorous assessment based on necessity and proportionality in order to justify the processing. This is because the cameras would be recording children, particularly in an environment where there would be a natural and heightened expectation of privacy by both students and parents. Given the potential level of intrusion, this use is unlikely to be proportionate in most circumstances. The school should seek less privacy intrusive measures in order to solve a particular problem.
+
+##### Transparency
+
+Checklist
+
+☐ We have signs that accompany our surveillance system that are clearly visible and readable, explaining that its use is in operation.
+
+☐ We include details of the organisation operating the system, the purpose for using the system and who to directly contact about its use.
+
+☐ We include as a minimum basic contact details such as a website, telephone number or email address.
+
+☐ We have signs that are an appropriate size depending on the context of the systems use. For example, whether the signs are viewed easily by pedestrians or drivers.
+
+The need for transparency is a fundamental aspect of data protection law. You must tell people when you are capturing their personal data, where appropriate. However, it is recognised that the use of surveillance systems often presents challenges for providing individuals with privacy information. For example, it could prove difficult to ensure that an individual is fully informed of recording taking place if:
+
+- you are using a drone at altitude;
+
+- the surveillance system is attached to a person’s uniform; or
+
+- the system is fixed in a location that individuals would not reasonably expect.
+
+If you operate a surveillance system you are likely to collect personal data directly from the individuals you monitor. As a result you need to comply with data protection law, in particular Article 13 of the UK GDPR. This means you need to find a way to provide them with information about the surveillance. In any case, you must let people know when they are in an area where a surveillance system is in operation. You can also back up messages with an audio announcement, if public announcements are already used, such as in a train station or onboard public transport.
+
+An effective way to provide transparent information is to place signs prominently before the entrance to the system’s field of vision and reinforce this with further signs inside the area. You should position information at a reasonable distance from the places monitored, and in such a way that individuals can easily recognise the circumstances of the surveillance before entering the monitored area. For example, it is not considered fair for an individual to read a sign that warns them about particularly intrusive surveillance technology in the area, if the system has already captured them whilst reading it.
+
+Example
+
+It may be useful to use websites or social media to inform individuals that certain types of surveillance systems are in operation at a specific time and in a specific area. It is important to note however that publishing information on a website, by itself, is not enough to comply. You have to draw the individuals’ attention to the information. Therefore, you could use physical signage with linked information, so that individuals can find out more if they are interested. This would essentially function as a layered privacy notice.
+
+As a general rule, signs should be more prominent and frequent in areas where people are less likely to expect that they will be monitored by a surveillance system. For example, this is particularly important when you are using a system to cover a large public area and capture a large amount of personal data.
+
+Example
+
+A construction company uses traditional CCTV alongside security guards within the perimeters of a building site. This is to protect the site operatives, and nearby members of the public from any harm. The CCTV system provides extensive monitoring across the site, and the footage records the activity of the members of staff stationed there.
+
+The site includes large, prominent notices to inform individuals:
+
+- about the CCTV system;
+
+- that the cameras are there for the purposes of safety and security; and
+
+- who to contact directly in the event of a query.
+
+Signs do not need to say who is operating the system if this is obvious. If a surveillance system is installed within a shop, for example, it may be obvious that the shop is responsible. All relevant staff within an organisation should know what to do or who to contact if a member of the public makes an enquiry about a surveillance system.
+
+Example
+
+Where processing is not obvious to an individual, a sign could read “Images are being monitored and recorded for the purposes of crime prevention and public safety. This system is controlled by XXXXX. For more information, visit our website at (web address) or call 01234 567890.”
+
+#### How do we comply with the purpose limitation principle?
+
+Checklist
+
+☐ We have initially considered achieving our outcome using alternative, less privacy intrusive methods without the need for surveillance systems.
+
+☐ If we need to use a surveillance system, we only use it in locations where it achieves our specific purpose(s).
+
+☐ We have assessed any potential impact the use of surveillance may have on the rights and freedoms individuals have under data protection law.
+
+☐ We only use audio recording where there is an evidenced and justified need.
+
+☐ Any audio capabilities in our system are switched off by default.
+
+☐ We take additional steps to make it clear to individuals that audio recording is taking place, over and above any visual recording which is already occurring.
+
+You must be clear about what your purposes for processing personal data are from the start under the UK GDPR and DPA 2018. You need to record your purposes as part of your documentation obligations and specify them in your privacy information for individuals.
+
+When using surveillance systems, you can only use the personal data for a new purpose if:
+
+- this is compatible with your original purpose;
+
+- you get consent from individuals; or
+
+- you have a clear obligation or function set out in law.
+
+##### Audio recording
+
+You should not normally use surveillance systems to directly record conversations between members of the public. This is highly intrusive and unlikely to be justifiable in most circumstances. In most situations, the use of audio recording, particularly where it is continuous, is considered more privacy intrusive than purely visual recording. Its use will therefore require a much greater justification and you should switch off by default any capability to record audio. You should only use it in exceptional circumstances, for example by a trigger switch.
+
+If your system comes equipped with an independent sound recording facility, then you should turn this off or disable it in some other way, unless you can clearly justify and evidence its use. If you cannot control sound recording separately you need to consider how privacy intrusive the system is as a whole, including the recording of sound.
+
+You should only use audio recordings when you have:
+
+- identified a particular need or issue and can evidence that this need must be addressed by audio recording;
+
+- considered other less privacy intrusive methods of achieving this need;
+
+- reviewed the other less privacy intrusive methods and concluded that these will not appropriately address the identified issue and the only way to do so is through the use of audio recording.
+
+You should take additional steps to make it clear to individuals that audio recording is taking place, over and above any visual recording which is already occurring.
+
+##### Surveillance in the workplace
+
+If you are an employer, there may be cause for you to consider using overt surveillance systems to monitor staff, for reasons of health and safety, public health or security.
+
+This could involve installing traditional CCTV cameras that record staff performing a particular task, or installing systems to record employees entering or exiting a secure premises. However, it is likely that employees would not always reasonably expect to be monitored by video or audio surveillance systems in their day-to-day roles. In the case of audio monitoring, this guidance focuses on the recording of face-to-face or private conversations, rather than business telephone calls commonly used for monitoring or training purposes.
+
+It is therefore important if you are using surveillance systems in the workplace, especially any use of audio recording, that you use them in rare circumstances. In addition, you must:
+
+- consult with your workforce (eg staff and/or trade unions), especially during the DPIA process;
+
+- ensure that there are adequate notices, or other means, to clearly inform employees about the nature and extent of surveillance and its purpose(s);
+
+- ensure that you make people other than workers, such as visitors or customers, who may inadvertently be caught by monitoring, aware of its operation and why you are carrying it out;
+
+- target any video or audio monitoring at areas of particular risk and confine it to areas where expectations of privacy are low;
+
+- consider that continuous video or audio monitoring of particular individuals is only likely to be justified in the rarest of circumstances, and may involve other legal requirements outside data protection law for targeted monitoring;
+
+- respect the individual rights staff have about their personal data, and provide a mechanism for them to raise complaints or concerns directly with you as their employer.
+
+Example
+
+An employer records incoming calls taken by employees in a call centre for training purposes, and this is known and accepted by staff. However, the employer also wishes to install video recording in a separate rest area, where staff can take breaks from work and interact.
+
+This use of surveillance would not generally be expected by staff, and would be difficult to justify as a necessary or appropriate use by the employer. Such surveillance may also prevent staff from using the rest area, and may affect the way in which people behave and interact with each other. The employer should rethink the purposes of the recording, and should not install the system if there is no compelling justification for its use. Conducting a DPIA prior to any installation would also be a useful exercise to help identify a genuine need for monitoring and any associated risks.
+
+Further reading – ICO guidance
+
+Employment practices
+
+##### Live streaming
+
+You may choose to install a surveillance system, such as a webcam or even use a mobile phone app that provides access to live streaming functions. This does not necessarily record any footage or save any data to a storage device or the cloud. Instead, it streams the footage over the internet to be viewed in real-time.
+
+The definition of processing is broad and means that it isn’t limited to simply holding the data under the UK GDPR and DPA 2018. Collecting or viewing data in real time on a screen also qualifies as processing. This means that even though you are not storing the images captured on a live stream camera, it still constitutes the processing of personal data if you can identify individuals directly or indirectly.
+
+Your processing may involve broadcasting a video stream (eg online) to an indefinite number of people. This live streaming of images of identifiable individuals is still subject to the requirements of the UK GDPR and DPA 2018.
+
+Example
+
+A property developer provides maintenance services for a block of flats. As part of the service, the controller decides to install a surveillance system that live streams footage of the corridors and entrances back to themselves without the knowledge of the residents.
+
+The surveillance is likely to be unnecessarily intrusive and capture individuals visiting and leaving their private apartments. Therefore, the streaming of this footage would not be justified, nor within the reasonable expectations of the residents.
+
+##### Can we record and share an online meeting, event or a lesson that we host?
+
+As technology helps organisations to stay more connected with staff, colleagues and students, it is important that the use of any video conferencing technology by organisations is fair and transparent. Attendees of an online meeting or students in a virtual lesson need to know how you are processing their data, as well as having appropriate choice and control over it.
+
+If you are acting as a controller for the processing of personal data, even by a live stream, you are responsible for protecting the rights attendees have about their personal information. It is important that you are able to make a clear justification for its use based on necessity and proportionality. For example, if you are using video conferencing as a way to communicate with staff or to host a virtual lesson with students, or make a physical record of a specific interaction.
+
+You should consider whether it is truly necessary in the circumstances to use video conferencing to live stream or record interactions. You should always consider if you could achieve the purpose by less privacy intrusive methods, such as audio only calls. If you feel that the use of video conferencing is necessary and helpful, such as for online schooling, then you must be able to justify and document your reasons for this type of processing.
+
+In the interest of transparency, you must also tell individuals, or in some circumstances the parents of young students, what you are doing. This is so that they can raise any safeguarding concerns or objections should they wish.
+
+Generally, it is not appropriate for you to post recordings online or make personal data available to an indefinite audience without the express permission of those recorded. If formal recording and publication of an interaction is required, you must clearly explain to the individual(s) what the purpose of the recording is. You must also ensure that you do not use the recording for any other incompatible purpose or disclose it to unauthorised third parties unless there is a justifiable reason.
+
+You should also consider providing a secure link to a live stream or recording, that only attendees can view by a strong password, rather than placing it on an unsecured open website or social media platform for others to view.
+
+#### How should we minimise the information we process, and ensure its quality?
+
+Checklist
+
+☐ We have checked that the personal data our surveillance system processes is adequate, relevant and is limited only to what is necessary in the circumstances.
+
+☐ We have identified the minimum amount of personal data we need to fulfil our purpose.
+
+☐ We have a surveillance system that can produce good, clear, quality images. The quality of the information collected is also maintained throughout the recording process.
+
+☐ We have set up the system in such a way that information cannot be inadvertently corrupted.
+
+☐ We have regular checks in place to ensure that the date and time stamp recorded on images is accurate (eg, when the UK switches between summer and winter time).
+
+☐ We have procedures in place to ensure the accuracy of systems we use that match personal data, such as ANPR and Facial Recognition Technology (FRT).
+
+☐ We have fully documented our use of any algorithms, AI or machine learning in our automated systems to assist with accountability requirements.
+
+☐ We have considered the data protection implications of using other functions, such as audio recording, live streaming and cloud storage and we have further documented their use in our DPIA.
+
+Under the UK GDPR and DPA 2018, you must ensure that the personal data you are processing is:
+
+- adequate – sufficient to properly fulfil your stated purpose;
+
+- relevant – has a rational link to that purpose; and
+
+- limited to what is necessary – you do not hold more than you need for that purpose.
+
+You should therefore identify the minimum amount of personal data you need to fulfil your purpose. You should hold that much information, but no more. For example, this could involve recording for a defined time period, or restricting the recording to a particular location.
+
+It is also important that a surveillance system produces information that is of a suitable quality to meet the purpose(s) you installed it for. If the identification of individuals is a necessary part of the processing, then poor quality information that does not assist this purpose may undermine the reason for installing the system.
+
+The decisions you make, and the reasons for selecting a particular surveillance system should not be based solely on technical capabilities. For example, the quality of the images it can produce, the field of vision it offers or the amount of data it can record. It is important that you also consider the governance capabilities that complement the system, such as software that enables footage to be uploaded, stored and audited. In addition, personal data should be easily retrievable in response to a subject access request and other individual rights. You should ensure that your systems have the capability to redact footage if third parties need to be blurred or obscured. See the section in this guidance on redaction for further information.
+
+You can encounter challenges to compliance with data protection law if your focus is on technical capability over the transparency of the processing or the governance of information. You need to consider each area equally. You may feel constrained by what is available on the market in terms of surveillance systems, however this does not stop you from specifying the features you require and asking system providers to respond to these demands. This is supported by the UK GDPR (Recital 78), which explains that manufacturers of products and services that are based on the processing of personal data, should be encouraged to take into account the right to data protection when in development. This is an aspect of data protection by design and default.
+
+Example
+
+A controller chooses a Body Worn Video (BWV) system that allows video and audio recording to be switched on and off easily, to ensure that excessive information is not recorded continuously. In addition, the controller is able to efficiently upload necessary footage at the end of use in a secure manner, and retain it for a defined period.
+
+In response to a subject access request, the controller is able to efficiently locate relevant footage and apply redaction techniques to protect the rights of third parties if required, within the statutory response times.
+
+#### What about the retention of information?
+
+Checklist
+
+☐ We have decided on the shortest period that we need to retain the information for, based on our purpose(s) for recording.
+
+☐ We have documented our information retention policy and it is readily available and understood by those who operate the system.
+
+☐ We have measures in place to ensure the permanent deletion of information through secure methods.
+
+☐ We undertake systematic checks to ensure that the retention period is being adhered to.
+
+The UK GDPR and the DPA 2018 do not prescribe any specific minimum or maximum retention periods which apply to surveillance systems or the personal data you may process. Rather, it is the purpose of your processing that should determine your retention period. You should therefore be able to determine what your purpose for using a surveillance system is, and then how long you need to retain the data for. Personal data held for too long will, by definition, be unnecessary. You are therefore unlikely to have a lawful basis for such retention. It is key that you do not retain data for longer than is needed. Therefore your retention period should be the shortest period for that purpose. Where information is no longer needed, then you should delete it.
+
+You should also not determine your retention period simply by the storage capacity of any surveillance system, or just in case you think the data may be useful in the future. For example, footage from a surveillance system shouldn’t be kept for six months merely because the manufacturer’s settings on the surveillance system allow retention for this length of time.
+
+On occasion, you may need to retain information for a longer period for a specific purpose. For example, where a law enforcement agency is investigating a crime and asks for you to preserve it to give them an opportunity to view it as part of an active investigation.
+
+#### How should we securely store and view the information our surveillance system processes?
+
+Checklist
+
+☐ We can demonstrate that appropriate technical and organisational measures are in place that maintains the confidentiality, integrity and availability of the information captured from our surveillance systems.
+
+☐ We ensure that access to footage is restricted only to authorised individuals.
+
+☐ We can obtain copies of footage from our system in a timely manner, in a suitable format without losing image quality or time and date information.
+
+☐ We are able to retrieve footage from our systems efficiently if it is requested for disclosures or for further examination, within relevant statutory timescales.
+
+☐ We can demonstrate that the information we collect complies with designated technical standards.
+
+You should store recorded material securely in a way that maintains the confidentiality, integrity and availability of the information. This is to ensure that you protect the rights of individuals recorded by surveillance systems and can use the information effectively for its intended purpose.
+
+To do this, you need to carefully choose how you hold and record the information, and ensure that access is restricted only to authorised individuals. You also need to ensure that the information is secure and where necessary, encrypted. Encryption can provide an effective means to prevent unauthorised access to images processed in a surveillance system. However, there are circumstances where it is not always possible to apply encryption.
+
+Where encryption is not achievable, then you should employ other appropriate technical methods to ensure the safety and security of information.
+
+If you are going to collect and retain a large amount of information, (eg extended video footage), then you may consider storing the data in a cloud computing system. You need to ensure that this system is secure. If you have contracted a cloud provider to provide data storage, you need to ensure that the provider can offer sufficient security, and explore whether the sharing of personal data might amount to an international transfer (if the cloud provider is based abroad). The ICO has published guidance on international data transfers that covers this issue in more detail.
+
+For accountability reasons, you may also wish to keep a record or audit trail showing how you handle information, if it is likely to be used as evidence for law enforcement purposes.
+
+You should restrict the viewing of live surveillance on monitors to the operator and any other authorised person, unless the monitor displays a scene which is also in plain sight from the monitor location. You should also view recorded surveillance footage in a restricted area, such as a designated secure office.
+
+Example
+
+A CCTV system is installed in a hotel for the purposes of security, with monitors at the hotel reception area showing guests in the corridors and lifts, (i.e. out of sight of the reception area).
+
+The monitors should be positioned so that they are only visible to relevant staff. Members of the public should not be allowed access to the area where staff can view them.
+
+When implementing appropriate technical and organisational security measures, you should check:
+
+- any ability to make copies of information is restricted to appropriate staff;
+
+- there are sufficient controls and safeguards in place if the system is connected to, or made available, across a network;
+
+- where information is disclosed to a third party, you are able to safely deliver it to the intended recipient;
+
+- control rooms and rooms where information is stored are secure;
+
+- staff are trained in security procedures, with sanctions against staff who misuse surveillance system information;
+
+- staff are aware that they could be committing a criminal offence if they misuse surveillance system information;
+
+- there are any software updates (particularly security updates) published by the equipment’s manufacturer that need to be applied to your system or any other devices connected to it, or both.
+
+Where possible you should aim to document procedures and ensure you review them regularly. This is to ensure you maintain the standards you established during the setup of your system.
+
+Similarly, you should build in a periodic review of your system’s effectiveness to ensure that it is still doing what it was intended to do. If it does not achieve its purpose, you should stop the processing until you modify the system accordingly. The timescale for such a review depends on your organisation’s circumstances, but could include a regular monthly review or a much longer timescale if appropriate.
+
+Further reading
+
+- ICO encryption guidance
+
+- There is further information in the ICO’s guidance on the use of cloud computing.
+
+## Governance (post-deployment)
+
+### At a glance
+
+You must control any disclosure of information to third parties from your surveillance system and ensure that the disclosure is consistent with the purpose(s) for which you set up the system.
+
+Your staff who operate surveillance systems should be able to recognise a request to access, erase or restrict personal data, and help progress these requests efficiently.
+
+You may need to use specialist software to redact visual and audio data of third parties. Available techniques include blurring, masking, or using a solid fill to completely obscure parts of the footage. The technique most applicable depends on the circumstances of how the footage was created and the quality of the footage.
+
+The design of your surveillance system should allow you to easily locate and extract personal data, specifically in response to subject access requests and FOI requests.
+
+### In detail
+
+- Can we disclose information to third parties from our surveillance system?
+
+- How do we comply with the rights of individuals?
+
+- How should we redact information about third parties?
+
+- What about freedom of information legislation?
+
+#### Can we disclose information to third parties from our surveillance system?
+
+Checklist
+
+☐ We have clear guidance for relevant staff in our organisation who may handle requests for disclosure, that explains the circumstances where it is appropriate to make a disclosure and when it is not.
+
+☐ We record the date of the disclosure along with details of who we have provided the information to (the name of the person and the organisation they represent) and why they required it.
+
+☐ We ensure that any method of disclosing information is secure, so the footage is only seen by the intended recipient, and not lost in transit.
+
+☐ We have data sharing agreements in place where appropriate, if we need to share information on an ad hoc or routine basis.
+
+☐ We are aware that some disclosures to third parties may be unlawful and qualify as an offence under data protection law if the disclosure was made knowingly or recklessly without the consent of the controller.
+
+You must ensure that any disclosure of information to third parties from your surveillance system is controlled and that the disclosure itself is consistent with the purpose(s) for which you set up the system. For example, in most cases it is appropriate to disclose video surveillance information to law enforcement when the purpose of the system is to contribute to the prevention and detection of crime. Unless a court order applies, this is not a legal requirement and is often voluntary. But this could be a shopkeeper proactively disclosing CCTV footage of a crime taking place on the premises, to the police.
+
+You should note that even if your surveillance system was not established to prevent and detect crime, it is still acceptable to disclose information to law enforcement agencies, if relevant. Failure to do so could prejudice an ongoing investigation.
+
+Example
+
+An assault takes place in a night club and the event is captured on CCTV, which is installed inside the premises for public safety and crime prevention.
+
+The local police force requests a copy of the footage from the night club owner in order to investigate the incident. When satisfied by the request, the night club owner is able to efficiently review and retrieve the captured footage and provide a specific clip of the incident to the police to assist the ongoing investigation.
+
+You should approach any other requests for information with care, as wider disclosure may be unfair on the individuals concerned. Further, some disclosures to third parties may be unlawful and qualify as an offence under section 170 DPA 2018 if the disclosure was made knowingly or recklessly without the consent of the controller. In some limited circumstances it may be appropriate to release information to a third party in the public interest, where the needs of the disclosure outweigh those of the individuals whose information is recorded. Further guidance about data sharing can be found in our data sharing code.
+
+In the majority of circumstances it may not be appropriate for you to place footage captured by your organisation on the internet to an indefinite audience (eg by uploading it to a video-sharing platform). Placing such information on the internet incorrectly, for incompatible purposes or without full consideration, may cause the unlawful disclosure of personal data. You should also balance such disclosures against Article 85 UK GDPR, the right to freedom of expression and information, including processing for journalistic purposes and the purposes of academic, artistic or literary expression.
+
+Unauthorised disclosures can cause damage and distress to individuals, and may lead to the ICO taking enforcement action. Other laws that focus on libel, harassment, malicious communications or threatening behaviour may also apply in some circumstances.
+
+As the operator of the surveillance system, any decisions about disclosure are your responsibility. You have discretion to refuse any request unless there is an overriding legal obligation. For example, a court order.
+
+Once you have disclosed information to a third party they become the controller for the copy they hold. It is their responsibility to also comply with the UK GDPR and the DPA 2018 for any further disclosures. It is also important that any method of disclosing information should be secure. This is to ensure the footage is only seen by the intended recipient, and not lost in transit or unintentionally distributed further.
+
+Further reading – ICO guidance
+
+Data sharing code
+
+#### How do we comply with the rights of individuals?
+
+Checklist
+
+☐ We have staff who operate surveillance systems that can recognise a request to access, erase or restrict personal data, and can help progress such requests efficiently.
+
+☐ We have internal procedures for the handling of requests. This includes keeping a log of the requests we receive and how we dealt with them within the statutory timescales.
+
+☐ We have procedures in place to help locate the requester’s information. This includes using the date, time and location where the footage was captured.
+
+☐ We are able to provide footage to individual requesters or law enforcement in a commonly used video file format.
+
+##### The right of access
+
+You need to ensure that your staff who operate your surveillance system are aware of the rights that individuals have under data protection law, such as the right of access, erasure or restriction. Relevant staff need to be able to recognise these requests from individuals. This means that they can retrieve information in a timely manner, and also help prevent any processing that is likely to cause substantial and unwarranted damage or distress. You also need to be able to provide footage to individual requesters or law enforcement authorities in a commonly used video file format.
+
+Under Article 15 of the UK GDPR, the right of access gives individuals the right to obtain a copy of their personal data from you, as well as other supplementary information. This is a fundamental right for individuals and helps them understand how and why you are using their data, and check you are doing it lawfully. You should ensure that the design of your surveillance system allows you to easily locate and extract personal data in response to subject access requests.
+
+Before you can respond to a subject access request (SAR), you need to be able to decide whether the information you hold is personal data and, if so, whose personal data it is. Individuals can make a request verbally or in writing where needed, or to follow-up a verbal request with a written one. To ensure you comply with your obligations, we suggest for you to keep a log of any verbal requests to ensure a satisfactory record and audit trail.
+
+If you are unsure whether or not the request is valid, you should check with the individual that you have understood their request. This can help avoid later disputes about how you have interpreted it, and prevents delays. Individuals who request access must provide you with supporting details, such as a photo, date or time, that allows you to identify them as the subject of the information and also to help locate the personal data on your system efficiently.
+
+Under the UK GDPR you are required to provide the data subject with a copy of all the information caught by the request that constitutes their personal data, unless an exemption applies. You must supply them with a copy of the information in a permanent form or, if they agree, allow or arrange for them to view the information. If an individual refuses an offer to view the footage or they insist on a copy of the footage, then you must do whatever is reasonable in the circumstances to provide them with a copy of this information.
+
+Under the UK GDPR, there is no longer a standard fee that you can charge to exercise the right of access. You may however refuse to deal with the request or charge a reasonable fee if you feel the request for footage is manifestly unfounded or excessive. As a controller, you need to be able to demonstrate the excessive or manifestly unfounded character of the request. Read further guidance about excessive or manifestly unfounded requests.
+
+You must provide information promptly and within one month of receiving the request. Under the UK GDPR, you can extend the time to respond by a further two months if the request is complex or you have received a number of requests from the individual. Providing information promptly is important, particularly where you may have set retention periods for surveillance footage. This means that the information may be routinely deleted if you take the full month to respond. In such circumstances it is good practice to prevent the premature deletion of any information that falls within the scope of a request.
+
+Providing an individual with a transcript of either the audio or visual information contained in the footage is not enough to comply in most circumstances. This is because a transcript, or even a still photograph in some circumstances, is unlikely to fully communicate all of the contextual information within the footage that could be considered the data subject’s personal data.
+
+A clearly documented process will also help guide staff and operators of the system through these requests.
+
+##### The right to erasure
+
+Under Article 17 of the UK GDPR individuals have the right to have personal data erased. This is also known as the right to be forgotten. However, the right is not absolute and only applies in certain circumstances. This could, for example, be a request from an individual to request erasure of unnecessarily retained CCTV footage.
+
+In the context of surveillance, this right can apply if:
+
+- the information is no longer necessary for the purpose which you originally collected or processed it for;
+
+- you are relying on legitimate interests as your basis for processing, the individual objects to the processing of their information, and there is no overriding legitimate interest to continue this processing;
+
+- you have processed the personal information unlawfully (ie in breach of the lawfulness requirement); or
+
+- you have to erase it to comply with a specific legal obligation.
+
+There are circumstances where the right to erasure cannot be exercised as certain exemptions apply. In the context of surveillance, this may include but is not limited to:
+
+- processing necessary for the performance of a task carried out in the public interest or in the exercise of official authority;
+
+- certain research activities; or
+
+- compliance with a specific legal obligation to process surveillance information.
+
+##### The right to restriction of processing
+
+Article 18 of the UK GDPR gives individuals the right to restrict the processing of their personal data in certain circumstances. This means that an individual can limit the way that you use their data. This is an alternative to requesting the erasure of their data.
+
+Individuals have the right to restrict the processing of their personal data where they have a particular reason for wanting the restriction. In the context of surveillance footage, this may be because they have issues with the content of the information you hold or how you have processed their data. In most cases you will not be required to restrict an individual’s personal data indefinitely, but will need to have the restriction in place for a certain period of time.
+
+The UK GDPR suggests a number of different methods that you could use to restrict data, such as:
+
+- temporarily moving the data to another processing system;
+
+- making the data unavailable to users; or
+
+- temporarily removing published data from a website.
+
+#### How should we redact information about third parties?
+
+In the context of video surveillance, responding to the right of access may involve providing information that relates both to the requester and another individual. Your obligations under the UK GDPR are to provide a copy of the information about the requester rather than a complete version of footage. But also to ensure doing so does not adversely affect the rights and freedoms of others. Therefore, you may have to consider seeking the consent of third parties where reasonable or alternatively removing or redacting particular footage. You should consider the nature and context of the footage to determine the level of harm that may arise from choosing not to redact. In practice, you need to approach each request for information on a case-by-case basis, and make a reasonable determination based on the particular circumstances.
+
+For example, from Body Worn Video (BWV) or a more traditional CCTV system, available techniques could include blurring, masking, or using a solid fill to completely obscure parts of the footage. You may also wish to consider removing metadata from footage files where necessary. The technique most applicable will depend on the circumstances of how the footage was created and its quality. To do this, you may need to use specialist software to redact visual and audio data.
+
+This software is sometimes provided with commercially available surveillance systems to support back office functions, or through separate products. While professional software requires training and expertise to operate, redaction tools that compliment systems are designed to be easy to use. You should train relevant members of staff to use this software, for example to respond to requests efficiently within the statutory timescales.
+
+When you procure a surveillance system, as part of your DPIA before any processing you should always consider the capabilities the technology offers in terms of governance. You should not choose a product based solely on its ability to capture footage. You should also seek to use products whose manufacturers have built them in line with data protection by design and default considerations. This ensures that you do not adopt a system that does not allow you to comply with your data protection obligations.
+
+It may be necessary for you to contract out the redaction process to a specialist organisation. In this context, the third party is likely to become a processor, so you would need to have a written contract that specifies exactly how the information is to be used and provides you with explicit guarantees in terms of quality and security. See our guidance on controllers and processors for more information.
+
+#### What about freedom of information legislation?
+
+If you are a public authority, then you may receive requests under the Freedom of Information Act 2000 (FOIA) for information captured by surveillance systems. You should have a member of staff who is responsible for responding to freedom of information requests, and understands your responsibilities. You must respond within 20 working days from receipt of the request.
+
+Section 40 of FOIA contains a two-part exemption relating to information about individuals. If you receive a request for surveillance system information, you should consider the following questions:
+
+- Is the information personal data of the requester? If so, then that information is exempt from FOIA. Instead, you should treat this request as a data protection subject access request.
+
+- Is the information personal data of other people? If it is, then you can only disclose the information if:
+
+First condition: disclosure does not contravene one of the data protection principles.
+
+Second condition: disclosure does not contravene an objection to processing.
+
+Third condition: the information is not exempt from the right of access.
+
+In practical terms, if individuals are capable of being identified from the relevant surveillance footage, then it is personal data about those individuals. Where the information includes personal data of third parties, you should consider applying redaction techniques to obscure images. It may be appropriate to do this rather than exempting the information.
+
+If you are a public authority who has surveillance systems, you may also receive requests for information under FOIA relating to those surveillance systems. For example, requestors may ask for information about the operation of the systems, the siting of them, or the costs of using and maintaining them.
+
+If you hold this information, then you need to consider whether it is appropriate to disclose this information under FOIA. You should provide any information you hold unless you can show that an exemption applies. For example, if providing details of the location of cameras is likely to prejudice the prevention or detection of crime.
+
+This is not an exhaustive guide to handling FOI requests and we have further guidance about handling such requests.
+
+Note: Even where footage is exempt from FOIA, it may be lawful to provide it on a case-by-case basis without infringing data protection legislation if you have taken the reason for the request into account.
+
+Further reading
+
+For further information on FOIA, including how to handle requests for information, please refer to the ICO’s Guide to Freedom of Information.
+
+For further information on Freedom of Information (Scotland) Act 2002 (FOISA), please refer to The Scottish Information Commissioner.

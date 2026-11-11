@@ -20,7 +20,7 @@ No npm install or build step is required. The app is plain HTML, CSS and ES modu
 ## Project layout
 
 ```
-sources/                 OGL specification, legal and guidance packs plus manifest
+sources/                 OGL specification, legal, guidance and CCTV packs plus manifest
 corpus/chunks.jsonl      source chunks used for citations
 syllabus/syllabus.json   qualification -> unit -> session -> objective tree
 config/exam_formats.json paper sizes, timers, pass marks and source notes
