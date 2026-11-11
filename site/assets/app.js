@@ -19,6 +19,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
+const DATA_VERSION = '20261111b';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -680,7 +681,7 @@ function setupTheme() {
 }
 
 async function loadData() {
-  const urls = ['./data/syllabus.json', './data/exam_formats.json', './data/questions.json', './data/checklists.json'];
+  const urls = ['./data/syllabus.json', './data/exam_formats.json', './data/questions.json', './data/checklists.json'].map((url) => `${url}?v=${DATA_VERSION}`);
   const responses = await Promise.all(urls.map(async (url) => {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`${url}: ${res.status}`);
