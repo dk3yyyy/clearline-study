@@ -1,5 +1,5 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111r';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111w';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -20,7 +20,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111r';
+const DATA_VERSION = '20261111w';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -703,6 +703,10 @@ function setupMobileMenu() {
   const button = $('#mobile-menu');
   const nav = $('#main-nav');
   if (!button || !nav) return;
+  const closeMenu = () => {
+    button.setAttribute('aria-expanded', 'false'); button.textContent = 'Menu';
+    nav.classList.remove('mobile-open'); document.body.classList.remove('menu-open');
+  };
   button.addEventListener('click', () => {
     const open = button.getAttribute('aria-expanded') !== 'true';
     button.setAttribute('aria-expanded', String(open));
@@ -711,17 +715,14 @@ function setupMobileMenu() {
     document.body.classList.toggle('menu-open', open);
   });
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && nav.classList.contains('mobile-open')) {
-      button.setAttribute('aria-expanded', 'false'); button.textContent = 'Menu';
-      nav.classList.remove('mobile-open'); document.body.classList.remove('menu-open');
-    }
+    if (event.key === 'Escape' && nav.classList.contains('mobile-open')) closeMenu();
   });
-  $$('a', nav).forEach((link) => link.addEventListener('click', () => {
-    button.setAttribute('aria-expanded', 'false');
-    button.textContent = 'Menu';
-    nav.classList.remove('mobile-open');
-    document.body.classList.remove('menu-open');
-  }));
+  document.addEventListener('click', (event) => {
+    if (!nav.classList.contains('mobile-open')) return;
+    if (nav.contains(event.target) || button.contains(event.target)) return;
+    closeMenu();
+  });
+  $$('a', nav).forEach((link) => link.addEventListener('click', closeMenu));
 }
 
 function setupSkipLink() {

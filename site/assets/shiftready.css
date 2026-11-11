@@ -212,6 +212,11 @@ select:disabled { opacity: .6; cursor: not-allowed; }
 .qual-code { color: var(--accent-text); font-size: 14px; }
 .qual-level { color: var(--muted); }
 .qual-card p { color: var(--muted); }
+/* styles.css gives the description `flex: 1`, i.e. a flex-basis of 0, so the
+   paragraph adds nothing to the card's intrinsic height. In a short row the
+   box is then squeezed below its text and the second line runs into the
+   progress bar. A basis of auto lets the text set the floor. */
+.qual-card p { flex: 1 1 auto; }
 .qual-open { color: var(--accent-text); }
 .progress-line { height: 10px; border-radius: 999px; background: var(--border); }
 .progress-line > span { background: var(--accent); border-radius: 999px; }
@@ -380,8 +385,8 @@ dl.qual-stats dt { color: var(--muted); }
 .exam-head-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .empty-card .empty-card-title { color: var(--text); margin-bottom: 9px; font-size: clamp(1.7rem, 3vw, 2.6rem); }
 .topbar-actions .button, .topbar-actions .icon-button, .mobile-menu { min-height: 44px; }
-.objective { grid-template-columns: 30px minmax(0, 1fr) auto; }
-.objective-check { width: 28px; height: 28px; font-size: 13px; }
+.objective { grid-template-columns: 46px minmax(0, 1fr) auto; }
+.objective-check { width: 44px; height: 44px; font-size: 14px; }
 
 @media (max-width: 1040px) {
   .learn-layout { grid-template-columns: 1fr; gap: 24px; }
@@ -401,8 +406,34 @@ dl.qual-stats dt { color: var(--muted); }
 
 @media (max-width: 900px) {
   .main-nav { display: none; }
-  .main-nav.mobile-open { display: flex; }
+  /* backdrop-filter makes the header a containing block for fixed children,
+     which pushed the dropdown inward. Opaque header, viewport-width sheet. */
+  .topbar { backdrop-filter: none; background: var(--bg); }
+  /* The dropdown is positioned inside the shell, so `left: 0; right: 0` left a
+     32px gutter on each side where the page showed through. Span the viewport
+     and give the panel its own surface so it reads as a sheet. */
+  .main-nav.mobile-open {
+    display: flex;
+    position: fixed;
+    top: 62px;
+    left: 0;
+    right: 0;
+    width: auto;
+    transform: none;
+    margin: 0;
+    padding: 6px 24px 12px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    border-radius: 0 0 14px 14px;
+    box-shadow: var(--shadow);
+  }
   .mobile-menu { display: block; }
+  body.menu-open { overflow: hidden; }
+  body.menu-open::after { background: rgba(3, 7, 18, 0.68); }
+  .tabs, .learn-nav { -webkit-mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 28px), transparent 100%); mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 28px), transparent 100%); }
+  .tabs { position: relative; }
+  .unit-row-actions .button-small { min-height: 44px; }
+  .objective-actions a { display: inline-flex; align-items: center; min-height: 32px; padding: 0 4px; }
 }
 
 @media (max-width: 640px) {
