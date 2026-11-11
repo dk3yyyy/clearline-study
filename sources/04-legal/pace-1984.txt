@@ -1,0 +1,40 @@
+Police and Criminal Evidence Act 1984
+Official text from legislation.gov.uk. Open Government Licence v3.0 (OGL-3.0).
+Retrieved 2026-11-11. Wording reproduced as published; no amendments made.
+
+==========================================================================
+Section 24A
+Source: https://www.legislation.gov.uk/ukpga/1984/60/section/24A
+==========================================================================
+
+Part III — Arrest
+
+24A Arrest without warrant: other persons
+(1) A person other than a constable may arrest without a warrant—
+  (a) anyone who is in the act of committing an indictable offence;
+  (b) anyone whom he has reasonable grounds for suspecting to be committing an indictable offence.
+(2) Where an indictable offence has been committed, a person other than a constable may arrest without a warrant—
+  (a) anyone who is guilty of the offence;
+  (b) anyone whom he has reasonable grounds for suspecting to be guilty of it.
+(3) But the power of summary arrest conferred by subsection (1) or (2) is exercisable only if—
+  (a) the person making the arrest has reasonable grounds for believing that for any of the reasons mentioned in subsection (4) it is necessary to arrest the person in question; and
+  (b) it appears to the person making the arrest that it is not reasonably practicable for a constable to make it instead.
+(4) The reasons are to prevent the person in question—
+  (a) causing physical injury to himself or any other person;
+  (b) suffering physical injury;
+  (c) causing loss of or damage to property; or
+  (d) making off before a constable can assume responsibility for him.
+(5) This section does not apply in relation to an offence under Part 3 or 3A of the Public Order Act 1986.
+
+==========================================================================
+Section 117
+Source: https://www.legislation.gov.uk/ukpga/1984/60/section/117
+==========================================================================
+
+Part XI — Miscellaneous and Supplementary
+
+117 Power of constable to use reasonable force.
+Where any provision of this Act—
+  (a) confers a power on a constable; and
+  (b) does not provide that the power may only be exercised with the consent of some person, other than a police officer,
+the officer may use reasonable force, if necessary, in the exercise of the power.

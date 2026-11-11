@@ -1,0 +1,72 @@
+# Introduction to fire safety
+
+Most fires are preventable. Those responsible for workplaces and other buildings to which the public have access can avoid them by taking responsibility for and adopting the right behaviours and procedures.
+This page provides general advice on fire safety. We have separate guidance on substances that cause fire and explosion .
+
+## General fire safety hazards
+
+
+### Fires need 3 things to start:
+
+- a source of ignition (heat)
+- a source of fuel (something that burns)
+- oxygen
+
+### Sources of ignition include:
+
+- heaters
+- lighting
+- naked flames
+- electrical equipment
+- smokers' materials (such as cigarettes, matches)
+- anything else that can get very hot or cause sparks
+
+### Sources of fuel include:
+
+- wood
+- paper
+- plastic
+- rubber or foam
+- loose packaging materials
+- waste rubbish
+- furniture
+Sources of oxygen include the air around us.
+
+## What you have to do
+
+Employers (and/or building owners or occupiers) must carry out a fire safety risk assessment and keep it up to date. This shares the same approach as health and safety risk assessments and can be carried out either as part of an overall risk assessment or as a separate exercise.
+Based on the findings of the assessment, employers need to ensure that adequate and appropriate fire safety measures are in place to minimise the risk of injury or loss of life in the event of a fire. Remember to review and update your risk assessment regularly.
+To help prevent fire in the workplace, your risk assessment should identify what could cause a fire to start, such as sources of ignition (heat or sparks) and substances that burn, and the people who may be at risk. Once you have identified the risks, you can take appropriate action to control them. Consider whether you can avoid them altogether or, if this is not possible, how you can reduce the risks and manage them:
+- keep sources of ignition and flammable substances apart
+- avoid accidental fires, for example make sure heaters cannot be knocked over
+- ensure good housekeeping at all times, for example avoid build-up of rubbish that could burn
+Also consider how you will protect people if there is a fire:
+- Consider how to detect fires and how to warn people quickly if they start, for example, installing smoke alarms and fire alarms or bells
+- Have the correct fire-fighting equipment for putting a fire out quickly
+- Keep fire exits and escape routes clearly marked and unobstructed at all times
+- Ensure your workers receive appropriate training on procedures they need to follow, including fire drills
+More information can also be found on GOV.UK: Fire safety in the workplace: Who's responsible .
+
+## Example
+
+
+### Packing waste
+
+A shopkeeper regularly threw packing waste by the back door of his shop as he quickly stocked the shelves after a delivery. His workers sometimes opened the back door to have a cigarette break outside. One week he'd left the pile of rubbish for several days and a discarded cigarette butt caused it to catch fire. By the time the fire was spotted and put out, it had caused substantial damage to his back door and his shelving units. There was a significant cost in damaged stock and repairs.
+
+### How the fire could have been prevented
+
+This fire could have been easily prevented if the shopkeeper had completed his risk assessment and taken simple steps to control the risks.
+
+## Find out more
+
+- There is separate guidance on fire safety in the construction industry
+- GOV.UK has advice on fire safety in the workplace
+- The Welsh Government website has guidance on fire and rescue
+- The Scottish Government provides information on non-domestic fire safety
+
+## The law
+
+The Regulatory Reform (Fire Safety) Order covers general fire safety in England and Wales.
+In Scotland, requirements on general fire safety are covered in Part 3 of the Fire (Scotland) Act, supported by the Fire Safety (Scotland) Regulations .
+In the majority of premises, local fire and rescue authorities are responsible for enforcing this fire safety legislation. HSE has enforcement responsibility on construction sites and on ships under construction or undergoing repair.

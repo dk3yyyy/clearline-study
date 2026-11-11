@@ -463,6 +463,39 @@
   },
   {
     "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S10-O4",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "Which of these is listed as a Class A controlled drug in Schedule 2 to the Misuse of Drugs Act 1971?",
+    "options": [
+      "Amphetamine",
+      "Cocaine",
+      "Diazepam",
+      "Ketamine"
+    ],
+    "answer_index": 1,
+    "explanation": "Cocaine is listed in Part I of Schedule 2 as a Class A controlled drug.",
+    "source_chunk_ids": [
+      "mda-1971#sch2-pt1"
+    ],
+    "source_quote": "Cocaine.",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0015",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Misuse of Drugs Act 1971",
+      "url": "https://www.legislation.gov.uk/ukpga/1971/38/schedule/2"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
     "objective_id": "U1-COMMON-S10-O5",
     "qualifications": [
       "DS",
@@ -487,7 +520,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0015",
+    "id": "U1-COMMON-0016",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -520,7 +553,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0016",
+    "id": "U1-COMMON-0017",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -553,7 +586,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0017",
+    "id": "U1-COMMON-0018",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -586,7 +619,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0018",
+    "id": "U1-COMMON-0019",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -619,7 +652,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0019",
+    "id": "U1-COMMON-0020",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -652,7 +685,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0020",
+    "id": "U1-COMMON-0021",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -685,7 +718,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0021",
+    "id": "U1-COMMON-0022",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -718,7 +751,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0022",
+    "id": "U1-COMMON-0023",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -751,11 +784,44 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0023",
+    "id": "U1-COMMON-0024",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S2-O3",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "A venue's written policy says that people of a certain nationality will not be allowed in. Which type of discrimination does this policy show?",
+    "options": [
+      "Indirect discrimination",
+      "Victimisation",
+      "Harassment",
+      "Direct discrimination"
+    ],
+    "answer_index": 3,
+    "explanation": "Under Equality Act 2010 section 13, direct discrimination is treating someone less favourably because of a protected characteristic, such as race or nationality.",
+    "source_chunk_ids": [
+      "eqa-2010#s13"
+    ],
+    "source_quote": "A treats B less favourably than A treats or would treat others",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0025",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Equality Act 2010",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/13"
     }
   },
   {
@@ -784,7 +850,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0024",
+    "id": "U1-COMMON-0026",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -817,7 +883,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0025",
+    "id": "U1-COMMON-0027",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -850,11 +916,77 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0026",
+    "id": "U1-COMMON-0028",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S3-O2",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "A door supervisor sees a man grab a customer's phone and run towards the exit. Which condition allows the door supervisor to arrest him without a warrant?",
+    "options": [
+      "He is behaving in a way the operative finds offensive",
+      "He is in the act of committing an indictable offence",
+      "He has committed a minor motoring offence",
+      "The operative believes he may commit an offence next week"
+    ],
+    "answer_index": 1,
+    "explanation": "PACE section 24A allows a person other than a constable to arrest someone in the act of committing an indictable offence, or whom they reasonably suspect of doing so. The other options are not indictable offences being committed now.",
+    "source_chunk_ids": [
+      "pace-1984#s24A"
+    ],
+    "source_quote": "anyone who is in the act of committing an indictable offence",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0029",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Police and Criminal Evidence Act 1984",
+      "url": "https://www.legislation.gov.uk/ukpga/1984/60/section/24A"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S3-O3",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 3,
+    "stem": "A man suspected of an indictable offence is sitting calmly on a bench. Police are two minutes away. What else must be true before the operative may arrest him?",
+    "options": [
+      "A constable cannot reasonably make the arrest instead",
+      "The man agrees to be arrested",
+      "The man has no identification",
+      "The operative has a written warrant"
+    ],
+    "answer_index": 0,
+    "explanation": "PACE section 24A also requires that it appears to the person making the arrest that it is not reasonably practicable for a constable to make the arrest instead.",
+    "source_chunk_ids": [
+      "pace-1984#s24A"
+    ],
+    "source_quote": "it is not reasonably practicable for a constable to make it instead",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0030",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Police and Criminal Evidence Act 1984",
+      "url": "https://www.legislation.gov.uk/ukpga/1984/60/section/24A"
     }
   },
   {
@@ -883,7 +1015,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0027",
+    "id": "U1-COMMON-0031",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -916,7 +1048,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0028",
+    "id": "U1-COMMON-0032",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -949,7 +1081,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0029",
+    "id": "U1-COMMON-0033",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -982,11 +1114,110 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0030",
+    "id": "U1-COMMON-0034",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S3-O7",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "During a fight, an operative pulls a man away to stop him punching someone. Which statement correctly describes the force the operative may use?",
+    "options": [
+      "Any force needed to make the man leave the venue",
+      "Force only after a court has approved it",
+      "Force that is reasonable in the circumstances to prevent crime",
+      "No force at all, because only the police may use force"
+    ],
+    "answer_index": 2,
+    "explanation": "Section 3 of the Criminal Law Act 1967 allows a person to use such force as is reasonable in the circumstances in the prevention of crime or in making a lawful arrest.",
+    "source_chunk_ids": [
+      "cla-1967#s3"
+    ],
+    "source_quote": "such force as is reasonable in the circumstances in the prevention of crime",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0035",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Criminal Law Act 1967",
+      "url": "https://www.legislation.gov.uk/ukpga/1967/58/section/3"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S4-O1",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "A lone worker at a remote gate is told to check in by radio every hour. He skips the checks because nothing has ever happened. Which duty is he failing?",
+    "options": [
+      "To carry out the employer's fire risk assessment",
+      "To provide his own first-aid training",
+      "To take reasonable care for his own health and safety and co-operate with his employer",
+      "To report the employer to the enforcing authority"
+    ],
+    "answer_index": 2,
+    "explanation": "HSWA section 7 requires every employee to take reasonable care for their own health and safety and that of others, and to co-operate with the employer's health and safety arrangements. Lone-worker check-ins are part of those arrangements.",
+    "source_chunk_ids": [
+      "hswa-1974#s7"
+    ],
+    "source_quote": "to take reasonable care for the health and safety of himself and of other persons",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0036",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Health and Safety at Work etc. Act 1974",
+      "url": "https://www.legislation.gov.uk/ukpga/1974/37/section/7"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S4-O1",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "A security company sends a new operative to a busy venue without any site training or written instructions. Which employer duty has most directly not been met?",
+    "options": [
+      "Providing the necessary information, instruction, training and supervision",
+      "Providing free meals during shifts",
+      "Paying the operative's travel costs",
+      "Checking the operative's licence with the SIA"
+    ],
+    "answer_index": 0,
+    "explanation": "HSWA section 2 places a duty on employers to provide the information, instruction, training and supervision necessary for the health and safety of employees, so far as is reasonably practicable.",
+    "source_chunk_ids": [
+      "hswa-1974#s2"
+    ],
+    "source_quote": "the provision of such information, instruction, training and supervision as is necessary",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0037",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Health and Safety at Work etc. Act 1974",
+      "url": "https://www.legislation.gov.uk/ukpga/1974/37/section/2"
     }
   },
   {
@@ -1015,7 +1246,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0031",
+    "id": "U1-COMMON-0038",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1048,7 +1279,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0032",
+    "id": "U1-COMMON-0039",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1081,7 +1312,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0033",
+    "id": "U1-COMMON-0040",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1114,7 +1345,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0034",
+    "id": "U1-COMMON-0041",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1147,11 +1378,44 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0035",
+    "id": "U1-COMMON-0042",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S4-O6",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "An operative clears out a store room and puts old incident logbooks, containing customers' names and addresses, into the general waste. What should have been done instead?",
+    "options": [
+      "Dispose of paper and electronic waste securely",
+      "Keep the logbooks for at least ten years",
+      "Store the logbooks on a personal phone",
+      "Give the logbooks to another operative"
+    ],
+    "answer_index": 0,
+    "explanation": "ICO security guidance says physical security includes how you dispose of any paper and electronic waste, because hard-copy records can be lost, stolen or incorrectly disposed of.",
+    "source_chunk_ids": [
+      "ico-data-security#physical-security"
+    ],
+    "source_quote": "how you dispose of any paper and electronic waste",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "U1-COMMON-0043",
+    "source_quote_exact": true,
+    "source": {
+      "title": "A guide to data security",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security/"
     }
   },
   {
@@ -1180,7 +1444,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0036",
+    "id": "U1-COMMON-0044",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1213,11 +1477,44 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0037",
+    "id": "U1-COMMON-0045",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S5-O3",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 1,
+    "stem": "A storeroom has cardboard boxes stacked against a wall heater. Which fire prevention control does HSE guidance recommend?",
+    "options": [
+      "Store the boxes in a locked cupboard under the stairs",
+      "Keep sources of ignition and flammable substances apart",
+      "Turn the heater off only at the end of the week",
+      "Ask staff to report fires after they start"
+    ],
+    "answer_index": 1,
+    "explanation": "HSE fire prevention guidance says to keep sources of ignition and flammable substances apart, and to avoid build-up of rubbish that could burn.",
+    "source_chunk_ids": [
+      "hse-fire-safety#prevention"
+    ],
+    "source_quote": "keep sources of ignition and flammable substances apart",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": false,
+    "id": "U1-COMMON-0046",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Introduction to fire safety",
+      "url": "https://www.hse.gov.uk/fireandexplosion/fire-safety.htm"
     }
   },
   {
@@ -1246,7 +1543,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0038",
+    "id": "U1-COMMON-0047",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1279,7 +1576,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0039",
+    "id": "U1-COMMON-0048",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1312,7 +1609,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0040",
+    "id": "U1-COMMON-0049",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1345,7 +1642,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0041",
+    "id": "U1-COMMON-0050",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1378,7 +1675,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0042",
+    "id": "U1-COMMON-0051",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1411,7 +1708,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0043",
+    "id": "U1-COMMON-0052",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1444,11 +1741,77 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0044",
+    "id": "U1-COMMON-0053",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S6-O5",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "An operative finds a customer who does not respond when asked loudly if they are all right. What should the operative do next?",
+    "options": [
+      "Shout for help, open the airway and check for normal breathing",
+      "Start chest compressions straight away",
+      "Place the customer in the recovery position",
+      "Wait for the customer to wake up"
+    ],
+    "answer_index": 0,
+    "explanation": "HSE guidance says that if there is no response, the priorities are to shout for help, open the airway, check for normal breathing and then take appropriate action.",
+    "source_chunk_ids": [
+      "hse-first-aid#checking-response"
+    ],
+    "source_quote": "shout for help; open the airway; check for normal breathing",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0054",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Basic advice on first aid at work (INDG347)",
+      "url": "https://www.hse.gov.uk/pubns/indg347.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S6-O5",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "An operative is first to reach a customer who has collapsed near a spilled chemical. What should the operative do first?",
+    "options": [
+      "Move the customer away immediately",
+      "Start chest compressions",
+      "Give the customer water",
+      "Assess the situation and make the area safe without putting himself in danger"
+    ],
+    "answer_index": 3,
+    "explanation": "HSE first-aid priorities are to assess the situation without putting yourself in danger, make the area safe, then assess casualties and send for help.",
+    "source_chunk_ids": [
+      "hse-first-aid#responsibilities"
+    ],
+    "source_quote": "assess the situation – do not put yourself in danger",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0055",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Basic advice on first aid at work (INDG347)",
+      "url": "https://www.hse.gov.uk/pubns/indg347.pdf"
     }
   },
   {
@@ -1477,7 +1840,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0045",
+    "id": "U1-COMMON-0056",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1510,7 +1873,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0046",
+    "id": "U1-COMMON-0057",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1543,7 +1906,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0047",
+    "id": "U1-COMMON-0058",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1576,7 +1939,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0048",
+    "id": "U1-COMMON-0059",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1609,7 +1972,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0049",
+    "id": "U1-COMMON-0060",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1642,7 +2005,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0050",
+    "id": "U1-COMMON-0061",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1675,7 +2038,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0051",
+    "id": "U1-COMMON-0062",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1708,7 +2071,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0052",
+    "id": "U1-COMMON-0063",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1741,7 +2104,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0053",
+    "id": "U1-COMMON-0064",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1774,7 +2137,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0054",
+    "id": "U1-COMMON-0065",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1807,11 +2170,44 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0055",
+    "id": "U1-COMMON-0066",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U1-COMMON",
+    "objective_id": "U1-COMMON-S9-O1",
+    "qualifications": [
+      "DS",
+      "SO",
+      "CCTV"
+    ],
+    "difficulty": 2,
+    "stem": "A manager asks how long the current national threat level will last. What is the correct answer?",
+    "options": [
+      "It expires after 30 days",
+      "It is reviewed only after an attack",
+      "It has no expiry date and can change at any time",
+      "It remains fixed until the next general election"
+    ],
+    "answer_index": 2,
+    "explanation": "Threat levels do not have an expiry date. They are set by the Joint Terrorism Analysis Centre and MI5 and can change at any time as information becomes available.",
+    "source_chunk_ids": [
+      "govuk-threat-levels#setting-and-review"
+    ],
+    "source_quote": "Threat levels do not have an expiry date.",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U1-COMMON-0067",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Terrorism threat levels",
+      "url": "https://www.gov.uk/terrorism-national-emergency/threat-levels"
     }
   },
   {
@@ -1840,7 +2236,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0056",
+    "id": "U1-COMMON-0068",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1873,7 +2269,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0057",
+    "id": "U1-COMMON-0069",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1906,7 +2302,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0058",
+    "id": "U1-COMMON-0070",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1939,7 +2335,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0059",
+    "id": "U1-COMMON-0071",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -1972,7 +2368,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0060",
+    "id": "U1-COMMON-0072",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
@@ -4988,6 +5384,68 @@
     "qualifications": [
       "DS"
     ],
+    "difficulty": 3,
+    "stem": "A door supervisor quotes section 117 of the Police and Criminal Evidence Act 1984 as authority to use force on a customer. What does that section actually cover?",
+    "options": [
+      "Force used by any licensed security operative",
+      "Force used by a constable when exercising a power under the Act",
+      "Force used by a customer to resist an arrest",
+      "Force used by a venue manager to remove a trespasser"
+    ],
+    "answer_index": 1,
+    "explanation": "Section 117 applies where a provision of the Act gives a power to a constable and does not require consent. It lets the officer use reasonable force, if necessary, when exercising that power; it does not give door supervisors a power to use force.",
+    "source_chunk_ids": [
+      "pace-1984#s117"
+    ],
+    "source_quote": "the officer may use reasonable force, if necessary, in the exercise of the power",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U4-PI-0004",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Police and Criminal Evidence Act 1984",
+      "url": "https://www.legislation.gov.uk/ukpga/1984/60/section/117"
+    }
+  },
+  {
+    "unit": "U4-PI",
+    "objective_id": "U4-PI-S1-O1",
+    "qualifications": [
+      "DS"
+    ],
+    "difficulty": 2,
+    "stem": "A door supervisor uses force to stop a fight at the entrance. What is the legal limit on that force?",
+    "options": [
+      "Such force as is reasonable in the circumstances",
+      "Any force needed to remove the person from the venue",
+      "The same force a police officer would be allowed to use",
+      "Force agreed in advance with the venue manager"
+    ],
+    "answer_index": 0,
+    "explanation": "The Criminal Law Act 1967 allows such force as is reasonable in the circumstances when preventing crime or helping with a lawful arrest. Force does not become lawful because the venue manager agrees to it, and a door supervisor does not get the powers of a police officer.",
+    "source_chunk_ids": [
+      "cla-1967#s3"
+    ],
+    "source_quote": "A person may use such force as is reasonable in the circumstances in the prevention of crime",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U4-PI-0005",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Criminal Law Act 1967",
+      "url": "https://www.legislation.gov.uk/ukpga/1967/58/section/3"
+    }
+  },
+  {
+    "unit": "U4-PI",
+    "objective_id": "U4-PI-S1-O1",
+    "qualifications": [
+      "DS"
+    ],
     "difficulty": 2,
     "stem": "A door supervisor's handling of a restraint is reviewed by their manager. Which implications of the intervention does this concern?",
     "options": [
@@ -5006,7 +5464,38 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0004",
+    "id": "U4-PI-0006",
+    "source_quote_exact": true,
+    "source": {
+      "title": "SIA Physical Intervention Skills specification (2021)",
+      "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U4-PI",
+    "objective_id": "U4-PI-S1-O1",
+    "qualifications": [
+      "DS"
+    ],
+    "difficulty": 2,
+    "stem": "A newly qualified door supervisor believes the qualification gives extra legal powers to use force. Which statement is correct?",
+    "options": [
+      "The qualification allows force that a member of the public could not use",
+      "The door supervisor has the same rights as a private individual and no more",
+      "The qualification removes the need to follow the law on the use of force",
+      "The door supervisor may use force whenever a customer refuses to leave"
+    ],
+    "answer_index": 1,
+    "explanation": "Achieving the qualification does not remove the duty to act in line with the law on the use of force. A door supervisor has the same rights as a private individual and no more, so the qualification itself adds no legal powers.",
+    "source_chunk_ids": [
+      "sia-physical-intervention-specification-2021#rights"
+    ],
+    "source_quote": "a door supervisor has the same rights as a private individual and no more",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U4-PI-0007",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5037,7 +5526,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0005",
+    "id": "U4-PI-0008",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5068,7 +5557,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0006",
+    "id": "U4-PI-0009",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5099,7 +5588,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0007",
+    "id": "U4-PI-0010",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5130,7 +5619,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0008",
+    "id": "U4-PI-0011",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5161,7 +5650,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0009",
+    "id": "U4-PI-0012",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5192,7 +5681,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0010",
+    "id": "U4-PI-0013",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5223,7 +5712,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0011",
+    "id": "U4-PI-0014",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5254,7 +5743,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0012",
+    "id": "U4-PI-0015",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5285,7 +5774,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0013",
+    "id": "U4-PI-0016",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5316,7 +5805,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0014",
+    "id": "U4-PI-0017",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5347,7 +5836,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0015",
+    "id": "U4-PI-0018",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5378,11 +5867,73 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0016",
+    "id": "U4-PI-0019",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
+    }
+  },
+  {
+    "unit": "U4-PI",
+    "objective_id": "U4-PI-S1-O3",
+    "qualifications": [
+      "DS"
+    ],
+    "difficulty": 2,
+    "stem": "A venue expects its door staff to use physical intervention. What must the employer provide under health and safety law?",
+    "options": [
+      "Only a written warning for staff who refuse to intervene",
+      "Equipment that staff pay for themselves",
+      "Information, instruction, training and supervision as necessary",
+      "A police officer on duty at every entrance"
+    ],
+    "answer_index": 2,
+    "explanation": "The Health and Safety at Work etc. Act 1974 requires an employer to provide the information, instruction, training and supervision needed to keep employees healthy and safe at work, so far as is reasonably practicable. It does not place that duty on the staff themselves or on the police.",
+    "source_chunk_ids": [
+      "hswa-1974#s2"
+    ],
+    "source_quote": "the provision of such information, instruction, training and supervision as is necessary",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U4-PI-0020",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Health and Safety at Work etc. Act 1974",
+      "url": "https://www.legislation.gov.uk/ukpga/1974/37/section/2"
+    }
+  },
+  {
+    "unit": "U4-PI",
+    "objective_id": "U4-PI-S1-O3",
+    "qualifications": [
+      "DS"
+    ],
+    "difficulty": 2,
+    "stem": "During a restraint, a door supervisor's actions put a colleague and a customer at risk. What duty does the door supervisor have under the Health and Safety at Work etc. Act 1974?",
+    "options": [
+      "To take care only of their own safety",
+      "To wait for the employer to identify every risk",
+      "To report the risk only after someone is injured",
+      "To take reasonable care for the health and safety of themselves and others affected by their acts or omissions"
+    ],
+    "answer_index": 3,
+    "explanation": "Employees must take reasonable care for their own health and safety and for that of other people who may be affected by what they do or fail to do at work. The duty is not limited to their own safety and does not wait for an injury.",
+    "source_chunk_ids": [
+      "hswa-1974#s7"
+    ],
+    "source_quote": "to take reasonable care for the health and safety of himself and of other persons",
+    "spec_version": "2021",
+    "jurisdiction": "EW",
+    "status": "draft",
+    "requires_human_review": true,
+    "id": "U4-PI-0021",
+    "source_quote_exact": true,
+    "source": {
+      "title": "Health and Safety at Work etc. Act 1974",
+      "url": "https://www.legislation.gov.uk/ukpga/1974/37/section/7"
     }
   },
   {
@@ -5409,7 +5960,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0017",
+    "id": "U4-PI-0022",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5440,7 +5991,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0018",
+    "id": "U4-PI-0023",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5471,7 +6022,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0019",
+    "id": "U4-PI-0024",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5502,7 +6053,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0020",
+    "id": "U4-PI-0025",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5533,7 +6084,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0021",
+    "id": "U4-PI-0026",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5564,7 +6115,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0022",
+    "id": "U4-PI-0027",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5595,7 +6146,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0023",
+    "id": "U4-PI-0028",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5626,7 +6177,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0024",
+    "id": "U4-PI-0029",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
@@ -5657,7 +6208,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0025",
+    "id": "U4-PI-0030",
     "source_quote_exact": true,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",

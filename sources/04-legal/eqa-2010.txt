@@ -1,0 +1,43 @@
+Equality Act 2010
+Official text from legislation.gov.uk. Open Government Licence v3.0 (OGL-3.0).
+Retrieved 2026-11-11. Wording reproduced as published; no amendments made.
+
+==========================================================================
+Section 13
+Source: https://www.legislation.gov.uk/ukpga/2010/15/section/13
+==========================================================================
+
+Part 2 — Equality: key concepts
+
+Chapter 2 — Prohibited conduct
+
+Discrimination
+
+13 Direct discrimination
+(1) A person (A) discriminates against another (B) if, because of a protected characteristic, A treats B less favourably than A treats or would treat others.
+(2) If the protected characteristic is age, A does not discriminate against B if A can show A's treatment of B to be a proportionate means of achieving a legitimate aim.
+(3) If the protected characteristic is disability, and B is not a disabled person, A does not discriminate against B only because A treats or would treat disabled persons more favourably than A treats B.
+(4) If the protected characteristic is marriage and civil partnership, this section applies to a contravention of Part 5 (work) only if the treatment is because it is B who is married or a civil partner.
+(5) If the protected characteristic is race, less favourable treatment includes segregating B from others.
+(6) If the protected characteristic is sex—
+  (a) less favourable treatment of a woman includes less favourable treatment of her because she is breast-feeding;
+  (b) in a case where B is a man, no account is to be taken of special treatment afforded to a woman in connection with pregnancy , childbirth or maternity.
+(7) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+(8) This section is subject to sections 17(6) and 18(7).
+
+==========================================================================
+Section 15
+Source: https://www.legislation.gov.uk/ukpga/2010/15/section/15
+==========================================================================
+
+Part 2 — Equality: key concepts
+
+Chapter 2 — Prohibited conduct
+
+Discrimination
+
+15 Discrimination arising from disability
+(1) A person (A) discriminates against a disabled person (B) if—
+  (a) A treats B unfavourably because of something arising in consequence of B's disability, and
+  (b) A cannot show that the treatment is a proportionate means of achieving a legitimate aim.
+(2) Subsection (1) does not apply if A shows that A did not know, and could not reasonably have been expected to know, that B had the disability.
