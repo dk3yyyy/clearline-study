@@ -1,5 +1,5 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ad';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ae';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -20,7 +20,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111ad';
+const DATA_VERSION = '20261111ae';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -48,9 +48,11 @@ const saveStore = () => {
 function setTheme(theme, persist = true) {
   if (theme === 'dark' || theme === 'light') {
     document.documentElement.dataset.theme = theme;
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'light' ? '#F6F7F9' : '#0B1220');
     if (persist) { try { localStorage.setItem('theme', theme); } catch (error) {} }
   } else {
     document.documentElement.removeAttribute('data-theme');
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', systemTheme() === 'light' ? '#F6F7F9' : '#0B1220');
     if (persist) { try { localStorage.removeItem('theme'); } catch (error) {} }
   }
   updateThemeIcon();
@@ -242,7 +244,7 @@ function renderQual(qualId) {
   $('#app').innerHTML = `<section class="page-head"><div class="shell">
     <div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><span>${esc(qual.id)}</span></div>
     <div class="page-head-grid"><div><p class="kicker">${esc(qual.level)}</p><h1>${esc(qual.name)}</h1><p>${esc(qual.description)}</p></div>
-    <aside class="page-head-aside"><dl class="qual-stats"><div><dt>Units</dt><dd>${units.length}</dd></div><div><dt>Questions</dt><dd>${qs.length}</dd></div><div><dt>Progress</dt><dd>${progress.pct}%</dd></div><div><dt>Best attempt</dt><dd>${best === null ? '—' : `${best}%`}</dd></div></dl>${progressBar(progress.pct, `${qual.name} progress`)}<span class="small-note">${progress.total ? `${progress.answered} of ${progress.total} questions answered in this browser` : 'No questions in this bank yet.'}</span></aside></div>
+    <aside class="page-head-aside"><dl class="qual-stats"><div><dt>Units</dt><dd>${units.length}</dd></div><div><dt>Questions</dt><dd>${qs.length}</dd></div><div><dt>Coverage</dt><dd>${progress.pct}%</dd></div><div><dt>Best attempt</dt><dd>${best === null ? '—' : `${best}%`}</dd></div></dl>${progressBar(progress.pct, `${qual.name} coverage`)}<span class="small-note">${progress.total ? `${progress.answered} of ${progress.total} questions answered in this browser` : 'No questions in this bank yet.'}</span></aside></div>
   </div></section>
   <div class="shell"><nav class="tabs" aria-label="${esc(qual.name)} sections"><a class="tab" aria-current="page" href="${href(`qual/${qual.id}`)}">Overview</a><a class="tab" href="${href(`learn/${qual.id}`)}">Syllabus</a><a class="tab" href="${href(`practice/${qual.id}`)}">Practice</a><a class="tab" href="${href(`exam/${qual.id}`)}">Mock paper</a><a class="tab" href="${href(`checklists/${qual.id}`)}">Practical</a><a class="tab" href="${href('weak')}">Review</a></nav></div>
   <section class="page-section"><div class="shell overview-grid">
@@ -291,6 +293,7 @@ function renderLearn(qualId) {
     saveStore();
     renderLearn(qual.id);
     window.scrollTo({ top: y, behavior: 'auto' });
+    document.querySelector(`[data-studied="${id}"]`)?.focus({ preventScroll: true });
   }));
 }
 
@@ -318,13 +321,16 @@ function renderPractice(qualId) {
   setActiveNav('practice', qual.id);
   const { query } = routeParts();
   const units = qualUnits(qual);
-  const selectedUnit = query.get('unit') || '';
+  const objectiveId = query.get('objective') || '';
+  const objectiveUnit = objectiveId ? units.find((u) => u.sessions.some((s) => s.objectives.some((o) => o.id === objectiveId))) : null;
+  const selectedUnit = query.get('unit') || objectiveUnit?.id || '';
   const mode = query.get('mode') || '';
   const poolSize = practicePool(qual, query).length;
+  const objectiveText = objectiveId ? units.flatMap((u) => u.sessions.flatMap((s) => s.objectives)).find((o) => o.id === objectiveId)?.text : '';
   const options = units.map((u) => `<option value="${u.id}" ${u.id === selectedUnit ? 'selected' : ''}>${esc(shortUnitName(u.id, u.name))}</option>`).join('');
   $('#app').innerHTML = `<section class="practice-shell"><div class="shell">
     <div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Practice</span></div>
-    <div class="practice-layout"><aside class="practice-aside"><p class="kicker">Practice</p><h1 style="font-size:clamp(2.2rem,4vw,3.6rem);margin-bottom:15px">Practice questions.</h1><p class="small-note" style="margin-bottom:22px">Answer at your own pace. Each answer shows an explanation and the source it came from. No timer.</p><div class="field"><label for="practice-unit">Unit</label><select id="practice-unit"><option value="">All units</option>${options}</select></div>${mode === 'weak' ? '<p class="empty-inline">Questions you answered incorrectly</p>' : ''}<button class="button button-primary" id="start-practice" type="button" ${poolSize ? '' : 'disabled'}>Start practice</button><a class="button button-ghost" href="${href(`qual/${qual.id}`)}" style="margin-top:8px">Back to overview</a><p class="small-note" style="margin-top:16px">${poolSize ? `${poolSize} question${poolSize === 1 ? '' : 's'} in this filter. Each set uses up to 20 at random.` : 'No questions match this filter yet.'}</p><p class="small-note">Draft questions. Check the cited source and report an error if the answer is wrong.</p></aside><div id="practice-stage"><div class="empty-card"><h2>Choose a unit to start.</h2><p>Each set has up to 20 questions. Your answers are saved in this browser.</p></div></div></div>
+    <div class="practice-layout"><aside class="practice-aside"><p class="kicker">Practice</p><h1 style="font-size:clamp(2.2rem,4vw,3.6rem);margin-bottom:15px">Practice questions.</h1><p class="small-note" style="margin-bottom:22px">Answer at your own pace. Each answer shows an explanation and the source it came from. No timer.</p><div class="field"><label for="practice-unit">Unit</label><select id="practice-unit"><option value="">All units</option>${options}</select></div>${objectiveText ? `<p class="small-note objective-chip">Objective: ${esc(objectiveText)} <a href="${href(`practice/${qual.id}`)}">Clear</a></p>` : ''}${mode === 'weak' ? '<p class="empty-inline">Questions you answered incorrectly</p>' : ''}<button class="button button-primary" id="start-practice" type="button" ${poolSize ? '' : 'disabled'}>Start practice</button><a class="button button-ghost" href="${href(`qual/${qual.id}`)}" style="margin-top:8px">Back to overview</a><p class="small-note" style="margin-top:16px">${poolSize ? `${poolSize} question${poolSize === 1 ? '' : 's'} in this filter. Each set uses up to 20 at random.` : 'No questions match this filter yet.'}</p><p class="small-note">Draft questions. Check the cited source and report an error if the answer is wrong.</p></aside><div id="practice-stage"><div class="empty-card"><h2>Choose a unit to start.</h2><p>Each set has up to 20 questions. Your answers are saved in this browser.</p></div></div></div>
   </div></section>`;
   $('#start-practice').addEventListener('click', () => {
     const unit = $('#practice-unit')?.value || '';
@@ -348,7 +354,10 @@ function startPractice(qual, query) {
   practiceState = { qual, questions, index: 0, selected: null, revealed: false };
   $('.practice-aside')?.classList.add('is-running');
   const start = $('#start-practice');
-  if (start) { start.disabled = true; start.textContent = 'Set in progress'; }
+  if (start) {
+    start.hidden = true;
+    start.insertAdjacentHTML('afterend', `<p class="small-note set-status" role="status">Set running · ${questions.length} questions</p>`);
+  }
   const unitSelect = $('#practice-unit');
   if (unitSelect) unitSelect.disabled = true;
   renderPracticeQuestion();
@@ -366,20 +375,23 @@ function renderPracticeQuestion() {
   }
   const q = questions[index];
   const answer = store.answers[q.id];
-  const selected = practiceState.selected ?? (answer ? answer.selected : null);
-  const revealed = practiceState.revealed || !!answer;
+  const selected = practiceState.selected;
+  const revealed = practiceState.revealed;
   const correctIndex = q.answer_index;
   const options = q.options.map((option, i) => {
     let cls = 'answer-option';
     let pressed = selected === i ? 'true' : 'false';
     if (revealed && i === correctIndex) cls += ' is-correct';
     if (revealed && selected === i && i !== correctIndex) cls += ' is-wrong';
-    return `<button class="${cls}" type="button" data-answer="${i}" aria-pressed="${pressed}" ${revealed ? 'disabled' : ''}><span class="answer-key">${revealed && i === correctIndex ? '✓' : revealed && selected === i ? '×' : String.fromCharCode(65 + i)}</span><span>${esc(option)}</span></button>`;
+    const letter = String.fromCharCode(65 + i);
+    const mark = revealed && i === correctIndex ? '✓' : revealed && selected === i ? '×' : '';
+    const stateLabel = revealed ? (i === correctIndex ? 'Correct answer. ' : selected === i ? 'Your answer, incorrect. ' : '') : '';
+    return `<button class="${cls}" type="button" data-answer="${i}" aria-pressed="${pressed}" ${revealed ? 'disabled' : ''}><span class="answer-key" aria-hidden="true">${letter}${mark}</span><span class="visually-hidden">${stateLabel}</span><span>${esc(option)}</span></button>`;
   }).join('');
   const obj = objectiveFor(q);
   const source = q.source || (obj ? obj.session.source : null);
   const feedback = revealed ? `<div class="feedback ${selected === correctIndex ? '' : 'bad'}" role="status" aria-live="polite"><h3>${selected === correctIndex ? 'Correct.' : 'Not correct.'}</h3><p>${esc(q.explanation)}</p><p class="citation">${obj && normaliseText(q.source_quote) === normaliseText(obj.objective.text) ? `Syllabus objective: ${esc(q.source_quote)}` : q.source_quote_exact === false ? `Source reference: ${esc(q.source_quote)}` : `Source: “${esc(q.source_quote)}”`} ${source ? `· <a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.title || source.doc_title)}</a>` : ''}</p></div>` : '';
-  stage.innerHTML = `<article class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>${esc(q.unit)}</strong> · question ${index + 1} of ${questions.length}</span><span class="meta">${esc(shortUnitName(obj?.unit.id, obj?.unit.name || ''))}</span></div><p class="draft-note">Draft question. Check the cited source before relying on it.</p><h2 class="question-stem">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div>${feedback}<div class="question-foot"><button class="button button-primary" type="button" id="next-practice" ${revealed ? '' : 'disabled'}>${index + 1 === questions.length ? 'Finish set' : 'Next question'} →</button><button class="report-link" type="button" data-report="${esc(q.id)}">Report an issue</button></div></div></article>`;
+  stage.innerHTML = `<article class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>${esc(q.unit)}</strong> · question ${index + 1} of ${questions.length}</span><span class="meta">${esc(shortUnitName(obj?.unit.id, obj?.unit.name || ''))}</span></div><p class="draft-note">Draft question. Check the cited source before relying on it.${q.requires_human_review ? ' <strong>Priority review flag:</strong> this item covers force, drugs, search, restraint or safeguarding.' : ''}</p><h2 class="question-stem">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div>${feedback}<div class="question-foot"><button class="button button-primary" type="button" id="next-practice" ${revealed ? '' : 'disabled'}>${index + 1 === questions.length ? 'Finish set' : 'Next question'} →</button><button class="report-link" type="button" data-report="${esc(q.id)}">Report an issue</button></div></div></article>`;
   stage.querySelectorAll('[data-answer]').forEach((button) => {
     button.addEventListener('click', () => {
       if (practiceState.revealed) return;
@@ -626,7 +638,7 @@ function renderWeak() {
     const unitCount = qualUnits(qual).filter((u) => qualQuestions(qual).some((q) => q.unit === u.id && wrongIds.includes(q.id))).length;
     return `<div class="list-row"><div><h3>${esc(qual.name)}</h3><p>${count} missed question${count === 1 ? '' : 's'} across ${unitCount} unit${unitCount === 1 ? '' : 's'}.</p></div><div class="list-row-actions"><a class="button button-primary button-small" href="${href(`practice/${qual.id}?mode=weak`)}">Review</a><a class="button button-ghost button-small" href="${href(`qual/${qual.id}`)}">Open qualification</a></div></div>`;
   }).join('');
-  $('#app').innerHTML = `<section class="page-head"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><span>Review</span></div><div class="page-head-grid"><div><p class="kicker">Review</p><h1>Questions to review.</h1><p>Questions you answered incorrectly are stored in this browser. Review them, then return to the syllabus or try another practice set.</p></div><aside class="page-head-aside"><dl class="qual-stats"><div><dt>Missed</dt><dd>${wrong.length}</dd></div><div><dt>Qualifications</dt><dd>${byQual.length}</dd></div></dl><a class="button button-primary" href="${href('practice/DS?mode=weak')}">Review Door Supervisor questions</a></aside></div></div></section><section class="page-section"><div class="shell">${rows ? `<div class="list-page">${rows}</div>` : `<div class="empty-card"><h2>Nothing to review yet.</h2><p>Practice a set or submit a mock paper. Questions you answer incorrectly will appear here.</p><a class="button button-primary" href="${href('practice/DS')}">Start practice</a></div>`}</div></section>`;
+  $('#app').innerHTML = `<section class="page-head"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><span>Review</span></div><div class="page-head-grid"><div><p class="kicker">Review</p><h1>Questions to review.</h1><p>Questions you answered incorrectly are stored in this browser. Review them, then return to the syllabus or try another practice set.</p></div><aside class="page-head-aside"><dl class="qual-stats"><div><dt>Missed</dt><dd>${wrong.length}</dd></div><div><dt>Qualifications</dt><dd>${byQual.length}</dd></div></dl>${byQual[0] ? `<a class="button button-primary" href="${href(`practice/${byQual[0].qual.id}?mode=weak`)}">Review ${esc(byQual[0].qual.name)} questions</a>` : ''}</aside></div></div></section><section class="page-section"><div class="shell">${rows ? `<div class="list-page">${rows}</div>` : `<div class="empty-card"><h2>Nothing to review yet.</h2><p>Practice a set or submit a mock paper. Questions you answer incorrectly will appear here.</p><a class="button button-primary" href="${href('practice/DS')}">Start practice</a></div>`}</div></section>`;
 }
 
 function renderReports() {
