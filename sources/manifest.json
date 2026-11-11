@@ -223,7 +223,14 @@
     "publisher": "The National Archives (legislation.gov.uk)",
     "url": "https://www.legislation.gov.uk/ukpga/1984/60",
     "retrieved": "2026-11-11",
-    "status": "downloaded"
+    "status": "downloaded",
+    "urls": [
+      "https://www.legislation.gov.uk/ukpga/1984/60/section/28",
+      "https://www.legislation.gov.uk/ukpga/1984/60/section/30"
+    ],
+    "notes": [
+      "Second-pass supplement: adds sections 28 and 30 to the existing pace-1984 document."
+    ]
   },
   {
     "doc_id": "cla-1967",
@@ -352,5 +359,137 @@
     "pages": 1,
     "sha256": "a2e23e93f4eb18920627de890610974e098035f8743154e485d62593fd574dc0",
     "bytes": 803
+  },
+  {
+    "doc_id": "psia-2001",
+    "title": "Private Security Industry Act 2001 — sections 1, 2, 3 and 7",
+    "local_path": "sources/06-u1-gaps/psia-2001-s1-s3-s7.txt",
+    "pdf_path": null,
+    "sha256": "7dd91834c387595e6912c6389555e77847984671c9c801ff5d92bb7234e705c9",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "url": "https://www.legislation.gov.uk/ukpga/2001/12/section/1",
+    "urls": [
+      "https://www.legislation.gov.uk/ukpga/2001/12/section/1",
+      "https://www.legislation.gov.uk/ukpga/2001/12/section/2",
+      "https://www.legislation.gov.uk/ukpga/2001/12/section/3",
+      "https://www.legislation.gov.uk/ukpga/2001/12/section/7"
+    ],
+    "http_status": 200,
+    "retrieved": "2026-11-11",
+    "status": "downloaded",
+    "bytes": 11952
+  },
+  {
+    "doc_id": "sia-about-us",
+    "title": "About us — Security Industry Authority",
+    "local_path": "sources/06-u1-gaps/sia-about-us.txt",
+    "pdf_path": null,
+    "sha256": "11db923e10e881073af9d169558e2b1a4c8ee239127feec5bd23f6327b86dd59",
+    "pages": 1,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "url": "https://www.gov.uk/government/organisations/security-industry-authority/about",
+    "http_status": 200,
+    "retrieved": "2026-11-11",
+    "status": "downloaded",
+    "bytes": 2400
+  },
+  {
+    "doc_id": "sia-acs",
+    "title": "Learn about our Approved Contractor Scheme",
+    "local_path": "sources/06-u1-gaps/sia-approved-contractor-scheme.txt",
+    "pdf_path": null,
+    "sha256": "75eab85e49fcef4f7105da8d6224b423180333bc3bc271b50d0b2e3c0ae14d3a",
+    "pages": 1,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "url": "https://www.gov.uk/guidance/learn-about-our-approved-contractor-scheme",
+    "http_status": 200,
+    "retrieved": "2026-11-11",
+    "status": "downloaded",
+    "bytes": 2745
+  },
+  {
+    "doc_id": "hse-violence-at-work",
+    "title": "How employers can protect workers from violence and aggression at work",
+    "local_path": "sources/06-u1-gaps/hse-violence-at-work.txt",
+    "pdf_path": null,
+    "sha256": "fce5e6f4ef0870d6d4f7518ff99ea847a25c85043154d2a10fe2951401cb996a",
+    "pages": 1,
+    "licence": "OGL-3.0",
+    "publisher": "Health and Safety Executive",
+    "url": "https://www.hse.gov.uk/violence/employer/",
+    "urls": [
+      "https://www.hse.gov.uk/violence/employer/",
+      "https://www.hse.gov.uk/violence/employer/assessing-the-risks.htm"
+    ],
+    "http_status": 200,
+    "retrieved": "2026-11-11",
+    "status": "downloaded",
+    "bytes": 5662
+  },
+  {
+    "doc_id": "govuk-court-witness",
+    "title": "Going to court to give evidence as a victim or witness",
+    "local_path": "sources/06-u1-gaps/govuk-going-to-court-witness.txt",
+    "pdf_path": null,
+    "sha256": "35d280cade0cfe8c61588b5ec529fad8ca84965a987109009fd98bf46cae55b4",
+    "pages": 1,
+    "licence": "OGL-3.0",
+    "publisher": "HM Courts & Tribunals Service",
+    "url": "https://www.gov.uk/going-to-court-victim-witness",
+    "http_status": 200,
+    "retrieved": "2026-11-11",
+    "status": "downloaded",
+    "bytes": 4614
+  },
+  {
+    "doc_id": "care-act-safeguarding",
+    "title": "Care and support statutory guidance — Chapter 14: Safeguarding",
+    "local_path": "sources/06-u1-gaps/care-act-safeguarding-adults.txt",
+    "pdf_path": null,
+    "sha256": "2a97688fa674c2db2b73485057b67b0d0de73b8d5429db3e08d7529fdd95a826",
+    "pages": 1,
+    "licence": "OGL-3.0",
+    "publisher": "Department of Health and Social Care",
+    "url": "https://www.gov.uk/government/publications/care-act-statutory-guidance/care-and-support-statutory-guidance",
+    "http_status": 200,
+    "retrieved": "2026-11-11",
+    "status": "downloaded",
+    "bytes": 4908
+  },
+  {
+    "doc_id": "nactso-hostile-recon",
+    "title": "Hostile Reconnaissance — Crowded Places Guidance",
+    "local_path": "sources/06-u1-gaps/nactso-hostile-reconnaissance.txt",
+    "pdf_path": null,
+    "sha256": "fb141fec9af89c6d69337181ce16425e9fdce7db0858c943f53633300c86c802",
+    "pages": 1,
+    "licence": "OGL-3.0",
+    "publisher": "National Counter Terrorism Security Office",
+    "url": "https://www.gov.uk/government/publications/crowded-places-guidance/hostile-reconnaissance",
+    "http_status": 200,
+    "note": "GOV.UK page carries a withdrawal notice dated 30 May 2022 (points to ProtectUK); text retained as published under OGL.",
+    "retrieved": "2026-11-11",
+    "status": "downloaded",
+    "bytes": 7452
+  },
+  {
+    "doc_id": "nactso-suspicious-items",
+    "title": "Unattended and suspicious items — Crowded Places Guidance (4 Cs)",
+    "local_path": "sources/06-u1-gaps/nactso-suspicious-items-4cs.txt",
+    "pdf_path": null,
+    "sha256": "d4444e98d485503fcb1aa497e0cf5cfb5cc476dfe4b09fe0bef208bd07b6d3d8",
+    "pages": 1,
+    "licence": "OGL-3.0",
+    "publisher": "National Counter Terrorism Security Office",
+    "url": "https://www.gov.uk/government/publications/crowded-places-guidance/unattended-and-suspicious-items",
+    "http_status": 200,
+    "note": "GOV.UK page carries a withdrawal notice dated 30 May 2022 (points to ProtectUK); text retained as published under OGL.",
+    "retrieved": "2026-11-11",
+    "status": "downloaded",
+    "bytes": 4591
   }
 ]

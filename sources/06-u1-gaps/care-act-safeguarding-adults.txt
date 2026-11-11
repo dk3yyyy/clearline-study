@@ -1,0 +1,68 @@
+Care and support statutory guidance — Chapter 14: Safeguarding
+Publisher: Department of Health and Social Care (GOV.UK)
+Source: https://www.gov.uk/government/publications/care-act-statutory-guidance/care-and-support-statutory-guidance
+Licence: Open Government Licence v3.0 (OGL-3.0)
+Retrieved 11 November 2026. Wording reproduced as published. Paragraph numbers are those of the statutory guidance.
+
+==========================================================================
+14.2 The safeguarding duties apply to an adult who:
+==========================================================================
+
+has needs for care and support (whether or not the local authority is meeting any of those needs)
+is experiencing, or at risk of, abuse or neglect
+as a result of those care and support needs is unable to protect themselves from either the risk of, or the experience of abuse or neglect
+
+==========================================================================
+14.7 What safeguarding means
+==========================================================================
+
+Safeguarding means protecting an adult's right to live in safety, free from abuse and neglect. It is about people and organisations working together to prevent and stop both the risks and experience of abuse or neglect, while at the same time making sure that the adult's wellbeing is promoted including, where appropriate, having regard to their views, wishes, feelings and beliefs in deciding on any action. This must recognise that adults sometimes have complex interpersonal relationships and may be ambivalent, unclear or unrealistic about their personal circumstances.
+
+==========================================================================
+14.10 Local authority duties
+==========================================================================
+
+The Care Act requires that each local authority must:
+
+make enquiries, or cause others to do so, if it believes an adult is experiencing, or is at risk of, abuse or neglect. An enquiry should establish whether any action needs to be taken to prevent or stop abuse or neglect and if so, by who
+set up a Safeguarding Adults Board (SAB)
+arrange, where appropriate, for an independent advocate to represent and support an adult who is the subject of a safeguarding enquiry or Safeguarding Adult Review (SAR) where the adult has 'substantial difficulty' in being involved in the process and where there is no other suitable person to represent and support them
+co-operate with each of its relevant partners (as set out in Section 6 of the Care Act) in order to protect the adult. In their turn each relevant partner must also co-operate with the local authority.
+
+==========================================================================
+14.11 The aims of adult safeguarding
+==========================================================================
+
+The aims of adult safeguarding are to:
+
+prevent harm and reduce the risk of abuse or neglect to adults with care and support needs
+stop abuse or neglect wherever possible
+safeguard adults in a way that supports them in making choices and having control about how they want to live
+promote an approach that concentrates on improving life for the adults concerned
+raise public awareness so that communities as a whole, alongside professionals, play their part in preventing, identifying and responding to abuse and neglect
+provide information and support in accessible ways to help people understand the different types of abuse, how to stay safe and what to do to raise a concern about the safety or well-being of an adult
+address what has caused the abuse or neglect
+
+==========================================================================
+14.13 The six principles
+==========================================================================
+
+The following 6 principles apply to all sectors and settings including care and support services, further education colleges, commissioning, regulation and provision of health and care services, social work, healthcare, welfare benefits, housing, wider local authority functions and the criminal justice system. The principles should inform the ways in which professionals and other staff work with adults. The principles can also help SABs, and organisations more widely, by using them to examine and improve their local arrangements.
+
+Empowerment
+People being supported and encouraged to make their own decisions and informed consent.
+
+Prevention
+It is better to take action before harm occurs.
+
+Proportionality
+The least intrusive response appropriate to the risk presented.
+
+Protection
+Support and representation for those in greatest need.
+
+Partnership
+Local solutions through services working with their communities. Communities have a part to play in preventing, detecting and reporting neglect and abuse.
+
+Accountability
+Accountability and transparency in delivering safeguarding.
