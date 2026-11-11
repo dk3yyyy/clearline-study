@@ -1,0 +1,101 @@
+/* ShiftReady design tokens: "night-shift hi-vis".
+   Dark is the default brand look; light follows the system or the header toggle.
+   Rule: amber (#FFB81C) is a FILL colour in both themes. In light mode, amber TEXT uses --accent-text. */
+
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Barlow+Condensed:wght@600;700;800&display=swap");
+
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0B1220;          /* page */
+  --bg-alt: #0F1829;      /* alternating sections, inputs */
+  --surface: #121B2E;     /* cards */
+  --line: #1C2741;        /* section dividers */
+  --border: #24314D;      /* card borders, progress tracks */
+  --border-option: #2A3654;
+  --border-strong: #3A4766;
+  --text: #EEF2F8;
+  --text-2: #C9D2E0;
+  --muted: #A9B4C7;
+  --accent: #FFB81C;      /* hi-vis amber: buttons, bars, badges */
+  --accent-hover: #FFC94D;
+  --accent-text: #FFB81C; /* amber used as text/icons */
+  --on-accent: #0B1220;   /* text on amber */
+  --ok: #5EEAD4;   --ok-bg: #0E2A2B;  --ok-border: #2F7F78;  --on-ok: #0B1220;
+  --bad: #FF8A65;  --bad-bg: #2E1712; --bad-border: #8A4A38; --on-bad: #0B1220;
+  --tag-neutral: #C9D2E0;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #F6F7F9;
+  --bg-alt: #EEF1F5;
+  --surface: #FFFFFF;
+  --line: #DDE2EA;
+  --border: #E3E8EF;
+  --border-option: #CBD3DF;
+  --border-strong: #B8C2D1;
+  --text: #111827;
+  --text-2: #3B4556;
+  --muted: #4B5565;
+  --accent: #FFB81C;
+  --accent-hover: #F2A900;
+  --accent-text: #8A5A00;
+  --on-accent: #0B1220;
+  --ok: #0F766E;   --ok-bg: #E6F6F4;  --ok-border: #5EB8AE;  --on-ok: #FFFFFF;
+  --bad: #C2410C;  --bad-bg: #FDEDE7; --bad-border: #E2A48D; --on-bad: #FFFFFF;
+  --tag-neutral: #DDE2EA;
+  --shadow: 0 24px 60px rgba(16, 24, 40, 0.10);
+}
+
+/* Follow the system when the user hasn't chosen */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+    --bg: #F6F7F9; --bg-alt: #EEF1F5; --surface: #FFFFFF; --line: #DDE2EA; --border: #E3E8EF;
+    --border-option: #CBD3DF; --border-strong: #B8C2D1; --text: #111827; --text-2: #3B4556; --muted: #4B5565;
+    --accent-hover: #F2A900; --accent-text: #8A5A00;
+    --ok: #0F766E; --ok-bg: #E6F6F4; --ok-border: #5EB8AE; --on-ok: #FFFFFF;
+    --bad: #C2410C; --bad-bg: #FDEDE7; --bad-border: #E2A48D; --on-bad: #FFFFFF;
+    --tag-neutral: #DDE2EA; --shadow: 0 24px 60px rgba(16, 24, 40, 0.10);
+  }
+}
+
+/* Type */
+:root {
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --radius-sm: 8px; --radius: 12px; --radius-lg: 16px; --radius-xl: 20px;
+  --max: 1200px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.55;
+}
+a { color: var(--accent-text); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+.wrap { max-width: var(--max); margin: 0 auto; padding-inline: 32px; }
+@media (max-width: 640px) { .wrap { padding-inline: 20px; } }
+
+.display { font-family: var(--font-display); font-weight: 800; text-transform: uppercase; line-height: 0.95; letter-spacing: 0.5px; margin: 0; }
+.eyebrow { font-family: var(--font-display); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 16px; color: var(--accent-text); }
+.muted { color: var(--muted); }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 14px 24px;
+  border-radius: var(--radius); font: inherit; font-weight: 700; font-size: 18px; text-decoration: none; cursor: pointer; border: 1px solid transparent; }
+.btn-primary { background: var(--accent); color: var(--on-accent); }
+.btn-primary:hover { background: var(--accent-hover); }
+.btn-ghost { background: transparent; color: var(--text); border-color: var(--border-strong); }
+.btn-ghost:hover { border-color: var(--text-2); }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+
+.track { height: 10px; border-radius: 999px; background: var(--border); overflow: hidden; }
+.track > span { display: block; height: 100%; border-radius: 999px; background: var(--accent); }
+.track > span.ok { background: var(--ok); }

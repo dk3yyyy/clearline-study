@@ -185,5 +185,17 @@
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
     "status": "downloaded"
+  },
+  {
+    "doc_id": "govuk-ghb-reclassification",
+    "title": "Circular 001/2022: Reclassification of GHB and related substances",
+    "local_path": "sources/03-govuk/ghb-reclassification.txt",
+    "pdf_path": null,
+    "sha256": "e555ffd5dca9248ee8a0dcaffbbbd69ee05e2e0dbe5174a112e756b604e42d41",
+    "pages": 1,
+    "licence": "OGL-3.0",
+    "publisher": "Home Office",
+    "url": "https://www.gov.uk/government/publications/circular-0012022-reclassification-of-ghb-and-related-substances",
+    "status": "downloaded"
   }
 ]

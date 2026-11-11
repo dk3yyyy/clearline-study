@@ -1,4 +1,4 @@
-/* Clearline Study: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
+/* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -17,7 +17,8 @@ const shortUnitName = (id, fallback = '') => ({
   'SO-U2': 'SO · Unit 2', 'CCTV-U2': 'CCTV · Unit 2', 'CP-MAIN': 'CP · Main', 'CP-PI': 'CP · Physical intervention',
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
-const defaultStore = { theme: 'light', answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
+const CONTENT_DATE = '2026-11-11';
+const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
 function loadStore() {
   try {
@@ -30,17 +31,34 @@ function loadStore() {
 const store = loadStore();
 const saveStore = () => localStorage.setItem(storageKey, JSON.stringify(store));
 
-function setTheme(theme) {
-  store.theme = theme;
-  document.documentElement.dataset.theme = theme;
-  const button = $('#theme-toggle');
-  if (button) {
-    button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
-    button.title = theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme';
-    const icon = button.querySelector('.theme-icon');
-    if (icon) icon.textContent = theme === 'dark' ? '☀' : '☾';
+function setTheme(theme, persist = true) {
+  if (theme === 'dark' || theme === 'light') {
+    document.documentElement.dataset.theme = theme;
+    if (persist) localStorage.setItem('theme', theme);
+  } else {
+    document.documentElement.removeAttribute('data-theme');
+    if (persist) localStorage.removeItem('theme');
   }
-  saveStore();
+  updateThemeIcon();
+}
+
+function systemTheme() {
+  return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+}
+
+function currentTheme() {
+  return document.documentElement.dataset.theme || systemTheme();
+}
+
+function updateThemeIcon() {
+  const button = $('#theme-toggle');
+  if (!button) return;
+  const theme = currentTheme();
+  const next = theme === 'dark' ? 'light' : 'dark';
+  button.setAttribute('aria-label', `Switch to ${next} theme`);
+  button.title = `Switch to ${next} theme`;
+  const icon = button.querySelector('.theme-icon');
+  if (icon) icon.textContent = theme === 'dark' ? '☀' : '☾';
 }
 
 let DATA = null;
@@ -122,6 +140,22 @@ function objectiveIdsForQual(qual) {
   return unique(qualUnits(qual).flatMap((u) => u.sessions.flatMap((s) => s.objectives.map((o) => o.id))));
 }
 
+function studyPass(qual) {
+  const units = qualUnits(qual);
+  const questionCount = units.reduce((sum, unit) => sum + unitProgress(unit).total, 0);
+  const ready = units.filter((unit) => unitProgress(unit).pct >= 70).length;
+  const segments = units.map((unit) => `<span class="${unitProgress(unit).pct >= 70 ? 'done' : ''}"></span>`).join('');
+  const detail = ready
+    ? `${ready} of ${units.length} units at 70%+ question coverage`
+    : `${units.length} units. ${questionCount} practice questions.`;
+  return `<div class="study-pass" aria-label="Study pass for ${esc(qual.name)}. ${detail}">
+    <div class="study-pass-head"><div><span class="study-pass-kicker">Study pass</span><span class="study-pass-name">${esc(qual.name)}</span></div><span class="study-pass-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#0B1220" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span></div>
+    <p>${detail}</p>
+    <div class="study-pass-segs" style="grid-template-columns:repeat(${Math.max(units.length, 1)},minmax(0,1fr))">${segments}</div>
+    <div class="study-pass-foot"><span>${ready ? 'Continue where you left off' : 'Syllabus, sources and practice'}</span><a class="study-pass-link" href="${href(`qual/${qual.id}`)}">Open qualification</a></div>
+  </div>`;
+}
+
 function renderHome() {
   setActiveNav('home');
   const activeQuals = DATA.syllabus.qualifications;
@@ -130,13 +164,13 @@ function renderHome() {
     const qs = qualQuestions(qual);
     const progress = progressFor(qs);
     const best = bestScore(qual.id);
-    return `<a class="qual-card" href="${href(`qual/${qual.id}`)}">
-      <div class="qual-card-top"><span class="qual-code">${esc(qual.id)}</span><span class="qual-level">${esc(qual.level)}${best !== null ? ` · best ${best}%` : ''}</span></div>
+    return `<a class="qual-card ${qual.id === 'DS' ? 'qual-card--featured' : ''}" href="${href(`qual/${qual.id}`)}">
+      <div class="qual-card-top"><span class="qual-code">${esc(qual.id)}</span><span class="qual-level">${esc(qual.level)}${best !== null ? `<span class="qual-best">Best ${best}%</span>` : ''}</span></div>
       <h3>${esc(qual.name)}</h3>
       <p>${esc(qual.description)}</p>
       ${progressBar(progress.pct, `${qual.name} question progress`)}
       <div class="progress-meta"><span>${progress.answered}/${progress.total} questions</span><span>${progress.pct}%</span></div>
-      <span class="qual-open">Open qualification →</span>
+      <span class="qual-open">Open qualification</span>
     </a>`;
   }).join('');
 
@@ -144,34 +178,22 @@ function renderHome() {
     <div>
       <p class="kicker">SIA licence-linked study</p>
       <h1><span>Study the material.</span><span>Check the source.</span></h1>
-      <p class="hero-lede">Independent study notes and practice questions for SIA licence-linked qualifications. Every answer points to the source document it came from.</p>
+      <p class="hero-lede">Independent study notes and practice questions for SIA licence-linked qualifications. Practice answers link to the SIA specification they were written from.</p>
       <div class="hero-actions"><a class="button button-primary" href="${href('qual/DS')}">Open Door Supervisor</a><a class="button button-ghost" href="${href('practice/DS')}">Try a practice question</a></div>
-      <p class="hero-facts"><span>Independent study aid</span><span>${totalQuestions} practice questions</span><span>Open Government Licence sources</span></p>
+      <p class="hero-facts">Independent study aid. ${totalQuestions} practice questions. Open Government Licence sources.</p>
       <p class="hero-note">Draft question bank. Not affiliated with the SIA or any awarding organisation.</p>
     </div>
     <aside class="hero-panel">
-      <p class="kicker">How this works</p>
-      <h2>Read the objective. Then answer a question.</h2>
-      <p>Common units are shared across qualifications, so your progress carries over to every qualification that includes them.</p>
-      <div class="panel-rule"></div>
-      <dl><dt>Shared units</dt><dd>Common knowledge and conflict management</dd><dt>Question format</dt><dd>Four options, one answer</dd><dt>Answers</dt><dd>Linked to the source</dd><dt>Progress</dt><dd>Stored in this browser</dd></dl>
+      ${studyPass(qualById('DS'))}
+      <p class="small-note" style="margin:14px 0 0">The pass shows question coverage, not an exam result. Shared units carry across qualifications.</p>
     </aside>
   </div></section>
   <section class="page-section"><div class="shell">
-    <div class="section-heading"><div><p class="section-label">Qualifications</p><h2>Choose the qualification you are studying.</h2></div><p>Door Supervisor currently has the most practice questions. Security Officer, CCTV, Close Protection, CViT (Cash and Valuables in Transit) and the refreshers share common units and follow the same practice format.</p></div>
+    <div class="section-heading"><div><h2>Choose the qualification you are studying.</h2></div><p>Door Supervisor currently has the most practice questions. Security Officer, CCTV, Close Protection, CViT (Cash and Valuables in Transit) and the refreshers share common units and follow the same practice format.</p></div>
     <div class="qual-grid">${cards}</div>
   </div></section>
   <section class="page-section"><div class="shell">
-    <div class="section-heading"><div><p class="section-label">Choosing a qualification</p><h2>Which licence do I need?</h2></div><p>These are the four front-line routes most learners ask about. Check GOV.UK before you choose a training course.</p></div>
-    <div class="qual-grid">
-      <a class="qual-card" href="${href('qual/DS')}"><div class="qual-card-top"><span class="qual-code">DS</span><span class="qual-level">Venues and events</span></div><h3>Door supervision</h3><p>You control access, search customers and manage conflict at licenced premises.</p><span class="text-link">Read the qualification summary →</span></a>
-      <a class="qual-card" href="${href('qual/SO')}"><div class="qual-card-top"><span class="qual-code">SO</span><span class="qual-level">Sites and buildings</span></div><h3>Security guarding</h3><p>You protect premises, people and property through access control, patrols and reporting.</p><span class="text-link">Read the qualification summary →</span></a>
-      <a class="qual-card" href="${href('qual/CCTV')}"><div class="qual-card-top"><span class="qual-code">CCTV</span><span class="qual-level">Control room</span></div><h3>CCTV operator</h3><p>You operate public space surveillance equipment and preserve evidential material.</p><span class="text-link">Read the qualification summary →</span></a>
-      <a class="qual-card" href="${href('qual/CP')}"><div class="qual-card-top"><span class="qual-code">CP</span><span class="qual-level">Protective operations</span></div><h3>Close protection</h3><p>You assess threat, plan movement and protect a principal in public and private settings.</p><span class="text-link">Read the qualification summary →</span></a>
-    </div>
-  </div></section>
-  <section class="page-section"><div class="shell">
-    <div class="section-heading"><div><p class="section-label">How it works</p><h2>Learn, practice, review.</h2></div><p>Work through the syllabus, answer questions with the source open, then use a timed mock to find the objectives that need another pass.</p></div>
+    <div class="section-heading"><div><h2>Learn, practice, review.</h2></div><p>Work through the syllabus, answer questions with the source open, then use a timed mock to find the objectives that need another pass.</p></div>
     <div class="stat-strip"><div><strong>01</strong><span>Read the syllabus session by session</span></div><div><strong>02</strong><span>Answer practice questions with the source open</span></div><div><strong>03</strong><span>Take a timed mock and review every answer</span></div><div><strong>04</strong><span>Review the questions you missed</span></div></div>
   </div></section>`;
 }
@@ -298,6 +320,10 @@ function startPractice(qual, query) {
     return;
   }
   practiceState = { qual, questions, index: 0, selected: null, revealed: false };
+  const start = $('#start-practice');
+  if (start) { start.disabled = true; start.textContent = 'Set in progress'; }
+  const unitSelect = $('#practice-unit');
+  if (unitSelect) unitSelect.disabled = true;
   renderPracticeQuestion();
 }
 
@@ -308,7 +334,7 @@ function renderPracticeQuestion() {
   if (index >= questions.length) {
     const answered = questions.filter((q) => store.answers[q.id]).length;
     const correct = questions.filter((q) => store.answers[q.id]?.correct).length;
-    stage.innerHTML = `<div class="result-head"><div class="score-ring" style="--score:${Math.round((correct / questions.length) * 100)}"><strong>${correct}</strong><span>of ${questions.length}</span></div><div class="result-copy"><p class="kicker">Practice set complete</p><h1>${correct === questions.length ? 'All correct.' : 'Review the questions you missed.'}</h1><p>You answered ${answered} of ${questions.length}. Questions you missed are saved for review.</p></div></div><div class="result-grid"><div class="result-block"><h2>Next</h2><p>${correct === questions.length ? 'Take a timed mock to check your recall.' : 'Review the questions you missed, then try the set again.'}</p><div class="question-foot"><a class="button button-primary" href="${href(`exam/${qual.id}`)}">Open a mock paper</a><a class="button button-ghost" href="${href(`practice/${qual.id}?mode=weak`)}">Review missed questions</a></div></div><div class="result-block"><h2>Review</h2><p>Every answer is stored in this browser. There is no account and no upload.</p><a class="text-link" href="${href('reports')}">Question reports →</a></div></div>`;
+    stage.innerHTML = `<div class="result-head"><div class="score-ring" style="--score:${Math.round((correct / questions.length) * 100)}"><strong>${correct}</strong><span>of ${questions.length}</span></div><div class="result-copy"><p class="kicker">Practice set complete</p><h1>${correct === questions.length ? 'All correct.' : 'Review the questions you missed.'}</h1><p>You answered ${answered} of ${questions.length}. Questions you missed are saved for review.</p></div></div><div class="result-grid"><div class="result-block"><h2>Next</h2><p>${correct === questions.length ? 'Take a timed mock to check your recall.' : 'Review the questions you missed, then try the set again.'}</p><div class="question-foot"><a class="button button-primary" href="${href(`exam/${qual.id}`)}">Open a mock paper</a><a class="button button-ghost" href="${href(`practice/${qual.id}?mode=weak`)}">Review missed questions</a></div></div><div class="result-block"><h2>Review</h2><p>Every answer is stored in this browser. There is no account and no upload.</p><a class="text-link" href="${href('reports')}">Question reports</a></div></div>`;
     return;
   }
   const q = questions[index];
@@ -324,8 +350,8 @@ function renderPracticeQuestion() {
     return `<button class="${cls}" type="button" data-answer="${i}" aria-pressed="${pressed}" ${revealed ? 'disabled' : ''}><span class="answer-key">${revealed && i === correctIndex ? '✓' : revealed && selected === i ? '×' : String.fromCharCode(65 + i)}</span><span>${esc(option)}</span></button>`;
   }).join('');
   const obj = objectiveFor(q);
-  const feedback = revealed ? `<div class="feedback ${selected === correctIndex ? '' : 'bad'}"><h3>${selected === correctIndex ? 'Correct.' : 'Not correct.'}</h3><p>${esc(q.explanation)}</p><p class="citation">Source: “${esc(q.source_quote)}” ${obj ? `· <a href="${esc(obj.session.source.url)}" target="_blank" rel="noreferrer">${esc(obj.session.source.doc_title)}</a>` : ''}</p></div>` : '';
-  stage.innerHTML = `<article class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>${esc(q.unit)}</strong> · question ${index + 1} of ${questions.length}</span><span class="meta">${esc(shortUnitName(obj?.unit.id, obj?.unit.name || ''))}</span></div><h2 class="question-stem">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div>${feedback}<div class="question-foot"><button class="button button-primary" type="button" id="next-practice" ${revealed ? '' : 'disabled'}>${index + 1 === questions.length ? 'Finish set' : 'Next question'} →</button><button class="report-link" type="button" data-report="${esc(q.id)}">Report an issue</button></div></div></article>`;
+  const feedback = revealed ? `<div class="feedback ${selected === correctIndex ? '' : 'bad'}" role="status" aria-live="polite"><h3>${selected === correctIndex ? 'Correct.' : 'Not correct.'}</h3><p>${esc(q.explanation)}</p><p class="citation">Source: “${esc(q.source_quote)}” ${obj ? `· <a href="${esc(obj.session.source.url)}" target="_blank" rel="noreferrer">${esc(obj.session.source.doc_title)}</a>` : ''}</p></div>` : '';
+  stage.innerHTML = `<article class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>${esc(q.unit)}</strong> · question ${index + 1} of ${questions.length}</span><span class="meta">${esc(shortUnitName(obj?.unit.id, obj?.unit.name || ''))}</span></div><p class="draft-note">Draft question. Check the cited source before relying on it.</p><h2 class="question-stem">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div>${feedback}<div class="question-foot"><button class="button button-primary" type="button" id="next-practice" ${revealed ? '' : 'disabled'}>${index + 1 === questions.length ? 'Finish set' : 'Next question'} →</button><button class="report-link" type="button" data-report="${esc(q.id)}">Report an issue</button></div></div></article>`;
   stage.querySelectorAll('[data-answer]').forEach((button) => {
     button.addEventListener('click', () => {
       if (practiceState.revealed) return;
@@ -360,6 +386,7 @@ function renderExam(qualId) {
     $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="empty-card"><h2>No mock paper for this qualification yet.</h2><p>${esc(config?.source || 'The source does not publish a multiple-choice format for this qualification.')}</p><a class="button button-primary" href="${href(`qual/${qual.id}`)}">Back to overview</a></div></div></section>`;
     return;
   }
+  const confirmed = !/^unconfirmed|confirm against/i.test(config.source || '');
   const rows = config.units.map((format) => {
     const unit = unitById(format.unit);
     const available = unitQuestions(format.unit).length;
@@ -367,7 +394,7 @@ function renderExam(qualId) {
     const needed = Math.ceil((actual * format.pass_mark) / 100);
     return `<tr><td>${esc(unit?.name || format.unit)}</td><td>${format.questions}</td><td><strong>${actual}</strong>${available < format.questions ? ' <span class="pill">short bank</span>' : ''}</td><td>${format.minutes} min</td><td>${format.pass_mark}% <span class="small-note">${needed}/${actual}</span></td><td><button class="button button-primary button-small" type="button" data-start="${format.unit}">Start ${esc(shortUnitName(format.unit, format.unit))}</button></td></tr>`;
   }).join('');
-  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">Mock paper</p><h1>Choose a paper.</h1><p>Choose a unit. The timer starts with the paper. Answers are not marked until you submit; the result shows unit and objective totals.</p><div class="exam-meta"><span class="pill">${config.units.length} papers</span><span class="pill">No feedback until you submit</span><span class="pill">Pass mark from the source</span></div></div></div><div class="exam-warning">${esc(config.source)}. Where a question bank is shorter than the published paper, the mock shows the available count before you start. The bank is still in draft, so check the source before relying on an answer.</div><div class="side-card"><div class="table-scroll"><table class="source-list"><thead><tr><th style="text-align:left">Unit</th><th>Official</th><th>This mock</th><th>Time</th><th>Pass</th><th></th></tr></thead><tbody>${rows}</tbody></table></div><p class="small-note" style="margin-top:12px">Time stays at the official paper length. The pass column shows the exact correct answers needed for the questions in this paper. A short bank is labelled before you start.</p></div></div></section>`;
+  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">Mock paper</p><h1>Choose a paper.</h1><p>Choose a unit. The timer starts with the paper. Answers are not marked until you submit; the result shows unit and objective totals.</p><div class="exam-meta"><span class="pill">${config.units.length} paper${config.units.length === 1 ? '' : 's'}</span><span class="pill">No feedback until you submit</span><span class="pill">${confirmed ? 'Pass mark from the source' : 'Pass mark: format unconfirmed'}</span></div></div></div><div class="exam-warning">${esc(config.source)}. Where a question bank is shorter than the published paper, the mock shows the available count before you start. The bank is still in draft, so check the source before relying on an answer.</div><div class="side-card"><div class="table-scroll"><table class="source-list"><thead><tr><th style="text-align:left">Unit</th><th>Published</th><th>This mock</th><th>Time</th><th>Pass</th><th></th></tr></thead><tbody>${rows}</tbody></table></div><p class="small-note" style="margin-top:12px">${confirmed ? 'Time matches the published paper. The pass column shows the exact correct answers needed for the questions in this paper.' : 'The paper format for this qualification is unconfirmed. Treat the timer and pass mark as study settings.'} A short bank is labelled before you start.</p></div></div></section>`;
   $$('[data-start]').forEach((button) => button.addEventListener('click', () => startExam(qual, button.dataset.start)));
 }
 
@@ -377,7 +404,8 @@ function startExam(qual, unitId) {
   const bank = shuffle(unitQuestions(unitId));
   const questions = bank.slice(0, format.questions);
   if (!questions.length) { toast('No questions loaded for this unit yet.'); return; }
-  examState = { qual, format, unit: unitById(unitId), questions, index: 0, answers: {}, startedAt: Date.now(), endsAt: Date.now() + format.minutes * 60 * 1000, finished: false, timer: null };
+  const config = DATA.examFormats[qual.id];
+  examState = { qual, format, confirmed: !/^unconfirmed|confirm against/i.test(config?.source || ''), unit: unitById(unitId), questions, index: 0, answers: {}, startedAt: Date.now(), endsAt: Date.now() + format.minutes * 60 * 1000, finished: false, timer: null };
   examState.timer = setInterval(() => {
     if (!examState || examState.finished) return;
     if (Date.now() >= examState.endsAt) { toast('Time is up. Submitting the paper.'); submitExam(); return; }
@@ -401,14 +429,14 @@ function renderExamQuestion() {
   const selected = answers[q.id];
   const palette = questions.map((item, i) => `<button class="palette-button ${answers[item.id] !== undefined ? 'answered' : ''}" type="button" data-index="${i}" aria-current="${i === index ? 'true' : 'false'}" aria-label="Question ${i + 1}${answers[item.id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('');
   const options = q.options.map((option, i) => `<button class="answer-option" type="button" data-exam-answer="${i}" aria-pressed="${selected === i}"><span class="answer-key">${String.fromCharCode(65 + i)}</span><span>${esc(option)}</span></button>`).join('');
-  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">${esc(unit.name)}</p><h1>${esc(format.questions)}-question paper.</h1><div class="exam-meta"><span class="pill timer" id="exam-timer">${formatTime(examState.endsAt - Date.now())}</span><span class="pill">${format.pass_mark}% pass · ${Math.ceil((questions.length * format.pass_mark) / 100)}/${questions.length}</span><span class="pill">${questions.length} available${questions.length < format.questions ? ` · ${format.questions - questions.length} short` : ''}</span></div></div><button class="button button-danger" type="button" id="submit-exam">Submit paper</button></div><div class="exam-layout"><div><div class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>Question ${index + 1} of ${questions.length}</strong></span><span class="meta">No feedback until submission</span></div><h2 class="question-stem">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div><div class="exam-actions"><button class="button button-ghost" type="button" id="prev-exam" ${index === 0 ? 'disabled' : ''}>← Previous</button><button class="button button-primary" type="button" id="next-exam">${index + 1 === questions.length ? 'Review paper' : 'Next question →'}</button></div><p class="exam-note">Answers are not saved as study progress until you submit. The timer runs for the official paper length.</p></div></div></div><aside class="exam-palette"><h2>Question map</h2><div class="palette-grid">${palette}</div><p class="exam-note">${Object.keys(answers).length} of ${questions.length} answered</p><button class="button button-ghost" type="button" id="submit-exam-side" style="width:100%;margin-top:12px">Submit paper</button></aside></div></div></section>`;
+  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">${esc(unit.name)}</p><h1>${esc(questions.length)}-question mock paper.</h1><div class="exam-meta"><span class="pill timer" id="exam-timer">${formatTime(examState.endsAt - Date.now())}</span><span class="pill">${format.pass_mark}% mock pass · ${Math.ceil((questions.length * format.pass_mark) / 100)}/${questions.length}${examState.confirmed ? '' : ' · format unconfirmed'}</span><span class="pill">${questions.length} available${questions.length < format.questions ? ` · ${format.questions - questions.length} short` : ''}</span></div></div><button class="button button-danger" type="button" id="submit-exam">Submit paper</button></div><div class="exam-layout"><div><div class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>Question ${index + 1} of ${questions.length}</strong></span><span class="meta">No feedback until submission</span></div><h2 class="question-stem">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div><div class="exam-actions"><button class="button button-ghost" type="button" id="prev-exam" ${index === 0 ? 'disabled' : ''}>← Previous</button><button class="button button-primary" type="button" id="next-exam">${index + 1 === questions.length ? 'Submit paper' : 'Next question →'}</button></div><p class="exam-note">Answers are not saved as study progress until you submit. The timer runs for the paper length shown above.</p></div></div></div><aside class="exam-palette"><h2>Question map</h2><div class="palette-grid">${palette}</div><p class="exam-note">${Object.keys(answers).length} of ${questions.length} answered</p><button class="button button-ghost" type="button" id="submit-exam-side" style="width:100%;margin-top:12px">Submit paper</button></aside></div></div></section>`;
   $$('[data-exam-answer]').forEach((button) => button.addEventListener('click', () => {
     examState.answers[q.id] = Number(button.dataset.examAnswer);
     renderExamQuestion();
   }));
   $$('[data-index]').forEach((button) => button.addEventListener('click', () => { examState.index = Number(button.dataset.index); renderExamQuestion(); }));
   $('#prev-exam')?.addEventListener('click', () => { examState.index = Math.max(0, examState.index - 1); renderExamQuestion(); });
-  $('#next-exam')?.addEventListener('click', () => { if (examState.index + 1 < questions.length) { examState.index += 1; renderExamQuestion(); } });
+  $('#next-exam')?.addEventListener('click', () => { if (examState.index + 1 < questions.length) { examState.index += 1; renderExamQuestion(); } else { submitExam(); } });
   $('#submit-exam')?.addEventListener('click', submitExam);
   $('#submit-exam-side')?.addEventListener('click', submitExam);
 }
@@ -416,7 +444,7 @@ function renderExamQuestion() {
 function submitExam() {
   if (!examState || examState.finished) return;
   const unanswered = examState.questions.length - Object.keys(examState.answers).length;
-  if (unanswered > 0 && !window.confirm(`You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. Submit anyway?`)) return;
+  if (unanswered > 0 && !window.confirm(`You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. They will be marked wrong. Submit the paper?`)) return;
   clearInterval(examState.timer);
   examState.finished = true;
   let correct = 0;
@@ -469,10 +497,9 @@ function renderExamResult() {
     const ok = selected === q.answer_index;
     return `<div class="review-item"><h3>${i + 1}. ${esc(q.stem)}</h3><p class="${ok ? 'review-answer' : 'review-wrong'}">${ok ? 'Correct' : `Your answer: ${selected === undefined ? 'not answered' : esc(q.options[selected])}`}</p>${ok ? '' : `<p>Correct answer: ${esc(q.options[q.answer_index])}</p>`}<p>${esc(q.explanation)}</p></div>`;
   }).join('');
-  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="result-head"><div class="score-ring" style="--score:${pct}"><strong>${pct}%</strong><span>${correct} of ${questions.length}</span></div><div class="result-copy"><p class="kicker">${esc(unit.name)} · mock result</p><h1>${passed ? 'Above the pass mark.' : 'Below the pass mark.'}</h1><p>${passed ? 'This attempt is above the published pass mark.' : `The published pass mark is ${examState.format.pass_mark}%. Review the paper and the objectives below.`}</p><div class="question-foot"><a class="button button-primary" href="${href(`practice/${qual.id}?unit=${unit.id}`)}">Practice this unit</a><button class="button button-ghost" type="button" id="new-mock">Try another paper</button><button class="button button-ghost" type="button" id="clear-exam">Paper setup</button></div></div></div><div class="result-grid"><div class="result-block"><h2>By unit</h2><ul class="breakdown-list">${unitRows}</ul><h2 style="margin-top:22px">Weakest objectives</h2><ul class="breakdown-list">${objectiveRows || '<li><span>No objective tags in this paper.</span></li>'}</ul></div><div class="result-block"><h2>Next step</h2><p>Questions you answered incorrectly are saved for review. The paper review below shows the correct answer and explanation for every question.</p><a class="text-link" href="${href('weak')}">Open the review list →</a></div></div><div class="review-list"><div class="section-heading"><div><p class="section-label">Review</p><h2>Every question.</h2></div><p>Explanations and source quotations are in practice mode. Open the syllabus if you need more context.</p></div>${review}</div></div></section>`;
+  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="result-head"><div class="score-ring" style="--score:${pct}"><strong>${pct}%</strong><span>${correct} of ${questions.length}</span></div><div class="result-copy"><p class="kicker">${esc(unit.name)} · mock result</p><h1>${passed ? 'Above the mock pass mark.' : 'Below the mock pass mark.'}</h1><p>${passed ? `This attempt is above the ${examState.format.pass_mark}% pass mark used for this mock.` : `This mock uses a ${examState.format.pass_mark}% pass mark. Review the paper and the objectives below.`}${examState.confirmed ? '' : ' The paper format is unconfirmed, so this is not a published exam result.'}</p><div class="question-foot"><a class="button button-primary" href="${href(`practice/${qual.id}?unit=${unit.id}`)}">Practice this unit</a><button class="button button-ghost" type="button" id="clear-exam">Choose another paper</button></div></div></div><div class="result-grid"><div class="result-block"><h2>By unit</h2><ul class="breakdown-list">${unitRows}</ul><h2 style="margin-top:22px">Weakest objectives</h2><ul class="breakdown-list">${objectiveRows || '<li><span>No objective tags in this paper.</span></li>'}</ul></div><div class="result-block"><h2>Next step</h2><p>Questions you answered incorrectly are saved for review. The paper review below shows the correct answer and explanation for every question.</p><a class="text-link" href="${href('weak')}">Open the review list →</a></div></div><div class="review-list"><div class="section-heading"><div><p class="section-label">Review</p><h2>Every question.</h2></div><p>Explanations and source quotations are in practice mode. Open the syllabus if you need more context.</p></div>${review}</div></div></section>`;
   $('#clear-exam')?.addEventListener('click', () => { examState = null; renderExam(qual.id); });
-  $('#new-mock')?.addEventListener('click', () => { examState = null; renderExam(qual.id); });
-}
+  }
 
 function renderWeak() {
   setActiveNav('weak');
@@ -489,12 +516,12 @@ function renderWeak() {
 function renderReports() {
   setActiveNav('');
   const rows = store.reports.map((r) => `<div class="list-row"><div><h3>${esc(r.questionId)}</h3><p>${esc(r.reason)} · ${esc(new Date(r.at).toLocaleString())}${r.note ? ` · ${esc(r.note)}` : ''}</p></div><div class="list-row-actions"><span class="pill">${esc(r.unit || '')}</span></div></div>`).join('');
-  $('#app').innerHTML = `<section class="page-head"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><span>Question reports</span></div><div class="page-head-grid"><div><p class="kicker">Question quality</p><h1>Question reports.</h1><p>Reports stay in this browser until you export them. Nothing is sent anywhere automatically. Export the JSON and send it to the site owner for review.</p></div><aside class="page-head-aside"><dl class="qual-stats"><div><dt>Open reports</dt><dd>${store.reports.length}</dd></div><div><dt>Storage</dt><dd>Local</dd></div></dl><button class="button button-primary" type="button" id="export-reports" ${store.reports.length ? '' : 'disabled'}>Export JSON</button><button class="button button-ghost" type="button" id="clear-reports" ${store.reports.length ? '' : 'disabled'} style="margin-top:8px">Clear reports</button></aside></div></div></section><section class="page-section"><div class="shell">${rows ? `<div class="list-page">${rows}</div>` : '<div class="empty-card"><h2>Nothing reported.</h2><p>Use “Report an issue” under any practice question.</p></div>'}</div></section>`;
+  $('#app').innerHTML = `<section class="page-head"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><span>Question reports</span></div><div class="page-head-grid"><div><p class="kicker">Question quality</p><h1>Question reports.</h1><p>Reports stay in this browser until you export them. Nothing is sent anywhere automatically. Export the JSON if you want to keep or share a copy.</p></div><aside class="page-head-aside"><dl class="qual-stats"><div><dt>Open reports</dt><dd>${store.reports.length}</dd></div><div><dt>Storage</dt><dd>Local</dd></div></dl><button class="button button-primary" type="button" id="export-reports" ${store.reports.length ? '' : 'disabled'}>Export JSON</button><button class="button button-ghost" type="button" id="clear-reports" ${store.reports.length ? '' : 'disabled'} style="margin-top:8px">Clear reports</button></aside></div></div></section><section class="page-section"><div class="shell">${rows ? `<div class="list-page">${rows}</div>` : '<div class="empty-card"><h2>Nothing reported.</h2><p>Use “Report an issue” under any practice question.</p></div>'}</div></section>`;
   $('#export-reports')?.addEventListener('click', () => {
     const blob = new Blob([JSON.stringify(store.reports, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
-    link.href = url; link.download = 'clearline-question-reports.json'; link.click();
+    link.href = url; link.download = 'shiftready-question-reports.json'; link.click();
     URL.revokeObjectURL(url);
     toast('Report export downloaded.');
   });
@@ -527,7 +554,7 @@ function renderChecklists(qualId) {
 
 function renderAbout() {
   setActiveNav('');
-  $('#app').innerHTML = `<section class="page-head"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><span>About the sources</span></div><div class="page-head-grid"><div><p class="kicker">Open Government Licence</p><h1>Where the material comes from.</h1><p>The syllabus map and question bank are built from SIA specifications published on GOV.UK. Each practice question includes the source quotation behind its answer. The specification is always the authority.</p></div><aside class="page-head-aside"><p class="small-note">Last content build: ${esc(new Date().toISOString().slice(0, 10))}. Check the SIA for a newer specification before relying on a fact.</p></aside></div></div></section><section class="page-section"><div class="shell legal-copy"><h2>Attribution</h2><p>Contains public sector information licensed under the Open Government Licence v3.0. Sources include the Security Industry Authority, Home Office, Health and Safety Executive, NPSA and legislation.gov.uk. This site is not endorsed by or affiliated with the SIA or any awarding organisation.</p><h2>What is in scope</h2><p>The syllabus map covers the SIA licence-linked specifications in the supplied study pack: Door Supervisor, Security Officer, CCTV, Close Protection, CViT and the 2024/2025 refresher specifications. Shared units are stored once and tagged to every qualification they serve.</p><h2>What is not in scope</h2><p>This build does not copy questions or wording from awarding organisation sample papers or commercial mock-test sites. It does not teach physical intervention techniques. It does not replace the SIA specification, the awarding organisation’s assessment materials, or a qualified trainer.</p><h2>Question status</h2><p>Questions are drafted from the specifications and marked for human review where they touch use of force, arrest, physical intervention or first aid. Do not treat a draft question as an official exam question. If a question looks wrong, report it from practice mode and export the report JSON.</p></div></section>`;
+  $('#app').innerHTML = `<section class="page-head"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><span>About the sources</span></div><div class="page-head-grid"><div><p class="kicker">Open Government Licence</p><h1>Where the material comes from.</h1><p>The syllabus map and question bank are built from SIA specifications published on GOV.UK. Each practice answer names the specification it came from, and quotes the source where the specification states the fact directly. The specification is always the authority.</p></div><aside class="page-head-aside"><p class="small-note">Question bank last edited: ${esc(CONTENT_DATE)}. Check the SIA for a newer specification before relying on a fact.</p></aside></div></div></section><section class="page-section"><div class="shell legal-copy"><h2>Attribution</h2><p>Contains public sector information licensed under the Open Government Licence v3.0. Sources include the Security Industry Authority. The current question bank draws on SIA specifications only. This site is not endorsed by or affiliated with the SIA or any awarding organisation.</p><h2>What is in scope</h2><p>The syllabus map covers the SIA licence-linked specifications in this site: Door Supervisor, Security Officer, CCTV, Close Protection, CViT and the 2024/2025 refresher specifications. Shared units are stored once and tagged to every qualification they serve.</p><h2>What is not in scope</h2><p>This build does not copy questions or wording from awarding organisation sample papers or commercial mock-test sites. It does not teach physical intervention techniques. It does not replace the SIA specification, the awarding organisation’s assessment materials, or a qualified trainer.</p><h2>Question status</h2><p>Questions are drafted from the specifications and marked for human review where they touch use of force, arrest, physical intervention or first aid. Do not treat a draft question as an official exam question. If a question looks wrong, report it from practice mode and export the report JSON.</p></div></section>`;
 }
 
 function openReport(questionId) {
@@ -583,8 +610,9 @@ function setupMobileMenu() {
 }
 
 function setupTheme() {
-  setTheme(store.theme || 'light');
-  $('#theme-toggle')?.addEventListener('click', () => setTheme(store.theme === 'dark' ? 'light' : 'dark'));
+  const saved = localStorage.getItem('theme');
+  setTheme(saved === 'dark' || saved === 'light' ? saved : null, false);
+  $('#theme-toggle')?.addEventListener('click', () => setTheme(currentTheme() === 'dark' ? 'light' : 'dark'));
 }
 
 async function loadData() {

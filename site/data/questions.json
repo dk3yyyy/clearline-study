@@ -2307,24 +2307,23 @@
       "DS"
     ],
     "difficulty": 2,
-    "stem": "GHB and rohypnol are in which class?",
+    "stem": "GHB, GBL and 1,4-BD are in which class under the Misuse of Drugs Act 1971?",
     "options": [
       "Class A",
       "Class B",
       "Class C",
       "Class D"
     ],
-    "answer_index": 2,
-    "explanation": "GHB, rohypnol, anabolic steroids and other tranquilisers are Class C drugs.",
+    "answer_index": 1,
+    "explanation": "GHB, GBL and 1,4-BD were reclassified from Class C to Class B on 13 April 2022. Rohypnol remains a Class C drug.",
     "source_chunk_ids": [
-      "door-supervisor-final-unit-content#DS-U2-S3",
-      "sia-ds-specification-2021#DS-U2-S3"
+      "govuk-ghb-reclassification#summary"
     ],
-    "source_quote": "Class C: GHB, rohypnol, anabolic steroids and other tranquilisers",
+    "source_quote": "reclassification of Gamma-Hydroxybutyric Acid, Gamma-Butyrolactone and 1,4-Butanediol from Class C to Class B",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "DS-U2-0024"
   },
   {

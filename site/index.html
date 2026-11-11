@@ -3,22 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#101a1c" />
+  <meta name="theme-color" content="#0B1220" />
   <meta name="description" content="Independent, source-linked study notes and practice questions for SIA licence-linked qualifications." />
-  <title>Clearline Study | SIA study notes and practice</title>
+  <script>try { const t = localStorage.getItem('theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch (e) {}</script>
+  <title>ShiftReady | SIA study notes and practice</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="assets/shiftready.css" />
 </head>
 <body>
   <a class="skip-link" href="#app">Skip to content</a>
   <header class="topbar">
     <div class="shell topbar-inner">
-      <a class="brand" href="#/" aria-label="Clearline Study home">
-        <span class="brand-mark" aria-hidden="true"><span></span></span>
-        <span class="brand-name">Clearline<span class="brand-suffix">Study</span></span>
+      <a class="brand" href="#/" aria-label="ShiftReady home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#0B1220" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span>
+        <span class="brand-name">ShiftReady</span>
       </a>
       <nav class="main-nav" id="main-nav" aria-label="Main navigation">
         <a href="#/" data-nav="home">Home</a>
@@ -32,7 +34,7 @@
         <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
           <span class="theme-icon" aria-hidden="true">☾</span>
         </button>
-        <a class="button button-primary button-small" href="#/qual/DS">Choose a qualification</a>
+        <a class="button button-primary button-small" href="#/qual/DS">Start studying</a>
       </div>
     </div>
   </header>
@@ -44,13 +46,13 @@
   <footer class="site-footer">
     <div class="shell footer-grid">
       <div>
-        <a class="brand brand-footer" href="#/" aria-label="Clearline Study home"><span class="brand-mark" aria-hidden="true"><span></span></span><span class="brand-name">Clearline<span class="brand-suffix">Study</span></span></a>
-        <p class="footer-note">An independent study site for the SIA licence-linked qualifications. Read the syllabus, check the source, and use the practice and mock questions to find gaps.</p>
+        <a class="brand brand-footer" href="#/" aria-label="ShiftReady home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#0B1220" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span><span class="brand-name">ShiftReady</span></a>
+        <p class="footer-note">ShiftReady is an independent study site for the SIA licence-linked qualifications. Read the syllabus, check the source, and use the practice and mock questions to find gaps.</p>
       </div>
       <div class="footer-links">
         <a href="#/learn/DS">Syllabus</a><a href="#/practice/DS">Practice</a><a href="#/exam/DS">Mock papers</a><a href="#/reports">Question reports</a><a href="#/about">About the sources</a>
       </div>
-      <p class="footer-legal">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noreferrer">Open Government Licence v3.0</a>. Sources include the Security Industry Authority, Home Office, Health and Safety Executive, NPSA and legislation.gov.uk. This site is not endorsed by or affiliated with the SIA or any awarding organisation. <span data-year>2026</span>.</p>
+      <p class="footer-legal">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noreferrer">Open Government Licence v3.0</a>. Sources include the Security Industry Authority. The current question bank draws on SIA specifications only. This site is not endorsed by or affiliated with the SIA or any awarding organisation. <span data-year>2026</span>.</p>
     </div>
   </footer>
 

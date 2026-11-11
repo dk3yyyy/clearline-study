@@ -1,6 +1,6 @@
-# Clearline Study
+# ShiftReady
 
-A source-cited study and mock-exam site for UK SIA licence-linked qualifications.
+An independent, source-linked study and mock-exam site for UK SIA licence-linked qualifications.
 
 This repository is a working vertical slice of the build in `SIA-STUDY-SITE-AGENT-INSTRUCTIONS.md`. It contains the source pack, a structured syllabus, a question bank with source quotations, the verification reports, and a static study app in `site/`.
 
@@ -55,5 +55,5 @@ python3 scripts/export_site_data.py
 - The current question bank is an initial draft, not a complete 1,700-question production bank. `syllabus/COVERAGE_REPORT.md` lists every objective that still has no question.
 - The source pack in this repository is the SIA specification pack supplied for this build. It does not contain every statute, code of practice or guidance document named in the full instructions.
 - Questions touching use of force, arrest, physical intervention or first aid are marked for human review. Do not publish them without that review.
-- The site is independent. It is not endorsed by the SIA, NATO or any awarding organisation.
+- The site is independent. It is not endorsed by the SIA or any awarding organisation.
 - Progress is stored in `localStorage`. There is no account, backend, sync or payment flow.
