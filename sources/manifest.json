@@ -1,0 +1,189 @@
+[
+  {
+    "doc_id": "door-supervisor-final-unit-content",
+    "title": "Door Supervisor Final Unit Content",
+    "local_path": "sources/00-sia-specs/door-supervisor-final-unit-content.txt",
+    "pdf_path": "sources/00-sia-specs/door-supervisor-final-unit-content.pdf",
+    "sha256": "5148dc9b5699ed33d7bc9bbb1f0d2a969b8e1e575e2bba149836742e487aabb0",
+    "pages": 10,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-cctv-specification-2021",
+    "title": "Cctv Specification 2021",
+    "local_path": "sources/00-sia-specs/sia-cctv-specification-2021.txt",
+    "pdf_path": "sources/00-sia-specs/sia-cctv-specification-2021.pdf",
+    "sha256": "0a02dd612624917cc384ab1829828dc7f70bde286c5ad0efef46ff5b2cb39e60",
+    "pages": 13,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-common-specification-2021",
+    "title": "Common Specification 2021",
+    "local_path": "sources/00-sia-specs/sia-common-specification-2021.txt",
+    "pdf_path": "sources/00-sia-specs/sia-common-specification-2021.pdf",
+    "sha256": "1672259a3f3dc8368d210b38d0538bd9666bc47fc614765e198c76a105a2ffe2",
+    "pages": 17,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-conflict-management-specification-2021",
+    "title": "Conflict Management Specification 2021",
+    "local_path": "sources/00-sia-specs/sia-conflict-management-specification-2021.txt",
+    "pdf_path": "sources/00-sia-specs/sia-conflict-management-specification-2021.pdf",
+    "sha256": "3bfc5bf14b23a03951da901d8920601de444291ed3e9fd97e90686491749267b",
+    "pages": 14,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-cp-ds-responsiblities-specification-2022",
+    "title": "Cp Ds Responsiblities Specification 2022",
+    "local_path": "sources/00-sia-specs/sia-cp-ds-responsiblities-specification-2022.txt",
+    "pdf_path": "sources/00-sia-specs/sia-cp-ds-responsiblities-specification-2022.pdf",
+    "sha256": "af8f946b1d2e492f11aa5820fbb9f61b752af739531187b9fc91b1fd3d9898d5",
+    "pages": 7,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-cp-physical-intervention-refresher-specification-2025",
+    "title": "Cp Physical Intervention Refresher Specification 2025",
+    "local_path": "sources/00-sia-specs/sia-cp-physical-intervention-refresher-specification-2025.txt",
+    "pdf_path": "sources/00-sia-specs/sia-cp-physical-intervention-refresher-specification-2025.pdf",
+    "sha256": "fed5f69b731263029217609a44dbc809faea708354d1fa6b476828d97d388605",
+    "pages": 6,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-cp-physical-intervention-specification-2022",
+    "title": "Cp Physical Intervention Specification 2022",
+    "local_path": "sources/00-sia-specs/sia-cp-physical-intervention-specification-2022.txt",
+    "pdf_path": "sources/00-sia-specs/sia-cp-physical-intervention-specification-2022.pdf",
+    "sha256": "8473a249f0d14425aa3a97324403481c7f6522c8bdf16c38dc99d6cf7ca12e3e",
+    "pages": 7,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-cp-specification-2022",
+    "title": "Cp Specification 2022",
+    "local_path": "sources/00-sia-specs/sia-cp-specification-2022.txt",
+    "pdf_path": "sources/00-sia-specs/sia-cp-specification-2022.pdf",
+    "sha256": "0d7bf60c13c6e0954ef7c74adcd887a5a6b3ed2b31c65f8221ed5ae02e33a86b",
+    "pages": 19,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-cvit-specification-2021",
+    "title": "Cvit Specification 2021",
+    "local_path": "sources/00-sia-specs/sia-cvit-specification-2021.txt",
+    "pdf_path": "sources/00-sia-specs/sia-cvit-specification-2021.pdf",
+    "sha256": "5591ff036ddc852dd224cf2fb7c3b8e2b0ca3c713d12c8ed139533b8045cc291",
+    "pages": 6,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-ds-refresher-specification-2024",
+    "title": "Ds Refresher Specification 2024",
+    "local_path": "sources/00-sia-specs/sia-ds-refresher-specification-2024.txt",
+    "pdf_path": "sources/00-sia-specs/sia-ds-refresher-specification-2024.pdf",
+    "sha256": "21948662e270f635fcf722f29724b9edfa9c21855403688f85a5dba9c5d9c3d4",
+    "pages": 8,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-ds-specification-2021",
+    "title": "Ds Specification 2021",
+    "local_path": "sources/00-sia-specs/sia-ds-specification-2021.txt",
+    "pdf_path": "sources/00-sia-specs/sia-ds-specification-2021.pdf",
+    "sha256": "7bd292ad21532a0f1c34c9a4cb93573f495abe6c3c30fa20cb1ba51494d95301",
+    "pages": 11,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-physical-intervention-specification-2021",
+    "title": "Physical Intervention Specification 2021",
+    "local_path": "sources/00-sia-specs/sia-physical-intervention-specification-2021.txt",
+    "pdf_path": "sources/00-sia-specs/sia-physical-intervention-specification-2021.pdf",
+    "sha256": "d7ad290e4f6b839a1d3c131dbfff3e8ebe2c55fb20e2ebd67031b867361bcd23",
+    "pages": 9,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-sg-refresher-specification-2024",
+    "title": "Sg Refresher Specification 2024",
+    "local_path": "sources/00-sia-specs/sia-sg-refresher-specification-2024.txt",
+    "pdf_path": "sources/00-sia-specs/sia-sg-refresher-specification-2024.pdf",
+    "sha256": "945e9e2c06d537252821b0c8289eb200d66763b4802ae1ec96e3e14771c07681",
+    "pages": 7,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-sg-specification-2021",
+    "title": "Sg Specification 2021",
+    "local_path": "sources/00-sia-specs/sia-sg-specification-2021.txt",
+    "pdf_path": "sources/00-sia-specs/sia-sg-specification-2021.pdf",
+    "sha256": "76b48635060b1ea65df30677d75503a48a29837d10f31a0bbcc5ff505d57c5da",
+    "pages": 11,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-vi-specification",
+    "title": "Vi Specification",
+    "local_path": "sources/00-sia-specs/sia-vi-specification.txt",
+    "pdf_path": "sources/00-sia-specs/sia-vi-specification.pdf",
+    "sha256": "f9f4158f6ec69c83188a48a57b96bd891a24640c4b5df8e8cac46fcbc9e79436",
+    "pages": 17,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-get-licensed",
+    "title": "Get Licensed",
+    "local_path": "sources/01-sia-regulatory/sia-get-licensed.txt",
+    "pdf_path": "sources/01-sia-regulatory/sia-get-licensed.pdf",
+    "sha256": "1008f0b24012d260c988d6e987bb906b5e7845178f3e799533a0497d4be3eb46",
+    "pages": 134,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "sia-get-training",
+    "title": "Get Training",
+    "local_path": "sources/01-sia-regulatory/sia-get-training.txt",
+    "pdf_path": "sources/01-sia-regulatory/sia-get-training.pdf",
+    "sha256": "4a59fc1d53b7e06c11da082b5faa46933bb4bc6651d59a4de5512bdd6c6f796c",
+    "pages": 37,
+    "licence": "OGL-3.0",
+    "publisher": "Security Industry Authority",
+    "status": "downloaded"
+  }
+]

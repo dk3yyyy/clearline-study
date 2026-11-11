@@ -1,0 +1,32 @@
+name: Validate study data
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check JavaScript syntax
+        run: node --check site/assets/app.js
+      - name: Validate question JSON and required fields
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          questions = json.loads(Path('site/data/questions.json').read_text())
+          required = {'id', 'unit', 'objective_id', 'stem', 'options', 'answer_index', 'explanation', 'source_chunk_ids', 'source_quote'}
+          assert questions, 'question bank is empty'
+          for q in questions:
+              missing = required - q.keys()
+              assert not missing, (q.get('id'), missing)
+              assert len(q['options']) == 4, q['id']
+              assert 0 <= q['answer_index'] < 4, q['id']
+          print(f'{len(questions)} question records passed structural validation')
+          PY

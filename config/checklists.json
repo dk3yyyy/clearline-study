@@ -1,0 +1,40 @@
+{
+  "DS-U2": [
+    {"title": "Search a person lawfully and professionally", "note": "Consent, conditions of entry, same-sex policy, PPE and the refusal process."},
+    {"title": "Search property and premises", "note": "Methodical search, prohibited items, documentation and handover."},
+    {"title": "Use communication devices", "note": "Radio, earpiece and clear internal/external messages during an incident."}
+  ],
+  "U3-CONFLICT": [
+    {"title": "Manage a conflict scenario", "note": "Assess, communicate, de-escalate and explain the decisions you made."}
+  ],
+  "U4-PI": [
+    {"title": "Explain the legal and professional limits of physical intervention", "note": "Reasonable and necessary force, duty of care, risk and positional asphyxia awareness."},
+    {"title": "Demonstrate the assessed skills under a qualified trainer", "note": "Technique instruction is deliberately not provided on this site."}
+  ],
+  "SO-U2": [
+    {"title": "Search a person and their property", "note": "Consent, same-sex policy, hazards, PPE and refusal."},
+    {"title": "Use communication devices", "note": "Check calls and clear messages during a site incident."}
+  ],
+  "CCTV-U2": [
+    {"title": "Complete control-room functional checks", "note": "Cameras, recording, monitors and communications."},
+    {"title": "Operate surveillance equipment and obtain an evidential image", "note": "Follow the operations manual and preserve the audit trail."},
+    {"title": "Compile the evidence portfolio", "note": "Documentation, images and continuity."}
+  ],
+  "CP-MAIN": [
+    {"title": "Carry out a threat and risk assessment", "note": "Principal, venue, route and dynamic risk."},
+    {"title": "Plan and conduct a close protection assignment", "note": "Team roles, reconnaissance, route planning and contingencies."}
+  ],
+  "CP-PI": [
+    {"title": "Explain the legal and ethical limits of physical intervention", "note": "Necessity, proportionality, duty of care and medical risk."},
+    {"title": "Demonstrate the assessed skills under a qualified trainer", "note": "Technique instruction is deliberately not provided on this site."}
+  ],
+  "DS-REF": [
+    {"title": "Demonstrate current search procedures", "note": "Search types, consent, hazards, refusal and documentation."}
+  ],
+  "SG-REF": [
+    {"title": "Demonstrate current search procedures", "note": "Search types, consent, hazards, refusal and documentation."}
+  ],
+  "CP-REF": [
+    {"title": "Demonstrate the assessed physical intervention skills under a qualified trainer", "note": "Knowledge revision only on this site; no technique instruction."}
+  ]
+}

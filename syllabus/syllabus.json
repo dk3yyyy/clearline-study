@@ -1,0 +1,3214 @@
+{
+  "qualifications": [
+    {
+      "id": "DS",
+      "name": "Door Supervisor",
+      "level": "Level 2 Award",
+      "description": "Front-line venue security, conflict management and physical intervention.",
+      "units": [
+        "U1-COMMON",
+        "DS-U2",
+        "U3-CONFLICT",
+        "U4-PI"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "SO",
+      "name": "Security Officer",
+      "level": "Level 2 Award",
+      "description": "Site security, access control, patrols and reporting.",
+      "units": [
+        "U1-COMMON",
+        "SO-U2",
+        "U3-CONFLICT"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CCTV",
+      "name": "CCTV Operator",
+      "level": "Level 2 Award",
+      "description": "Public space surveillance, control-room operations and evidence handling.",
+      "units": [
+        "U1-COMMON",
+        "CCTV-U2"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CP",
+      "name": "Close Protection",
+      "level": "Level 3 Certificate",
+      "description": "Protective operations, threat assessment, planning and team work.",
+      "units": [
+        "CP-MAIN",
+        "CP-PI",
+        "CP-DSR"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CVIT",
+      "name": "Cash and Valuables in Transit",
+      "level": "Level 2 Award",
+      "description": "Secure collection, delivery and transportation of cash and valuables.",
+      "units": [
+        "CVIT"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "DS-REF",
+      "name": "Door Supervisor Refresher",
+      "level": "Refresher",
+      "description": "Licence-renewal refresher: searching, vulnerability, terror awareness and spiking.",
+      "units": [
+        "DS-REF"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "SG-REF",
+      "name": "Security Guard Refresher",
+      "level": "Refresher",
+      "description": "Licence-renewal refresher: searching, vulnerability and terror awareness.",
+      "units": [
+        "SG-REF"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "CP-REF",
+      "name": "Close Protection Refresher",
+      "level": "Refresher",
+      "description": "Close protection physical intervention refresher.",
+      "units": [
+        "CP-REF"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "EFAW",
+      "name": "Emergency First Aid at Work",
+      "level": "Supporting module",
+      "description": "First-aid knowledge revision for DS, SO and CP learners.",
+      "units": [],
+      "status": "active"
+    },
+    {
+      "id": "VI",
+      "name": "Vehicle Immobilisation",
+      "level": "Northern Ireland only",
+      "description": "Low-priority legacy qualification; not issued in England and Wales.",
+      "units": [
+        "VI"
+      ],
+      "status": "legacy"
+    }
+  ],
+  "units": {
+    "U1-COMMON": {
+      "id": "U1-COMMON",
+      "name": "Principles of Working in the Private Security Industry",
+      "qualifications": [
+        "DS",
+        "SO",
+        "CCTV"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: The private security industry",
+          "aim": "To identify the main characteristics of the private security industry.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S1-O1",
+              "text": "define the key purpose of the private security industry"
+            },
+            {
+              "id": "U1-COMMON-S1-O2",
+              "text": "state the aims and functions of the Security Industry Authority (SIA)"
+            },
+            {
+              "id": "U1-COMMON-S1-O3",
+              "text": "describe the required standards of behaviour of a private security operative in accordance with Appendix A"
+            },
+            {
+              "id": "U1-COMMON-S1-O4",
+              "text": "give examples of local crime reduction initiatives and how linking in with them impacts on the role of the security operative"
+            },
+            {
+              "id": "U1-COMMON-S1-O5",
+              "text": "define how each role may use CCTV under licensing conditions"
+            },
+            {
+              "id": "U1-COMMON-S1-O6",
+              "text": "understand the Approved Contractor Scheme"
+            }
+          ],
+          "id": "U1-COMMON-S1",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 2: Awareness of the law in the private security industry",
+          "aim": "To have an awareness of legislation as it applies to the individual in carrying out a licensable activity.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S2-O1",
+              "text": "explain the main differences between civil and criminal law"
+            },
+            {
+              "id": "U1-COMMON-S2-O2",
+              "text": "state the requirements of the Private Security Industry Act 2001"
+            },
+            {
+              "id": "U1-COMMON-S2-O3",
+              "text": "demonstrate an understanding of equality and diversity"
+            },
+            {
+              "id": "U1-COMMON-S2-O4",
+              "text": "give examples of licences issued under the Private Security Industry Act/Security Industry Authority"
+            },
+            {
+              "id": "U1-COMMON-S2-O5",
+              "text": "explain how the General Data Protection Regulation/Data Protection Act impacts on the private security industry"
+            }
+          ],
+          "id": "U1-COMMON-S2",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 3: Citizen’s arrest",
+          "aim": "To know and understand citizen’s arrest procedures.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S3-O1",
+              "text": "state the meaning of arrest"
+            },
+            {
+              "id": "U1-COMMON-S3-O2",
+              "text": "know which offences a security officer can make a citizen’s arrest for"
+            },
+            {
+              "id": "U1-COMMON-S3-O3",
+              "text": "identify the limitations to a security operative’s powers of arrest"
+            },
+            {
+              "id": "U1-COMMON-S3-O4",
+              "text": "state procedures to follow when making an arrest"
+            },
+            {
+              "id": "U1-COMMON-S3-O5",
+              "text": "state why citizen’s arrests should only be made as a last resort"
+            },
+            {
+              "id": "U1-COMMON-S3-O6",
+              "text": "state the procedures to take following an arrest"
+            },
+            {
+              "id": "U1-COMMON-S3-O7",
+              "text": "state what is meant by ‘reasonable’ and ‘necessary’ force"
+            }
+          ],
+          "id": "U1-COMMON-S3",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 4: Health and safety for the private security operative",
+          "aim": "To understand the importance of safe working practices to comply with legal requirements.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S4-O1",
+              "text": "describe the responsibilities of employees, employers and the self-employed under the Health and Safety at Work legislation (e.g. lone working)"
+            },
+            {
+              "id": "U1-COMMON-S4-O2",
+              "text": "describe how to minimise risk to personal safety and security"
+            },
+            {
+              "id": "U1-COMMON-S4-O3",
+              "text": "identify typical risks and hazards (including slips, trips and falls)"
+            },
+            {
+              "id": "U1-COMMON-S4-O4",
+              "text": "identify safety signs and signals"
+            },
+            {
+              "id": "U1-COMMON-S4-O5",
+              "text": "explain the reporting procedures for health and safety accidents and incidents"
+            },
+            {
+              "id": "U1-COMMON-S4-O6",
+              "text": "identify ways to keep personal information safe"
+            }
+          ],
+          "id": "U1-COMMON-S4",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 5: Fire safety awareness",
+          "aim": "To understand fire procedures in the workplace.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S5-O1",
+              "text": "list the 3 elements that must be present for a fire to exist"
+            },
+            {
+              "id": "U1-COMMON-S5-O2",
+              "text": "explain the actions to be taken upon discovering a fire"
+            },
+            {
+              "id": "U1-COMMON-S5-O3",
+              "text": "describe basic fire prevention measures/controls"
+            },
+            {
+              "id": "U1-COMMON-S5-O4",
+              "text": "identify the classifications of fire"
+            },
+            {
+              "id": "U1-COMMON-S5-O5",
+              "text": "describe the different types of fire extinguishers and their uses"
+            },
+            {
+              "id": "U1-COMMON-S5-O6",
+              "text": "state other types of firefighting equipment"
+            },
+            {
+              "id": "U1-COMMON-S5-O7",
+              "text": "describe the role and responsibilities of a fire marshal"
+            }
+          ],
+          "id": "U1-COMMON-S5",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 6: Emergency procedures",
+          "aim": "To identify emergencies and describe the importance of emergency procedures.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S6-O1",
+              "text": "define the term “emergency” when used in the workplace"
+            },
+            {
+              "id": "U1-COMMON-S6-O2",
+              "text": "list different types of emergencies, and the associated problems"
+            },
+            {
+              "id": "U1-COMMON-S6-O3",
+              "text": "understand human responses to dealing with emergency procedures"
+            },
+            {
+              "id": "U1-COMMON-S6-O4",
+              "text": "identify actions that should be taken when emergencies occur"
+            },
+            {
+              "id": "U1-COMMON-S6-O5",
+              "text": "state actions to be taken in common situations requiring first aid"
+            },
+            {
+              "id": "U1-COMMON-S6-O6",
+              "text": "describe the importance of understanding evacuation procedures"
+            }
+          ],
+          "id": "U1-COMMON-S6",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 7: Communication skills and customer care",
+          "aim": "To understand the importance of effective communication skills and good customer care.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S7-O1",
+              "text": "identify the different types of communication"
+            },
+            {
+              "id": "U1-COMMON-S7-O2",
+              "text": "state the importance of effective communication"
+            },
+            {
+              "id": "U1-COMMON-S7-O3",
+              "text": "identify the benefits of teamwork in the private security industry"
+            },
+            {
+              "id": "U1-COMMON-S7-O4",
+              "text": "state the principle of customer service"
+            },
+            {
+              "id": "U1-COMMON-S7-O5",
+              "text": "explain the importance of understanding diverse customer needs and expectations"
+            }
+          ],
+          "id": "U1-COMMON-S7",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 8: Record keeping",
+          "aim": "to know and understand the importance of record keeping • to demonstrate how to accurately complete an evidential statement",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S8-O1",
+              "text": "state the importance of accurate record keeping"
+            },
+            {
+              "id": "U1-COMMON-S8-O2",
+              "text": "identify the types of records that may need to be completed"
+            },
+            {
+              "id": "U1-COMMON-S8-O3",
+              "text": "identify what information to include in records"
+            },
+            {
+              "id": "U1-COMMON-S8-O4",
+              "text": "demonstrate the accurate completion of an evidential statement (Section 9 Statement)"
+            },
+            {
+              "id": "U1-COMMON-S8-O5",
+              "text": "explain the process of attending court to give evidence"
+            }
+          ],
+          "id": "U1-COMMON-S8",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 9: Terror threat awareness",
+          "aim": "to understand the threat from terrorism and the role of a security operative in the event of a terrorist incident taking place • to understand the basic procedures for emergency response in relation to a terrorist incident",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S9-O1",
+              "text": "understand the UK threat level assessment system"
+            },
+            {
+              "id": "U1-COMMON-S9-O2",
+              "text": "recognise current attack methodology, including: Marauding Terror Attack (including firearm, knife, etc.) Explosive device (including IED / P / VBIED) VAAW (Vehicle as a weapon) CBRN (including acid attacks)"
+            },
+            {
+              "id": "U1-COMMON-S9-O3",
+              "text": "understand what actions to take in response to a terrorist attack"
+            },
+            {
+              "id": "U1-COMMON-S9-O4",
+              "text": "know the HOT principles and 4 Cs protocols for suspicious items"
+            },
+            {
+              "id": "U1-COMMON-S9-O5",
+              "text": "identify behaviours that could indicate suspicious activity, including ‘hostile reconnaissance’"
+            },
+            {
+              "id": "U1-COMMON-S9-O6",
+              "text": "know how to respond to suspicious behaviour"
+            }
+          ],
+          "id": "U1-COMMON-S9",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 10: Protecting vulnerable people",
+          "aim": "To know and understand how to keep vulnerable people safe.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S10-O1",
+              "text": "recognise their duty of care with regards to vulnerable people"
+            },
+            {
+              "id": "U1-COMMON-S10-O2",
+              "text": "identify factors that could make someone vulnerable"
+            },
+            {
+              "id": "U1-COMMON-S10-O3",
+              "text": "identify the actions that the security operative should take towards vulnerable people"
+            },
+            {
+              "id": "U1-COMMON-S10-O4",
+              "text": "identify the behaviours shown by of potential sexual predators, including use of drugs, and know when to report them"
+            },
+            {
+              "id": "U1-COMMON-S10-O5",
+              "text": "identify indicators of abuse"
+            },
+            {
+              "id": "U1-COMMON-S10-O6",
+              "text": "know how to deal with allegations of sexual assault"
+            },
+            {
+              "id": "U1-COMMON-S10-O7",
+              "text": "know how to deal with anti-social behaviour, including from members of the public (use of force, law appropriate person, theft, etc.)"
+            }
+          ],
+          "id": "U1-COMMON-S10",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        },
+        {
+          "title": "Session 11: Post incident management",
+          "aim": "To know and understand good practice for post incident management.",
+          "objectives": [
+            {
+              "id": "U1-COMMON-S11-O1",
+              "text": "identify sources of post incident support available"
+            },
+            {
+              "id": "U1-COMMON-S11-O2",
+              "text": "state why accessing support following an incident is important"
+            },
+            {
+              "id": "U1-COMMON-S11-O3",
+              "text": "state the benefits of reflecting on an incident"
+            },
+            {
+              "id": "U1-COMMON-S11-O4",
+              "text": "identify why it is important for security operatives to contribute to improving practice"
+            }
+          ],
+          "id": "U1-COMMON-S11",
+          "source": {
+            "doc_id": "sia-common-specification-2021",
+            "doc_title": "SIA Common Security Industry Knowledge specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"
+          }
+        }
+      ]
+    },
+    "U3-CONFLICT": {
+      "id": "U3-CONFLICT",
+      "name": "Application of Conflict Management in the Private Security Industry",
+      "qualifications": [
+        "DS",
+        "SO",
+        "CP"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Preventing and managing conflict",
+          "aim": "To recognise, assess and reduce risk in conflict situations.",
+          "objectives": [
+            {
+              "id": "U3-CONFLICT-S1-O1",
+              "text": "identify the common situations involving conflict"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O2",
+              "text": "demonstrate an understanding of the importance of positive and constructive communication to avoid conflict"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O3",
+              "text": "identify the importance of being familiar with employer policies, guidance and procedures relating to workplace violence when deployed"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O4",
+              "text": "identify potential risks of violence and aggression towards yourself and others"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O5",
+              "text": "continually assess the level of risk posed in a conflict situation"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O6",
+              "text": "identify appropriate measures to reduce or eliminate the risk"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O7",
+              "text": "recognise responses to emotional and threatening situations"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O8",
+              "text": "explain what empathy is and how to use it to recognise the customer’s view of the situation"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O9",
+              "text": "identify factors that trigger or inhibit a range of responses"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O10",
+              "text": "recognise appropriate responses to a range of conflict situations"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O11",
+              "text": "explain the importance of adopting an appropriate initial response"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O12",
+              "text": "describe the attitude/behaviour cycle"
+            },
+            {
+              "id": "U3-CONFLICT-S1-O13",
+              "text": "use a recognised de-escalation model to manage a conflict situation"
+            }
+          ],
+          "id": "U3-CONFLICT-S1",
+          "source": {
+            "doc_id": "sia-conflict-management-specification-2021",
+            "doc_title": "SIA Conflict Management specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-conflict-management-specification"
+          }
+        },
+        {
+          "title": "Session 2: Defusing conflict",
+          "aim": "To identify how to use communications effectively in difficult and emotive situations and to de-escalate conflict.",
+          "objectives": [
+            {
+              "id": "U3-CONFLICT-S2-O1",
+              "text": "understand how to communicate effectively by being able to: recognise the importance of verbal and non-verbal communication when dealing with emotionally charged situations identify different barriers to communication overcome barriers to communication by using conflict management techniques use appropriate communication in difficult and emotive situations"
+            },
+            {
+              "id": "U3-CONFLICT-S2-O2",
+              "text": "de-escalate conflict by being able to: identify how to work effectively with colleagues to de-escalate conflict recognise an escalation in risk describe a model for de-escalating conflict recognise the difference between assertion and aggression choose appropriate assertive behaviour for confronting unacceptable behaviour recognise the importance of providing exit routes and space"
+            }
+          ],
+          "id": "U3-CONFLICT-S2",
+          "source": {
+            "doc_id": "sia-conflict-management-specification-2021",
+            "doc_title": "SIA Conflict Management specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-conflict-management-specification"
+          }
+        },
+        {
+          "title": "Session 3: Resolving and learning from conflict",
+          "aim": "To help learners identify simple strategies for resolving conflict and how they can learn from conflict.",
+          "objectives": [
+            {
+              "id": "U3-CONFLICT-S3-O1",
+              "text": "explain how to build trust in order to resolve conflict"
+            },
+            {
+              "id": "U3-CONFLICT-S3-O2",
+              "text": "explain the benefits of problem solving"
+            },
+            {
+              "id": "U3-CONFLICT-S3-O3",
+              "text": "recognise a win-win approach to dealing with conflict situations"
+            },
+            {
+              "id": "U3-CONFLICT-S3-O4",
+              "text": "identify how to seek help and make use of support services"
+            },
+            {
+              "id": "U3-CONFLICT-S3-O5",
+              "text": "explain the importance of reflecting and learning from the experience of conflict"
+            },
+            {
+              "id": "U3-CONFLICT-S3-O6",
+              "text": "identify the importance of raising matters with your employer and sharing good practice"
+            },
+            {
+              "id": "U3-CONFLICT-S3-O7",
+              "text": "identify the importance of contributing to long term solutions"
+            }
+          ],
+          "id": "U3-CONFLICT-S3",
+          "source": {
+            "doc_id": "sia-conflict-management-specification-2021",
+            "doc_title": "SIA Conflict Management specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-conflict-management-specification"
+          }
+        },
+        {
+          "title": "Session 4a: Application of Communication Skills and Conflict",
+          "aim": "To develop the knowledge and skills of learners in conflict management, and to facilitate understanding and confidence through their practical application in scenarios. This conflict management specification covers a number of security roles performed in a diverse range of environments. Although the environments may contrast there are common elements to most security roles in terms of communication and conflict management and these can be defined in the generic core of learning objectives set out below. Use of practical scenarios to aid learning: The training should be further tailored to respond to the specific workplace context of the learning group through the inclusion of highly relevant scenarios. For example, training being delivered to a group of retail security officers will incorporate scenarios such as confronting a ‘shoplifter’ and calming other persons. 1 The scenarios will enhance skills and confidence in the areas covered through giving learners the opportunity to apply their knowledge and skills. Awarding organisations/bodies will therefore include relevant practical scenario situations in their training syllabus and assessment processes. The scenarios will be facilitated by the trainer within the actual work environment or something similar at or near the training venue. The purpose of such scenarios is to actively engage the learners in problem solving common problems and to respect and draw upon their own experience and ideas. Through effective use of scenarios learners will be able to relate the training directly to their work. It is important that trainers ensure the physical and emotional safety of those participating in and/or affected by scenario-based training. Scenarios need to be supervised at all times with clear briefings to prevent physical confrontation and other risks. Consultation has identified common conflict situations and the training must include at least 1 practical scenario from each of the 4 following headings that is appropriate to the role of learners: • enforcement scenario: a situation that requires demonstration of positive communication skills when dealing with other persons on day-to-day issues, such as access control and identity checks. • defusing scenario: a situation that requires demonstration of effective communication skills in calming an emotive situation, such as, an angry customer. • confronting scenario: a situation that requires non-aggressive but firm handling of unacceptable behaviour such as foul language or breach of rules of entry. • high risk scenario: an obvious risk situation that demands accurate threat assessment, decision-making skills and safe practice. 1 In using the term ‘customer’ we recognise that conflict situations may arise in the security industry from interaction with a number of different people, which includes customers, clients, colleagues etc. For the purposes of convenience these are described as ‘other persons’. To ensure each scenario has a clear focus it should be carefully selected and aligned to the relevant session learning objectives. Scenarios should include issues relating to employment equality, disability and discrimination.",
+          "objectives": [
+            {
+              "id": "U3-CONFLICT-S4-O1",
+              "text": "enforcement scenario: a situation that requires demonstration of positive communication skills when dealing with other persons on day-to-day issues, such as access control and identity checks."
+            },
+            {
+              "id": "U3-CONFLICT-S4-O2",
+              "text": "defusing scenario: a situation that requires demonstration of effective communication skills in calming an emotive situation, such as, an angry customer."
+            },
+            {
+              "id": "U3-CONFLICT-S4-O3",
+              "text": "confronting scenario: a situation that requires non-aggressive but firm handling of unacceptable behaviour such as foul language or breach of rules of entry."
+            },
+            {
+              "id": "U3-CONFLICT-S4-O4",
+              "text": "high risk scenario: an obvious risk situation that demands accurate threat assessment, decision-making skills and safe practice. 1 In using the term ‘customer’ we recognise that conflict situations may arise in the security industry from interaction with a number of different people, which includes customers, clients, colleagues etc. For the purposes of convenience these are described as ‘other persons’. To ensure each scenario has a clear focus it should be carefully selected and aligned to the relevant session learning objectives. Scenarios should include issues relating to employment equality, disability and discrimination."
+            }
+          ],
+          "id": "U3-CONFLICT-S4",
+          "source": {
+            "doc_id": "sia-conflict-management-specification-2021",
+            "doc_title": "SIA Conflict Management specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-conflict-management-specification"
+          }
+        },
+        {
+          "title": "Session 4b: Application of communication skills and conflict",
+          "aim": "To observe, discuss and participate in scenario situations requiring effective communication skills and conflict management. This is so that learners become aware of situations likely to lead to conflict and can apply knowledge of effective communication and conflict management skills to these situations. Refusing entry to a customer on the grounds of: • the venue already being full to capacity • being under the influence of drink and/or drugs • being underage • not being suitably dressed • not being able to pay the entrance fee • refusal to be searched • being found in possession of weapons or drugs • being banned or under an exclusion order Objective:",
+          "objectives": [
+            {
+              "id": "U3-CONFLICT-S5-O1",
+              "text": "breaches of criminal law (theft, damage, assaults, drugs etc)"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O2",
+              "text": "breaches of licensing law (being drunk, violent, quarrelsome etc)"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O3",
+              "text": "breaches of house rules (dancing on tables, bottles on the dance-floor etc.) Objective: know how to eject a customer in a way that reduces the risk of conflict. Incidents inside the venue, such as:"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O4",
+              "text": "advising/reprimanding for behaviour (breaches of house rules)"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O5",
+              "text": "first aid situation"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O6",
+              "text": "undertaking an arrest of a customer for an arrestable offence"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O7",
+              "text": "failing to adhere to drinking-up times"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O8",
+              "text": "domestic disputes"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O9",
+              "text": "other disputes (customer vs. bar-staff, complaints about service etc.)"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O10",
+              "text": "arguments/fights"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O11",
+              "text": "lost property (coat/bag/keys etc.)"
+            },
+            {
+              "id": "U3-CONFLICT-S5-O12",
+              "text": "dealing with incidents that lead outside of the premises – what should be the door supervisor’s responsibilities Objective: that occur inside the venue, and to understand how they can deal with them in a way that reduces the risk of conflict. They will also understand the law about arrest in relation to a door supervisor’s role Scenario situations: The following are examples of scenarios which must be used as role plays and in discussions to reinforce the communication skills and conflict management learning. Training must include at least one practical scenario from each of the three following headings. Refusal scenarios: 1. Refuse entry to customers when the venue is full, explaining why no more people can come in, explaining that they may be allowed in if and when other customers leave. 2. Refuse entry to someone who is obviously under the influence of drink or drugs. Some customers may complain but go away; others will argue and may become aggressive. 3. Refuse entry to someone who appears to be under the age of 18 (or 21), and cannot provide appropriate ID. 4. Refuse entry to someone who breaches the venue’s dress code, i.e. someone wearing trainers where this is not allowed. 5. Refuse entry to someone who wants to come in free of charge, who either cannot pay the admission charge or who claims to be a friend of someone who works there. 6. Refuse entry to someone who refuses to be searched as a part of the entry conditions. 7. Refuse entry to someone found in possession of either an offensive weapon, or with drugs. 8. Refuse entry to someone who is banned from entering the premises because of previous behaviour, or who is under a court exclusion order not to enter licensed premises or, who is on a ‘pub watch’ ban. 9. Refuse entry to someone who behaves aggressively at the point of entry, and is therefore not suitable to be allowed in. Ejection scenarios: 1. Eject a customer for being suspected of theft, criminal damage, assault or drugs inside the venue (where no police action is required). Some customers will leave when asked to do so; others will argue and/or may become aggressive. 2. Eject a customer who breaches licensing laws by becoming very drunk or argumentative or aggressive inside the venue. Some customers will leave when asked; others will argue and/or become aggressive. 3. Eject a customer for breaching a house rule such as repeatedly dancing on tables or carrying bottles/glasses on to the dance floor. Incident scenarios: 1. Advise a customer regarding unacceptable behaviour inside the venue. Try to stop the behaviour, warning the customer about further action if the behaviour persists. 2. Deal with a first aid incident where other drunken customers try to take over. 3. Deal with a domestic dispute which turns into a noisy incident inside the venue. 4. Deal with other disputes inside the venue, such as a customer arguing with bar- staff over incorrect change given, or a complaint about poor service. 5. Deal with various aggressive arguments between customers, to try to prevent them from turning physical. 6. Deal with customers (usually drunk) who refuse to leave the premises at closing time. 7. Arrest a customer as a last resort. Some customers will comply with the arrest; others will become argumentative or aggressive. 8. Deal with people in the 14-18 age group who may be under the influence of alcohol or drugs."
+            }
+          ],
+          "id": "U3-CONFLICT-S5",
+          "source": {
+            "doc_id": "sia-conflict-management-specification-2021",
+            "doc_title": "SIA Conflict Management specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-conflict-management-specification"
+          }
+        },
+        {
+          "title": "Session 4c: Application of communication skills and conflict",
+          "aim": "To observe, discuss and participate in scenario situations requiring effective communication skills and conflict management. This is so that learners become aware of situations likely to lead to conflict and can apply knowledge of effective communication and conflict management skills to these situations. Scenario situations: In order to enhance skills and confidence in the areas covered, it is important that learners have the opportunity to apply the knowledge and skills taught through relevant practical scenarios and case studies. Awarding organisations/bodies should therefore include relevant case studies and practical scenario situations in their training syllabus and assessment processes. Consultation has identified the following common conflict situations and the training should include a combination of practical scenarios and case studies from each of the following headings. To ensure each scenario has a clear focus it should be carefully selected and aligned to the relevant session learning outcomes. Scenarios should include issues relating to employment equality, disability and discrimination. Vehicle clamping or removal: 1. Angry or distressed driver/owner returning to vehicle as it is being clamped or prepared for towing. 2. Intervention by third parties/bystanders, for example outside licensed premises or take away outlets. 3. Dealing with an ‘attended’ vehicle, for example, people sitting in the vehicle such as friends or children. The driver is not, however, in the car, nor is the key in the ignition. 4. Dealing with a sensitive situation that may require use of discretion, for example, recognising people with special needs and those providing essential care. Obstruction and harassment: 1. The driver/owner obstructs the operator from towing away the vehicle, for example by getting into the vehicle or by standing/lying on it or in front of it. 2. Attempts to remove or damage the clamp by non-authorised parties. The operator may need to attend the location and advise the driver/owner that destroying the clamp is a criminal offence. 3. A ‘road rage’ scenario, for example where the driver/owner chases/follows the clamper or tow vehicle. 4. Driver/owner refuses or prevents the operator from gathering evidence of illegal abandonment of a vehicle. Conflict over payment: 1. The owner offers to pay immediately to release the clamp but the operator cannot accept the payment due to company policy. The operator has to re-route the owner to make the payment and this escalates the situation. 2. Driver/owner appeals to the operator to avoid payment and becomes aggressive when this cannot be accepted. 3. Driver has no means of payment or their card is not authorised, or, they cannot prove ownership of the vehicle. Conflict at point of release/retrieval: 1. Aggression faced when returning to release a clamp. 2. Handling aggression surrounding claims made by the driver/owner that the operator has caused damage. 3. Managing frustration of driver/owner left for long periods of time, waiting for an operator to remove the clamp or release the vehicle. Notes: 1. The management of aggressive behaviour on the telephone should be considered in relation to some of these scenarios. 2. Where other methods of immobilising vehicles are used, these should be considered in the context of the above scenarios. 3. Where appropriate the above scenarios can be developed and adapted to further meet the needs of the learning group.",
+          "objectives": [],
+          "id": "U3-CONFLICT-S6",
+          "source": {
+            "doc_id": "sia-conflict-management-specification-2021",
+            "doc_title": "SIA Conflict Management specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-conflict-management-specification"
+          }
+        }
+      ]
+    },
+    "U4-PI": {
+      "id": "U4-PI",
+      "name": "Application of Physical Intervention Skills in the Private Security Industry",
+      "qualifications": [
+        "DS"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Risks associated with the use of physical intervention skills",
+          "aim": "Be able to understand the risks associated with using physical skills.",
+          "objectives": [
+            {
+              "id": "U4-PI-S1-O1",
+              "text": "understand the legal and professional implications of using physical interventions state the legal implications of using physical interventions state the professional implications of using physical interventions state the importance of only using physical intervention skills as a last resort"
+            },
+            {
+              "id": "U4-PI-S1-O2",
+              "text": "understand the risks associated with using physical intervention identify the risk factors involved with the use of physical interventions identify the differences between defensive physical skills and physical interventions identify positive alternatives to physical intervention state the signs and symptoms associated with acute behavioural disorder/excited (or agitated) delirium and psychosis state the specific risks associated with positional (or restraint) asphyxia state the specific risks associated with prolonged physical interventions"
+            },
+            {
+              "id": "U4-PI-S1-O3",
+              "text": "understand how to reduce the risk associated with physical intervention state the specific risks of incidents on the ground, and the importance of dealing with these appropriately identify ways of reducing the risk of harm to all parties involved during physical interventions state the importance of dynamic risk assessment in situations where physical intervention skills are used state how to manage and monitor a person being held state the actions to be taken in a medical emergency"
+            },
+            {
+              "id": "U4-PI-S1-O4",
+              "text": "understand the good practice to follow after physical intervention has been used state responsibilities during and immediately following physical intervention state the importance of keeping physical intervention knowledge and skills current state the importance of accessing help and support following an incident state the importance of reflecting on and learning from previous physical intervention situations state the importance of reporting fully on the use of force state how to provide support to colleagues during a physical intervention"
+            }
+          ],
+          "id": "U4-PI-S1",
+          "source": {
+            "doc_id": "sia-physical-intervention-specification-2021",
+            "doc_title": "SIA Physical Intervention Skills specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-physical-intervention-skills-specification"
+          }
+        },
+        {
+          "title": "Session 2: Personal safety awareness and techniques (non-pain related)",
+          "aim": "To be able to use non-aggressive physical skills to protect yourself and others from assault.",
+          "objectives": [
+            {
+              "id": "U4-PI-S2-O1",
+              "text": "demonstrate stance and positioning skills"
+            },
+            {
+              "id": "U4-PI-S2-O2",
+              "text": "demonstrate skills used to evade and protect against blows"
+            },
+            {
+              "id": "U4-PI-S2-O3",
+              "text": "demonstrate methods of disengagement from grabs and holds"
+            },
+            {
+              "id": "U4-PI-S2-O4",
+              "text": "demonstrate methods to stop one person assaulting another"
+            },
+            {
+              "id": "U4-PI-S2-O5",
+              "text": "demonstrate non-aggressive methods used to intervene to stop assaults or fights"
+            },
+            {
+              "id": "U4-PI-S2-O6",
+              "text": "demonstrate continuous communication to de-escalate a situation"
+            },
+            {
+              "id": "U4-PI-S2-O7",
+              "text": "describe risks relating to disengagement"
+            }
+          ],
+          "id": "U4-PI-S2",
+          "source": {
+            "doc_id": "sia-physical-intervention-specification-2021",
+            "doc_title": "SIA Physical Intervention Skills specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-physical-intervention-skills-specification"
+          }
+        },
+        {
+          "title": "Session 3: Escorting techniques (non-pain related)",
+          "aim": "To be able to use non-pain compliant standing holding and escorting techniques, including non-restrictive and restrictive skills.",
+          "objectives": [
+            {
+              "id": "U4-PI-S3-O1",
+              "text": "demonstrate the use of a method for physically prompting a person"
+            },
+            {
+              "id": "U4-PI-S3-O2",
+              "text": "demonstrate the use of a non-restrictive method of escorting a person"
+            },
+            {
+              "id": "U4-PI-S3-O3",
+              "text": "demonstrate the use of a one-person low level restrictive standing hold that can be used as an escort"
+            },
+            {
+              "id": "U4-PI-S3-O4",
+              "text": "demonstrate the use of a two-person low level restrictive standing hold that can be used as an escort"
+            },
+            {
+              "id": "U4-PI-S3-O5",
+              "text": "demonstrate how to escort an individual up or down stairs"
+            },
+            {
+              "id": "U4-PI-S3-O6",
+              "text": "demonstrate transitions between disengagement techniques and escorting techniques"
+            },
+            {
+              "id": "U4-PI-S3-O7",
+              "text": "demonstrate how to de-escalate and disengage a physical intervention ensuring safety for all parties"
+            },
+            {
+              "id": "U4-PI-S3-O8",
+              "text": "communicate professionally with the subject of physical intervention"
+            }
+          ],
+          "id": "U4-PI-S3",
+          "source": {
+            "doc_id": "sia-physical-intervention-specification-2021",
+            "doc_title": "SIA Physical Intervention Skills specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-physical-intervention-skills-specification"
+          }
+        }
+      ]
+    },
+    "DS-U2": {
+      "id": "DS-U2",
+      "name": "Principles of Working as a Door Supervisor in the Private Security Industry",
+      "qualifications": [
+        "DS"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: The law",
+          "aim": "To know and understand the laws relevant to door supervision.",
+          "objectives": [
+            {
+              "id": "DS-U2-S1-O1",
+              "text": "identify the types of assault"
+            },
+            {
+              "id": "DS-U2-S1-O2",
+              "text": "outline common crimes against property that door supervisors may come across"
+            },
+            {
+              "id": "DS-U2-S1-O3",
+              "text": "identify an ‘offensive weapon’"
+            }
+          ],
+          "id": "DS-U2-S1",
+          "source": {
+            "doc_id": "sia-ds-specification-2021",
+            "doc_title": "SIA Door Supervision specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-specification"
+          }
+        },
+        {
+          "title": "Session 2: Searching",
+          "aim": "To understand and demonstrate effective search procedures.",
+          "objectives": [
+            {
+              "id": "DS-U2-S2-O1",
+              "text": "understand the different types of searches"
+            },
+            {
+              "id": "DS-U2-S2-O2",
+              "text": "understand a door supervisor’s right of search, including the ‘conditions of entry’ and the importance of obtaining permission to search"
+            },
+            {
+              "id": "DS-U2-S2-O3",
+              "text": "identify different types of searching equipment"
+            },
+            {
+              "id": "DS-U2-S2-O4",
+              "text": "understand the hazards associated with conducting an effective search"
+            },
+            {
+              "id": "DS-U2-S2-O5",
+              "text": "know what precautions to take to protect against adverse effects"
+            },
+            {
+              "id": "DS-U2-S2-O6",
+              "text": "know what action to take should an incident or accident occur"
+            },
+            {
+              "id": "DS-U2-S2-O7",
+              "text": "demonstrate how to search people and their property"
+            },
+            {
+              "id": "DS-U2-S2-O8",
+              "text": "understand the reasons for searching premises"
+            },
+            {
+              "id": "DS-U2-S2-O9",
+              "text": "know what actions to take in the event of a refusal to be searched"
+            },
+            {
+              "id": "DS-U2-S2-O10",
+              "text": "complete search documentation"
+            },
+            {
+              "id": "DS-U2-S2-O11",
+              "text": "know what actions to take when a prohibited or restricted item is found during a search"
+            },
+            {
+              "id": "DS-U2-S2-O12",
+              "text": "understand considerations in searching individuals with diverse needs"
+            }
+          ],
+          "id": "DS-U2-S2",
+          "source": {
+            "doc_id": "sia-ds-specification-2021",
+            "doc_title": "SIA Door Supervision specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-specification"
+          }
+        },
+        {
+          "title": "Session 3: Drugs awareness",
+          "aim": "To know and understand drugs and drug abuse.",
+          "objectives": [
+            {
+              "id": "DS-U2-S3-O1",
+              "text": "understand the key areas of legislation that relate to drug misuse"
+            },
+            {
+              "id": "DS-U2-S3-O2",
+              "text": "identify the most common types of illegal drugs"
+            },
+            {
+              "id": "DS-U2-S3-O3",
+              "text": "identify symptoms of drug use"
+            },
+            {
+              "id": "DS-U2-S3-O4",
+              "text": "identify the signs of drug dealing"
+            },
+            {
+              "id": "DS-U2-S3-O5",
+              "text": "know how to deal with customers found in possession of drugs"
+            },
+            {
+              "id": "DS-U2-S3-O6",
+              "text": "state the procedure for handling and storing seized drugs"
+            },
+            {
+              "id": "DS-U2-S3-O7",
+              "text": "state how to dispose of contaminated waste"
+            }
+          ],
+          "id": "DS-U2-S3",
+          "source": {
+            "doc_id": "sia-ds-specification-2021",
+            "doc_title": "SIA Door Supervision specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-specification"
+          }
+        },
+        {
+          "title": "Session 4: Recording incidents and crime scene preservation",
+          "aim": "To understand incident recording and crime scene preservation.",
+          "objectives": [
+            {
+              "id": "DS-U2-S4-O1",
+              "text": "state the reason for recording and preserving crime scenes"
+            },
+            {
+              "id": "DS-U2-S4-O2",
+              "text": "state what actions to take to preserve evidence after an incident (contact, cordon, contain and control)"
+            },
+            {
+              "id": "DS-U2-S4-O3",
+              "text": "know when to call the police"
+            },
+            {
+              "id": "DS-U2-S4-O4",
+              "text": "describe how evidence can be obtained at a crime scene: witnesses, CCTV, body- worn cameras (BWC), phone footage, blood, DNA, disposed of articles, fingerprints"
+            }
+          ],
+          "id": "DS-U2-S4",
+          "source": {
+            "doc_id": "sia-ds-specification-2021",
+            "doc_title": "SIA Door Supervision specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-specification"
+          }
+        },
+        {
+          "title": "Session 5: Licensing law",
+          "aim": "To know and understand licensing law and the licensee’s social responsibility.",
+          "objectives": [
+            {
+              "id": "DS-U2-S5-O1",
+              "text": "know the licensing objectives under licensing law"
+            },
+            {
+              "id": "DS-U2-S5-O2",
+              "text": "understand the law in relation to refusing entry and ejecting customers"
+            },
+            {
+              "id": "DS-U2-S5-O3",
+              "text": "understand police powers in relation to licensed premises"
+            },
+            {
+              "id": "DS-U2-S5-O4",
+              "text": "understand the rights and duties of licensees and door supervisors as their representatives"
+            },
+            {
+              "id": "DS-U2-S5-O5",
+              "text": "state the role of a Designated Premises Supervisor/Premises Manager"
+            },
+            {
+              "id": "DS-U2-S5-O6",
+              "text": "understand the law in relation to children and young persons"
+            },
+            {
+              "id": "DS-U2-S5-O7",
+              "text": "know what conduct is considered unlawful under licensing, gaming and sexual offences legislation"
+            },
+            {
+              "id": "DS-U2-S5-O8",
+              "text": "identify acceptable forms of proof of age"
+            }
+          ],
+          "id": "DS-U2-S5",
+          "source": {
+            "doc_id": "sia-ds-specification-2021",
+            "doc_title": "SIA Door Supervision specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-specification"
+          }
+        },
+        {
+          "title": "Session 6: Dealing with queues and crowds",
+          "aim": "To know and understand the responsibilities of door staff in relation to crowd management within a queue system and crowd capacity within a venue.",
+          "objectives": [
+            {
+              "id": "DS-U2-S6-O1",
+              "text": "know the responsibilities of a door supervisor in relation to queue control"
+            },
+            {
+              "id": "DS-U2-S6-O2",
+              "text": "describe the requirement for and importance of queue control"
+            },
+            {
+              "id": "DS-U2-S6-O3",
+              "text": "explain the importance of following dispersal processes"
+            },
+            {
+              "id": "DS-U2-S6-O4",
+              "text": "understand why communication is important throughout the queuing process"
+            },
+            {
+              "id": "DS-U2-S6-O5",
+              "text": "know the responsibilities in relation to crowd capacity regulations (including specific areas of venues)"
+            },
+            {
+              "id": "DS-U2-S6-O6",
+              "text": "know how and when to monitor the queue for potential safety issues (including safety of barriers and welfare issues)"
+            },
+            {
+              "id": "DS-U2-S6-O7",
+              "text": "state the factors to consider when ejecting or refusing entry to a person who may be vulnerable"
+            }
+          ],
+          "id": "DS-U2-S6",
+          "source": {
+            "doc_id": "sia-ds-specification-2021",
+            "doc_title": "SIA Door Supervision specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-specification"
+          }
+        },
+        {
+          "title": "Session 7: Equipment",
+          "aim": "To be able to use equipment in the role of a door supervisor.",
+          "objectives": [
+            {
+              "id": "DS-U2-S7-O1",
+              "text": "know how to use equipment to help manage capacity (clickers, other counters, facial recognition)"
+            },
+            {
+              "id": "DS-U2-S7-O2",
+              "text": "know how to use different types of personal protective equipment (PPE) (Stab vests, high-vis, gloves, etc.)"
+            },
+            {
+              "id": "DS-U2-S7-O3",
+              "text": "understand how to use body-worn cameras"
+            },
+            {
+              "id": "DS-U2-S7-O4",
+              "text": "understand how to communicate effectively using equipment relevant to their role in security (earpiece, radio etc. and between internal and external i.e. within the premises or with the police)"
+            },
+            {
+              "id": "DS-U2-S7-O5",
+              "text": "demonstrate effective use of communication devices"
+            }
+          ],
+          "id": "DS-U2-S7",
+          "source": {
+            "doc_id": "sia-ds-specification-2021",
+            "doc_title": "SIA Door Supervision specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-specification"
+          }
+        }
+      ]
+    },
+    "SO-U2": {
+      "id": "SO-U2",
+      "name": "Principles of Working as a Security Officer in the Private Security Industry",
+      "qualifications": [
+        "SO"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Roles and responsibilities",
+          "aim": "To understand the key roles and responsibilities of security guards.",
+          "objectives": [
+            {
+              "id": "SO-U2-S1-O1",
+              "text": "identify different security officer roles within the private security industry"
+            },
+            {
+              "id": "SO-U2-S1-O2",
+              "text": "outline the main responsibilities of a security officer in the various security officer roles"
+            },
+            {
+              "id": "SO-U2-S1-O3",
+              "text": "describe the benefits and functions of a control room"
+            }
+          ],
+          "id": "SO-U2-S1",
+          "source": {
+            "doc_id": "sia-sg-specification-2021",
+            "doc_title": "SIA Security Guarding specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-specification"
+          }
+        },
+        {
+          "title": "Session 2: Access and egress control",
+          "aim": "Understand the control of and responsibilities relating to access and egress.",
+          "objectives": [
+            {
+              "id": "SO-U2-S2-O1",
+              "text": "define the responsibilities and purpose of access and egress control"
+            },
+            {
+              "id": "SO-U2-S2-O2",
+              "text": "describe typical duties relating to access and egress control of people including statutory agencies, vehicles, premises and property"
+            },
+            {
+              "id": "SO-U2-S2-O3",
+              "text": "explain the powers and identification requirements of statutory agencies relating to access and egress control."
+            },
+            {
+              "id": "SO-U2-S2-O4",
+              "text": "understand common methods used by people attempting to gain unauthorised access"
+            },
+            {
+              "id": "SO-U2-S2-O5",
+              "text": "describe the requirement for and importance of queue control"
+            }
+          ],
+          "id": "SO-U2-S2",
+          "source": {
+            "doc_id": "sia-sg-specification-2021",
+            "doc_title": "SIA Security Guarding specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-specification"
+          }
+        },
+        {
+          "title": "Session 3: Electronic and physical protection systems",
+          "aim": "To identify the different types of electronic and physical protection systems in the security environment.",
+          "objectives": [
+            {
+              "id": "SO-U2-S3-O1",
+              "text": "explain how electronic and physical protection systems can support the security officer role"
+            },
+            {
+              "id": "SO-U2-S3-O2",
+              "text": "state the purposes of the different types of electronic and physical protection systems"
+            },
+            {
+              "id": "SO-U2-S3-O3",
+              "text": "describe potential risks to electronic and physical protection systems"
+            },
+            {
+              "id": "SO-U2-S3-O4",
+              "text": "list the actions that may be taken in response to different types of alarm activations"
+            }
+          ],
+          "id": "SO-U2-S3",
+          "source": {
+            "doc_id": "sia-sg-specification-2021",
+            "doc_title": "SIA Security Guarding specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-specification"
+          }
+        },
+        {
+          "title": "Session 4: Personal safety",
+          "aim": "Understand how to improve the safety of yourself and others.",
+          "objectives": [
+            {
+              "id": "SO-U2-S4-O1",
+              "text": "identify responsibilities for personal safety at work"
+            },
+            {
+              "id": "SO-U2-S4-O2",
+              "text": "identify situations that might compromise personal safety"
+            },
+            {
+              "id": "SO-U2-S4-O3",
+              "text": "identify the risks of ignoring personal safety in conflict situations"
+            },
+            {
+              "id": "SO-U2-S4-O4",
+              "text": "state the personal safety benefits of undertaking dynamic risk assessment"
+            },
+            {
+              "id": "SO-U2-S4-O5",
+              "text": "list ways to minimise risk to personal safety at work"
+            },
+            {
+              "id": "SO-U2-S4-O6",
+              "text": "recognise the different types of personal protective equipment relevant to the role of a security officer"
+            },
+            {
+              "id": "SO-U2-S4-O7",
+              "text": "state the purpose of using body-worn cameras (BWC)"
+            },
+            {
+              "id": "SO-U2-S4-O8",
+              "text": "identify strategies that can assist personal safety in conflict situations"
+            },
+            {
+              "id": "SO-U2-S4-O9",
+              "text": "describe limits of their own responsibility in physical intervention situations"
+            },
+            {
+              "id": "SO-U2-S4-O10",
+              "text": "identify types of harm that can occur during physical interventions"
+            },
+            {
+              "id": "SO-U2-S4-O11",
+              "text": "identify the personal safety advantages of mental alertness at work"
+            },
+            {
+              "id": "SO-U2-S4-O12",
+              "text": "state the benefits of reflecting on personal safety experiences"
+            }
+          ],
+          "id": "SO-U2-S4",
+          "source": {
+            "doc_id": "sia-sg-specification-2021",
+            "doc_title": "SIA Security Guarding specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-specification"
+          }
+        },
+        {
+          "title": "Session 5: Drugs awareness",
+          "aim": "To know drugs and drug abuse.",
+          "objectives": [
+            {
+              "id": "SO-U2-S5-O1",
+              "text": "recognise the signs and symptoms of drug use"
+            },
+            {
+              "id": "SO-U2-S5-O2",
+              "text": "identify the signs that may indicate drug dealing"
+            },
+            {
+              "id": "SO-U2-S5-O3",
+              "text": "state how to dispose of drug related litter and contaminated waste"
+            }
+          ],
+          "id": "SO-U2-S5",
+          "source": {
+            "doc_id": "sia-sg-specification-2021",
+            "doc_title": "SIA Security Guarding specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-specification"
+          }
+        },
+        {
+          "title": "Session 6: Searching",
+          "aim": "To know how to search appropriately and lawfully.",
+          "objectives": [
+            {
+              "id": "SO-U2-S6-O1",
+              "text": "identify the different types of searches carried out by a security officer"
+            },
+            {
+              "id": "SO-U2-S6-O2",
+              "text": "explain a security officer's right of search"
+            },
+            {
+              "id": "SO-U2-S6-O3",
+              "text": "identify different types of searching equipment"
+            },
+            {
+              "id": "SO-U2-S6-O4",
+              "text": "state the possible hazards that might be encountered when conducting a search"
+            },
+            {
+              "id": "SO-U2-S6-O5",
+              "text": "state the precautions to take when conducting a search"
+            },
+            {
+              "id": "SO-U2-S6-O6",
+              "text": "state what actions to take if an accident or incident occurs during searching"
+            },
+            {
+              "id": "SO-U2-S6-O7",
+              "text": "demonstrate how to search people and their property"
+            },
+            {
+              "id": "SO-U2-S6-O8",
+              "text": "state typical areas of vehicles to be searched"
+            },
+            {
+              "id": "SO-U2-S6-O9",
+              "text": "identify reasons for carrying out a premises search"
+            },
+            {
+              "id": "SO-U2-S6-O10",
+              "text": "state the actions which may need to be taken in the event of a refusal to be searched"
+            },
+            {
+              "id": "SO-U2-S6-O11",
+              "text": "identity reasons for completing search documentation"
+            },
+            {
+              "id": "SO-U2-S6-O12",
+              "text": "identify actions to take if a prohibited or restricted item is found during a search"
+            }
+          ],
+          "id": "SO-U2-S6",
+          "source": {
+            "doc_id": "sia-sg-specification-2021",
+            "doc_title": "SIA Security Guarding specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-specification"
+          }
+        },
+        {
+          "title": "Session 7: Patrolling",
+          "aim": "To know and understand how to patrol designated areas safely.",
+          "objectives": [
+            {
+              "id": "SO-U2-S7-O1",
+              "text": "state the importance of patrolling"
+            },
+            {
+              "id": "SO-U2-S7-O2",
+              "text": "identify the different types of patrol which may be used"
+            },
+            {
+              "id": "SO-U2-S7-O3",
+              "text": "explain patrolling procedures"
+            },
+            {
+              "id": "SO-U2-S7-O4",
+              "text": "identify how to communicate effectively using relevant equipment"
+            },
+            {
+              "id": "SO-U2-S7-O5",
+              "text": "demonstrate effective use of communication devices"
+            },
+            {
+              "id": "SO-U2-S7-O6",
+              "text": "state the importance of check calls"
+            },
+            {
+              "id": "SO-U2-S7-O7",
+              "text": "state how to respond to incidents, including illegal activity and trespass"
+            },
+            {
+              "id": "SO-U2-S7-O8",
+              "text": "state reasons for recording and preserving crime scenes"
+            },
+            {
+              "id": "SO-U2-S7-O9",
+              "text": "state actions to take to preserve evidence after an incident"
+            },
+            {
+              "id": "SO-U2-S7-O10",
+              "text": "identify circumstances when a security officer should call the police"
+            }
+          ],
+          "id": "SO-U2-S7",
+          "source": {
+            "doc_id": "sia-sg-specification-2021",
+            "doc_title": "SIA Security Guarding specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-specification"
+          }
+        }
+      ]
+    },
+    "CCTV-U2": {
+      "id": "CCTV-U2",
+      "name": "Principles and Practices of Working as a CCTV Operator in the Private Security Industry",
+      "qualifications": [
+        "CCTV"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Introduction to the roles and responsibilities of the CCTV",
+          "aim": "To introduce and identify the purpose of a surveillance (CCTV) system and the roles and responsibilities of members of the surveillance (CCTV) team within the control room and other stakeholders.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S1-O1",
+              "text": "identify the different uses of public space surveillance (CCTV) systems"
+            },
+            {
+              "id": "CCTV-U2-S1-O2",
+              "text": "explain the roles and responsibilities of each member of the control room team"
+            },
+            {
+              "id": "CCTV-U2-S1-O3",
+              "text": "identify the roles of other stakeholders who might be involved in public space surveillance (CCTV) systems"
+            },
+            {
+              "id": "CCTV-U2-S1-O4",
+              "text": "state how to work effectively with a range of stakeholders and other agencies"
+            }
+          ],
+          "id": "CCTV-U2-S1",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        },
+        {
+          "title": "Session 2: Legislation",
+          "aim": "To understand the different types of legislation and how they impact on Public Space Surveillance (CCTV) operations.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S2-O1",
+              "text": "explain how the Data Protection Act 2018 and the Freedom of Information Act 2000 impacts on public space surveillance (CCTV) operations"
+            },
+            {
+              "id": "CCTV-U2-S2-O2",
+              "text": "explain how the Protection of Freedoms Act 2012 impacts on public space surveillance (CCTV) operations"
+            },
+            {
+              "id": "CCTV-U2-S2-O3",
+              "text": "explain how the Human Rights Act 1998 impacts on public space surveillance (CCTV) operations"
+            },
+            {
+              "id": "CCTV-U2-S2-O4",
+              "text": "explain how the provisions of the Regulation of Investigatory Powers Act 2000 affect public space surveillance (CCTV) operations"
+            },
+            {
+              "id": "CCTV-U2-S2-O5",
+              "text": "explain how the provisions of the Sexual Offences Act 2003 (in particular the offence of voyeurism) impacts on public space surveillance (CCTV) operations"
+            },
+            {
+              "id": "CCTV-U2-S2-O6",
+              "text": "identify and explain the impact of Codes of Practice and guidance established under the Data Protection Act and the Protection of Freedoms Act for public space surveillance (CCTV)"
+            },
+            {
+              "id": "CCTV-U2-S2-O7",
+              "text": "list the requirements placed upon a remote pilot of an unmanned aerial vehicle (UAV) under the Air Navigation Order 2018"
+            }
+          ],
+          "id": "CCTV-U2-S2",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        },
+        {
+          "title": "Session 3: CCTV operational procedures",
+          "aim": "To understand the importance of operational procedures and guidelines in public space surveillance (CCTV) operations.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S3-O1",
+              "text": "explain why operational procedures and guidelines are necessary to public space surveillance (CCTV) operations"
+            },
+            {
+              "id": "CCTV-U2-S3-O2",
+              "text": "identify the contents of an operations manual and understand how they may impact on public space surveillance (CCTV)"
+            },
+            {
+              "id": "CCTV-U2-S3-O3",
+              "text": "explain how to create an audit trail for evidential purposes"
+            }
+          ],
+          "id": "CCTV-U2-S3",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        },
+        {
+          "title": "Session 4: Equipment",
+          "aim": "To understand how public space surveillance (CCTV) system equipment operates.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S4-O1",
+              "text": "identify how the different components of a surveillance system operate"
+            },
+            {
+              "id": "CCTV-U2-S4-O2",
+              "text": "identify and understand how developments in technology can be utilised by public space surveillance (CCTV) operators"
+            },
+            {
+              "id": "CCTV-U2-S4-O3",
+              "text": "identify the purpose of functional checks on control room equipment"
+            }
+          ],
+          "id": "CCTV-U2-S4",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        },
+        {
+          "title": "Session 5: CCTV activities",
+          "aim": "To understand surveillance techniques.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S5-O1",
+              "text": "explain a range of surveillance techniques"
+            },
+            {
+              "id": "CCTV-U2-S5-O2",
+              "text": "state the standard for evidential-sized images"
+            },
+            {
+              "id": "CCTV-U2-S5-O3",
+              "text": "state the actions to take when dealing with multiple incidents"
+            }
+          ],
+          "id": "CCTV-U2-S5",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        },
+        {
+          "title": "Session 6: Communications and dealing with incidents",
+          "aim": "To understand the different types of incident and how to respond to them.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S6-O1",
+              "text": "recognise the difference between a crime and a non-crime incident"
+            },
+            {
+              "id": "CCTV-U2-S6-O2",
+              "text": "identify the CCTV operator’s response to a crime and a non-crime incident"
+            }
+          ],
+          "id": "CCTV-U2-S6",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        },
+        {
+          "title": "Session 7: Health and safety at work in the CCTV control room",
+          "aim": "To discuss health and safety in the CCTV environment.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S7-O1",
+              "text": "describe the guidelines for CCTV operators under the display screen equipment regulations"
+            },
+            {
+              "id": "CCTV-U2-S7-O2",
+              "text": "identify the factors in CCTV operations which may create stress for operators and how to deal with them"
+            },
+            {
+              "id": "CCTV-U2-S7-O3",
+              "text": "understand the need to continually risk assess whilst working in CCTV operations"
+            }
+          ],
+          "id": "CCTV-U2-S7",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        },
+        {
+          "title": "Session 8: Practical operation of CCTV equipment",
+          "aim": "To demonstrate operational use of CCTV equipment.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S8-O1",
+              "text": "demonstrate functional checks on control room equipment"
+            },
+            {
+              "id": "CCTV-U2-S8-O2",
+              "text": "demonstrate how to use surveillance equipment"
+            },
+            {
+              "id": "CCTV-U2-S8-O3",
+              "text": "demonstrate surveillance techniques"
+            },
+            {
+              "id": "CCTV-U2-S8-O4",
+              "text": "demonstrate effective use of communication devices"
+            },
+            {
+              "id": "CCTV-U2-S8-O5",
+              "text": "obtain an evidential image"
+            }
+          ],
+          "id": "CCTV-U2-S8",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        },
+        {
+          "title": "Session 9: Evidence collation",
+          "aim": "To produce evidential documentation.",
+          "objectives": [
+            {
+              "id": "CCTV-U2-S9-O1",
+              "text": "produce documents required for the audit trail"
+            }
+          ],
+          "id": "CCTV-U2-S9",
+          "source": {
+            "doc_id": "sia-cctv-specification-2021",
+            "doc_title": "SIA Public Space Surveillance (CCTV) specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"
+          }
+        }
+      ]
+    },
+    "CP-MAIN": {
+      "id": "CP-MAIN",
+      "name": "Principles of Working as a Close Protection Operative in the Private Security Industry",
+      "qualifications": [
+        "CP"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Roles and responsibilities of a close protection operative",
+          "aim": "To understand the roles and responsibilities of a close protection operative.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S1-O1",
+              "text": "explain the purpose of close protection"
+            },
+            {
+              "id": "CP-MAIN-S1-O2",
+              "text": "explain the purpose of close protection training and licensing"
+            },
+            {
+              "id": "CP-MAIN-S1-O3",
+              "text": "explain the different roles and responsibilities within a close protection team"
+            },
+            {
+              "id": "CP-MAIN-S1-O4",
+              "text": "explain the required standards, behaviours and ethics that apply to a close protection operative in accordance with Appendix A."
+            },
+            {
+              "id": "CP-MAIN-S1-O5",
+              "text": "identify who is likely to require protective security"
+            },
+            {
+              "id": "CP-MAIN-S1-O6",
+              "text": "state a range of tasks that a close protection operative may undertake for their principal"
+            },
+            {
+              "id": "CP-MAIN-S1-O7",
+              "text": "know the tasks a close protection operative may undertake whilst working alone"
+            },
+            {
+              "id": "CP-MAIN-S1-O8",
+              "text": "explain a range of client types"
+            },
+            {
+              "id": "CP-MAIN-S1-O9",
+              "text": "explain the difference between a client and a principal within the role of close protection"
+            },
+            {
+              "id": "CP-MAIN-S1-O10",
+              "text": "understand the importance of communication between the principal and the close protection operative"
+            },
+            {
+              "id": "CP-MAIN-S1-O11",
+              "text": "explain the range of equipment available to the close protection operative"
+            },
+            {
+              "id": "CP-MAIN-S1-O12",
+              "text": "state why continuous professional development (CPD) is necessary for a close protection operative"
+            },
+            {
+              "id": "CP-MAIN-S1-O13",
+              "text": "explain the role and responsibilities of protection team members when responding to a threat to your principal"
+            },
+            {
+              "id": "CP-MAIN-S1-O14",
+              "text": "know what actions you are authorised to take to deal with incidents that could compromise the safety and security of your principals, yourself, and colleagues"
+            }
+          ],
+          "id": "CP-MAIN-S1",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 2: Legislation of a close protection operative",
+          "aim": "To understand current law and legislation within a close protection context.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S2-O1",
+              "text": "understand and explain the parts of civil, criminal and common law that have an impact on the role of a close protection operative* – including, but not limited to: Data Protection Act 2018 and the General Data Protection Regulation (GDPR) – Control and access of confidential information Corporate Manslaughter and Homicide Act 2007, Criminal Law Act 1996, Equality Act 2010 and Freedom of Information Act 2018 Health and Safety at Work Act 1974 Human Rights Act 1998 Misuse of Drugs Act 1971, Regulation of Investigatory Powers Act 2000 and Road Traffic Act 2018 Criminal Justice & Public Order Act 1994 (specifically Trespass) Offences against the Person Act 1998 Criminal Damage Act 1971 current relevant legislation, regulations, codes of practice and guidelines relating to using physical intervention within close protection Private Hire Vehicles (London) Act 1998 Breach of the Peace Citizen’s Arrest Use of Force Defending Self, Others and Property Harassment"
+            },
+            {
+              "id": "CP-MAIN-S2-O2",
+              "text": "state the main aims of the Private Security Industry Act 2001"
+            },
+            {
+              "id": "CP-MAIN-S2-O3",
+              "text": "identify the main regulatory functions of the Security Industry Authority"
+            },
+            {
+              "id": "CP-MAIN-S2-O4",
+              "text": "identify the differences between civil, criminal, and common law"
+            },
+            {
+              "id": "CP-MAIN-S2-O5",
+              "text": "understand SIA licence integration"
+            },
+            {
+              "id": "CP-MAIN-S2-O6",
+              "text": "understand what is meant by ‘reasonable’ and ‘necessary force’ * It is important to ensure that as legislation changes the content of this session is amended to reflect current legislation"
+            }
+          ],
+          "id": "CP-MAIN-S2",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 3: Threat assessment and risk management",
+          "aim": "To understand the importance of threat and risk assessment. • To understand the importance of threat and risk management. • To undertake a dynamic risk assessment.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S3-O1",
+              "text": "state the definition of a threat to the protected person(s)"
+            },
+            {
+              "id": "CP-MAIN-S3-O2",
+              "text": "state the definition of risk to the protected person(s)"
+            },
+            {
+              "id": "CP-MAIN-S3-O3",
+              "text": "state the importance of threat and risk management within a close protection context"
+            },
+            {
+              "id": "CP-MAIN-S3-O4",
+              "text": "explain the likely threats to a principal within a close protection context"
+            },
+            {
+              "id": "CP-MAIN-S3-O5",
+              "text": "explain why it is necessary to conduct threat and risk assessments for protected person(s) and venues"
+            },
+            {
+              "id": "CP-MAIN-S3-O6",
+              "text": "state the importance of profiling the protected person to establish the level of threat and associated risk"
+            },
+            {
+              "id": "CP-MAIN-S3-O7",
+              "text": "describe the variations between a threat and risk assessment for the protected person(s) and venues"
+            },
+            {
+              "id": "CP-MAIN-S3-O8",
+              "text": "identify the variations in threat assessment and risk management when a principal is arriving and leaving a location"
+            },
+            {
+              "id": "CP-MAIN-S3-O9",
+              "text": "explain the need for on-going assessment, response and contingency plans"
+            },
+            {
+              "id": "CP-MAIN-S3-O10",
+              "text": "describe how close protection operatives gather intelligence for operational purposes within the UK"
+            },
+            {
+              "id": "CP-MAIN-S3-O11",
+              "text": "describe how decision-making models can be used within a threat and risk assessment process e.g. National Decision Model"
+            },
+            {
+              "id": "CP-MAIN-S3-O12",
+              "text": "describe the UK’s Threat Level System"
+            },
+            {
+              "id": "CP-MAIN-S3-O13",
+              "text": "carry out a risk assessment"
+            },
+            {
+              "id": "CP-MAIN-S3-O14",
+              "text": "understand the concept of a dynamic risk assessment"
+            },
+            {
+              "id": "CP-MAIN-S3-O15",
+              "text": "know how to assess the risk involved in using physical skills, particularly in relation to the threat"
+            }
+          ],
+          "id": "CP-MAIN-S3",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 4: Personal and professional skills",
+          "aim": "To explain and demonstrate the importance of personal and professional skills within a close protection environment. • To understand the importance of teamwork within a close protection environment.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S4-O1",
+              "text": "explain the need for effective interpersonal skills"
+            },
+            {
+              "id": "CP-MAIN-S4-O2",
+              "text": "explain a range of personal skills required of a close protection operative"
+            },
+            {
+              "id": "CP-MAIN-S4-O3",
+              "text": "explain the importance of effective personal and professional relationships with principals, clients and others involved in a close protection operation"
+            },
+            {
+              "id": "CP-MAIN-S4-O4",
+              "text": "explain what being assertive promotes and with whom"
+            },
+            {
+              "id": "CP-MAIN-S4-O5",
+              "text": "explain the importance of etiquette, dress code and protocol when dealing with different types of principals in a close protection environment"
+            },
+            {
+              "id": "CP-MAIN-S4-O6",
+              "text": "explain the importance of time and resource management"
+            },
+            {
+              "id": "CP-MAIN-S4-O7",
+              "text": "describe and demonstrate the attributes of an effective team"
+            },
+            {
+              "id": "CP-MAIN-S4-O8",
+              "text": "explain the importance of knowing and using other team members' abilities and skills"
+            },
+            {
+              "id": "CP-MAIN-S4-O9",
+              "text": "explain the importance of personal and team preparation"
+            },
+            {
+              "id": "CP-MAIN-S4-O10",
+              "text": "demonstrate negotiation skills when working as a close protection operative"
+            },
+            {
+              "id": "CP-MAIN-S4-O11",
+              "text": "demonstrate a range of personal skills required to work in close protection"
+            },
+            {
+              "id": "CP-MAIN-S4-O12",
+              "text": "demonstrate a range of practical skills required to work in close protection"
+            },
+            {
+              "id": "CP-MAIN-S4-O13",
+              "text": "demonstrate a range of professional skills required to work in close protection"
+            },
+            {
+              "id": "CP-MAIN-S4-O14",
+              "text": "be able to use the phonetic alphabet"
+            },
+            {
+              "id": "CP-MAIN-S4-O15",
+              "text": "be able to use radio protocols effectively in the role of a close protection operative"
+            },
+            {
+              "id": "CP-MAIN-S4-O16",
+              "text": "be able to communicate effectively with a diverse demographic"
+            },
+            {
+              "id": "CP-MAIN-S4-O17",
+              "text": "explain why it is important to record details of attacks and use of force, particularly when this may have to be used as evidence"
+            }
+          ],
+          "id": "CP-MAIN-S4",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 5: Surveillance awareness",
+          "aim": "To have an elementary understanding of surveillance, anti-surveillance and counter-surveillance methods. • To demonstrate and explain basic surveillance, anti-surveillance and counter- surveillance applications.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S5-O1",
+              "text": "explain the purpose of surveillance"
+            },
+            {
+              "id": "CP-MAIN-S5-O2",
+              "text": "describe the range of basic surveillance applications"
+            },
+            {
+              "id": "CP-MAIN-S5-O3",
+              "text": "explain the purpose of anti-surveillance"
+            },
+            {
+              "id": "CP-MAIN-S5-O4",
+              "text": "describe a range of basic anti-surveillance applications"
+            },
+            {
+              "id": "CP-MAIN-S5-O5",
+              "text": "explain the purpose of counter-surveillance"
+            },
+            {
+              "id": "CP-MAIN-S5-O6",
+              "text": "describe a range of basic counter-surveillance applications"
+            },
+            {
+              "id": "CP-MAIN-S5-O7",
+              "text": "have an awareness of Technical Surveillance Counter Measures (TSCM)"
+            },
+            {
+              "id": "CP-MAIN-S5-O8",
+              "text": "describe the likely sources of unwanted attention e.g. criminals, media, followers, stalkers, fixated persons"
+            },
+            {
+              "id": "CP-MAIN-S5-O9",
+              "text": "describe the equipment used in surveillance, its capabilities, and limitations"
+            },
+            {
+              "id": "CP-MAIN-S5-O10",
+              "text": "demonstrate the use of basic surveillance, anti-surveillance, and counter- surveillance applications to confirm or deny third party activity"
+            },
+            {
+              "id": "CP-MAIN-S5-O11",
+              "text": "state and describe advanced surveillance skills and equipment (drones etc.)"
+            },
+            {
+              "id": "CP-MAIN-S5-O12",
+              "text": "be able to recognise signs of potential attack to a principal"
+            }
+          ],
+          "id": "CP-MAIN-S5",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 6: Search procedures",
+          "aim": "To explain and demonstrate search procedures within a close protection operation for people, vehicles and buildings/venues.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S6-O1",
+              "text": "explain the reason for the search"
+            },
+            {
+              "id": "CP-MAIN-S6-O2",
+              "text": "explain the law in relation to control of access and searching"
+            },
+            {
+              "id": "CP-MAIN-S6-O3",
+              "text": "explain different types of searches, the procedures for, and implications of, searching buildings, vehicles and people"
+            },
+            {
+              "id": "CP-MAIN-S6-O4",
+              "text": "explain the use and range of technology available to assist in a search"
+            },
+            {
+              "id": "CP-MAIN-S6-O5",
+              "text": "explain and demonstrate how to deal with unauthorised / dangerous items"
+            },
+            {
+              "id": "CP-MAIN-S6-O6",
+              "text": "explain the process for sanitising and securing a location prior to and after use"
+            },
+            {
+              "id": "CP-MAIN-S6-O7",
+              "text": "explain the methods available to secure a vehicle, building or location"
+            },
+            {
+              "id": "CP-MAIN-S6-O8",
+              "text": "carry out methodical and detailed searches of people, places, and property"
+            },
+            {
+              "id": "CP-MAIN-S6-O9",
+              "text": "describe the skills required to search people in different environments"
+            }
+          ],
+          "id": "CP-MAIN-S6",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 7: Foot drills",
+          "aim": "To explain and demonstrate close protection foot drills.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S7-O1",
+              "text": "state the responsibilities and aims of a close protection operative on foot"
+            },
+            {
+              "id": "CP-MAIN-S7-O2",
+              "text": "identify the team appointments within a close protection team whilst on foot"
+            },
+            {
+              "id": "CP-MAIN-S7-O3",
+              "text": "explain the importance of a flexible approach to protection whilst on foot"
+            },
+            {
+              "id": "CP-MAIN-S7-O4",
+              "text": "explain and demonstrate the range of communication techniques to be used whilst on foot"
+            },
+            {
+              "id": "CP-MAIN-S7-O5",
+              "text": "explain and demonstrate the purpose of effective body protection for the protected person"
+            },
+            {
+              "id": "CP-MAIN-S7-O6",
+              "text": "explain and demonstrate foot evacuation of protected person(s)"
+            },
+            {
+              "id": "CP-MAIN-S7-O7",
+              "text": "explain the need for foot route selection and planning"
+            },
+            {
+              "id": "CP-MAIN-S7-O8",
+              "text": "demonstrate providing protection when operating on foot"
+            }
+          ],
+          "id": "CP-MAIN-S7",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 8: Venue security",
+          "aim": "To explain and demonstrate venue security operations and requirements.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S8-O1",
+              "text": "explain the range of venue-related security operations e.g. private and public"
+            },
+            {
+              "id": "CP-MAIN-S8-O2",
+              "text": "identify common factors that may influence security procedures at a venue"
+            },
+            {
+              "id": "CP-MAIN-S8-O3",
+              "text": "explain the importance of communication within a venue and the most appropriate methods to employ, i.e., radios, public address system"
+            },
+            {
+              "id": "CP-MAIN-S8-O4",
+              "text": "explain the use and maintenance of communication equipment and other technology that may be used in venue-based close protection"
+            },
+            {
+              "id": "CP-MAIN-S8-O5",
+              "text": "state the importance of identifying communication black spots within a venue"
+            },
+            {
+              "id": "CP-MAIN-S8-O6",
+              "text": "explain a range of common countermeasures to employ in venue-based close protection operations e.g. patrolling and access control"
+            },
+            {
+              "id": "CP-MAIN-S8-O7",
+              "text": "identify a range of in-house resources available to support venue security and the associated benefits"
+            },
+            {
+              "id": "CP-MAIN-S8-O8",
+              "text": "explain and demonstrate how to work with resident security teams at a range of venues"
+            },
+            {
+              "id": "CP-MAIN-S8-O9",
+              "text": "describe a range of common contingencies that may be employed in venue-based close protection operations e.g. alarms, safe rooms and evacuation contingencies"
+            },
+            {
+              "id": "CP-MAIN-S8-O10",
+              "text": "conduct a venue search and identify the measures required to maintain a secure environment post search"
+            },
+            {
+              "id": "CP-MAIN-S8-O11",
+              "text": "liaise with in house security teams at a range of locations"
+            }
+          ],
+          "id": "CP-MAIN-S8",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 9: Route planning",
+          "aim": "To understand the importance of planning, for route selection.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S9-O1",
+              "text": "explain the need for route selection and planning"
+            },
+            {
+              "id": "CP-MAIN-S9-O2",
+              "text": "explain the importance of assessing risks associated with route selection and the factors that must be taken into account"
+            },
+            {
+              "id": "CP-MAIN-S9-O3",
+              "text": "state the considerations when selecting modes of transport for primary and secondary routes"
+            },
+            {
+              "id": "CP-MAIN-S9-O4",
+              "text": "describe the range of technological and non-technological tools for use in route planning"
+            },
+            {
+              "id": "CP-MAIN-S9-O5",
+              "text": "explain the advantages and disadvantages associated with the use of technological tools in route planning"
+            },
+            {
+              "id": "CP-MAIN-S9-O6",
+              "text": "explain the advantages and disadvantages associated with the use of non-electric maps in route planning, e.g. Atlas, A-Z"
+            },
+            {
+              "id": "CP-MAIN-S9-O7",
+              "text": "explain the factors to be considered when planning and timing a route"
+            },
+            {
+              "id": "CP-MAIN-S9-O8",
+              "text": "produce a primary and secondary route plan using paper-based and technology- based resources"
+            }
+          ],
+          "id": "CP-MAIN-S9",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 10: Reconnaissance",
+          "aim": "To explain and demonstrate the purpose of, and carry out, reconnaissance.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S10-O1",
+              "text": "explain the purpose of reconnaissance"
+            },
+            {
+              "id": "CP-MAIN-S10-O2",
+              "text": "describe the issues for consideration when conducting a reconnaissance"
+            },
+            {
+              "id": "CP-MAIN-S10-O3",
+              "text": "describe the role of a Security Advance Party (SAP)"
+            },
+            {
+              "id": "CP-MAIN-S10-O4",
+              "text": "explain the difference between discreet and overt reconnaissance"
+            },
+            {
+              "id": "CP-MAIN-S10-O5",
+              "text": "conduct reconnaissance activity"
+            },
+            {
+              "id": "CP-MAIN-S10-O6",
+              "text": "complete a site/venue report"
+            }
+          ],
+          "id": "CP-MAIN-S10",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 11: Journey management",
+          "aim": "To understand the importance of managing transport arrangements within a close protection environment.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S11-O1",
+              "text": "know how to manage mobile security"
+            },
+            {
+              "id": "CP-MAIN-S11-O2",
+              "text": "explain the need for mobile security"
+            },
+            {
+              "id": "CP-MAIN-S11-O3",
+              "text": "explain different types of transport and the reasons why choosing the correct mode of transport is essential within a security context"
+            },
+            {
+              "id": "CP-MAIN-S11-O4",
+              "text": "describe the risks associated with all modes of transport"
+            },
+            {
+              "id": "CP-MAIN-S11-O5",
+              "text": "explain the need for alternative transport plans"
+            },
+            {
+              "id": "CP-MAIN-S11-O6",
+              "text": "describe the variety of transport arrangements and their potential consequences for the close protection operative and team, i.e., chauffeurs, self-drive, people accompanying the protected person"
+            },
+            {
+              "id": "CP-MAIN-S11-O7",
+              "text": "state the checks that must be completed when selecting modes of transport"
+            },
+            {
+              "id": "CP-MAIN-S11-O8",
+              "text": "complete risk-based contingency planning"
+            },
+            {
+              "id": "CP-MAIN-S11-O9",
+              "text": "carry out incident management follow-up"
+            },
+            {
+              "id": "CP-MAIN-S11-O10",
+              "text": "demonstrate embus/debus techniques"
+            }
+          ],
+          "id": "CP-MAIN-S11",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 12: Prepare and carry out close protection assignment",
+          "aim": "To understand the importance of teamwork within a close protection environment. • To conduct an operational briefing, handover and de-briefing. • To explain and demonstrate how to deal with a range of incidents within a close protection environment. • To explain the importance of operational planning.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S12-O1",
+              "text": "explain the purpose of operational planning"
+            },
+            {
+              "id": "CP-MAIN-S12-O2",
+              "text": "explain the importance of threat and risk assessment in operational planning"
+            },
+            {
+              "id": "CP-MAIN-S12-O3",
+              "text": "explain the importance of time and resource management"
+            },
+            {
+              "id": "CP-MAIN-S12-O4",
+              "text": "identify the relevant agencies that may need to be contacted in the course of operational planning"
+            },
+            {
+              "id": "CP-MAIN-S12-O5",
+              "text": "develop and implement an operational plan"
+            },
+            {
+              "id": "CP-MAIN-S12-O6",
+              "text": "conduct a team briefing, handover and debriefing"
+            },
+            {
+              "id": "CP-MAIN-S12-O7",
+              "text": "to explain and demonstrate how to deal with a range of incidents within a close protection environment."
+            },
+            {
+              "id": "CP-MAIN-S12-O8",
+              "text": "explain the range of incidents a close protection operative may encounter"
+            },
+            {
+              "id": "CP-MAIN-S12-O9",
+              "text": "explain the personal responsibility of a close protection operative when dealing with an incident"
+            },
+            {
+              "id": "CP-MAIN-S12-O10",
+              "text": "explain the importance and role of Standard Operating Procedures (SOPs) within a close protection context"
+            },
+            {
+              "id": "CP-MAIN-S12-O11",
+              "text": "explain and demonstrate how to manage incidents that may arise during close protection operations, including, but not limited to: vehicle incidents conflict (dealing with conflict within the team, with the protected person and third parties) managing unexpected illness attack on protected person or member of the team (verbal and/or physical) loss of property breach of security"
+            }
+          ],
+          "id": "CP-MAIN-S12",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        },
+        {
+          "title": "Session 13: Terror threat awareness",
+          "aim": "To understand the threat from terrorism and the role of a security operative in the event of a terrorist incident taking place. • To understand the basic procedures for emergency response in relation to a terrorist incident.",
+          "objectives": [
+            {
+              "id": "CP-MAIN-S13-O1",
+              "text": "understand the UK threat level assessment system"
+            },
+            {
+              "id": "CP-MAIN-S13-O2",
+              "text": "recognise current attack methodology, including: Marauding Terror Attack (including firearm, knife, etc.) Explosive device (including IED / P / VBIED) VAAW (Vehicle as a weapon) CBRN (including acid attacks)"
+            },
+            {
+              "id": "CP-MAIN-S13-O3",
+              "text": "understand what actions to take in response to a terrorist attack"
+            },
+            {
+              "id": "CP-MAIN-S13-O4",
+              "text": "know the HOT principles and 4 Cs protocols for suspicious items"
+            },
+            {
+              "id": "CP-MAIN-S13-O5",
+              "text": "identify behaviours that could indicate suspicious activity, including ‘hostile reconnaissance’"
+            },
+            {
+              "id": "CP-MAIN-S13-O6",
+              "text": "know how to respond to suspicious behaviour"
+            }
+          ],
+          "id": "CP-MAIN-S13",
+          "source": {
+            "doc_id": "sia-cp-specification-2022",
+            "doc_title": "SIA Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-specification"
+          }
+        }
+      ]
+    },
+    "CP-PI": {
+      "id": "CP-PI",
+      "name": "Application of Physical Intervention Skills for Close Protection Operatives",
+      "qualifications": [
+        "CP"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Knowledge of physical intervention skills in a close protection",
+          "aim": "To be able to know and understand the principles and risks associated with using physical skills in a close protection environment.",
+          "objectives": [
+            {
+              "id": "CP-PI-S1-O1",
+              "text": "understand the requirements of providing clear and concise instructions to the principal and team members in emergency situations"
+            },
+            {
+              "id": "CP-PI-S1-O2",
+              "text": "know how to respond to a change in operational conditions from Standard Operation Procedures (SOP) to Emergency Operation Procedures (EOP)"
+            },
+            {
+              "id": "CP-PI-S1-O3",
+              "text": "know the responsibilities of the close protection team when there is an immediate physical threat to the principal"
+            },
+            {
+              "id": "CP-PI-S1-O4",
+              "text": "understand the necessity for narrowing the concentric layers of protection when managing an immediate threat to the principal"
+            },
+            {
+              "id": "CP-PI-S1-O5",
+              "text": "understand the implications of common and criminal law when using force on another person"
+            },
+            {
+              "id": "CP-PI-S1-O6",
+              "text": "know the positive alternatives to using physical intervention skills in a close protection environment"
+            },
+            {
+              "id": "CP-PI-S1-O7",
+              "text": "understand associated threats as a result of an attempted assault or unwarranted attention towards a principal"
+            }
+          ],
+          "id": "CP-PI-S1",
+          "source": {
+            "doc_id": "sia-cp-physical-intervention-specification-2022",
+            "doc_title": "SIA Close Protection Physical Intervention specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-physical-intervention-specification"
+          }
+        },
+        {
+          "title": "Session 2: Application of physical intervention skills in a close protection",
+          "aim": "To be able to use non-aggressive physical skills to protect yourself and a principal from assault or harm.",
+          "objectives": [
+            {
+              "id": "CP-PI-S2-O1",
+              "text": "know how to apply physical intervention skills in a justifiable, ethical, and professional manner. explain the legal, medical, and ethical implications of physical interventions within the context and boundaries of UK legislation"
+            },
+            {
+              "id": "CP-PI-S2-O2",
+              "text": "use non-pain compliant soft skills to prevent harm to a principal demonstrate soft skills to redirect others demonstrate soft skills to restrict a subject’s movements demonstrate non pain compliant skills to redirect others demonstrate non pain compliant skills to restrict a subject’s movements"
+            },
+            {
+              "id": "CP-PI-S2-O3",
+              "text": "use defensive non-pain compliant skills to protect self from assault demonstrate skills to evade and protect self from blows demonstrate skills to protect self from choke holds and strangulation demonstrate skills to make space and withdraw self from perceived or actual weapon intended to cause harm demonstrate methods of disengagement of yourself from grabs and holds"
+            },
+            {
+              "id": "CP-PI-S2-O4",
+              "text": "use non-pain complaint methods of protecting the inner cordon demonstrate methods of preventing subject from penetrating inner cordon demonstrate methods of applying a restrictive hold demonstrate method of removing a person demonstrate a two-person method of removing a person"
+            },
+            {
+              "id": "CP-PI-S2-O5",
+              "text": "protect the principal from assault demonstrate a method of disengaging the principal from unwelcome embraces and holds demonstrate a method of protecting the principal from blows demonstrate effective communication with the subject throughout a physical intervention"
+            }
+          ],
+          "id": "CP-PI-S2",
+          "source": {
+            "doc_id": "sia-cp-physical-intervention-specification-2022",
+            "doc_title": "SIA Close Protection Physical Intervention specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-physical-intervention-specification"
+          }
+        }
+      ]
+    },
+    "CP-DSR": {
+      "id": "CP-DSR",
+      "name": "Principles of Working as a Door Supervisor for Close Protection Operatives",
+      "qualifications": [
+        "CP"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Protecting vulnerable people",
+          "aim": "To know and understand how to keep vulnerable people safe.",
+          "objectives": [
+            {
+              "id": "CP-DSR-S1-O1",
+              "text": "recognise their duty of care with regards to vulnerable people"
+            },
+            {
+              "id": "CP-DSR-S1-O2",
+              "text": "identify factors that could make someone vulnerable"
+            },
+            {
+              "id": "CP-DSR-S1-O3",
+              "text": "identify the actions that the security operative should take towards vulnerable people"
+            },
+            {
+              "id": "CP-DSR-S1-O4",
+              "text": "identify the behaviours shown by of potential sexual predators, including use of drugs, and know when to report them"
+            },
+            {
+              "id": "CP-DSR-S1-O5",
+              "text": "identify indicators of abuse"
+            },
+            {
+              "id": "CP-DSR-S1-O6",
+              "text": "know how to deal with allegations of sexual assault"
+            },
+            {
+              "id": "CP-DSR-S1-O7",
+              "text": "know how to deal with anti-social behaviour, including from members of the public (use of force, law appropriate person, theft, etc.)"
+            }
+          ],
+          "id": "CP-DSR-S1",
+          "source": {
+            "doc_id": "sia-cp-ds-responsiblities-specification-2022",
+            "doc_title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-responsibilities-for-close-protection-operatives"
+          }
+        },
+        {
+          "title": "Session 2: Licensing law",
+          "aim": "To know and understand licensing law and the licensee’s social responsibility.",
+          "objectives": [
+            {
+              "id": "CP-DSR-S2-O1",
+              "text": "know the licensing objectives under licensing law"
+            },
+            {
+              "id": "CP-DSR-S2-O2",
+              "text": "understand the law in relation to refusing entry and ejecting customers"
+            },
+            {
+              "id": "CP-DSR-S2-O3",
+              "text": "understand police powers in relation to licensed premises"
+            },
+            {
+              "id": "CP-DSR-S2-O4",
+              "text": "understand the rights and duties of licensees and door supervisors as their representatives"
+            },
+            {
+              "id": "CP-DSR-S2-O5",
+              "text": "state the role of a Designated Premises Supervisor/Premises Manager"
+            },
+            {
+              "id": "CP-DSR-S2-O6",
+              "text": "understand the law in relation to children and young persons"
+            },
+            {
+              "id": "CP-DSR-S2-O7",
+              "text": "know what conduct is considered unlawful under licensing, gaming and sexual offences legislation"
+            },
+            {
+              "id": "CP-DSR-S2-O8",
+              "text": "identify acceptable forms of proof of age"
+            }
+          ],
+          "id": "CP-DSR-S2",
+          "source": {
+            "doc_id": "sia-cp-ds-responsiblities-specification-2022",
+            "doc_title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-responsibilities-for-close-protection-operatives"
+          }
+        },
+        {
+          "title": "Session 3: Dealing with queues and crowds",
+          "aim": "To know and understand the responsibilities of door supervisors in relation to crowd management within a queue system and crowd capacity within a venue.",
+          "objectives": [
+            {
+              "id": "CP-DSR-S3-O1",
+              "text": "know the responsibilities of a door supervisor in relation to queue control"
+            },
+            {
+              "id": "CP-DSR-S3-O2",
+              "text": "describe the requirement for and importance of queue control"
+            },
+            {
+              "id": "CP-DSR-S3-O3",
+              "text": "explain the importance of following dispersal processes"
+            },
+            {
+              "id": "CP-DSR-S3-O4",
+              "text": "understand why communication is important throughout the queuing process"
+            },
+            {
+              "id": "CP-DSR-S3-O5",
+              "text": "know the responsibilities in relation to crowd capacity regulations (including specific areas of venues)"
+            },
+            {
+              "id": "CP-DSR-S3-O6",
+              "text": "know how and when to monitor the queue for potential safety issues (including safety of barriers and welfare issues)"
+            },
+            {
+              "id": "CP-DSR-S3-O7",
+              "text": "state the factors to consider when ejecting or refusing entry to a person who may be vulnerable"
+            }
+          ],
+          "id": "CP-DSR-S3",
+          "source": {
+            "doc_id": "sia-cp-ds-responsiblities-specification-2022",
+            "doc_title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervision-responsibilities-for-close-protection-operatives"
+          }
+        }
+      ]
+    },
+    "CVIT": {
+      "id": "CVIT",
+      "name": "Principles of Cash and Valuables in Transit",
+      "qualifications": [
+        "CVIT"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Cash transportation – industry induction",
+          "aim": "To introduce new cash and valuables in transit (CViT) operatives to the industry and their roles and responsibilities.",
+          "objectives": [
+            {
+              "id": "CVIT-S1-O1",
+              "text": "state the main characteristics of the private security industry"
+            },
+            {
+              "id": "CVIT-S1-O2",
+              "text": "understand safe working practices to comply with health and safety requirements relevant to cash and valuables in transit operations"
+            },
+            {
+              "id": "CVIT-S1-O3",
+              "text": "state workplace (including vehicle(s)) fire procedures"
+            },
+            {
+              "id": "CVIT-S1-O4",
+              "text": "understand emergency (non-attack) procedures relevant to the role of a CViT operative"
+            },
+            {
+              "id": "CVIT-S1-O5",
+              "text": "identify the importance of communication skills, customer engagement and teamwork as relevant to cash and valuables in transit operations"
+            },
+            {
+              "id": "CVIT-S1-O6",
+              "text": "understand legislation as it applies to the CViT role"
+            },
+            {
+              "id": "CVIT-S1-O7",
+              "text": "understand how terror incidents can impact the CViT operative"
+            }
+          ],
+          "id": "CVIT-S1",
+          "source": {
+            "doc_id": "sia-cvit-specification-2021",
+            "doc_title": "SIA Cash and Valuables in Transit specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-cash-and-valuables-in-transit-specification"
+          }
+        },
+        {
+          "title": "Session 2: Cash and valuables transportation industry operations",
+          "aim": "To prepare new cash and valuables in transit (CViT) operatives to perform their duties effectively, professionally, safely and securely.",
+          "objectives": [
+            {
+              "id": "CVIT-S2-O1",
+              "text": "understand CViT procedures for personal safety and security"
+            },
+            {
+              "id": "CVIT-S2-O2",
+              "text": "state how to operate CViT vehicles during transportation, including vehicle security protection devices and types and use of personal protective equipment (PPE)"
+            },
+            {
+              "id": "CVIT-S2-O3",
+              "text": "understand how to comply with operational security requirements"
+            },
+            {
+              "id": "CVIT-S2-O4",
+              "text": "state how to load and unload the vehicle"
+            },
+            {
+              "id": "CVIT-S2-O5",
+              "text": "state how to carry out collections, deliveries and other services"
+            },
+            {
+              "id": "CVIT-S2-O6",
+              "text": "understand UK and EU transport legislation relevant to drivers of CViT vehicles"
+            },
+            {
+              "id": "CVIT-S2-O7",
+              "text": "identify the requirements for and ownership of documentation used during CViT collection and delivery"
+            },
+            {
+              "id": "CVIT-S2-O8",
+              "text": "understand attack procedures relevant to CViT operations"
+            },
+            {
+              "id": "CVIT-S2-O9",
+              "text": "state end of shift procedures"
+            }
+          ],
+          "id": "CVIT-S2",
+          "source": {
+            "doc_id": "sia-cvit-specification-2021",
+            "doc_title": "SIA Cash and Valuables in Transit specification (2021)",
+            "url": "https://www.gov.uk/government/publications/sia-cash-and-valuables-in-transit-specification"
+          }
+        }
+      ]
+    },
+    "DS-REF": {
+      "id": "DS-REF",
+      "name": "Door Supervisor Refresher Training",
+      "qualifications": [
+        "DS-REF"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Searching",
+          "aim": "To understand and demonstrate effective search procedures.",
+          "objectives": [
+            {
+              "id": "DS-REF-S1-O1",
+              "text": "understand the different types of searches"
+            },
+            {
+              "id": "DS-REF-S1-O2",
+              "text": "understand a door supervisor’s right of search, including the ‘conditions of entry’ and the importance of obtaining permission to search"
+            },
+            {
+              "id": "DS-REF-S1-O3",
+              "text": "identify different types of searching equipment"
+            },
+            {
+              "id": "DS-REF-S1-O4",
+              "text": "understand the hazards associated with conducting an effective search"
+            },
+            {
+              "id": "DS-REF-S1-O5",
+              "text": "know what precautions to take to protect against adverse effects"
+            },
+            {
+              "id": "DS-REF-S1-O6",
+              "text": "know what action to take should an incident or accident occur"
+            },
+            {
+              "id": "DS-REF-S1-O7",
+              "text": "demonstrate how to search people and their property"
+            },
+            {
+              "id": "DS-REF-S1-O8",
+              "text": "understand the reasons for searching premises"
+            },
+            {
+              "id": "DS-REF-S1-O9",
+              "text": "know what actions to take in the event of a refusal to be searched"
+            },
+            {
+              "id": "DS-REF-S1-O10",
+              "text": "complete search documentation"
+            },
+            {
+              "id": "DS-REF-S1-O11",
+              "text": "know what actions to take when a prohibited or restricted item is found during a search"
+            },
+            {
+              "id": "DS-REF-S1-O12",
+              "text": "understand considerations in searching individuals with diverse needs"
+            }
+          ],
+          "id": "DS-REF-S1",
+          "source": {
+            "doc_id": "sia-ds-refresher-specification-2024",
+            "doc_title": "SIA Door Supervisor Refresher specification (2024)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervisor-refresher-specification"
+          }
+        },
+        {
+          "title": "Session 2: Terror threat awareness",
+          "aim": "To understand terror threats and the role of the security operative in the event of a threat",
+          "objectives": [
+            {
+              "id": "DS-REF-S2-O1",
+              "text": "identify the different threat levels"
+            },
+            {
+              "id": "DS-REF-S2-O2",
+              "text": "recognise the common terror attack methods"
+            },
+            {
+              "id": "DS-REF-S2-O3",
+              "text": "recognise the actions to take in the event of a terror threat"
+            },
+            {
+              "id": "DS-REF-S2-O4",
+              "text": "identify the procedures for dealing with suspicious items"
+            },
+            {
+              "id": "DS-REF-S2-O5",
+              "text": "identify behaviours that could indicate suspicious activity"
+            },
+            {
+              "id": "DS-REF-S2-O6",
+              "text": "identify how to respond to suspicious behaviour"
+            }
+          ],
+          "id": "DS-REF-S2",
+          "source": {
+            "doc_id": "sia-ds-refresher-specification-2024",
+            "doc_title": "SIA Door Supervisor Refresher specification (2024)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervisor-refresher-specification"
+          }
+        },
+        {
+          "title": "Session 3: Protecting vulnerable people",
+          "aim": "To know and understand how to keep vulnerable people safe.",
+          "objectives": [
+            {
+              "id": "DS-REF-S3-O1",
+              "text": "recognise their duty of care with regards to vulnerable people"
+            },
+            {
+              "id": "DS-REF-S3-O2",
+              "text": "identify factors that could make someone vulnerable"
+            },
+            {
+              "id": "DS-REF-S3-O3",
+              "text": "identify the actions that the security operative should take towards vulnerable people"
+            },
+            {
+              "id": "DS-REF-S3-O4",
+              "text": "identify the behaviours shown by of potential sexual predators, including use of drugs, and know when to report them"
+            },
+            {
+              "id": "DS-REF-S3-O5",
+              "text": "identify indicators of abuse"
+            },
+            {
+              "id": "DS-REF-S3-O6",
+              "text": "know how to deal with allegations of sexual assault"
+            },
+            {
+              "id": "DS-REF-S3-O7",
+              "text": "know how to deal with anti-social behaviour, including from members of the public (use of force, law appropriate person, theft, etc.)"
+            }
+          ],
+          "id": "DS-REF-S3",
+          "source": {
+            "doc_id": "sia-ds-refresher-specification-2024",
+            "doc_title": "SIA Door Supervisor Refresher specification (2024)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervisor-refresher-specification"
+          }
+        },
+        {
+          "title": "Session 4: Spiking",
+          "aim": "To recognise and understand how to keep the public safe from incidents of spiking.",
+          "objectives": [
+            {
+              "id": "DS-REF-S4-O1",
+              "text": "state the different methods of spiking"
+            },
+            {
+              "id": "DS-REF-S4-O2",
+              "text": "state the law in relation to spiking"
+            },
+            {
+              "id": "DS-REF-S4-O3",
+              "text": "state indicators that drinks have been spiked"
+            },
+            {
+              "id": "DS-REF-S4-O4",
+              "text": "identify behavioural signs of an individual attempting to spike drinks"
+            },
+            {
+              "id": "DS-REF-S4-O5",
+              "text": "identify situations when an individual might be at high risk of spiking"
+            },
+            {
+              "id": "DS-REF-S4-O6",
+              "text": "state the actions door supervisors and/or venues may take to prevent incidents of spiking"
+            },
+            {
+              "id": "DS-REF-S4-O7",
+              "text": "recognise indicators that suggest an individual may have been spiked"
+            },
+            {
+              "id": "DS-REF-S4-O8",
+              "text": "state how to manage a spiking incident"
+            }
+          ],
+          "id": "DS-REF-S4",
+          "source": {
+            "doc_id": "sia-ds-refresher-specification-2024",
+            "doc_title": "SIA Door Supervisor Refresher specification (2024)",
+            "url": "https://www.gov.uk/government/publications/sia-door-supervisor-refresher-specification"
+          }
+        }
+      ]
+    },
+    "SG-REF": {
+      "id": "SG-REF",
+      "name": "Security Guarding Refresher Training",
+      "qualifications": [
+        "SG-REF"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Searching",
+          "aim": "To understand and demonstrate effective search procedures.",
+          "objectives": [
+            {
+              "id": "SG-REF-S1-O1",
+              "text": "identify the different types of searches carried out by a security officer"
+            },
+            {
+              "id": "SG-REF-S1-O2",
+              "text": "explain a security officer's right of search"
+            },
+            {
+              "id": "SG-REF-S1-O3",
+              "text": "identify different types of searching equipment"
+            },
+            {
+              "id": "SG-REF-S1-O4",
+              "text": "state the possible hazards that might be encountered when conducting a search"
+            },
+            {
+              "id": "SG-REF-S1-O5",
+              "text": "state the precautions to take when conducting a search"
+            },
+            {
+              "id": "SG-REF-S1-O6",
+              "text": "state what actions to take if an accident or incident occurs during searching"
+            },
+            {
+              "id": "SG-REF-S1-O7",
+              "text": "demonstrate how to search people and their property"
+            },
+            {
+              "id": "SG-REF-S1-O8",
+              "text": "state typical areas of vehicles to be searched"
+            },
+            {
+              "id": "SG-REF-S1-O9",
+              "text": "identify reasons for carrying out a premises search"
+            },
+            {
+              "id": "SG-REF-S1-O10",
+              "text": "state the actions which may need to be taken in the event of a refusal to be searched"
+            },
+            {
+              "id": "SG-REF-S1-O11",
+              "text": "identity reasons for completing search documentation"
+            },
+            {
+              "id": "SG-REF-S1-O12",
+              "text": "identify actions to take if a prohibited or restricted item is found during a search"
+            }
+          ],
+          "id": "SG-REF-S1",
+          "source": {
+            "doc_id": "sia-sg-refresher-specification-2024",
+            "doc_title": "SIA Security Guarding Refresher specification (2024)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-refresher-specification"
+          }
+        },
+        {
+          "title": "Session 2: Terror threat awareness",
+          "aim": "To understand terror threats and the role of the security operative in the event of a threat",
+          "objectives": [
+            {
+              "id": "SG-REF-S2-O1",
+              "text": "identify the different threat levels"
+            },
+            {
+              "id": "SG-REF-S2-O2",
+              "text": "recognise the common terror attack methods"
+            },
+            {
+              "id": "SG-REF-S2-O3",
+              "text": "recognise the actions to take in the event of a terror threat"
+            },
+            {
+              "id": "SG-REF-S2-O4",
+              "text": "identify the procedures for dealing with suspicious items"
+            },
+            {
+              "id": "SG-REF-S2-O5",
+              "text": "identify behaviours that could indicate suspicious activity"
+            },
+            {
+              "id": "SG-REF-S2-O6",
+              "text": "identify how to respond to suspicious behaviour"
+            }
+          ],
+          "id": "SG-REF-S2",
+          "source": {
+            "doc_id": "sia-sg-refresher-specification-2024",
+            "doc_title": "SIA Security Guarding Refresher specification (2024)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-refresher-specification"
+          }
+        },
+        {
+          "title": "Session 3: Protecting vulnerable people",
+          "aim": "To know and understand how to keep vulnerable people safe.",
+          "objectives": [
+            {
+              "id": "SG-REF-S3-O1",
+              "text": "recognise their duty of care with regards to vulnerable people"
+            },
+            {
+              "id": "SG-REF-S3-O2",
+              "text": "identify factors that could make someone vulnerable"
+            },
+            {
+              "id": "SG-REF-S3-O3",
+              "text": "identify the actions that the security operative should take towards vulnerable people"
+            },
+            {
+              "id": "SG-REF-S3-O4",
+              "text": "identify the behaviours shown by of potential sexual predators, including use of drugs, and know when to report them"
+            },
+            {
+              "id": "SG-REF-S3-O5",
+              "text": "identify indicators of abuse"
+            },
+            {
+              "id": "SG-REF-S3-O6",
+              "text": "know how to deal with allegations of sexual assault"
+            },
+            {
+              "id": "SG-REF-S3-O7",
+              "text": "know how to deal with anti-social behaviour, including from members of the public (use of force, law appropriate person, theft, etc.)"
+            }
+          ],
+          "id": "SG-REF-S3",
+          "source": {
+            "doc_id": "sia-sg-refresher-specification-2024",
+            "doc_title": "SIA Security Guarding Refresher specification (2024)",
+            "url": "https://www.gov.uk/government/publications/sia-security-guarding-refresher-specification"
+          }
+        }
+      ]
+    },
+    "CP-REF": {
+      "id": "CP-REF",
+      "name": "Physical Intervention Skills for Close Protection Operatives Refresher Training",
+      "qualifications": [
+        "CP-REF"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Knowledge of physical intervention skills in a close protection",
+          "aim": "To be able to know and understand key principles and risks associated with using physical skills in a close protection environment.",
+          "objectives": [
+            {
+              "id": "CP-REF-S1-O1",
+              "text": "know how to analyse an incident to identify and mitigate risks to safety"
+            },
+            {
+              "id": "CP-REF-S1-O2",
+              "text": "understand alternative considerations to the use of force and extended risks from the initial event"
+            },
+            {
+              "id": "CP-REF-S1-O3",
+              "text": "understand the necessity for narrowing the concentric layers of protection when managing an immediate threat to the principal"
+            },
+            {
+              "id": "CP-REF-S1-O4",
+              "text": "know how to apply physical intervention skills on a justifiable, ethical and professional manner"
+            }
+          ],
+          "id": "CP-REF-S1",
+          "source": {
+            "doc_id": "sia-cp-physical-intervention-refresher-specification-2025",
+            "doc_title": "SIA Close Protection Physical Intervention Refresher specification (2025)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-physical-intervention-refresher-specification"
+          }
+        },
+        {
+          "title": "Session 2: Application of physical intervention skills in a close protection",
+          "aim": "To be able to use non-aggressive physical skills to protect yourself and a principal from assault or harm.",
+          "objectives": [
+            {
+              "id": "CP-REF-S2-O1",
+              "text": "know how to apply physical intervention skills in a justifiable, ethical, and professional manner. explain the legal, medical, and ethical implications of physical interventions within the context and boundaries of UK legislation"
+            },
+            {
+              "id": "CP-REF-S2-O2",
+              "text": "use non-pain compliant soft skills to prevent harm to a principal demonstrate soft skills to redirect others demonstrate soft skills to restrict a subject’s movements demonstrate non pain compliant skills to redirect others demonstrate non pain compliant skills to restrict a subject’s movements"
+            },
+            {
+              "id": "CP-REF-S2-O3",
+              "text": "use defensive non-pain compliant skills to protect self from assault demonstrate skills to evade and protect self from blows demonstrate skills to protect self from choke holds and strangulation demonstrate skills to make space and withdraw self from perceived or actual weapon intended to cause harm demonstrate methods of disengagement of yourself from grabs and holds"
+            },
+            {
+              "id": "CP-REF-S2-O4",
+              "text": "use non-pain complaint methods of protecting the inner cordon demonstrate methods of preventing subject from penetrating inner cordon demonstrate methods of applying a restrictive hold demonstrate method of removing a person demonstrate a two-person method of removing a person"
+            },
+            {
+              "id": "CP-REF-S2-O5",
+              "text": "protect the principal from assault demonstrate a method of disengaging the principal from unwelcome embraces and holds demonstrate a method of protecting the principal from blows demonstrate effective communication with the subject throughout a physical intervention"
+            }
+          ],
+          "id": "CP-REF-S2",
+          "source": {
+            "doc_id": "sia-cp-physical-intervention-refresher-specification-2025",
+            "doc_title": "SIA Close Protection Physical Intervention Refresher specification (2025)",
+            "url": "https://www.gov.uk/government/publications/sia-close-protection-physical-intervention-refresher-specification"
+          }
+        }
+      ]
+    },
+    "VI": {
+      "id": "VI",
+      "name": "Principles of Working as a Vehicle Immobiliser",
+      "qualifications": [
+        "VI"
+      ],
+      "sessions": [
+        {
+          "title": "Session 1: Introduction to Vehicle Immobilising and Removals",
+          "aim": " To have an overview of vehicle immobilisation and removals on private land and relevant legislation.",
+          "objectives": [],
+          "id": "VI-S1",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 2: Understanding Signs, Enforcement Vehicles and",
+          "aim": " To understand signs, enforcement vehicles and immobilisation devices.",
+          "objectives": [],
+          "id": "VI-S2",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 3: Understanding Vehicle Registration Marks and Vehicle Excise",
+          "aim": " To understand vehicle registration marks and vehicle excise duty.",
+          "objectives": [],
+          "id": "VI-S3",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 4: Immobilising a Vehicle",
+          "aim": " To understand the process of immobilising vehicles.",
+          "objectives": [],
+          "id": "VI-S4",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 5: Vehicle Removal and Re-location",
+          "aim": " To understand how to tow-away a vehicle.",
+          "objectives": [],
+          "id": "VI-S5",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 6: Completing Records",
+          "aim": " To understand how to complete relevant records.",
+          "objectives": [],
+          "id": "VI-S6",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 7: Use of Photography and Awareness of Technology",
+          "aim": " To understand the use of photography in relation to vehicle immobilisation  To describe how technology can be used in the vehicle immobilisation industry.",
+          "objectives": [],
+          "id": "VI-S7",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 8: The Payment and Appeals Process",
+          "aim": " To understand the payment and appeals process.",
+          "objectives": [],
+          "id": "VI-S8",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 9: Radio and Mobile Communications",
+          "aim": " To understand the use of radio and mobile communications in vehicle immobilisation and removal.",
+          "objectives": [],
+          "id": "VI-S9",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 10: Parking Schemes and Permits",
+          "aim": " To understand the rules for discretionary parking.",
+          "objectives": [],
+          "id": "VI-S10",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        },
+        {
+          "title": "Session 11: Standards of Behaviour",
+          "aim": " To understand standards of individual behaviour for vehicle immobilisers and customer care.",
+          "objectives": [],
+          "id": "VI-S11",
+          "source": {
+            "doc_id": "sia-vi-specification",
+            "doc_title": "SIA Vehicle Immobilisation specification",
+            "url": "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"
+          }
+        }
+      ]
+    }
+  }
+}
