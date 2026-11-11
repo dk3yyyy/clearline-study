@@ -354,6 +354,7 @@ p { line-height: 1.55; text-wrap: pretty; }
   .page-head-aside { max-width: 480px; }
   .learn-layout, .practice-layout { grid-template-columns: 1fr; gap: 28px; }
   .learn-nav, .practice-aside { position: static; }
+  .practice-aside.is-running > *:not(.kicker) { display: none; }
   .learn-nav { display: none; }
   .exam-layout { grid-template-columns: minmax(0, 1fr) 190px; gap: 22px; }
   .section-heading { grid-template-columns: 1fr; gap: 14px; }
