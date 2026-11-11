@@ -504,3 +504,6 @@ a { color: var(--accent-text); }
 
 .confirm-dialog .confirm-message { margin: 0; color: var(--text-2); font-size: 16px; line-height: 1.5; }
 .confirm-dialog .dialog-actions { margin-top: 24px; }
+
+.hero-random { margin: 10px 0 0; font-size: 14px; }
+.hero-random a { font-weight: 600; }
