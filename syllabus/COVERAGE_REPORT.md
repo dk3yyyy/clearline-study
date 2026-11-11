@@ -69,31 +69,18 @@ Uncovered objectives:
 ## SO-U2 — Principles of Working as a Security Officer in the Private Security Industry
 
 - Objectives: 49
-- Covered: 37 (76%)
-- Questions: 40 / target 150
+- Covered: 49 (100%)
+- Questions: 60 / target 150
 
-Uncovered objectives:
-- `SO-U2-S4-O8` — identify strategies that can assist personal safety in conflict situations
-- `SO-U2-S4-O10` — identify types of harm that can occur during physical interventions
-- `SO-U2-S4-O11` — identify the personal safety advantages of mental alertness at work
-- `SO-U2-S6-O6` — state what actions to take if an accident or incident occurs during searching
-- `SO-U2-S6-O7` — demonstrate how to search people and their property
-- `SO-U2-S6-O8` — state typical areas of vehicles to be searched
-- `SO-U2-S6-O9` — identify reasons for carrying out a premises search
-- `SO-U2-S6-O11` — identity reasons for completing search documentation
-- `SO-U2-S7-O4` — identify how to communicate effectively using relevant equipment
-- `SO-U2-S7-O5` — demonstrate effective use of communication devices
-- `SO-U2-S7-O8` — state reasons for recording and preserving crime scenes
-- `SO-U2-S7-O10` — identify circumstances when a security officer should call the police
+Every objective in this unit has at least one drafted question.
 
 ## CCTV-U2 — Principles and Practices of Working as a CCTV Operator in the Private Security Industry
 
 - Objectives: 31
-- Covered: 30 (97%)
-- Questions: 35 / target 150
+- Covered: 31 (100%)
+- Questions: 40 / target 150
 
-Uncovered objectives:
-- `CCTV-U2-S8-O2` — demonstrate how to use surveillance equipment
+Every objective in this unit has at least one drafted question.
 
 ## CP-MAIN — Principles of Working as a Close Protection Operative in the Private Security Industry
 
