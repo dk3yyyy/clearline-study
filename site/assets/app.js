@@ -1,5 +1,5 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ag';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ah';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -20,7 +20,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111ag';
+const DATA_VERSION = '20261111ah';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -184,6 +184,10 @@ function renderHome() {
   setActiveNav('home');
   const activeQuals = DATA.syllabus.qualifications;
   const totalQuestions = DATA.questions.length;
+  const randomPool = DATA.questions.filter((q) => q.objective_id && (q.qualifications || []).some((id) => qualById(id)));
+  const randomQuestion = randomPool[Math.floor(Math.random() * randomPool.length)];
+  const randomQual = randomQuestion?.qualifications?.find((id) => qualById(id)) || 'DS';
+  const randomHref = randomQuestion ? href(`practice/${randomQual}?objective=${encodeURIComponent(randomQuestion.objective_id)}`) : href('practice/DS');
   const coreIds = new Set(['DS', 'SO', 'CCTV', 'CP', 'CVIT']);
   const core = activeQuals.filter((qual) => coreIds.has(qual.id));
   const refreshers = activeQuals.filter((qual) => qual.id.endsWith('-REF') || qual.id === 'EFAW');
@@ -220,6 +224,7 @@ function renderHome() {
       <p class="hero-lede">Independent syllabus maps, source links and practice questions for SIA licence-linked qualifications. Practice answers link to the source they were written from.</p>
       <div class="hero-actions"><a class="button button-primary" href="${href('qual/DS')}">Open Door Supervisor</a><a class="button button-ghost" href="${href('practice/DS')}">Start a practice set</a></div>
       <p class="hero-facts">Independent study aid. ${totalQuestions} practice questions. Open Government Licence sources.</p>
+      <p class="hero-random"><a href="${randomHref}">Try a random question →</a></p>
       <p class="hero-note">Draft question bank. Not affiliated with the SIA or any awarding organisation.</p>
     </div>
     <aside class="hero-panel">
