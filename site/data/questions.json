@@ -249,9 +249,9 @@
     "answer_index": 1,
     "explanation": "The standard requires operatives to act fairly and not discriminate on grounds such as age, disability, gender, race or religion.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S11"
+      "eqa-2010#s13"
     ],
-    "source_quote": "act fairly and not discriminate on the grounds of age, disability, gender",
+    "source_quote": "A person (A) discriminates against another (B) if, because of a protected characteristic, A treats B less favourably than A treats or would treat others.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -259,8 +259,8 @@
     "id": "U1-COMMON-0008",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Equality Act 2010",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/13"
     }
   },
   {
@@ -777,9 +777,9 @@
     "answer_index": 1,
     "explanation": "Refusing service because of a disability is direct discrimination, which is unlawful under equality law.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S2"
+      "eqa-2010#s13"
     ],
-    "source_quote": "demonstrate an understanding of equality and diversity",
+    "source_quote": "A person (A) discriminates against another (B) if, because of a protected characteristic, A treats B less favourably than A treats or would treat others.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -787,8 +787,8 @@
     "id": "U1-COMMON-0024",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Equality Act 2010",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/section/13"
     }
   },
   {
@@ -876,9 +876,9 @@
     "answer_index": 2,
     "explanation": "Personal data, including copies of ID, must be kept secure and used only for the purpose it was collected for.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S2"
+      "ico-data-security#security-principle"
     ],
-    "source_quote": "explain how the General Data Protection Regulation/Data Protection Act impacts",
+    "source_quote": "protection against unauthorised or unlawful processing and against accidental loss, destruction or damage",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -886,8 +886,8 @@
     "id": "U1-COMMON-0027",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "A guide to data security",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security/"
     }
   },
   {
@@ -909,9 +909,9 @@
     "answer_index": 0,
     "explanation": "A citizen's arrest may be made for an indictable offence. Theft is an either-way offence, so it qualifies.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S3"
+      "pace-1984#s24A"
     ],
-    "source_quote": "know which offences a security officer can make a citizen’s arrest for",
+    "source_quote": "(a) anyone who is in the act of committing an indictable offence",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -919,8 +919,8 @@
     "id": "U1-COMMON-0028",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Police and Criminal Evidence Act 1984",
+      "url": "https://www.legislation.gov.uk/ukpga/1984/60/section/24A"
     }
   },
   {
@@ -1074,9 +1074,9 @@
     "answer_index": 2,
     "explanation": "A citizen's arrest can put the operative and others at risk and may lead to legal consequences if it is not lawful. The police are better trained and equipped.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S3"
+      "pace-1984#s24A"
     ],
-    "source_quote": "state why citizen’s arrests should only be made as a last resort",
+    "source_quote": "it appears to the person making the arrest that it is not reasonably practicable for a constable to make it instead",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1084,8 +1084,8 @@
     "id": "U1-COMMON-0033",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Police and Criminal Evidence Act 1984",
+      "url": "https://www.legislation.gov.uk/ukpga/1984/60/section/24A"
     }
   },
   {
@@ -1107,9 +1107,9 @@
     "answer_index": 0,
     "explanation": "Force used in an arrest must be both necessary and reasonable, and no more than the situation requires.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S3"
+      "cla-1967#s3"
     ],
-    "source_quote": "state what is meant by ‘reasonable’ and ‘necessary’ force",
+    "source_quote": "A person may use such force as is reasonable in the circumstances in the prevention of crime",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1117,8 +1117,8 @@
     "id": "U1-COMMON-0034",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Criminal Law Act 1967",
+      "url": "https://www.legislation.gov.uk/ukpga/1967/58/section/3"
     }
   },
   {
@@ -1371,9 +1371,9 @@
     "answer_index": 1,
     "explanation": "All accidents and incidents should be reported promptly and recorded, both for the operative's protection and to help prevent repeats.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S4"
+      "hse-first-aid#record-keeping"
     ],
-    "source_quote": "explain the reporting procedures for health and safety accidents and incidents",
+    "source_quote": "It is good practice to use a book for recording any incidents involving injuries or illness which you have attended.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1381,8 +1381,8 @@
     "id": "U1-COMMON-0042",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Basic advice on first aid at work (INDG347)",
+      "url": "https://www.hse.gov.uk/pubns/indg347.pdf"
     }
   },
   {
@@ -1437,9 +1437,9 @@
     "answer_index": 0,
     "explanation": "Fire needs fuel, heat and oxygen. Removing any one of them will put the fire out.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S5"
+      "hse-fire-safety#fire-triangle"
     ],
-    "source_quote": "list the 3 elements that must be present for a fire to exist",
+    "source_quote": "Fires need 3 things to start: a source of ignition (heat), a source of fuel (something that burns), oxygen.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1447,8 +1447,8 @@
     "id": "U1-COMMON-0044",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Introduction to fire safety",
+      "url": "https://www.hse.gov.uk/fireandexplosion/fire-safety.htm"
     }
   },
   {
@@ -1470,9 +1470,9 @@
     "answer_index": 3,
     "explanation": "The first priority is to raise the alarm and evacuate people. Tackling a fire is secondary and only if it is safe and the operative is trained.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S5"
+      "hse-fire-safety#protection-and-escape"
     ],
-    "source_quote": "explain the actions to be taken upon discovering a fire",
+    "source_quote": "Consider how to detect fires and how to warn people quickly if they start",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1480,8 +1480,8 @@
     "id": "U1-COMMON-0045",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Introduction to fire safety",
+      "url": "https://www.hse.gov.uk/fireandexplosion/fire-safety.htm"
     }
   },
   {
@@ -1734,9 +1734,9 @@
     "answer_index": 2,
     "explanation": "An unconscious but breathing person should be placed in the recovery position to keep the airway open, and medical help should be called.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S6"
+      "hse-first-aid#breathing-and-recovery-position"
     ],
-    "source_quote": "state actions to be taken in common situations requiring first aid",
+    "source_quote": "If the casualty is breathing normally: place in the recovery position; get help; check for continued breathing.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1744,8 +1744,8 @@
     "id": "U1-COMMON-0053",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Basic advice on first aid at work (INDG347)",
+      "url": "https://www.hse.gov.uk/pubns/indg347.pdf"
     }
   },
   {
@@ -2097,9 +2097,9 @@
     "answer_index": 3,
     "explanation": "A good record states when and where the incident happened and sets out the facts, including who was involved and what was done.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S8"
+      "hse-first-aid#record-keeping"
     ],
-    "source_quote": "identify what information to include in records",
+    "source_quote": "Include the following information in your entry: the date, time and place of the incident",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -2107,8 +2107,8 @@
     "id": "U1-COMMON-0064",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Basic advice on first aid at work (INDG347)",
+      "url": "https://www.hse.gov.uk/pubns/indg347.pdf"
     }
   },
   {
@@ -2229,9 +2229,9 @@
     "answer_index": 3,
     "explanation": "Critical is the highest UK threat level and means an attack is highly likely in the near future.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S9"
+      "govuk-threat-levels#definitions"
     ],
-    "source_quote": "understand the UK threat level assessment system",
+    "source_quote": "critical - an attack is highly likely in the near future",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -2239,8 +2239,8 @@
     "id": "U1-COMMON-0068",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Terrorism threat levels",
+      "url": "https://www.gov.uk/terrorism-national-emergency/threat-levels"
     }
   },
   {
