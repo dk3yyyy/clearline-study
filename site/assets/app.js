@@ -1,4 +1,5 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111q';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -19,7 +20,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111p';
+const DATA_VERSION = '20261111q';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -516,13 +517,6 @@ function formatTime(ms) {
   return `${String(min).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
 }
 
-/* Awarding organisations publish the pass as a mark, not a rounded percentage.
-   50/72 is 69.4%, which rounds to 69 and would fail if compared as a percentage. */
-function requiredMarks(total, passMark) {
-  if (!total) return 0;
-  return Math.min(total, Math.max(1, Math.round((total * passMark) / 100)));
-}
-
 function abandonExam() {
   if (examState?.timer) clearInterval(examState.timer);
   examState = null;
@@ -581,25 +575,12 @@ function submitExam(force = false) {
   clearInterval(examState.timer);
   examState.finished = true;
   try { sessionStorage.removeItem(EXAM_KEY); } catch (error) {}
-  let correct = 0;
-  const byUnit = {};
-  const byObjective = {};
-  examState.questions.forEach((q) => {
-    const selected = examState.answers[q.id];
-    const answered = selected !== undefined;
-    const isCorrect = answered && selected === q.answer_index;
-    if (isCorrect) correct += 1;
-    // A blank answer is not progress. Recording it as answered inflates the
-    // study pass and fills the review list with questions never attempted.
-    if (answered) store.answers[q.id] = { selected, correct: isCorrect, at: new Date().toISOString(), exam: true };
-    byUnit[q.unit] = byUnit[q.unit] || { correct: 0, total: 0 };
-    byUnit[q.unit].total += 1;
-    if (isCorrect) byUnit[q.unit].correct += 1;
-    byObjective[q.objective_id] = byObjective[q.objective_id] || { correct: 0, total: 0 };
-    byObjective[q.objective_id].total += 1;
-    if (isCorrect) byObjective[q.objective_id].correct += 1;
+  const marked = markPaper(examState.questions, examState.answers);
+  const at = new Date().toISOString();
+  marked.records.forEach((record) => {
+    store.answers[record.id] = { selected: record.selected, correct: record.correct, at, exam: true };
   });
-  const attempt = { id: `attempt-${Date.now()}`, qual: examState.qual.id, unit: examState.unit.id, correct, total: examState.questions.length, date: new Date().toISOString(), passMark: examState.format.pass_mark };
+  const attempt = { id: `attempt-${Date.now()}`, qual: examState.qual.id, unit: examState.unit.id, correct: marked.correct, total: marked.total, date: at, passMark: examState.format.pass_mark };
   store.attempts.unshift(attempt);
   store.attempts = store.attempts.slice(0, 50);
   saveStore();
@@ -612,24 +593,13 @@ function renderExamResult() {
   // The paper is over, so drop the paper from the address bar. A reload then
   // shows the paper chooser instead of silently starting a fresh paper.
   try { if (location.hash !== `#/exam/${qual.id}`) history.replaceState(null, '', `#/exam/${qual.id}`); } catch (error) {}
-  const correct = questions.filter((q) => answers[q.id] === q.answer_index).length;
+  const marked = markPaper(questions, answers);
+  const correct = marked.correct;
   const pct = Math.round((correct / questions.length) * 100);
   const needed = requiredMarks(questions.length, examState.format.pass_mark);
-  const passed = correct >= needed;
-  const byUnit = {};
-  questions.forEach((q) => {
-    byUnit[q.unit] = byUnit[q.unit] || { correct: 0, total: 0 };
-    byUnit[q.unit].total += 1;
-    if (answers[q.id] === q.answer_index) byUnit[q.unit].correct += 1;
-  });
-  const unitRows = Object.entries(byUnit).map(([id, value]) => `<li><span>${esc(unitById(id)?.name || id)}</span><span>${value.correct}/${value.total}</span></li>`).join('');
-  const byObjective = {};
-  questions.forEach((q) => {
-    byObjective[q.objective_id] = byObjective[q.objective_id] || { correct: 0, total: 0 };
-    byObjective[q.objective_id].total += 1;
-    if (answers[q.id] === q.answer_index) byObjective[q.objective_id].correct += 1;
-  });
-  const objectiveRows = Object.entries(byObjective).sort((a, b) => (a[1].correct / a[1].total) - (b[1].correct / b[1].total)).slice(0, 6).map(([id, value]) => {
+  const passed = hasPassed(correct, questions.length, examState.format.pass_mark);
+  const unitRows = Object.entries(marked.byUnit).map(([id, value]) => `<li><span>${esc(unitById(id)?.name || id)}</span><span>${value.correct}/${value.total}</span></li>`).join('');
+  const objectiveRows = Object.entries(marked.byObjective).sort((a, b) => (a[1].correct / a[1].total) - (b[1].correct / b[1].total)).slice(0, 6).map(([id, value]) => {
     const obj = objectiveFor({ objective_id: id });
     return `<li><span>${esc(obj?.objective.text || id)}</span><span>${value.correct}/${value.total}</span></li>`;
   }).join('');
