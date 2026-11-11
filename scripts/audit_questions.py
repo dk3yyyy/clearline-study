@@ -64,6 +64,8 @@ def main() -> int:
         if HIGH_RISK.search(str(row.get("stem", "")) + " " + str(row.get("explanation", ""))) and not row.get("requires_human_review"):
             high_risk_unflagged.append((filename, line, row.get("stem", "")))
 
+    bad = {unit: entries for unit, entries in bad.items() if entries}
+
     print(f"records: {len(rows)}")
     print(f"units: {len(by_unit)}")
     print(f"meta-question hits: {len(meta)}")
@@ -71,7 +73,7 @@ def main() -> int:
     for unit in UNITS:
         if not by_unit.get(unit):
             continue
-        print(f"{unit}: {by_unit[unit]} records, {len(bad[unit])} problems")
+        print(f"{unit}: {by_unit[unit]} records, {len(bad.get(unit, []))} problems")
     if bad:
         print("\nProblems")
         for unit, entries in bad.items():
