@@ -92,7 +92,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "U1-COMMON-0003",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
@@ -125,7 +125,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "U1-COMMON-0004",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
@@ -158,7 +158,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "U1-COMMON-0005",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
@@ -191,7 +191,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "U1-COMMON-0006",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
@@ -224,7 +224,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "U1-COMMON-0007",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Common Security Industry Knowledge specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
@@ -4322,7 +4322,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "U3-CONFLICT-0001",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Conflict Management specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd35d3bf7f5ce4f581ba/sia-conflict-management-specification-2021.pdf"
@@ -4586,7 +4586,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "U3-CONFLICT-0009",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Conflict Management specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd35d3bf7f5ce4f581ba/sia-conflict-management-specification-2021.pdf"
@@ -4718,7 +4718,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "U3-CONFLICT-0013",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Conflict Management specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dd35d3bf7f5ce4f581ba/sia-conflict-management-specification-2021.pdf"
@@ -6209,7 +6209,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "U4-PI-0030",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Physical Intervention Skills specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
@@ -6302,7 +6302,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "SO-U2-0003",
-    "source_quote_exact": true,
+    "source_quote_exact": false,
     "source": {
       "title": "SIA Security Guarding specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
@@ -9340,7 +9340,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0001",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9464,7 +9464,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0005",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9588,7 +9588,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0009",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9650,7 +9650,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0011",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9681,7 +9681,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0012",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9743,7 +9743,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0014",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9774,7 +9774,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "CP-MAIN-0015",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9836,7 +9836,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0017",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9960,7 +9960,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0021",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -9991,7 +9991,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0022",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -10053,7 +10053,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-MAIN-0024",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
@@ -10115,7 +10115,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-PI-0001",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
@@ -10146,7 +10146,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-PI-0002",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
@@ -10177,7 +10177,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-PI-0003",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
@@ -10208,7 +10208,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-PI-0004",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
@@ -10270,7 +10270,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "CP-PI-0006",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
@@ -10301,7 +10301,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "CP-PI-0007",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
@@ -10363,7 +10363,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "CP-PI-0009",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
@@ -10394,7 +10394,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-PI-0010",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
@@ -10456,7 +10456,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-DSR-0002",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"
@@ -10487,7 +10487,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "CP-DSR-0003",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"
@@ -10549,7 +10549,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-DSR-0005",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"
@@ -10611,7 +10611,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-DSR-0007",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"
@@ -10704,7 +10704,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-DSR-0010",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"
@@ -10735,7 +10735,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-DSR-0011",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"
@@ -10766,7 +10766,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-DSR-0012",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervision Responsibilities for Close Protection specification (2022)",
       "url": "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"
@@ -10797,7 +10797,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CVIT-0001",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Cash and Valuables in Transit specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dc888fa8f55b67fb3612/sia-cvit-specification-2021.pdf"
@@ -10859,7 +10859,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CVIT-0003",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Cash and Valuables in Transit specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dc888fa8f55b67fb3612/sia-cvit-specification-2021.pdf"
@@ -10890,7 +10890,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CVIT-0004",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Cash and Valuables in Transit specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dc888fa8f55b67fb3612/sia-cvit-specification-2021.pdf"
@@ -10983,7 +10983,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CVIT-0007",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Cash and Valuables in Transit specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dc888fa8f55b67fb3612/sia-cvit-specification-2021.pdf"
@@ -11107,7 +11107,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CVIT-0011",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Cash and Valuables in Transit specification (2021)",
       "url": "https://assets.publishing.service.gov.uk/media/6061dc888fa8f55b67fb3612/sia-cvit-specification-2021.pdf"
@@ -11293,7 +11293,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "DS-REF-0004",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervisor Refresher specification (2024)",
       "url": "https://assets.publishing.service.gov.uk/media/670f919e3b919067bb483246/sia-ds-refresher-specification-2024.pdf"
@@ -11572,7 +11572,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "DS-REF-0013",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Door Supervisor Refresher specification (2024)",
       "url": "https://assets.publishing.service.gov.uk/media/670f919e3b919067bb483246/sia-ds-refresher-specification-2024.pdf"
@@ -12316,7 +12316,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "SG-REF-0017",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Security Guarding Refresher specification (2024)",
       "url": "https://assets.publishing.service.gov.uk/media/670f91c1080bdf716392f438/sia-sg-refresher-specification-2024.pdf"
@@ -12533,7 +12533,7 @@
     "status": "draft",
     "requires_human_review": false,
     "id": "CP-REF-0004",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention Refresher specification (2025)",
       "url": "https://assets.publishing.service.gov.uk/media/68add0a9960e2d135b4c8e3c/sia-cp-physical-intervention-refresher-specification-2025.pdf"
@@ -12688,7 +12688,7 @@
     "status": "draft",
     "requires_human_review": true,
     "id": "CP-REF-0009",
-    "source_quote_exact": false,
+    "source_quote_exact": true,
     "source": {
       "title": "SIA Close Protection Physical Intervention Refresher specification (2025)",
       "url": "https://assets.publishing.service.gov.uk/media/68add0a9960e2d135b4c8e3c/sia-cp-physical-intervention-refresher-specification-2025.pdf"
