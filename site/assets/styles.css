@@ -107,6 +107,7 @@ p { line-height: 1.55; text-wrap: pretty; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
 .hero-facts { margin: 24px 0 0; color: var(--muted); font-size: 13px; }
 .hero-facts span + span::before { content: "·"; margin: 0 9px; color: var(--signal); }
+.hero-note { margin: 9px 0 0; color: var(--muted); font-size: 12px; }
 .hero-panel { border-left: 1px solid var(--line); padding-left: 28px; align-self: stretch; display: flex; flex-direction: column; justify-content: flex-end; }
 .hero-panel .kicker { margin-bottom: 11px; }
 .hero-panel h2 { font-size: 26px; margin-bottom: 13px; }
@@ -137,6 +138,8 @@ p { line-height: 1.55; text-wrap: pretty; }
 .progress-line > span { display: block; height: 100%; width: 0; background: var(--signal); transition: width 300ms ease; }
 .progress-meta { display: flex; justify-content: space-between; gap: 12px; margin-top: 8px; color: var(--muted); font-size: 11px; }
 .qual-card:hover .progress-meta { color: var(--ink); }
+.qual-open { display: inline-block; margin-top: 15px; color: var(--signal-dark); font-size: 12px; font-weight: 600; }
+.qual-card:hover .qual-open { text-decoration: underline; text-underline-offset: 3px; }
 
 /* Qualification dashboard */
 .page-head { padding: 48px 0 34px; border-bottom: 1px solid var(--line); }
