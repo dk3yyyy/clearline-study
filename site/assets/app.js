@@ -674,6 +674,17 @@ function setupMobileMenu() {
   }));
 }
 
+function setupSkipLink() {
+  const link = $('.skip-link');
+  const main = $('#app');
+  if (!link || !main) return;
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    main.focus({ preventScroll: true });
+    main.scrollIntoView();
+  });
+}
+
 function setupTheme() {
   const saved = localStorage.getItem('theme');
   setTheme(saved === 'dark' || saved === 'light' ? saved : null, false);
@@ -707,6 +718,7 @@ function render() {
 
 async function init() {
   setupTheme();
+  setupSkipLink();
   setupMobileMenu();
   setupReportDialog();
   try {
