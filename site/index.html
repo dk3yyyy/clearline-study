@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101a1c" />
+  <meta name="description" content="Source-cited SIA licence-linked study, practice and mock exams." />
+  <title>Clearline Study — SIA licence training</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="#/" aria-label="Clearline Study home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span class="brand-name">Clearline<span class="brand-suffix">Study</span></span>
+      </a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#/" data-nav="home">Home</a>
+        <a href="#/qual/DS" data-nav="learn">Learn</a>
+        <a href="#/practice/DS" data-nav="practice">Practice</a>
+        <a href="#/exam/DS" data-nav="exam">Mock exams</a>
+        <a href="#/weak" data-nav="weak">Weak spots</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="mobile-menu" id="mobile-menu" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+        <a class="button button-primary button-small" href="#/qual/DS">Start studying</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <div class="shell loading-state"><p>Loading the study room…</p></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <a class="brand brand-footer" href="#/" aria-label="Clearline Study home"><span class="brand-mark" aria-hidden="true"><span></span></span><span class="brand-name">Clearline<span class="brand-suffix">Study</span></span></a>
+        <p class="footer-note">A study room for the SIA licence-linked qualifications. Learn the syllabus, practice the questions, then sit the mock.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#/qual/DS">Learn</a><a href="#/practice/DS">Practice</a><a href="#/exam/DS">Mock exams</a><a href="#/reports">Question reports</a><a href="#/about">About the sources</a>
+      </div>
+      <p class="footer-legal">Contains public sector information licensed under the Open Government Licence v3.0. Sources include the Security Industry Authority, Home Office, Health and Safety Executive, NPSA and legislation.gov.uk. This site is not endorsed by or affiliated with the SIA or any awarding organisation. <span data-year>2026</span>.</p>
+    </div>
+  </footer>
+
+  <dialog class="report-dialog" id="report-dialog" aria-labelledby="report-title">
+    <form method="dialog" id="report-form">
+      <div class="dialog-head"><div><p class="mini-label">Question feedback</p><h2 id="report-title">Report an issue</h2></div><button class="icon-button" value="cancel" type="submit" aria-label="Close">×</button></div>
+      <p id="report-question" class="report-question"></p>
+      <label for="report-reason">What is wrong?</label>
+      <select id="report-reason" required>
+        <option value="">Choose a reason</option>
+        <option value="wrong-answer">The answer key is wrong</option>
+        <option value="unsupported">The source does not support the answer</option>
+        <option value="ambiguous">More than one option could be right</option>
+        <option value="typo">Typo or unclear wording</option>
+        <option value="other">Something else</option>
+      </select>
+      <label for="report-note">Optional note</label>
+      <textarea id="report-note" rows="3" placeholder="What should be checked?"></textarea>
+      <div class="dialog-actions"><button class="button button-ghost" value="cancel" type="submit">Cancel</button><button class="button button-primary" id="report-send" value="default" type="submit">Save report</button></div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

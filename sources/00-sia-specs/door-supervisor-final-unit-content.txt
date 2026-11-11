@@ -1,0 +1,419 @@
+SIA Specification name: Specification for Learning and Qualifications for Door Supervisors including Scottish indicative content,
+
+Level          2
+Credit         1
+GLH/MCT        11
+TQT            14
+
+          LOs                      Assessment Criteria                                                   Indicative Content
+    The learner will                 The learner can
+                           1.1   Recognise the types of crimes          •   Murder/manslaughter
+ 1. Understand crimes
+                                 against a person that a door           •   Grievous bodily harm with intent / Assault
+    relevant to door
+                                 supervisor may come across             •   Grievous bodily harm / Aggravated assault
+    supervision
+                                                                        •   Actual bodily harm
+                                                                        •   Common assault
+                                                                        •   Rape
+                                                                        •   Sexual assault
+
+                           1.2   Recognise common crimes against        •   Arson
+                                 property and premises that a door      •   Criminal Damage / Vandalism
+                                 supervisor may come across             •   Threats to Damage / Malicious mischief
+                                                                        •   Robbery
+                                                                        •   Burglary / Housebreaking
+                                                                        •   Theft
+                                                                        •   Fraud
+                                                                        •   Any article made or adapted for use to cause injury to the person, or intended by the
+                           1.3   Identify an offensive weapon
+                                                                            person having it with him for such use
+                                                                        •   Vehicle
+                                                                        •   Knives
+                                                                        •   Glass
+                                                                        •   Baseball bats
+                           2.1   State the different type of searches   •   General
+ 2. Know how to conduct
+                                 carried out by a door supervisor           o    when everyone is searched
+    effective search
+                                                                        •   Random
+    procedures
+                                                                            o    when a random selection of people are searched (i.e. search every fourth person)
+                                                                        •   Specific
+                                                                            o    when specific individuals are searched for specific reasons
+                                                                        •   Premises
+
+Updated by RC 10/11/20
+                                                                       •   Only with the permission from the person prior to the search
+                         2.2   Identify a door supervisor’s right to
+                               search                                  •   As a part of the admissions policy
+                                                                       •   As a condition of entry
+
+                                                                       •   Search wand
+                         2.3   Identify the different types of
+                               searching equipment                     •   Metal detector
+                                                                       •   AMD Archway Metal Detectors
+                                                                       •   Drugs
+                         2.4   Recognise possible hazards when
+                                                                       •   Needles / sharp objects
+                               conducting a search
+                                                                       •   Weapons
+                                                                       •   Violence
+                                                                       •   Infectious Diseases
+                                                                       •   Uncooperative clients
+                                                                       •    Use of a dedicated search area
+                         2.5   State the precautions to take when
+                               carrying out a search                   •    Carry out searching in pairs if possible
+                                                                       •    Carry out searching in view of CCTV if possible
+                                                                       •    Use of personal protective equipment (PPE), e.g. safety gloves
+                                                                       •    Use self-search techniques
+                                                                       •    Follow same sex searching policy (inc. searches of transgender individuals should be
+                                                                            performed according to the ‘SIA Trans customers: A guide for door supervisors’
+                                                                            guidance) https://www.sia.homeoffice.gov.uk/documents/sia-ds-trans-guide.pdf
+                                                                       Infectious diseases
+                                                                       • Use of personal protective equipment (PPE)
+                                                                       • Use self-search techniques
+                                                                       • Contact emergency services
+                         2.6   State the actions to take if an
+                                                                       • Follow venue policy / assignment instructions
+                               incident or an accident occurs
+                                                                       •   Use of signage to indicate that searching could take place
+                         2.7   Demonstrate how to search people
+                                                                       •   Explain the search policy
+                               and their personal possessions
+                                                                       •   Obtain permission of person being searched prior to the search
+                                                                       •   Follow venue policy / assignment instructions
+                                                                       •   Same-sex searching
+                                                                                o Follow same sex searching policy (inc. searches of transgender individuals
+                                                                                    should be performed according to the ‘SIA Trans customers: A guide for door
+                                                                                    supervisors’ guidance) https://www.sia.homeoffice.gov.uk/documents/sia-ds-
+                                                                                    trans-guide.pdf
+                                                                       •   Use appropriate PPE
+
+Updated by RC 10/11/20
+                                                                   •   Use self-searching techniques (where appropriate)
+                                                                   •   Search with a witness or in view of CCTV
+                                                                   •   Consideration must be given to protected characteristics
+                                                                            o age
+                                                                            o disability
+                                                                            o gender reassignment
+                                                                            o marriage and civil partnership
+                                                                            o pregnancy and maternity
+                                                                            o race
+                                                                            o religion or belief
+                                                                            o sex/gender
+                                                                   •   Considerations for searching children and young people:
+                                                                            o never ask to remove clothing, other than outer garments like coats, gloves,
+                                                                                 jumpers
+                                                                            o should be conducted in the presence of another individual, ideally parent,
+                                                                                 guardian or other responsible adult
+                                                                            o should be spoken to in an appropriate manner whilst informing them of
+                                                                                 what’s happening and why
+                                                                            o consent should be obtained from the child and understanding confirmed
+                                                                            o searches should be conducted by a person of the same sex as the child or
+                                                                                 young person
+                                                                   •   Pre-entry check to ensure the safety of the premises on opening
+                         2.8   Identify the reasons for carrying
+                               out a premises search               •   Identifying potential hazards
+                                                                   •   Search for drugs, weapons, suspicious packages
+                                                                   •   Closing check to ensure no patrons are left in toilets, VIP area or areas where it is easy
+                                                                       to stow away
+                                                                   •   Lock down with duty manager to ensure all doors are secure etc.
+                                                                   •   Politely explain reasons for search
+                         2.9   Recognise actions to take in the
+                                                                       o    condition of entry
+                               event of a search refusal
+                                                                       o    admissions policy
+                                                                   •   If customers do not give consent for a search, then they should be denied entry
+                                                                   •   Follow venue policy / assignment instructions
+                                                                   •   Record details in search register / other report
+                                                                   •   Protection against allegations of misconduct
+                         2.10 Identify reasons for completing
+                              search documentation                 •   Protect person who is being searched
+                                                                   •   To capture time, date, people present and reason for search
+                                                                   •   For evidential purposes
+
+Updated by RC 10/11/20
+                                                                           •   Follow venue policy / assignment instructions
+                              2.11 Identify actions to take if a
+                                   prohibited or restricted item is        •   If the item is against entrance policy but is not illegal - follow venue policy /
+                                   found during a search                       assignment instructions. This could be to consider holding / looking after the item
+                                                                               before entry is granted and then returning on exit
+                                                                           •   Consider seizing / securing item (where appropriate), refusing entry, recording find
+                                                                               and informing police
+                                                                           •   Consider seizing the item, arresting the customer, calling the police (where
+                                                                               appropriate), handing-over both person and item to the police
+                                                                           •   Record the find in line with venue policy / assignment instructions and record details
+                                                                               of the find
+                                                                           •   Inform control room / senior management
+                                                                           •   Use drugs amnesty boxes if available
+                              3.1   Identify relevant aspects of drug-     •   Misuse of Drugs Act 1971
+ 3. Understand drug-
+                                    misuse legislation                     •   Possession of drugs
+    misuse legislation,
+    issues and procedures                                                  •   Possession of controlled drugs with intent to supply
+    relevant to the role of                                                •   Supplying controlled drugs
+    a door supervisor.                                                     •   Manufacturing controlled drugs
+                                                                           •   Allowing the premises to be used to take controlled drugs
+                                                                           •   Class A, B and C drugs
+                                                                           •   Class A: crack cocaine, cocaine, ecstasy (MDMA), LSD, heroin, crystal
+                              3.2   Identify common types of illegal
+                                                                               methamphetamine (crystal meth), psilocybin (magic mushroom), methadone
+                                    drugs
+                                                                           •   Class B: amphetamines, barbiturates, cannabis, ketamine, codeine, ritalin
+                                                                           •   Class C: GHB, rohypnol, anabolic steroids and other tranquilisers
+                                                                           •   Other drugs restricted under the Medicines Act
+                                                                           •   Uncoordinated behaviour
+                              3.3   Recognise the signs and symptoms
+                                                                           •   Repetitive movement
+                                    of drug use
+                                                                           •   Dilated pupils
+                                                                           •   Anxiety
+                                                                           •   Bloodshot or watering eyes
+                                                                           •   Excessive sweating
+                                                                           •   Feeling drowsy
+                                                                           •   Unconsciousness
+                                                                           •   Suspicious behaviour
+                              3.4   Identify the signs that may indicate
+                                    drug dealing                           •   Frequent trips to the toilet
+                                                                           •   Meetings with lots of strangers
+                                                                           •   Lots of people approaching one individual
+                                                                           •   Covert exchanges of items/cash
+                                                                           •   Hiding in areas out of view of staff and CCTV
+                                                                           •   Information from other customers or members of staff
+                                                                           •   Reduction in alcohol sales
+Updated by RC 10/11/20
+                                                                      •   Drug litter found in the venue
+                                                                      •   Follow venue policy/assignment instructions with regards to refusal, ejection or arrest
+                           3.5   State the procedure for dealing
+                                 with individuals found to be in      •   Seize any drugs if it is safe to do so
+                                 possession of drugs                  •   Secure the drugs if it is safe to do so
+                                                                      •   Inform a supervisor, manager and/or licence holder
+                                                                      •   Record incident in line with venue policy/assignment instruction
+                                                                      •   Think safety first (including use of safety gloves)
+                           3.6   State the procedures for handling
+                                                                      •   Follow venue policy / assignment instructions
+                                 and storing seized drugs
+                                                                      •   Ensure drugs place somewhere securely
+                                                                      •   Ensure seizure is recorded correctly
+                                                                      •   Inform police where necessary
+                           3.7   State how to dispose of drug         •   Use personal protective equipment (i.e. safety gloves)
+                                 related litter and contaminated      •   Use sharps boxes or bottles for needles
+                                 waste                                •   Dispose of blood-stained tissues down the toilet or place in contaminated waste bags
+                                                                      •   Permanent written record of the event
+ 4. Understand             4.1   State reasons for recording and
+    preservation of              preserving crime scenes              •   For evidential purposes
+    evidence relevant to                                              •   To assist in identifying offenders
+    the role of a door                                                •   To assist outside agencies or court cases
+    supervisor                                                        •   To justify actions taken
+                                                                      •   To prevent malicious allegations or civil actions
+                                                                      •   Contact the emergency services
+                           4.2   State actions to take to preserve
+                                 evidence after an incident           •   Cordon off the area
+                                                                      •   Contain potential evidence
+                                                                      •   Control the area
+                                                                      •   Call for support and inform management
+                                                                      •   Restrict access
+                                                                      •   Show police any potential evidence
+                                                                      •   Record actions
+                                                                      •   Following an arrest
+                           4.3   Identify circumstances when a door
+                                                                      •   To report a serious crime
+                                 supervisor should call the police
+                                                                      •   To report serious public order offences
+                                                                      •   To report other serious incidents inside or outside of the venue
+                                                                      •   Direct / factual
+                           4.4   Identify how different types of
+                                 evidence can be obtained at a
+                                                                          o evidence that directly proves a fact
+                                 crime scene                          •   Circumstantial
+                                                                          o evidence that supports a presumption of guilt
+                                                                      •   Hearsay
+                                                                          o something heard from another person
+                                                                      •   Documentary
+Updated by RC 10/11/20
+                                                                           o      handwritten, typed or printed documents
+                                                                           o      notebooks
+                                                                           o      logs
+                                                                           o      reports
+                                                                           o      footage from CCTV /body-worn cameras (BWC) / mobile phone
+                                                                           o      computer records
+                                                                       •   Real
+                                                                           o      produced as an exhibit
+                                                                       •   Oral
+                                                                           o    spoken evidence given by witnesses
+                                                                       •   Forensic
+                                                                           o scientific evidence, i.e. DNA from blood, hair, body fluids
+                                                                           o fingerprints
+                                                                           o disposed of articles
+                           5.1 Identify the licensing objectives       •   Listed in the Licensing Act 2003 Licensing (Scotland) Act 2005
+ 5. Understand licensing
+                                                                                o Prevent crime and disorder
+    law relevant to the
+    role of a door                                                              o Securing Public safety
+    supervisor                                                                  o Preventing public nuisance
+                                                                                o Protection of children and young persons from harm
+                                                                                o Protecting and improving public health
+                                                                       •   Licence holder, other members of staff and door supervisors acting on their behalf can
+                           5.2 State the law in relation to refusing
+                                                                           refuse entry to any person from entering licensed premises, particularly to enforce
+                               entry and ejecting customers
+                                                                           licensing objectives
+                                                                       •   Anyone refusing to leave the premises when asked becomes a trespasser, and can be
+                                                                           lawfully ejected from the premises using only such force as is reasonable and
+                                                                           necessary
+                                                                       •   Have right of entry / inspection
+                           5.3 Identify police powers regarding
+                               licensed premises                       •   Have right to search premises
+                                                                       •   Have powers of closure
+                                                                       •   Licence holder is responsible for ensuring that the premises complies with licensing
+                           5.4 State the rights and duties of
+                                                                           objectives and all other relevant legislation
+                               licensees and door supervisors as
+                                                                       •   Licence holder decides on admission policy and other house rules
+                               their representatives
+                                                                       •   Door supervisors, acting on behalf of licence holders should promote those policies
+                                                                       •   Door supervisors and the licence holder should know the differences between
+                                                                           personal and premises licences and how to obtain them
+
+                           5.5 State the role of the designated        •   Must only have one DPS / PM for that premises
+                               premises supervisor (DPS) /             •   A DPS / PM has day-to-day ultimate responsibility for the running of the premises
+                               premises manager (PM)                   •   Must be named in the operating schedule (which is completed when applying for a
+                                                                           premises licence)
+
+Updated by RC 10/11/20
+                                                                      •   Point of contact for police and local government
+                         5.6 State the law regarding children and     •   Protection of children from harm is a licensing objective
+                             young persons on licensed premises       •   Selling alcohol to a person under 18 is illegal
+                                                                      •   Penalties can be imposed on venues
+                                                                      •   Test purchasing may take place
+                                                                      •   Other age-related licensing offences include young people and meals, serving alcohol,
+                                                                          collecting alcohol
+                         5.7 State conduct that is unlawful under     •   Allowing drunkenness on licensed premises
+                             licensing, gaming and sexual             •   Serving someone who is drunk
+                             offences legislation                     •   Serving alcohol to someone under the legal age
+                                                                      •   Unlawful gaming
+                                                                      •   Contravening the Policing and Crime Act 2009
+                                                                      •   Contravention of licence terms, conditions and/or restrictions as described by local
+                                                                          authorities
+                                                                      •   Running establishments without a licence granted by the local authority
+                                                                      •   Soliciting on licensed premises
+                         5.8 Identify acceptable forms of proof of    •   Follow venue policy / assignment instructions
+                             age                                      •   Passports
+                                                                      •   Photo-card driving licences
+                                                                      •   Proof-of-age scheme cards
+                                                                      •   Local Challenge 21 and Challenge 25 schemes
+                                                                      •   Access the most up-to-date guidance from gov.uk
+ 6. Understand queue     6.1   State the responsibilities of a door
+    management and             supervisor when controlling            •   Venue management e.g. queues, rules that impact socialising, venue access, PPE
+    venue capacity             queues                                 •   To have a professional appearance and attitude
+    responsibilities                                                  •   To ensure that only appropriate people can enter
+    relevant to a door                                                •   To ensure that only the appropriate numbers of customers can enter
+    supervisor                                                        •   To ensure safe entry for customers
+                         6.2   Recognise the benefits of queue        •   Decreases the potential for conflict outside of the venue
+                               control                                •   Demonstrates good customer service
+                                                                      •   Allows assessment of attitude and behaviour of different customers
+                                                                      •   Allows enforcement of admissions policy
+                                                                      •   Improves customer safety
+                                                                      •   Ensures customer enjoyment
+                         6.3   Identify the importance of             •   Ensures safe exit of customers
+                               following dispersal procedures         •   Prevents disorder
+                                                                      •   Shows good customer service
+                                                                      •   Assists outside agencies
+                                                                      •   Help compliance with licensing objectives
+
+Updated by RC 10/11/20
+                           6.4   State why communication is             •   Manages customer expectations
+                                 important throughout the queuing       •   Decreases potential conflict
+                                 process                                •   Provides good customer service
+                                                                        •   Allows assessment of the customers attitude and sobriety
+                                                                        •   Builds positive relationships with customers who may then return to the venue
+                           6.5   State the responsibilities of a door   •   Monitor the queue at all times
+                                 supervisor in relation to crowd        •   Use of devices to count customers in and out of the premises
+                                 capacity regulations                   •   Halt entry once capacity is reached
+                                                                        •   Ensures compliance with:
+                                                                            o    Health and safety legislation
+                                                                            o    Fire safety regulations
+                                                                            o    Venues licence
+                                                                            o    Licensing objectives
+                           6.6   Identify how and when to monitor       •   Monitor at all times
+                                 a queue for potential safety issues    •   Monitor for attitude and welfare issues
+                                                                        •   Maintain observations throughout the queue
+                                                                        •   Use of barriers, lines or signs to ensure safe entry
+                                                                        •   People being ejected are more vulnerable to specific crimes or attacks which are more
+                           6.7   State the factors to consider when
+                                                                            common in the night-time economy.
+                                 ejecting or refusing entry to a
+                                 person who may be vulnerable           •   Sobriety
+                                                                        •   Drug use
+                                                                        •   Age
+                                                                        •   Mental capacity
+                                                                        •   Attitude
+                                                                        •   Crimes and licensing offences
+                           7.1   Recognise equipment used to            •   Clickers
+ 7. Know how to use
+                                 manage venue capacity                  •   Other counters
+    equipment relevant
+    to a door supervisor                                                •   Radio calling colleagues and asking for number updates on venue capacity (multiple
+                                                                            entrances)
+                                                                        •   Use of CCTV
+                                                                        •   Wearables
+                           7.2   Recognise the different types of
+                                                                            o    Waterproof clothing
+                                 personal protective equipment
+                                                                            o    High-visibility clothing
+                                 relevant to the role of a door
+                                                                            o    Headwear
+                                 supervisor
+                                                                            o    Stab vests
+                                                                            o    Gloves (needle/slash resistant)
+                                                                            o    Rubber gloves and face shields
+                                                                            o    Ear defender
+                                                                            o    Eye protection
+                                                                            o    Safety boots
+Updated by RC 10/11/20
+                                                                  •   Equipment
+                                                                      o    Metal detectors
+                                                                      o    Body worn cameras
+                                                                      o    Radios, mobile phones
+                                                                      o    Personal alarms
+                                                                      o    Torches
+                                                                      o    Equipment as it applies to the incident e.g. to help control infections
+                                                                      o    Breathalysers
+                                                                  •   Securing evidence against an offender
+                         7.3   State the purpose of using body-
+                               worn cameras (BWC)                 •   Deterring crimes
+                                                                  •   Self-protection
+                                                                  •   Curbing behaviour (DS or customer)
+                                                                  •   Identifying offenders
+                                                                  •   Equipment
+                         7.4   Identify how to communicate
+                                                                      o    Radio’s and earpieces
+                               effectively using relevant
+                                                                      o    Mobile phones
+                               equipment
+                                                                      o    Internal telephone systems
+                                                                  •   Communication occurring between:
+                                                                      o    internal and external colleagues
+                                                                      o    professionals i.e. within the premises or
+                                                                      o    police/external agencies
+                                                                  •   Methods used to communicate clearly and accurately over a radio network:
+                                                                      o    use of radio protocols to signal start/end of transmissions;
+                                                                      o    use of clear and concise language;
+                                                                      o    ensure clear and effective communication;
+                                                                      o    ensure urgent incidents are dealt with quickly
+                                                                  •   Accurate, brief and clear
+                         7.5   Demonstrate effective use of
+                               communication devices              •   Use of call-signs, pro-words, local code words
+                                                                  •   Use of the NATO phonetic alphabet
+                                                                  •   Correct pronunciation of numbers
+                                                                  •   Professional local radio etiquette
+                                                                  •   Equipment used
+                                                                      o    Radios
+                                                                      o    Mobile phone
+                                                                      o    Internal telephone systems
+                                                                      o    Internal tannoy systems / use of the DJ
+                                                                  •   Ensure radio equipment is tested and fully charged prior to use
+
+Updated by RC 10/11/20
+
