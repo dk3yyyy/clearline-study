@@ -330,6 +330,7 @@ p { line-height: 1.55; text-wrap: pretty; }
 .footer-links a { color: var(--muted); text-decoration: none; }
 .footer-links a:hover { color: var(--ink); text-decoration: underline; }
 .footer-legal { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.footer-legal a { color: inherit; text-underline-offset: 2px; }
 
 /* Dialog and toast */
 .report-dialog { width: min(480px, calc(100% - 32px)); border: 1px solid var(--line); background: var(--white); color: var(--ink); padding: 0; border-radius: var(--r); box-shadow: var(--shadow); }
