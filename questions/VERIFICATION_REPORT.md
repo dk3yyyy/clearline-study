@@ -1,12 +1,12 @@
 # Question verification report
 
-- Records read: **390**
-- Records accepted: **390**
+- Records read: **407**
+- Records accepted: **407**
 - Records rejected: **0**
 - Structurally valid JSONL parse errors: **0**
-- Marked for human review: **86**
+- Marked for human review: **101**
 - Target minimum across units: **1450**
-- Actual bank size: **390**
+- Actual bank size: **407**
 
 ## What this report does and does not prove
 
@@ -14,18 +14,18 @@ This is a structural verification pass. It does **not** prove that every answer 
 
 ## Answer position spread
 
-- A: 101
-- B: 97
-- C: 97
-- D: 95
+- A: 106
+- B: 102
+- C: 101
+- D: 98
 
 ## Counts by unit
 
 | Unit | Questions | Minimum target |
 |---|---:|---:|
-| U1-COMMON | 60 | 300 |
+| U1-COMMON | 72 | 300 |
 | U3-CONFLICT | 30 | 100 |
-| U4-PI | 25 | 80 |
+| U4-PI | 30 | 80 |
 | DS-U2 | 60 | 150 |
 | SO-U2 | 60 | 150 |
 | CCTV-U2 | 40 | 150 |

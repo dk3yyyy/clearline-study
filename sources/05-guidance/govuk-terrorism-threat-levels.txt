@@ -1,0 +1,28 @@
+# Terrorism threat levels
+
+The threat level indicates the likelihood of a terrorist attack in the UK.
+
+## National threat level
+
+The threat to the UK (England, Wales, Scotland and Northern Ireland) from terrorism is severe.
+
+## Northern Ireland-related threat level
+
+The threat to Northern Ireland from Northern Ireland-related terrorism is substantial.
+
+## Threat levels
+
+There are 5 levels of threat:
+- low - an attack is highly unlikely
+- moderate - an attack is possible but not likely
+- substantial - an attack is likely
+- severe - an attack is highly likely
+- critical - an attack is highly likely in the near future
+The level is set by the Joint Terrorism Analysis Centre and the Security Service (MI5).
+Threat levels do not have an expiry date. They can change at any time as different information becomes available.
+
+## More information about terrorist threat levels
+
+Get more information about terrorism threat levels in the UK on the MI5 website .
+You can also check the government’s travel advice for different countries.
+

@@ -1,0 +1,67 @@
+[
+  {
+    "doc_id": "pace-1984",
+    "title": "Police and Criminal Evidence Act 1984",
+    "local_path": "sources/04-legal/pace-1984.txt",
+    "pdf_path": null,
+    "sha256": "584e643a03e7e95e963d6ddd071baeeaeb9df10a15e1923f6b484130826e06bf",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "url": "https://www.legislation.gov.uk/ukpga/1984/60",
+    "retrieved": "2026-11-11",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "cla-1967",
+    "title": "Criminal Law Act 1967",
+    "local_path": "sources/04-legal/cla-1967.txt",
+    "pdf_path": null,
+    "sha256": "91785db53393acf258ea6749bfec5e3e82c6d168af93fe55028eb50e541f46d1",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "url": "https://www.legislation.gov.uk/ukpga/1967/58",
+    "retrieved": "2026-11-11",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "hswa-1974",
+    "title": "Health and Safety at Work etc. Act 1974",
+    "local_path": "sources/04-legal/hswa-1974.txt",
+    "pdf_path": null,
+    "sha256": "7105e947ee02e92599d350327600f2a506fdac3555ee2a49f1240ffc66a7b549",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "url": "https://www.legislation.gov.uk/ukpga/1974/37",
+    "retrieved": "2026-11-11",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "eqa-2010",
+    "title": "Equality Act 2010",
+    "local_path": "sources/04-legal/eqa-2010.txt",
+    "pdf_path": null,
+    "sha256": "b9cc3337a126727af26e3bddcb59d8db6eb8849cd12cef3300c6dae8162ad26c",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "url": "https://www.legislation.gov.uk/ukpga/2010/15",
+    "retrieved": "2026-11-11",
+    "status": "downloaded"
+  },
+  {
+    "doc_id": "mda-1971",
+    "title": "Misuse of Drugs Act 1971",
+    "local_path": "sources/04-legal/mda-1971.txt",
+    "pdf_path": null,
+    "sha256": "3687a24f8423e62036691f138fe9df9ddbf3f5f8ebb6de11e02bdca86e0a31b1",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "The National Archives (legislation.gov.uk)",
+    "url": "https://www.legislation.gov.uk/ukpga/1971/38",
+    "retrieved": "2026-11-11",
+    "status": "downloaded"
+  }
+]

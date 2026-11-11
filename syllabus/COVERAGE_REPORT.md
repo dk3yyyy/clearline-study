@@ -5,15 +5,13 @@ Coverage is measured as objectives with at least one question. A question attach
 ## U1-COMMON — Principles of Working in the Private Security Industry
 
 - Objectives: 64
-- Covered: 54 (84%)
-- Questions: 60 / target 300
+- Covered: 56 (88%)
+- Questions: 72 / target 300
 
 Uncovered objectives:
 - `U1-COMMON-S3-O1` — state the meaning of arrest
 - `U1-COMMON-S3-O6` — state the procedures to take following an arrest
 - `U1-COMMON-S4-O2` — describe how to minimise risk to personal safety and security
-- `U1-COMMON-S4-O6` — identify ways to keep personal information safe
-- `U1-COMMON-S5-O3` — describe basic fire prevention measures/controls
 - `U1-COMMON-S5-O6` — state other types of firefighting equipment
 - `U1-COMMON-S6-O1` — define the term “emergency” when used in the workplace
 - `U1-COMMON-S9-O6` — know how to respond to suspicious behaviour
@@ -53,7 +51,7 @@ Uncovered objectives:
 
 - Objectives: 19
 - Covered: 6 (32%)
-- Questions: 25 / target 80
+- Questions: 30 / target 80
 
 Uncovered objectives:
 - `U4-PI-S2-O1` — demonstrate stance and positioning skills
