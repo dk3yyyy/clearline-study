@@ -5,36 +5,31 @@ Coverage is measured as objectives with at least one question. A question attach
 ## U1-COMMON — Principles of Working in the Private Security Industry
 
 - Objectives: 64
-- Covered: 54 (84%)
-- Questions: 60 / target 300
+- Covered: 64 (100%)
+- Questions: 72 / target 300
 
-Uncovered objectives:
-- `U1-COMMON-S3-O1` — state the meaning of arrest
-- `U1-COMMON-S3-O6` — state the procedures to take following an arrest
-- `U1-COMMON-S4-O2` — describe how to minimise risk to personal safety and security
-- `U1-COMMON-S4-O6` — identify ways to keep personal information safe
-- `U1-COMMON-S5-O3` — describe basic fire prevention measures/controls
-- `U1-COMMON-S5-O6` — state other types of firefighting equipment
-- `U1-COMMON-S6-O1` — define the term “emergency” when used in the workplace
-- `U1-COMMON-S9-O6` — know how to respond to suspicious behaviour
-- `U1-COMMON-S10-O3` — identify the actions that the security operative should take towards vulnerable people
-- `U1-COMMON-S10-O7` — know how to deal with anti-social behaviour, including from members of the public (use of force, law appropriate person, theft, etc.)
+Every objective in this unit has at least one drafted question.
 
 ## U3-CONFLICT — Application of Conflict Management in the Private Security Industry
 
 - Objectives: 38
-- Covered: 22 (58%)
+- Covered: 17 (45%)
 - Questions: 30 / target 100
 
 Uncovered objectives:
 - `U3-CONFLICT-S1-O2` — demonstrate an understanding of the importance of positive and constructive communication to avoid conflict
-- `U3-CONFLICT-S1-O4` — identify potential risks of violence and aggression towards yourself and others
 - `U3-CONFLICT-S1-O7` — recognise responses to emotional and threatening situations
 - `U3-CONFLICT-S1-O11` — explain the importance of adopting an appropriate initial response
-- `U3-CONFLICT-S2-O1` — understand how to communicate effectively by being able to: recognise the importance of verbal and non-verbal communication when dealing with emotionally charged situations identify different barriers to communication overcome barriers to communication by using conflict management techniques use appropriate communication in difficult and emotive situations
 - `U3-CONFLICT-S3-O2` — explain the benefits of problem solving
 - `U3-CONFLICT-S3-O7` — identify the importance of contributing to long term solutions
+- `U3-CONFLICT-S4-O1` — enforcement scenario: a situation that requires demonstration of positive communication skills when dealing with other persons on day-to-day issues, such as access control and identity checks.
+- `U3-CONFLICT-S4-O2` — defusing scenario: a situation that requires demonstration of effective communication skills in calming an emotive situation, such as, an angry customer.
+- `U3-CONFLICT-S4-O3` — confronting scenario: a situation that requires non-aggressive but firm handling of unacceptable behaviour such as foul language or breach of rules of entry.
 - `U3-CONFLICT-S4-O4` — high risk scenario: an obvious risk situation that demands accurate threat assessment, decision-making skills and safe practice. 1 In using the term ‘customer’ we recognise that conflict situations may arise in the security industry from interaction with a number of different people, which includes customers, clients, colleagues etc. For the purposes of convenience these are described as ‘other persons’. To ensure each scenario has a clear focus it should be carefully selected and aligned to the relevant session learning objectives. Scenarios should include issues relating to employment equality, disability and discrimination.
+- `U3-CONFLICT-S5-O1` — breaches of criminal law (theft, damage, assaults, drugs etc)
+- `U3-CONFLICT-S5-O2` — breaches of licensing law (being drunk, violent, quarrelsome etc)
+- `U3-CONFLICT-S5-O3` — breaches of house rules (dancing on tables, bottles on the dance-floor etc.) Objective: know how to eject a customer in a way that reduces the risk of conflict. Incidents inside the venue, such as:
+- `U3-CONFLICT-S5-O4` — advising/reprimanding for behaviour (breaches of house rules)
 - `U3-CONFLICT-S5-O5` — first aid situation
 - `U3-CONFLICT-S5-O6` — undertaking an arrest of a customer for an arrestable offence
 - `U3-CONFLICT-S5-O7` — failing to adhere to drinking-up times
@@ -47,20 +42,17 @@ Uncovered objectives:
 ## U4-PI — Application of Physical Intervention Skills in the Private Security Industry
 
 - Objectives: 19
-- Covered: 8 (42%)
-- Questions: 25 / target 80
+- Covered: 11 (58%)
+- Questions: 30 / target 80
 
 Uncovered objectives:
-- `U4-PI-S1-O3` — understand how to reduce the risk associated with physical intervention state the specific risks of incidents on the ground, and the importance of dealing with these appropriately identify ways of reducing the risk of harm to all parties involved during physical interventions state the importance of dynamic risk assessment in situations where physical intervention skills are used state how to manage and monitor a person being held state the actions to be taken in a medical emergency
 - `U4-PI-S2-O1` — demonstrate stance and positioning skills
 - `U4-PI-S2-O2` — demonstrate skills used to evade and protect against blows
 - `U4-PI-S2-O3` — demonstrate methods of disengagement from grabs and holds
 - `U4-PI-S2-O4` — demonstrate methods to stop one person assaulting another
-- `U4-PI-S2-O5` — demonstrate non-aggressive methods used to intervene to stop assaults or fights
 - `U4-PI-S3-O1` — demonstrate the use of a method for physically prompting a person
 - `U4-PI-S3-O3` — demonstrate the use of a one-person low level restrictive standing hold that can be used as an escort
 - `U4-PI-S3-O4` — demonstrate the use of a two-person low level restrictive standing hold that can be used as an escort
-- `U4-PI-S3-O5` — demonstrate how to escort an individual up or down stairs
 - `U4-PI-S3-O6` — demonstrate transitions between disengagement techniques and escorting techniques
 
 ## DS-U2 — Principles of Working as a Door Supervisor in the Private Security Industry
@@ -311,5 +303,5 @@ Uncovered objectives:
 - Covered: 0 (0%)
 - Questions: 0 / target 40
 
-Every objective has at least one drafted question.
+No objectives are defined for this unit.
 

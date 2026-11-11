@@ -199,8 +199,10 @@ def main():
             cov.append("Uncovered objectives:")
             cov += [f"- `{oid}` — {objectives[oid]['text']}" for oid in missing]
             cov.append("")
+        elif objective_ids:
+            cov += ["Every objective in this unit has at least one drafted question.", ""]
         else:
-            cov += ["Every objective has at least one drafted question.", ""]
+            cov += ["No objectives are defined for this unit.", ""]
     COVERAGE.write_text("\n".join(cov) + "\n", encoding="utf-8")
 
     print(f"Accepted {len(clean)} questions; rejected {sum(rejected.values())}; review {review_count}.")

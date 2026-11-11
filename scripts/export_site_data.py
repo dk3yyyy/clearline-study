@@ -24,14 +24,23 @@ def main():
     bank = [json.loads(line) for line in bank_path.read_text().splitlines() if line.strip()] if bank_path.exists() else []
     chunk_path = ROOT / "corpus" / "chunks.jsonl"
     chunks = {}
+    chunk_meta = {}
     if chunk_path.exists():
         for line in chunk_path.read_text().splitlines():
             if line.strip():
                 chunk = json.loads(line)
                 chunks[chunk["chunk_id"]] = chunk.get("text", "")
+                chunk_meta[chunk["chunk_id"]] = {
+                    "title": chunk.get("title", ""),
+                    "url": chunk.get("source_url", ""),
+                }
     for question in bank:
         quote = question.get("source_quote", "")
-        question["source_quote_exact"] = any(quote in chunks.get(cid, "") for cid in question.get("source_chunk_ids", []))
+        cited = question.get("source_chunk_ids", [])
+        question["source_quote_exact"] = any(quote in chunks.get(cid, "") for cid in cited)
+        source = next((chunk_meta[cid] for cid in cited if cid in chunk_meta), None)
+        if source:
+            question["source"] = source
     write_json("syllabus.json", syllabus)
     write_json("exam_formats.json", formats)
     write_json("questions.json", bank)
