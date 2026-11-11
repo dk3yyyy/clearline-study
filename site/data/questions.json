@@ -3661,21 +3661,21 @@
     "qualifications": [
       "DS"
     ],
-    "difficulty": 2,
-    "stem": "Which licensing objective covers the safety of customers inside the venue?",
+    "difficulty": 1,
+    "stem": "A venue licence is being reviewed. Which aim is concerned with crime and disorder?",
     "options": [
+      "Extending opening hours",
       "Preventing crime and disorder",
-      "Preventing public nuisance",
-      "Securing public safety",
-      "Protection of children from harm"
+      "Increasing drink sales",
+      "Reducing staff costs"
     ],
-    "answer_index": 2,
-    "explanation": "Public safety is a licensing objective and covers keeping people at the premises safe.",
+    "answer_index": 1,
+    "explanation": "Preventing crime and disorder is one of the licensing objectives set out in licensing law.",
     "source_chunk_ids": [
       "door-supervisor-final-unit-content#DS-U2-S5",
       "sia-ds-specification-2021#DS-U2-S5"
     ],
-    "source_quote": "Securing Public safety",
+    "source_quote": "Prevent crime and disorder",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -3693,21 +3693,21 @@
     "qualifications": [
       "DS"
     ],
-    "difficulty": 1,
-    "stem": "Which of these is a licensing objective?",
+    "difficulty": 2,
+    "stem": "A venue wants to prevent customers being injured inside the premises. Which aim applies?",
     "options": [
-      "Extending opening hours",
       "Preventing crime and disorder",
-      "Increasing drink sales",
-      "Reducing staff costs"
+      "Preventing public nuisance",
+      "Securing public safety",
+      "Protection of children from harm"
     ],
-    "answer_index": 1,
-    "explanation": "Preventing crime and disorder is one of the licensing objectives set out in licensing law.",
+    "answer_index": 2,
+    "explanation": "Public safety is a licensing objective and covers keeping people at the premises safe.",
     "source_chunk_ids": [
       "door-supervisor-final-unit-content#DS-U2-S5",
       "sia-ds-specification-2021#DS-U2-S5"
     ],
-    "source_quote": "Prevent crime and disorder",
+    "source_quote": "Securing Public safety",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -7261,7 +7261,7 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "SO-U2-0034",
     "source_quote_exact": true,
     "source": {
@@ -7323,7 +7323,7 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "SO-U2-0036",
     "source_quote_exact": true,
     "source": {
@@ -7354,7 +7354,7 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "SO-U2-0037",
     "source_quote_exact": true,
     "source": {
@@ -9493,7 +9493,7 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "CP-MAIN-0006",
     "source_quote_exact": true,
     "source": {
@@ -9663,7 +9663,7 @@
       "CP"
     ],
     "difficulty": 2,
-    "stem": "Why does the CP specification require the protected person to be profiled?",
+    "stem": "A principal is about to travel to a venue. Why should the close protection team profile them first?",
     "options": [
       "To plan the principal's social diary",
       "To choose the principal's dress code",
@@ -10500,7 +10500,7 @@
       "CP"
     ],
     "difficulty": 2,
-    "stem": "The CP specification requires an understanding of the law in relation to which activity?",
+    "stem": "A close protection door supervisor is asked which area of law applies to their venue duties. Which one?",
     "options": [
       "Food hygiene inspections",
       "Refusing entry and ejecting customers",
@@ -10562,7 +10562,7 @@
       "CP"
     ],
     "difficulty": 2,
-    "stem": "Which group does the licensing law session require door staff to understand the law on?",
+    "stem": "Door staff are checking who may enter a licensed venue. The law on which group must they understand?",
     "options": [
       "Licensed drivers",
       "Security contractors",
@@ -10748,12 +10748,12 @@
       "CP"
     ],
     "difficulty": 2,
-    "stem": "The CP specification requires factors to be considered when ejecting or refusing entry to which group?",
+    "stem": "A person who may be vulnerable is refused entry. What should door staff consider?",
     "options": [
-      "A person who holds a licence",
-      "A person who works at the venue",
-      "A person who may be vulnerable",
-      "A person who is a police officer"
+      "Whether they hold a licence",
+      "Whether they work at the venue",
+      "The factors that apply to a vulnerable person",
+      "Whether they are a police officer"
     ],
     "answer_index": 2,
     "explanation": "The specification requires factors to be considered when ejecting or refusing entry to a person who may be vulnerable.",
@@ -10872,10 +10872,10 @@
       "CVIT"
     ],
     "difficulty": 2,
-    "stem": "Which three skills does the CVIT induction session say are important in the role?",
+    "stem": "A new CViT operative is told that three skills matter most in the role. Which set?",
     "options": [
       "Driving, navigation and map reading",
-      "Communication skills, customer engagement and teamwork",
+      "Communication, customer engagement and teamwork",
       "First aid, firefighting and rescue",
       "Accounting, auditing and banking"
     ],
@@ -11415,7 +11415,7 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "DS-REF-0008",
     "source_quote_exact": true,
     "source": {
@@ -11880,7 +11880,7 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "SG-REF-0003",
     "source_quote_exact": true,
     "source": {
