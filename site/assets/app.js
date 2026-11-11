@@ -1,5 +1,5 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111af';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ag';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -20,7 +20,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111af';
+const DATA_VERSION = '20261111ag';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -586,8 +586,8 @@ function renderExamQuestion() {
   $$('[data-index]').forEach((button) => button.addEventListener('click', () => { examState.index = Number(button.dataset.index); renderExamQuestion(); }));
   $('#prev-exam')?.addEventListener('click', () => { examState.index = Math.max(0, examState.index - 1); renderExamQuestion(); });
   $('#next-exam')?.addEventListener('click', () => { if (examState.index + 1 < questions.length) { examState.index += 1; renderExamQuestion(); } else { submitExam(); } });
-  $('#submit-exam')?.addEventListener('click', submitExam);
-  $('#submit-exam-side')?.addEventListener('click', submitExam);
+  $('#submit-exam')?.addEventListener('click', () => submitExam());
+  $('#submit-exam-side')?.addEventListener('click', () => submitExam());
   $('#abandon-exam')?.addEventListener('click', () => {
     if (!window.confirm('Abandon this paper? The answers on it will not be recorded.')) return;
     const target = `#/exam/${qual.id}`;
@@ -598,13 +598,34 @@ function renderExamQuestion() {
   saveExamState();
 }
 
-function submitExam(force = false) {
+function askConfirm({ title, message, confirmLabel = 'Continue' }) {
+  const dialog = $('#confirm-dialog');
+  if (!dialog) return Promise.resolve(window.confirm(message));
+  $('#confirm-title').textContent = title;
+  $('#confirm-message').textContent = message;
+  $('#confirm-ok').textContent = confirmLabel;
+  dialog.returnValue = '';
+  return new Promise((resolve) => {
+    const onClose = () => {
+      dialog.removeEventListener('close', onClose);
+      resolve(dialog.returnValue === 'confirm');
+    };
+    dialog.addEventListener('close', onClose);
+    dialog.showModal();
+    $('#confirm-cancel')?.focus();
+  });
+}
+
+async function submitExam(force = false) {
   if (!examState || examState.finished) return;
   const unanswered = examState.questions.length - Object.keys(examState.answers).length;
   const message = unanswered > 0
-    ? `You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. They will be marked wrong. Submit the paper?`
-    : 'Submit the paper? You cannot change your answers after this.';
-  if (!force && !window.confirm(message)) return;
+    ? `You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. They will be marked wrong.`
+    : 'You cannot change your answers after this.';
+  if (!force) {
+    const ok = await askConfirm({ title: 'Submit paper?', message, confirmLabel: 'Submit paper' });
+    if (!ok || examState.finished) return;
+  }
   clearInterval(examState.timer);
   examState.finished = true;
   try { sessionStorage.removeItem(EXAM_KEY); } catch (error) {}
