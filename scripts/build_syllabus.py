@@ -14,20 +14,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources" / "00-sia-specs"
 SPECS = {
-    "sia-common-specification-2021": ("U1-COMMON", "SIA Common Security Industry Knowledge specification (2021)", "https://www.gov.uk/government/publications/sia-common-security-industry-knowledge-specification"),
-    "sia-conflict-management-specification-2021": ("U3-CONFLICT", "SIA Conflict Management specification (2021)", "https://www.gov.uk/government/publications/sia-conflict-management-specification"),
-    "sia-physical-intervention-specification-2021": ("U4-PI", "SIA Physical Intervention Skills specification (2021)", "https://www.gov.uk/government/publications/sia-physical-intervention-skills-specification"),
-    "sia-ds-specification-2021": ("DS-U2", "SIA Door Supervision specification (2021)", "https://www.gov.uk/government/publications/sia-door-supervision-specification"),
-    "sia-sg-specification-2021": ("SO-U2", "SIA Security Guarding specification (2021)", "https://www.gov.uk/government/publications/sia-security-guarding-specification"),
-    "sia-cctv-specification-2021": ("CCTV-U2", "SIA Public Space Surveillance (CCTV) specification (2021)", "https://www.gov.uk/government/publications/sia-public-space-surveillance-cctv-specification"),
-    "sia-cp-specification-2022": ("CP-MAIN", "SIA Close Protection specification (2022)", "https://www.gov.uk/government/publications/sia-close-protection-specification"),
-    "sia-cp-physical-intervention-specification-2022": ("CP-PI", "SIA Close Protection Physical Intervention specification (2022)", "https://www.gov.uk/government/publications/sia-close-protection-physical-intervention-specification"),
-    "sia-cp-ds-responsiblities-specification-2022": ("CP-DSR", "SIA Door Supervision Responsibilities for Close Protection specification (2022)", "https://www.gov.uk/government/publications/sia-door-supervision-responsibilities-for-close-protection-operatives"),
-    "sia-cvit-specification-2021": ("CVIT", "SIA Cash and Valuables in Transit specification (2021)", "https://www.gov.uk/government/publications/sia-cash-and-valuables-in-transit-specification"),
-    "sia-ds-refresher-specification-2024": ("DS-REF", "SIA Door Supervisor Refresher specification (2024)", "https://www.gov.uk/government/publications/sia-door-supervisor-refresher-specification"),
-    "sia-sg-refresher-specification-2024": ("SG-REF", "SIA Security Guarding Refresher specification (2024)", "https://www.gov.uk/government/publications/sia-security-guarding-refresher-specification"),
-    "sia-cp-physical-intervention-refresher-specification-2025": ("CP-REF", "SIA Close Protection Physical Intervention Refresher specification (2025)", "https://www.gov.uk/government/publications/sia-close-protection-physical-intervention-refresher-specification"),
-    "sia-vi-specification": ("VI", "SIA Vehicle Immobilisation specification", "https://www.gov.uk/government/publications/sia-vehicle-immobilisation-specification"),
+    "sia-common-specification-2021": ("U1-COMMON", "SIA Common Security Industry Knowledge specification (2021)", "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"),
+    "sia-conflict-management-specification-2021": ("U3-CONFLICT", "SIA Conflict Management specification (2021)", "https://assets.publishing.service.gov.uk/media/6061dd35d3bf7f5ce4f581ba/sia-conflict-management-specification-2021.pdf"),
+    "sia-physical-intervention-specification-2021": ("U4-PI", "SIA Physical Intervention Skills specification (2021)", "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"),
+    "sia-ds-specification-2021": ("DS-U2", "SIA Door Supervision specification (2021)", "https://assets.publishing.service.gov.uk/media/6061f28d8fa8f55b6fae563f/sia-ds-specification-2021.pdf"),
+    "sia-sg-specification-2021": ("SO-U2", "SIA Security Guarding specification (2021)", "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"),
+    "sia-cctv-specification-2021": ("CCTV-U2", "SIA Public Space Surveillance (CCTV) specification (2021)", "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"),
+    "sia-cp-specification-2022": ("CP-MAIN", "SIA Close Protection specification (2022)", "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"),
+    "sia-cp-physical-intervention-specification-2022": ("CP-PI", "SIA Close Protection Physical Intervention specification (2022)", "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"),
+    "sia-cp-ds-responsiblities-specification-2022": ("CP-DSR", "SIA Door Supervision Responsibilities for Close Protection specification (2022)", "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"),
+    "sia-cvit-specification-2021": ("CVIT", "SIA Cash and Valuables in Transit specification (2021)", "https://assets.publishing.service.gov.uk/media/6061dc888fa8f55b67fb3612/sia-cvit-specification-2021.pdf"),
+    "sia-ds-refresher-specification-2024": ("DS-REF", "SIA Door Supervisor Refresher specification (2024)", "https://assets.publishing.service.gov.uk/media/670f919e3b919067bb483246/sia-ds-refresher-specification-2024.pdf"),
+    "sia-sg-refresher-specification-2024": ("SG-REF", "SIA Security Guarding Refresher specification (2024)", "https://assets.publishing.service.gov.uk/media/670f91c1080bdf716392f438/sia-sg-refresher-specification-2024.pdf"),
+    "sia-cp-physical-intervention-refresher-specification-2025": ("CP-REF", "SIA Close Protection Physical Intervention Refresher specification (2025)", "https://assets.publishing.service.gov.uk/media/68add0a9960e2d135b4c8e3c/sia-cp-physical-intervention-refresher-specification-2025.pdf"),
+    "sia-vi-specification": ("VI", "SIA Vehicle Immobilisation specification", "https://assets.publishing.service.gov.uk/media/5f857671d3bf7f6b99980884/sia-vi-specification.pdf"),
 }
 
 

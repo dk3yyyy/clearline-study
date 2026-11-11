@@ -2,64 +2,166 @@
   "DS": {
     "source": "SIA Get Training (April 2022 edition) plus current unit titles",
     "units": [
-      {"unit": "U1-COMMON", "questions": 72, "minutes": 110, "pass_mark": 70, "practical": false},
-      {"unit": "DS-U2", "questions": 50, "minutes": 75, "pass_mark": 70, "practical": true},
-      {"unit": "U3-CONFLICT", "questions": 20, "minutes": 30, "pass_mark": 70, "practical": true},
-      {"unit": "U4-PI", "questions": 30, "minutes": 45, "pass_mark": 80, "practical": true}
+      {
+        "unit": "U1-COMMON",
+        "questions": 72,
+        "minutes": 110,
+        "pass_mark": 70,
+        "practical": false
+      },
+      {
+        "unit": "DS-U2",
+        "questions": 50,
+        "minutes": 75,
+        "pass_mark": 70,
+        "practical": true
+      },
+      {
+        "unit": "U3-CONFLICT",
+        "questions": 20,
+        "minutes": 30,
+        "pass_mark": 70,
+        "practical": true
+      },
+      {
+        "unit": "U4-PI",
+        "questions": 30,
+        "minutes": 45,
+        "pass_mark": 80,
+        "practical": true
+      }
     ]
   },
   "SO": {
     "source": "SIA Get Training (April 2022 edition)",
     "units": [
-      {"unit": "U1-COMMON", "questions": 72, "minutes": 110, "pass_mark": 70, "practical": false},
-      {"unit": "SO-U2", "questions": 60, "minutes": 90, "pass_mark": 70, "practical": true},
-      {"unit": "U3-CONFLICT", "questions": 20, "minutes": 30, "pass_mark": 70, "practical": true}
+      {
+        "unit": "U1-COMMON",
+        "questions": 72,
+        "minutes": 110,
+        "pass_mark": 70,
+        "practical": false
+      },
+      {
+        "unit": "SO-U2",
+        "questions": 60,
+        "minutes": 90,
+        "pass_mark": 70,
+        "practical": true
+      },
+      {
+        "unit": "U3-CONFLICT",
+        "questions": 20,
+        "minutes": 30,
+        "pass_mark": 70,
+        "practical": true
+      }
     ]
   },
   "CCTV": {
     "source": "SIA Get Training (April 2022 edition)",
     "units": [
-      {"unit": "U1-COMMON", "questions": 72, "minutes": 110, "pass_mark": 70, "practical": false},
-      {"unit": "CCTV-U2", "questions": 40, "minutes": 60, "pass_mark": 70, "practical": true, "workbook_pass_mark": 80}
+      {
+        "unit": "U1-COMMON",
+        "questions": 72,
+        "minutes": 110,
+        "pass_mark": 70,
+        "practical": false
+      },
+      {
+        "unit": "CCTV-U2",
+        "questions": 40,
+        "minutes": 60,
+        "pass_mark": 70,
+        "practical": true,
+        "workbook_pass_mark": 80
+      }
     ]
   },
   "CP": {
     "source": "SIA Get Training (April 2022 edition); confirm against current CP spec before publication",
     "units": [
-      {"unit": "CP-MAIN", "questions": 52, "minutes": 60, "pass_mark": 70, "practical": true},
-      {"unit": "CP-DSR", "questions": 29, "minutes": 45, "pass_mark": 72, "practical": false},
-      {"unit": "CP-PI", "questions": 30, "minutes": 45, "pass_mark": 80, "practical": true},
-      {"unit": "CP-REF", "questions": 30, "minutes": 45, "pass_mark": 80, "practical": true}
+      {
+        "unit": "CP-MAIN",
+        "questions": 52,
+        "minutes": 60,
+        "pass_mark": 70,
+        "practical": true
+      },
+      {
+        "unit": "CP-DSR",
+        "questions": 29,
+        "minutes": 45,
+        "pass_mark": 72,
+        "practical": false
+      },
+      {
+        "unit": "CP-PI",
+        "questions": 30,
+        "minutes": 45,
+        "pass_mark": 80,
+        "practical": true
+      }
     ]
   },
   "CVIT": {
     "source": "SIA Get Training (April 2022 edition)",
     "units": [
-      {"unit": "CVIT", "questions": 40, "minutes": 60, "pass_mark": 70, "practical": false}
+      {
+        "unit": "CVIT",
+        "questions": 40,
+        "minutes": 60,
+        "pass_mark": 70,
+        "practical": false
+      }
     ]
   },
   "DS-REF": {
     "source": "unconfirmed: SIA refresher specification does not state a fixed MCQ count",
     "units": [
-      {"unit": "DS-REF", "questions": 30, "minutes": 45, "pass_mark": 70, "practical": true}
+      {
+        "unit": "DS-REF",
+        "questions": 30,
+        "minutes": 45,
+        "pass_mark": 70,
+        "practical": true
+      }
     ]
   },
   "SG-REF": {
     "source": "unconfirmed: SIA refresher specification does not state a fixed MCQ count",
     "units": [
-      {"unit": "SG-REF", "questions": 30, "minutes": 45, "pass_mark": 70, "practical": true}
+      {
+        "unit": "SG-REF",
+        "questions": 30,
+        "minutes": 45,
+        "pass_mark": 70,
+        "practical": true
+      }
     ]
   },
   "CP-REF": {
     "source": "unconfirmed: SIA refresher specification does not state a fixed MCQ count",
     "units": [
-      {"unit": "CP-REF", "questions": 30, "minutes": 45, "pass_mark": 80, "practical": true}
+      {
+        "unit": "CP-REF",
+        "questions": 30,
+        "minutes": 45,
+        "pass_mark": 80,
+        "practical": true
+      }
     ]
   },
   "EFAW": {
     "source": "unconfirmed: supporting first-aid revision module, not an SIA exam format",
     "units": [
-      {"unit": "EFAW", "questions": 20, "minutes": 30, "pass_mark": 70, "practical": false}
+      {
+        "unit": "EFAW",
+        "questions": 20,
+        "minutes": 30,
+        "pass_mark": 70,
+        "practical": false
+      }
     ]
   },
   "VI": {

@@ -1,5 +1,8 @@
 # Writing review: Clearline Study
 
+> **Current-build note (11 November, after the design pass):** the hero source claim, mock result language, content date, footer attribution and EFAW empty state have been revised. The draft-bank and quotation-labelling findings below still apply; the current consolidated list is in `docs/reviews/shiftready-gap-list.md`.
+
+
 **Scope:** public copy in `site/index.html` and `site/assets/app.js`, the strings they render from `site/data/*.json`, and the rendered pages. Reviewed at HEAD `d7ed4dd` (working tree clean; `app.js` md5 `bfea0550…`), served locally at `127.0.0.1:8765` so the review matches the repo rather than the deployed build.
 
 **Method:** inventoried the shell, templates and data strings; rendered 14 routes (home, qualification, syllabus, practice, practice-weak, mock setup, mock question, mock result, review, reports, checklists, about, two empty qualifications, 404); answered a practice question and a mock paper; opened the report dialog; cross-checked every source and status claim against `site/data/*.json`, `sources/manifest.json` and `questions/VERIFICATION_REPORT.md`.

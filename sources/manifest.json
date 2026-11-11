@@ -19,7 +19,8 @@
     "pages": 13,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
   },
   {
     "doc_id": "sia-common-specification-2021",
@@ -30,7 +31,8 @@
     "pages": 17,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
   },
   {
     "doc_id": "sia-conflict-management-specification-2021",
@@ -41,7 +43,8 @@
     "pages": 14,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/6061dd35d3bf7f5ce4f581ba/sia-conflict-management-specification-2021.pdf"
   },
   {
     "doc_id": "sia-cp-ds-responsiblities-specification-2022",
@@ -52,7 +55,8 @@
     "pages": 7,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/623895ace90e0779a4d55815/sia-cp-ds-responsiblities-specification-2022.pdf"
   },
   {
     "doc_id": "sia-cp-physical-intervention-refresher-specification-2025",
@@ -63,7 +67,8 @@
     "pages": 6,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/68add0a9960e2d135b4c8e3c/sia-cp-physical-intervention-refresher-specification-2025.pdf"
   },
   {
     "doc_id": "sia-cp-physical-intervention-specification-2022",
@@ -74,7 +79,8 @@
     "pages": 7,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/6238955a8fa8f540eb4c12f6/sia-cp-physical-intervention-specification-2022.pdf"
   },
   {
     "doc_id": "sia-cp-specification-2022",
@@ -85,7 +91,8 @@
     "pages": 19,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/62389474e90e0779a0082628/sia-cp-specification-2022.pdf"
   },
   {
     "doc_id": "sia-cvit-specification-2021",
@@ -96,7 +103,8 @@
     "pages": 6,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/6061dc888fa8f55b67fb3612/sia-cvit-specification-2021.pdf"
   },
   {
     "doc_id": "sia-ds-refresher-specification-2024",
@@ -107,7 +115,8 @@
     "pages": 8,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/670f919e3b919067bb483246/sia-ds-refresher-specification-2024.pdf"
   },
   {
     "doc_id": "sia-ds-specification-2021",
@@ -118,7 +127,8 @@
     "pages": 11,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/6061f28d8fa8f55b6fae563f/sia-ds-specification-2021.pdf"
   },
   {
     "doc_id": "sia-physical-intervention-specification-2021",
@@ -129,7 +139,8 @@
     "pages": 9,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/6061f2bee90e072d9d0d4214/sia-physical-intervention-specification-2021.pdf"
   },
   {
     "doc_id": "sia-sg-refresher-specification-2024",
@@ -140,7 +151,8 @@
     "pages": 7,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/670f91c1080bdf716392f438/sia-sg-refresher-specification-2024.pdf"
   },
   {
     "doc_id": "sia-sg-specification-2021",
@@ -151,7 +163,8 @@
     "pages": 11,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
   },
   {
     "doc_id": "sia-vi-specification",
@@ -162,7 +175,8 @@
     "pages": 17,
     "licence": "OGL-3.0",
     "publisher": "Security Industry Authority",
-    "status": "downloaded"
+    "status": "downloaded",
+    "url": "https://assets.publishing.service.gov.uk/media/5f857671d3bf7f6b99980884/sia-vi-specification.pdf"
   },
   {
     "doc_id": "sia-get-licensed",

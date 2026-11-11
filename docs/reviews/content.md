@@ -1,5 +1,8 @@
 # Content and curriculum review — Clearline Study
 
+> **Current-build note (11 November, after the design pass):** the GHB item has been re-keyed to Class B with the 2022 Home Office circular as its source, the stale GOV.UK publication URLs have been replaced with live PDF links, the empty EFAW start button is disabled, and mock state now survives a reload. The coverage, grounding, syllabus-tree and source-corpus findings below are still open.
+
+
 **Reviewed:** 11 November 2026
 **Against:** `docs/SIA-STUDY-SITE-AGENT-INSTRUCTIONS.md` §§0–8, with emphasis on 0, 1, 3, 4, 8.
 **Live site checked:** https://dk3yyyy.github.io/clearline-study/ returns HTTP 200 and serves the same copy as `site/`.
