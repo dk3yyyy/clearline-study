@@ -101,13 +101,6 @@
         "minutes": 45,
         "pass_mark": 80,
         "practical": true
-      },
-      {
-        "unit": "CP-REF",
-        "questions": 30,
-        "minutes": 45,
-        "pass_mark": 80,
-        "practical": true
       }
     ]
   },

@@ -2,7 +2,7 @@
 
 An independent, source-linked study and mock-exam site for UK SIA licence-linked qualifications.
 
-This repository is a working vertical slice of the build in `SIA-STUDY-SITE-AGENT-INSTRUCTIONS.md`. It contains the source pack, a structured syllabus, a question bank with source quotations, the verification reports, and a static study app in `site/`.
+This repository is a working vertical slice of the build in `SIA-STUDY-SITE-AGENT-INSTRUCTIONS.md`. It contains the source pack, a structured syllabus, a draft question bank with source references, the verification reports, and a static study app in `site/`.
 
 ## Run the site
 
@@ -35,7 +35,7 @@ docs/                    build notes and question schema
 - Home with every qualification, per-unit progress and shared-unit progress.
 - Learn mode with the specification tree, source links and an objective checklist.
 - Practice mode with instant feedback, explanations and source quotations.
-- Mock exam mode with the published paper sizes, timer, no feedback until submission, review and unit breakdown.
+- Mock exam mode with configured paper sizes, a short-bank disclosure, timer, no feedback until submission, review and unit breakdown.
 - Weak-spot drill built from locally stored wrong answers.
 - Practical checklists for units with practical assessment areas.
 - Local-only question reports with JSON export.
@@ -52,7 +52,7 @@ python3 scripts/export_site_data.py
 
 ## Important limits
 
-- The current question bank is an initial draft, not a complete 1,700-question production bank. `syllabus/COVERAGE_REPORT.md` lists every objective that still has no question.
+- The current question bank is an initial draft, not the 1,450-question minimum in the brief. `syllabus/COVERAGE_REPORT.md` lists every objective that still has no question.
 - The source pack in this repository is the SIA specification pack supplied for this build. It does not contain every statute, code of practice or guidance document named in the full instructions.
 - Questions touching use of force, arrest, physical intervention or first aid are marked for human review. Do not publish them without that review.
 - The site is independent. It is not endorsed by the SIA or any awarding organisation.

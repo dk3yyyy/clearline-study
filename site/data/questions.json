@@ -25,7 +25,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0001"
+    "id": "U1-COMMON-0001",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -53,7 +54,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0002"
+    "id": "U1-COMMON-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -81,7 +83,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0003"
+    "id": "U1-COMMON-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -109,7 +112,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0004"
+    "id": "U1-COMMON-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -137,7 +141,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0005"
+    "id": "U1-COMMON-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -165,7 +170,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0006"
+    "id": "U1-COMMON-0006",
+    "source_quote_exact": false
   },
   {
     "unit": "U1-COMMON",
@@ -193,7 +199,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0007"
+    "id": "U1-COMMON-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -221,7 +228,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0008"
+    "id": "U1-COMMON-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -249,7 +257,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0009"
+    "id": "U1-COMMON-0009",
+    "source_quote_exact": false
   },
   {
     "unit": "U1-COMMON",
@@ -277,7 +286,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0010"
+    "id": "U1-COMMON-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -305,7 +315,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0011"
+    "id": "U1-COMMON-0011",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -333,7 +344,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0012"
+    "id": "U1-COMMON-0012",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -361,7 +373,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0013"
+    "id": "U1-COMMON-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -389,7 +402,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0014"
+    "id": "U1-COMMON-0014",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -417,7 +431,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0015"
+    "id": "U1-COMMON-0015",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -445,7 +460,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0016"
+    "id": "U1-COMMON-0016",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -473,7 +489,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0017"
+    "id": "U1-COMMON-0017",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -501,7 +518,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0018"
+    "id": "U1-COMMON-0018",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -529,7 +547,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0019"
+    "id": "U1-COMMON-0019",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -557,7 +576,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0020"
+    "id": "U1-COMMON-0020",
+    "source_quote_exact": false
   },
   {
     "unit": "U1-COMMON",
@@ -585,7 +605,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0021"
+    "id": "U1-COMMON-0021",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -613,7 +634,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0022"
+    "id": "U1-COMMON-0022",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -641,7 +663,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0023"
+    "id": "U1-COMMON-0023",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -669,7 +692,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0024"
+    "id": "U1-COMMON-0024",
+    "source_quote_exact": false
   },
   {
     "unit": "U1-COMMON",
@@ -697,7 +721,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0025"
+    "id": "U1-COMMON-0025",
+    "source_quote_exact": false
   },
   {
     "unit": "U1-COMMON",
@@ -725,7 +750,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0026"
+    "id": "U1-COMMON-0026",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -753,7 +779,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0027"
+    "id": "U1-COMMON-0027",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -781,7 +808,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0028"
+    "id": "U1-COMMON-0028",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -809,7 +837,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0029"
+    "id": "U1-COMMON-0029",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -837,7 +866,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U1-COMMON-0030"
+    "id": "U1-COMMON-0030",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -865,7 +895,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0031"
+    "id": "U1-COMMON-0031",
+    "source_quote_exact": false
   },
   {
     "unit": "U1-COMMON",
@@ -893,7 +924,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0032"
+    "id": "U1-COMMON-0032",
+    "source_quote_exact": false
   },
   {
     "unit": "U1-COMMON",
@@ -921,7 +953,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0033"
+    "id": "U1-COMMON-0033",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -949,7 +982,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0034"
+    "id": "U1-COMMON-0034",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -977,7 +1011,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0035"
+    "id": "U1-COMMON-0035",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1005,7 +1040,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0036"
+    "id": "U1-COMMON-0036",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1033,7 +1069,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0037"
+    "id": "U1-COMMON-0037",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1061,7 +1098,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0038"
+    "id": "U1-COMMON-0038",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1089,7 +1127,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0039"
+    "id": "U1-COMMON-0039",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1117,7 +1156,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0040"
+    "id": "U1-COMMON-0040",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1145,7 +1185,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0041"
+    "id": "U1-COMMON-0041",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1173,7 +1214,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0042"
+    "id": "U1-COMMON-0042",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1201,7 +1243,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0043"
+    "id": "U1-COMMON-0043",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1229,7 +1272,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0044"
+    "id": "U1-COMMON-0044",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1257,7 +1301,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0045"
+    "id": "U1-COMMON-0045",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1285,7 +1330,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0046"
+    "id": "U1-COMMON-0046",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1313,7 +1359,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0047"
+    "id": "U1-COMMON-0047",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1341,7 +1388,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0048"
+    "id": "U1-COMMON-0048",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1369,7 +1417,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0049"
+    "id": "U1-COMMON-0049",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1397,7 +1446,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0050"
+    "id": "U1-COMMON-0050",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1425,7 +1475,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0051"
+    "id": "U1-COMMON-0051",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1453,7 +1504,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0052"
+    "id": "U1-COMMON-0052",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1481,7 +1533,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0053"
+    "id": "U1-COMMON-0053",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1509,7 +1562,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0054"
+    "id": "U1-COMMON-0054",
+    "source_quote_exact": false
   },
   {
     "unit": "U1-COMMON",
@@ -1537,7 +1591,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0055"
+    "id": "U1-COMMON-0055",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1565,7 +1620,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0056"
+    "id": "U1-COMMON-0056",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1593,7 +1649,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0057"
+    "id": "U1-COMMON-0057",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1621,7 +1678,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0058"
+    "id": "U1-COMMON-0058",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1649,7 +1707,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0059"
+    "id": "U1-COMMON-0059",
+    "source_quote_exact": true
   },
   {
     "unit": "U1-COMMON",
@@ -1677,7 +1736,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U1-COMMON-0060"
+    "id": "U1-COMMON-0060",
+    "source_quote_exact": false
   },
   {
     "unit": "DS-U2",
@@ -1704,7 +1764,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0001"
+    "id": "DS-U2-0001",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1731,7 +1792,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0002"
+    "id": "DS-U2-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1758,7 +1820,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0003"
+    "id": "DS-U2-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1785,7 +1848,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0004"
+    "id": "DS-U2-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1812,7 +1876,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0005"
+    "id": "DS-U2-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1839,7 +1904,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0006"
+    "id": "DS-U2-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1866,7 +1932,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0007"
+    "id": "DS-U2-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1893,7 +1960,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0008"
+    "id": "DS-U2-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1920,7 +1988,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0009"
+    "id": "DS-U2-0009",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1947,7 +2016,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0010"
+    "id": "DS-U2-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -1974,7 +2044,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0011"
+    "id": "DS-U2-0011",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2001,7 +2072,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0012"
+    "id": "DS-U2-0012",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2028,7 +2100,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0013"
+    "id": "DS-U2-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2055,7 +2128,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0014"
+    "id": "DS-U2-0014",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2082,7 +2156,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0015"
+    "id": "DS-U2-0015",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2109,7 +2184,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0016"
+    "id": "DS-U2-0016",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2136,7 +2212,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0017"
+    "id": "DS-U2-0017",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2163,7 +2240,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0018"
+    "id": "DS-U2-0018",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2190,7 +2268,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0019"
+    "id": "DS-U2-0019",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2217,7 +2296,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0020"
+    "id": "DS-U2-0020",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2244,7 +2324,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0021"
+    "id": "DS-U2-0021",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2271,7 +2352,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0022"
+    "id": "DS-U2-0022",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2298,7 +2380,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0023"
+    "id": "DS-U2-0023",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2324,7 +2407,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "DS-U2-0024"
+    "id": "DS-U2-0024",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2351,7 +2435,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0025"
+    "id": "DS-U2-0025",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2378,7 +2463,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0026"
+    "id": "DS-U2-0026",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2405,7 +2491,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0027"
+    "id": "DS-U2-0027",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2432,7 +2519,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0028"
+    "id": "DS-U2-0028",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2459,7 +2547,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0029"
+    "id": "DS-U2-0029",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2486,7 +2575,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0030"
+    "id": "DS-U2-0030",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2513,7 +2603,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0031"
+    "id": "DS-U2-0031",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2540,7 +2631,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0032"
+    "id": "DS-U2-0032",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2567,7 +2659,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0033"
+    "id": "DS-U2-0033",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2594,7 +2687,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0034"
+    "id": "DS-U2-0034",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2621,7 +2715,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0035"
+    "id": "DS-U2-0035",
+    "source_quote_exact": false
   },
   {
     "unit": "DS-U2",
@@ -2648,7 +2743,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0036"
+    "id": "DS-U2-0036",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2675,7 +2771,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0037"
+    "id": "DS-U2-0037",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2702,7 +2799,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0038"
+    "id": "DS-U2-0038",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2729,7 +2827,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0039"
+    "id": "DS-U2-0039",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2756,7 +2855,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0040"
+    "id": "DS-U2-0040",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2783,7 +2883,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0041"
+    "id": "DS-U2-0041",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2810,7 +2911,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0042"
+    "id": "DS-U2-0042",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2837,7 +2939,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "DS-U2-0043"
+    "id": "DS-U2-0043",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2864,7 +2967,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "DS-U2-0044"
+    "id": "DS-U2-0044",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2891,7 +2995,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0045"
+    "id": "DS-U2-0045",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2918,7 +3023,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0046"
+    "id": "DS-U2-0046",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2945,7 +3051,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0047"
+    "id": "DS-U2-0047",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2972,7 +3079,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0048"
+    "id": "DS-U2-0048",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -2999,7 +3107,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0049"
+    "id": "DS-U2-0049",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3026,7 +3135,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0050"
+    "id": "DS-U2-0050",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3053,7 +3163,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0051"
+    "id": "DS-U2-0051",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3080,7 +3191,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0052"
+    "id": "DS-U2-0052",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3107,7 +3219,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0053"
+    "id": "DS-U2-0053",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3134,7 +3247,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0054"
+    "id": "DS-U2-0054",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3161,7 +3275,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0055"
+    "id": "DS-U2-0055",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3188,7 +3303,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0056"
+    "id": "DS-U2-0056",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3215,7 +3331,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0057"
+    "id": "DS-U2-0057",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3242,7 +3359,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0058"
+    "id": "DS-U2-0058",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3269,7 +3387,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0059"
+    "id": "DS-U2-0059",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-U2",
@@ -3296,7 +3415,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-U2-0060"
+    "id": "DS-U2-0060",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3324,7 +3444,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0001"
+    "id": "U3-CONFLICT-0001",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3352,7 +3473,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0002"
+    "id": "U3-CONFLICT-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3380,7 +3502,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0003"
+    "id": "U3-CONFLICT-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3408,7 +3531,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0004"
+    "id": "U3-CONFLICT-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3436,7 +3560,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0005"
+    "id": "U3-CONFLICT-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3464,7 +3589,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0006"
+    "id": "U3-CONFLICT-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3492,7 +3618,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0007"
+    "id": "U3-CONFLICT-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3520,7 +3647,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0008"
+    "id": "U3-CONFLICT-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3548,7 +3676,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0009"
+    "id": "U3-CONFLICT-0009",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3576,7 +3705,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0010"
+    "id": "U3-CONFLICT-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3604,7 +3734,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0011"
+    "id": "U3-CONFLICT-0011",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3632,7 +3763,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0012"
+    "id": "U3-CONFLICT-0012",
+    "source_quote_exact": false
   },
   {
     "unit": "U3-CONFLICT",
@@ -3660,7 +3792,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0013"
+    "id": "U3-CONFLICT-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3688,7 +3821,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0014"
+    "id": "U3-CONFLICT-0014",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3716,7 +3850,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0015"
+    "id": "U3-CONFLICT-0015",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3744,7 +3879,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0016"
+    "id": "U3-CONFLICT-0016",
+    "source_quote_exact": false
   },
   {
     "unit": "U3-CONFLICT",
@@ -3772,7 +3908,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0017"
+    "id": "U3-CONFLICT-0017",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3800,7 +3937,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0018"
+    "id": "U3-CONFLICT-0018",
+    "source_quote_exact": false
   },
   {
     "unit": "U3-CONFLICT",
@@ -3828,7 +3966,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0019"
+    "id": "U3-CONFLICT-0019",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3856,7 +3995,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0020"
+    "id": "U3-CONFLICT-0020",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3884,7 +4024,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0021"
+    "id": "U3-CONFLICT-0021",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3912,7 +4053,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0022"
+    "id": "U3-CONFLICT-0022",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3940,7 +4082,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0023"
+    "id": "U3-CONFLICT-0023",
+    "source_quote_exact": false
   },
   {
     "unit": "U3-CONFLICT",
@@ -3968,7 +4111,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0024"
+    "id": "U3-CONFLICT-0024",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -3996,7 +4140,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0025"
+    "id": "U3-CONFLICT-0025",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -4024,7 +4169,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0026"
+    "id": "U3-CONFLICT-0026",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -4052,7 +4198,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0027"
+    "id": "U3-CONFLICT-0027",
+    "source_quote_exact": false
   },
   {
     "unit": "U3-CONFLICT",
@@ -4080,7 +4227,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0028"
+    "id": "U3-CONFLICT-0028",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -4108,7 +4256,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0029"
+    "id": "U3-CONFLICT-0029",
+    "source_quote_exact": true
   },
   {
     "unit": "U3-CONFLICT",
@@ -4136,7 +4285,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U3-CONFLICT-0030"
+    "id": "U3-CONFLICT-0030",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4162,7 +4312,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0001"
+    "id": "U4-PI-0001",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4188,7 +4339,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0002"
+    "id": "U4-PI-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4214,7 +4366,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0003"
+    "id": "U4-PI-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4240,7 +4393,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0004"
+    "id": "U4-PI-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4266,7 +4420,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0005"
+    "id": "U4-PI-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4292,7 +4447,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U4-PI-0006"
+    "id": "U4-PI-0006",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4318,7 +4474,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U4-PI-0007"
+    "id": "U4-PI-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4344,7 +4501,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0008"
+    "id": "U4-PI-0008",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4370,7 +4528,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U4-PI-0009"
+    "id": "U4-PI-0009",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4396,7 +4555,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0010"
+    "id": "U4-PI-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4422,7 +4582,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0011"
+    "id": "U4-PI-0011",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4448,7 +4609,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U4-PI-0012"
+    "id": "U4-PI-0012",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4474,7 +4636,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0013"
+    "id": "U4-PI-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4500,7 +4663,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0014"
+    "id": "U4-PI-0014",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4526,7 +4690,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0015"
+    "id": "U4-PI-0015",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4552,7 +4717,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U4-PI-0016"
+    "id": "U4-PI-0016",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4578,7 +4744,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0017"
+    "id": "U4-PI-0017",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4604,7 +4771,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0018"
+    "id": "U4-PI-0018",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4630,7 +4798,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U4-PI-0019"
+    "id": "U4-PI-0019",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4656,7 +4825,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0020"
+    "id": "U4-PI-0020",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4682,7 +4852,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0021"
+    "id": "U4-PI-0021",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4708,7 +4879,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U4-PI-0022"
+    "id": "U4-PI-0022",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4734,7 +4906,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "U4-PI-0023"
+    "id": "U4-PI-0023",
+    "source_quote_exact": true
   },
   {
     "unit": "U4-PI",
@@ -4760,7 +4933,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0024"
+    "id": "U4-PI-0024",
+    "source_quote_exact": false
   },
   {
     "unit": "U4-PI",
@@ -4786,7 +4960,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "U4-PI-0025"
+    "id": "U4-PI-0025",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -4812,7 +4987,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0001"
+    "id": "SO-U2-0001",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -4838,7 +5014,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0002"
+    "id": "SO-U2-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -4864,7 +5041,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0003"
+    "id": "SO-U2-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -4890,7 +5068,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0004"
+    "id": "SO-U2-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -4916,7 +5095,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0005"
+    "id": "SO-U2-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -4942,7 +5122,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0006"
+    "id": "SO-U2-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -4968,7 +5149,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0007"
+    "id": "SO-U2-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -4994,7 +5176,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0008"
+    "id": "SO-U2-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5020,7 +5203,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0009"
+    "id": "SO-U2-0009",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5046,7 +5230,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0010"
+    "id": "SO-U2-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5072,7 +5257,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0011"
+    "id": "SO-U2-0011",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5098,7 +5284,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0012"
+    "id": "SO-U2-0012",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5124,7 +5311,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0013"
+    "id": "SO-U2-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5150,7 +5338,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0014"
+    "id": "SO-U2-0014",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5176,7 +5365,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0015"
+    "id": "SO-U2-0015",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5202,7 +5392,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0016"
+    "id": "SO-U2-0016",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5228,7 +5419,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0017"
+    "id": "SO-U2-0017",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5254,7 +5446,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0018"
+    "id": "SO-U2-0018",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5280,7 +5473,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0019"
+    "id": "SO-U2-0019",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5306,7 +5500,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0020"
+    "id": "SO-U2-0020",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5332,7 +5527,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0021"
+    "id": "SO-U2-0021",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5358,7 +5554,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0022"
+    "id": "SO-U2-0022",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5384,7 +5581,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0023"
+    "id": "SO-U2-0023",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5410,7 +5608,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "SO-U2-0024"
+    "id": "SO-U2-0024",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5436,7 +5635,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0025"
+    "id": "SO-U2-0025",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5462,7 +5662,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0026"
+    "id": "SO-U2-0026",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5488,7 +5689,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0027"
+    "id": "SO-U2-0027",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5514,7 +5716,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0028"
+    "id": "SO-U2-0028",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5540,7 +5743,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "SO-U2-0029"
+    "id": "SO-U2-0029",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5566,7 +5770,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0030"
+    "id": "SO-U2-0030",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5592,7 +5797,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0031"
+    "id": "SO-U2-0031",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5618,7 +5824,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0032"
+    "id": "SO-U2-0032",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5644,7 +5851,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0033"
+    "id": "SO-U2-0033",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5670,7 +5878,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0034"
+    "id": "SO-U2-0034",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5696,7 +5905,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0035"
+    "id": "SO-U2-0035",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5722,7 +5932,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0036"
+    "id": "SO-U2-0036",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5748,7 +5959,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0037"
+    "id": "SO-U2-0037",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5774,7 +5986,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0038"
+    "id": "SO-U2-0038",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5800,7 +6013,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0039"
+    "id": "SO-U2-0039",
+    "source_quote_exact": true
   },
   {
     "unit": "SO-U2",
@@ -5826,7 +6040,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SO-U2-0040"
+    "id": "SO-U2-0040",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -5852,7 +6067,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0001"
+    "id": "CCTV-U2-0001",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -5878,7 +6094,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0002"
+    "id": "CCTV-U2-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -5904,7 +6121,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0003"
+    "id": "CCTV-U2-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -5930,7 +6148,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0004"
+    "id": "CCTV-U2-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -5956,7 +6175,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0005"
+    "id": "CCTV-U2-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -5982,7 +6202,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0006"
+    "id": "CCTV-U2-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6008,7 +6229,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0007"
+    "id": "CCTV-U2-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6034,7 +6256,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CCTV-U2-0008"
+    "id": "CCTV-U2-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6060,7 +6283,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0009"
+    "id": "CCTV-U2-0009",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6086,7 +6310,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0010"
+    "id": "CCTV-U2-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6112,7 +6337,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0011"
+    "id": "CCTV-U2-0011",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6138,7 +6364,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0012"
+    "id": "CCTV-U2-0012",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6164,7 +6391,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0013"
+    "id": "CCTV-U2-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6190,7 +6418,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0014"
+    "id": "CCTV-U2-0014",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6216,7 +6445,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0015"
+    "id": "CCTV-U2-0015",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6242,7 +6472,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0016"
+    "id": "CCTV-U2-0016",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6268,7 +6499,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0017"
+    "id": "CCTV-U2-0017",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6294,7 +6526,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0018"
+    "id": "CCTV-U2-0018",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6320,7 +6553,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0019"
+    "id": "CCTV-U2-0019",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6346,7 +6580,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0020"
+    "id": "CCTV-U2-0020",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6372,7 +6607,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0021"
+    "id": "CCTV-U2-0021",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6398,7 +6634,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0022"
+    "id": "CCTV-U2-0022",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6424,7 +6661,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0023"
+    "id": "CCTV-U2-0023",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6450,7 +6688,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0024"
+    "id": "CCTV-U2-0024",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6476,7 +6715,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0025"
+    "id": "CCTV-U2-0025",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6502,7 +6742,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0026"
+    "id": "CCTV-U2-0026",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6528,7 +6769,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0027"
+    "id": "CCTV-U2-0027",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6554,7 +6796,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0028"
+    "id": "CCTV-U2-0028",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6580,7 +6823,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0029"
+    "id": "CCTV-U2-0029",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6606,7 +6850,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0030"
+    "id": "CCTV-U2-0030",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6632,7 +6877,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0031"
+    "id": "CCTV-U2-0031",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6658,7 +6904,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0032"
+    "id": "CCTV-U2-0032",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6684,7 +6931,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0033"
+    "id": "CCTV-U2-0033",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6710,7 +6958,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0034"
+    "id": "CCTV-U2-0034",
+    "source_quote_exact": true
   },
   {
     "unit": "CCTV-U2",
@@ -6736,7 +6985,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CCTV-U2-0035"
+    "id": "CCTV-U2-0035",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -6762,7 +7012,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0001"
+    "id": "CP-MAIN-0001",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -6788,7 +7039,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0002"
+    "id": "CP-MAIN-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -6814,7 +7066,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0003"
+    "id": "CP-MAIN-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -6840,7 +7093,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0004"
+    "id": "CP-MAIN-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -6866,7 +7120,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0005"
+    "id": "CP-MAIN-0005",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -6892,7 +7147,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0006"
+    "id": "CP-MAIN-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -6918,7 +7174,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0007"
+    "id": "CP-MAIN-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -6944,7 +7201,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0008"
+    "id": "CP-MAIN-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -6970,7 +7228,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0009"
+    "id": "CP-MAIN-0009",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -6996,7 +7255,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-MAIN-0010"
+    "id": "CP-MAIN-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -7022,7 +7282,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0011"
+    "id": "CP-MAIN-0011",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -7048,7 +7309,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0012"
+    "id": "CP-MAIN-0012",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -7074,7 +7336,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0013"
+    "id": "CP-MAIN-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -7100,7 +7363,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0014"
+    "id": "CP-MAIN-0014",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -7126,7 +7390,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-MAIN-0015"
+    "id": "CP-MAIN-0015",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -7152,7 +7417,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0016"
+    "id": "CP-MAIN-0016",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -7178,7 +7444,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0017"
+    "id": "CP-MAIN-0017",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -7204,7 +7471,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0018"
+    "id": "CP-MAIN-0018",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -7230,7 +7498,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0019"
+    "id": "CP-MAIN-0019",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -7256,7 +7525,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0020"
+    "id": "CP-MAIN-0020",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -7282,7 +7552,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0021"
+    "id": "CP-MAIN-0021",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -7308,7 +7579,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0022"
+    "id": "CP-MAIN-0022",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -7334,7 +7606,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0023"
+    "id": "CP-MAIN-0023",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-MAIN",
@@ -7360,7 +7633,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0024"
+    "id": "CP-MAIN-0024",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-MAIN",
@@ -7386,7 +7660,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-MAIN-0025"
+    "id": "CP-MAIN-0025",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-PI",
@@ -7412,7 +7687,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-PI-0001"
+    "id": "CP-PI-0001",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7438,7 +7714,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-PI-0002"
+    "id": "CP-PI-0002",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7464,7 +7741,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-PI-0003"
+    "id": "CP-PI-0003",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7490,7 +7768,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-PI-0004"
+    "id": "CP-PI-0004",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7516,7 +7795,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-PI-0005"
+    "id": "CP-PI-0005",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7542,7 +7822,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-PI-0006"
+    "id": "CP-PI-0006",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7568,7 +7849,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-PI-0007"
+    "id": "CP-PI-0007",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7594,7 +7876,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-PI-0008"
+    "id": "CP-PI-0008",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7620,7 +7903,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-PI-0009"
+    "id": "CP-PI-0009",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-PI",
@@ -7646,7 +7930,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-PI-0010"
+    "id": "CP-PI-0010",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-DSR",
@@ -7672,7 +7957,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0001"
+    "id": "CP-DSR-0001",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-DSR",
@@ -7698,7 +7984,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0002"
+    "id": "CP-DSR-0002",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-DSR",
@@ -7724,7 +8011,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-DSR-0003"
+    "id": "CP-DSR-0003",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-DSR",
@@ -7750,7 +8038,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0004"
+    "id": "CP-DSR-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-DSR",
@@ -7776,7 +8065,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0005"
+    "id": "CP-DSR-0005",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-DSR",
@@ -7802,7 +8092,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0006"
+    "id": "CP-DSR-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-DSR",
@@ -7828,7 +8119,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0007"
+    "id": "CP-DSR-0007",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-DSR",
@@ -7854,7 +8146,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-DSR-0008"
+    "id": "CP-DSR-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-DSR",
@@ -7880,7 +8173,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-DSR-0009"
+    "id": "CP-DSR-0009",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-DSR",
@@ -7906,7 +8200,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0010"
+    "id": "CP-DSR-0010",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-DSR",
@@ -7932,7 +8227,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0011"
+    "id": "CP-DSR-0011",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-DSR",
@@ -7958,7 +8254,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-DSR-0012"
+    "id": "CP-DSR-0012",
+    "source_quote_exact": false
   },
   {
     "unit": "CVIT",
@@ -7984,7 +8281,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0001"
+    "id": "CVIT-0001",
+    "source_quote_exact": false
   },
   {
     "unit": "CVIT",
@@ -8010,7 +8308,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0002"
+    "id": "CVIT-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "CVIT",
@@ -8036,7 +8335,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0003"
+    "id": "CVIT-0003",
+    "source_quote_exact": false
   },
   {
     "unit": "CVIT",
@@ -8062,7 +8362,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0004"
+    "id": "CVIT-0004",
+    "source_quote_exact": false
   },
   {
     "unit": "CVIT",
@@ -8088,7 +8389,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CVIT-0005"
+    "id": "CVIT-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "CVIT",
@@ -8114,7 +8416,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0006"
+    "id": "CVIT-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "CVIT",
@@ -8140,7 +8443,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0007"
+    "id": "CVIT-0007",
+    "source_quote_exact": false
   },
   {
     "unit": "CVIT",
@@ -8166,7 +8470,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0008"
+    "id": "CVIT-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "CVIT",
@@ -8192,7 +8497,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CVIT-0009"
+    "id": "CVIT-0009",
+    "source_quote_exact": true
   },
   {
     "unit": "CVIT",
@@ -8218,7 +8524,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0010"
+    "id": "CVIT-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "CVIT",
@@ -8244,7 +8551,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0011"
+    "id": "CVIT-0011",
+    "source_quote_exact": false
   },
   {
     "unit": "CVIT",
@@ -8270,7 +8578,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CVIT-0012"
+    "id": "CVIT-0012",
+    "source_quote_exact": true
   },
   {
     "unit": "CVIT",
@@ -8296,7 +8605,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CVIT-0013"
+    "id": "CVIT-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8322,7 +8632,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0001"
+    "id": "DS-REF-0001",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8348,7 +8659,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0002"
+    "id": "DS-REF-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8374,7 +8686,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0003"
+    "id": "DS-REF-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8400,7 +8713,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0004"
+    "id": "DS-REF-0004",
+    "source_quote_exact": false
   },
   {
     "unit": "DS-REF",
@@ -8426,7 +8740,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0005"
+    "id": "DS-REF-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8452,7 +8767,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0006"
+    "id": "DS-REF-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8478,7 +8794,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0007"
+    "id": "DS-REF-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8504,7 +8821,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0008"
+    "id": "DS-REF-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8530,7 +8848,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0009"
+    "id": "DS-REF-0009",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8556,7 +8875,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0010"
+    "id": "DS-REF-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8582,7 +8902,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0011"
+    "id": "DS-REF-0011",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8608,7 +8929,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0012"
+    "id": "DS-REF-0012",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8634,7 +8956,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0013"
+    "id": "DS-REF-0013",
+    "source_quote_exact": false
   },
   {
     "unit": "DS-REF",
@@ -8660,7 +8983,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0014"
+    "id": "DS-REF-0014",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8686,7 +9010,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0015"
+    "id": "DS-REF-0015",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8712,7 +9037,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0016"
+    "id": "DS-REF-0016",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8738,7 +9064,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0017"
+    "id": "DS-REF-0017",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8764,7 +9091,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0018"
+    "id": "DS-REF-0018",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8790,7 +9118,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0019"
+    "id": "DS-REF-0019",
+    "source_quote_exact": true
   },
   {
     "unit": "DS-REF",
@@ -8816,7 +9145,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "DS-REF-0020"
+    "id": "DS-REF-0020",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -8842,7 +9172,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0001"
+    "id": "SG-REF-0001",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -8868,7 +9199,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0002"
+    "id": "SG-REF-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -8894,7 +9226,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0003"
+    "id": "SG-REF-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -8920,7 +9253,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0004"
+    "id": "SG-REF-0004",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -8946,7 +9280,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0005"
+    "id": "SG-REF-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -8972,7 +9307,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0006"
+    "id": "SG-REF-0006",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -8998,7 +9334,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0007"
+    "id": "SG-REF-0007",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9024,7 +9361,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0008"
+    "id": "SG-REF-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9050,7 +9388,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0009"
+    "id": "SG-REF-0009",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9076,7 +9415,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0010"
+    "id": "SG-REF-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9102,7 +9442,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0011"
+    "id": "SG-REF-0011",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9128,7 +9469,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0012"
+    "id": "SG-REF-0012",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9154,7 +9496,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0013"
+    "id": "SG-REF-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9180,7 +9523,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0014"
+    "id": "SG-REF-0014",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9206,7 +9550,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0015"
+    "id": "SG-REF-0015",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9232,7 +9577,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0016"
+    "id": "SG-REF-0016",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9258,7 +9604,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0017"
+    "id": "SG-REF-0017",
+    "source_quote_exact": false
   },
   {
     "unit": "SG-REF",
@@ -9284,7 +9631,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0018"
+    "id": "SG-REF-0018",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9310,7 +9658,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "SG-REF-0019"
+    "id": "SG-REF-0019",
+    "source_quote_exact": true
   },
   {
     "unit": "SG-REF",
@@ -9336,7 +9685,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "SG-REF-0020"
+    "id": "SG-REF-0020",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9362,7 +9712,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-REF-0001"
+    "id": "CP-REF-0001",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-REF",
@@ -9388,7 +9739,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-REF-0002"
+    "id": "CP-REF-0002",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9414,7 +9766,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-REF-0003"
+    "id": "CP-REF-0003",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9440,7 +9793,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-REF-0004"
+    "id": "CP-REF-0004",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-REF",
@@ -9466,7 +9820,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-REF-0005"
+    "id": "CP-REF-0005",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9492,7 +9847,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-REF-0006"
+    "id": "CP-REF-0006",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-REF",
@@ -9518,7 +9874,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-REF-0007"
+    "id": "CP-REF-0007",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-REF",
@@ -9544,7 +9901,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-REF-0008"
+    "id": "CP-REF-0008",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9570,7 +9928,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-REF-0009"
+    "id": "CP-REF-0009",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-REF",
@@ -9596,7 +9955,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-REF-0010"
+    "id": "CP-REF-0010",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9622,7 +9982,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-REF-0011"
+    "id": "CP-REF-0011",
+    "source_quote_exact": false
   },
   {
     "unit": "CP-REF",
@@ -9648,7 +10009,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-REF-0012"
+    "id": "CP-REF-0012",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9674,7 +10036,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-REF-0013"
+    "id": "CP-REF-0013",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9700,7 +10063,8 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
-    "id": "CP-REF-0014"
+    "id": "CP-REF-0014",
+    "source_quote_exact": true
   },
   {
     "unit": "CP-REF",
@@ -9726,6 +10090,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
-    "id": "CP-REF-0015"
+    "id": "CP-REF-0015",
+    "source_quote_exact": true
   }
 ]

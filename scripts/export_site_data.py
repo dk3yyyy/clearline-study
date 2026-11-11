@@ -22,6 +22,16 @@ def main():
     formats = json.loads((ROOT / "config" / "exam_formats.json").read_text())
     bank_path = ROOT / "questions" / "bank.jsonl"
     bank = [json.loads(line) for line in bank_path.read_text().splitlines() if line.strip()] if bank_path.exists() else []
+    chunk_path = ROOT / "corpus" / "chunks.jsonl"
+    chunks = {}
+    if chunk_path.exists():
+        for line in chunk_path.read_text().splitlines():
+            if line.strip():
+                chunk = json.loads(line)
+                chunks[chunk["chunk_id"]] = chunk.get("text", "")
+    for question in bank:
+        quote = question.get("source_quote", "")
+        question["source_quote_exact"] = any(quote in chunks.get(cid, "") for cid in question.get("source_chunk_ids", []))
     write_json("syllabus.json", syllabus)
     write_json("exam_formats.json", formats)
     write_json("questions.json", bank)
