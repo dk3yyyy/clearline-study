@@ -6666,9 +6666,9 @@
     "answer_index": 0,
     "explanation": "An access control system decides who may pass a door or barrier. Fire detection, call logging and lighting are separate functions.",
     "source_chunk_ids": [
-      "sia-sg-specification-2021#SO-U2-S3"
+      "ico-data-security#physical-security"
     ],
-    "source_quote": "the different types of electronic and physical protection",
+    "source_quote": "how you control access to your premises, and how visitors are supervised",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -6676,8 +6676,8 @@
     "id": "SO-U2-0015",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Security Guarding specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+      "title": "A guide to data security",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security/"
     }
   },
   {
@@ -6976,9 +6976,9 @@
     "answer_index": 2,
     "explanation": "Isolation, poor lighting and no communications all raise risk. The other options are normal, supervised or classroom activities.",
     "source_chunk_ids": [
-      "sia-sg-specification-2021#SO-U2-S4"
+      "hse-violence#risk-assessment"
     ],
-    "source_quote": "identify situations that might compromise personal safety",
+    "source_quote": "lone workers may be at greater risk due to the lack of nearby support to help prevent an incident or help if things go wrong",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -6986,8 +6986,8 @@
     "id": "SO-U2-0025",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Security Guarding specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+      "title": "How employers can protect workers from violence and aggression at work",
+      "url": "https://www.hse.gov.uk/violence/employer/"
     }
   },
   {
@@ -7999,9 +7999,9 @@
     "answer_index": 1,
     "explanation": "The officer should keep observation, report and request support. Confronting a trespasser alone is unsafe, and ignoring or delaying the report is wrong.",
     "source_chunk_ids": [
-      "sia-sg-specification-2021#SO-U2-S7"
+      "nactso-hostile-recon#reporting"
     ],
-    "source_quote": "state how to respond to incidents, including illegal activity and trespass",
+    "source_quote": "If you become aware of suspicious activity, you should dial 999 if the person is still on scene and you need an immediate police response.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8009,8 +8009,8 @@
     "id": "SO-U2-0058",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Security Guarding specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f318e90e072d97f87650/sia-sg-specification-2021.pdf"
+      "title": "Hostile Reconnaissance - Crowded Places Guidance",
+      "url": "https://www.gov.uk/government/publications/crowded-places-guidance/hostile-reconnaissance"
     }
   },
   {
@@ -8092,9 +8092,9 @@
     "answer_index": 0,
     "explanation": "Public space CCTV is used to deter and detect crime and to support public safety. It does not replace police officers or handle wages.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S1"
+      "ico-cctv#disclosure"
     ],
-    "source_quote": "identify the different uses of public space surveillance (CCTV) systems",
+    "source_quote": "the purpose of the system is to contribute to the prevention and detection of crime",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8102,8 +8102,8 @@
     "id": "CCTV-U2-0001",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Video surveillance (including guidance for organisations using CCTV)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cctv-and-video-surveillance/guidance-on-video-surveillance-including-cctv/governance-post-deployment/"
     }
   },
   {
@@ -8123,9 +8123,9 @@
     "answer_index": 3,
     "explanation": "The operator watches, records and communicates. Arresting, repairing and deciding investigations are not control room roles.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S1"
+      "ho-cctv-dso#policy-lawful-basis"
     ],
-    "source_quote": "explain the roles and responsibilities of each member of the control room team",
+    "source_quote": "Surveillance camera systems are used to monitor and record activity",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8133,8 +8133,8 @@
     "id": "CCTV-U2-0002",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera systems (Detention Services Order)",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-systems/surveillance-camera-systems-accessible"
     }
   },
   {
@@ -8154,9 +8154,9 @@
     "answer_index": 0,
     "explanation": "Public space surveillance involves partner agencies such as the local authority and the police. Individual customers, cleaners and drivers are not stakeholders in that sense.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S1"
+      "bsc-la-guide#duty"
     ],
-    "source_quote": "the roles of other stakeholders who might be involved in public space",
+    "source_quote": "includes all local authorities in England and Wales",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8164,8 +8164,8 @@
     "id": "CCTV-U2-0003",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera code of practice: a guide for local authorities",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-code-of-practice-guidance-for-local-authorities/surveillance-camera-code-of-practice-a-guide-for-local-authorities-accessible"
     }
   },
   {
@@ -8185,9 +8185,9 @@
     "answer_index": 2,
     "explanation": "Working with partners depends on agreed procedures and lawful information sharing. Uncontrolled sharing, acting alone or ignoring requests all undermine it.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S1"
+      "scc-code#principle-7-access"
     ],
-    "source_quote": "state how to work effectively with a range of stakeholders and other agencies",
+    "source_quote": "The sharing of images and other information obtained from a surveillance camera system must be controlled and consistent with the stated purpose",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8195,8 +8195,8 @@
     "id": "CCTV-U2-0004",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Amended Surveillance Camera Code of Practice",
+      "url": "https://www.gov.uk/government/publications/update-to-surveillance-camera-code/amended-surveillance-camera-code-of-practice-accessible-version"
     }
   },
   {
@@ -8216,9 +8216,9 @@
     "answer_index": 0,
     "explanation": "The Freedom of Information Act 2000 creates the right to request information from public authorities. The other Acts cover different areas.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S2"
+      "ico-cctv#freedom-of-information"
     ],
-    "source_quote": "the Freedom of Information Act",
+    "source_quote": "you may receive requests under the Freedom of Information Act 2000 (FOIA) for information captured by surveillance systems",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8226,8 +8226,8 @@
     "id": "CCTV-U2-0005",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Video surveillance (including guidance for organisations using CCTV)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cctv-and-video-surveillance/guidance-on-video-surveillance-including-cctv/governance-post-deployment/"
     }
   },
   {
@@ -8247,9 +8247,9 @@
     "answer_index": 3,
     "explanation": "The Data Protection Act 2018 sets the rules for handling personal data, including CCTV images. The other Acts deal with licensing, roads and consumer matters.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S2"
+      "ico-cctv#scope"
     ],
-    "source_quote": "explain how the Data Protection Act 2018 and the Freedom of Information Act",
+    "source_quote": "Organisations using surveillance systems that process the personal data of identifiable individuals need to comply with the UK GDPR and DPA 2018.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8257,8 +8257,8 @@
     "id": "CCTV-U2-0006",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Video surveillance (including guidance for organisations using CCTV)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cctv-and-video-surveillance/guidance-on-video-surveillance-including-cctv/what-does-this-guidance-address/"
     }
   },
   {
@@ -8278,9 +8278,9 @@
     "answer_index": 0,
     "explanation": "The Protection of Freedoms Act 2012 introduced the surveillance camera code and regulates public space surveillance. The other measures deal with different subjects.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S2"
+      "bsc-la-guide#duty"
     ],
-    "source_quote": "explain how the Protection of Freedoms Act 2012 impacts on public space",
+    "source_quote": "The Protection of Freedoms Act 2012 introduced the regulation of public space surveillance cameras in England and Wales.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8288,8 +8288,8 @@
     "id": "CCTV-U2-0007",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera code of practice: a guide for local authorities",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-code-of-practice-guidance-for-local-authorities/surveillance-camera-code-of-practice-a-guide-for-local-authorities-accessible"
     }
   },
   {
@@ -8309,9 +8309,9 @@
     "answer_index": 1,
     "explanation": "The Act protects rights such as private and family life, so surveillance must be justified and proportionate. It does not set prices, powers of arrest or shift lengths.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S2"
+      "bsc-la-guide#duty"
     ],
-    "source_quote": "explain how the Human Rights Act 1998 impacts on public space surveillance",
+    "source_quote": "It seeks to balance the need for cameras in public places with individuals’ right to privacy.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8319,8 +8319,8 @@
     "id": "CCTV-U2-0008",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera code of practice: a guide for local authorities",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-code-of-practice-guidance-for-local-authorities/surveillance-camera-code-of-practice-a-guide-for-local-authorities-accessible"
     }
   },
   {
@@ -8340,9 +8340,9 @@
     "answer_index": 2,
     "explanation": "RIPA 2000 governs investigatory powers, including covert surveillance. The other Acts deal with data, information access and surveillance regulation more broadly.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S2"
+      "scc-code#application"
     ],
-    "source_quote": "explain how the provisions of the Regulation of Investigatory Powers Act 2000",
+    "source_quote": "Covert surveillance by public authorities (as defined in Part II of RIPA 2000) is not covered by this code but is regulated by RIPA 2000.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8350,8 +8350,8 @@
     "id": "CCTV-U2-0009",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Amended Surveillance Camera Code of Practice",
+      "url": "https://www.gov.uk/government/publications/update-to-surveillance-camera-code/amended-surveillance-camera-code-of-practice-accessible-version"
     }
   },
   {
@@ -8402,9 +8402,9 @@
     "answer_index": 3,
     "explanation": "Codes of practice give a consistent standard for operating and managing surveillance systems. They support the law rather than replace or override it.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S2"
+      "scc-code#status-scope"
     ],
-    "source_quote": "identify and explain the impact of Codes of Practice and guidance established",
+    "source_quote": "It provides guidance on the appropriate and effective use of surveillance camera systems by relevant authorities",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8412,8 +8412,8 @@
     "id": "CCTV-U2-0011",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Amended Surveillance Camera Code of Practice",
+      "url": "https://www.gov.uk/government/publications/update-to-surveillance-camera-code/amended-surveillance-camera-code-of-practice-accessible-version"
     }
   },
   {
@@ -8439,7 +8439,7 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "CCTV-U2-0012",
     "source_quote_exact": true,
     "source": {
@@ -8464,9 +8464,9 @@
     "answer_index": 2,
     "explanation": "Procedures give every operator the same lawful way of working and create accountability. They do not override the law, replace training or block legitimate requests.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S3"
+      "scc-code#principle-5-policies-training"
     ],
-    "source_quote": "explain why operational procedures and guidelines are necessary to public space",
+    "source_quote": "There are significant benefits in having clear policies and procedures for the operation of any surveillance camera system.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8474,8 +8474,8 @@
     "id": "CCTV-U2-0013",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Amended Surveillance Camera Code of Practice",
+      "url": "https://www.gov.uk/government/publications/update-to-surveillance-camera-code/amended-surveillance-camera-code-of-practice-accessible-version"
     }
   },
   {
@@ -8557,9 +8557,9 @@
     "answer_index": 1,
     "explanation": "An audit trail records actions and handlers so the history of evidence can be traced. A camera list, training summary or patrol plan does not do that.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S3"
+      "ho-cctv-dso#storage-security"
     ],
-    "source_quote": "explain how to create an audit trail for evidential purposes",
+    "source_quote": "A record should be kept as an audit trail of how images and information are handled including details on who accessed them",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8567,8 +8567,8 @@
     "id": "CCTV-U2-0016",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera systems (Detention Services Order)",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-systems/surveillance-camera-systems-accessible"
     }
   },
   {
@@ -8650,9 +8650,9 @@
     "answer_index": 0,
     "explanation": "A fault must be reported and logged so it can be fixed and the gap in coverage is known. Hiding or ignoring it leaves the site exposed.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S4"
+      "ho-cctv-dso#cctv-checks"
     ],
-    "source_quote": "identify the purpose of functional checks on control room equipment",
+    "source_quote": "Any errors within the system, for example a camera not working, should be reported",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8660,8 +8660,8 @@
     "id": "CCTV-U2-0019",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera systems (Detention Services Order)",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-systems/surveillance-camera-systems-accessible"
     }
   },
   {
@@ -8681,9 +8681,9 @@
     "answer_index": 1,
     "explanation": "Functional checks find faults early, so equipment is ready when an incident happens. They do not add cameras or test the operator.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S4"
+      "ho-cctv-dso#cctv-checks"
     ],
-    "source_quote": "identify the purpose of functional checks on control room equipment",
+    "source_quote": "contracted service providers must undertake daily checks of their CCTV systems and records of these checks should be maintained",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8691,8 +8691,8 @@
     "id": "CCTV-U2-0020",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera systems (Detention Services Order)",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-systems/surveillance-camera-systems-accessible"
     }
   },
   {
@@ -8743,9 +8743,9 @@
     "answer_index": 1,
     "explanation": "An evidential image must be clear and large enough to show what happened and who was involved. Mere storage, printing or a wide shot is not enough.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S5"
+      "scc-code#principle-11-evidential"
     ],
-    "source_quote": "state the standard for evidential-sized images",
+    "source_quote": "delivering images and information that is of evidential value to the criminal justice system",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8753,8 +8753,8 @@
     "id": "CCTV-U2-0022",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Amended Surveillance Camera Code of Practice",
+      "url": "https://www.gov.uk/government/publications/update-to-surveillance-camera-code/amended-surveillance-camera-code-of-practice-accessible-version"
     }
   },
   {
@@ -8929,9 +8929,9 @@
     "answer_index": 1,
     "explanation": "The operator's response is to capture evidence and communicate it promptly. Leaving the control room, deleting footage or delaying the report would harm the case.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S6"
+      "ico-cctv#disclosure"
     ],
-    "source_quote": "identify the CCTV operator’s response to a crime and a non-crime incident",
+    "source_quote": "it is appropriate to disclose video surveillance information to law enforcement",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -8939,8 +8939,8 @@
     "id": "CCTV-U2-0028",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Video surveillance (including guidance for organisations using CCTV)",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/cctv-and-video-surveillance/guidance-on-video-surveillance-including-cctv/governance-post-deployment/"
     }
   },
   {
@@ -9084,9 +9084,9 @@
     "answer_index": 3,
     "explanation": "Functional checks cover the equipment the operator depends on: cameras, monitors and recording. The other checks are unrelated to control room readiness.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S8"
+      "ho-cctv-dso#cctv-checks"
     ],
-    "source_quote": "demonstrate functional checks on control room equipment",
+    "source_quote": "contracted service providers must undertake daily checks of their CCTV systems",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -9094,8 +9094,8 @@
     "id": "CCTV-U2-0033",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera systems (Detention Services Order)",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-systems/surveillance-camera-systems-accessible"
     }
   },
   {
@@ -9208,9 +9208,9 @@
     "answer_index": 2,
     "explanation": "Evidence must be an accurate original. Editing, photographing a screen or deleting the source undermines its reliability in court.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S8"
+      "scc-code#principle-11-evidential"
     ],
-    "source_quote": "an evidential image",
+    "source_quote": "Recorded material should be stored in a way that maintains the integrity of the image and information",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -9218,8 +9218,8 @@
     "id": "CCTV-U2-0037",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Amended Surveillance Camera Code of Practice",
+      "url": "https://www.gov.uk/government/publications/update-to-surveillance-camera-code/amended-surveillance-camera-code-of-practice-accessible-version"
     }
   },
   {
@@ -9239,9 +9239,9 @@
     "answer_index": 0,
     "explanation": "The audit trail must show who handled the footage, when, and which incident it belongs to, so the evidence can be traced later. A name alone, a personal opinion or a single time does not do that.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S9"
+      "ho-cctv-dso#storage-security"
     ],
-    "source_quote": "produce documents required for the audit trail",
+    "source_quote": "including details on who accessed them (for example police, contracted service provider, Home Office), when and why",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -9249,8 +9249,8 @@
     "id": "CCTV-U2-0038",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Surveillance camera systems (Detention Services Order)",
+      "url": "https://www.gov.uk/government/publications/surveillance-camera-systems/surveillance-camera-systems-accessible"
     }
   },
   {
@@ -9270,9 +9270,9 @@
     "answer_index": 1,
     "explanation": "An audit trail follows the evidence: what was viewed or exported, when, and by whom. Certificates, warranties and rotas do not show that chain.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S9"
+      "scc-code#principle-11-evidential"
     ],
-    "source_quote": "produce documents required for the audit trail",
+    "source_quote": "A record should be kept as an audit trail of how images and information are handled if they are likely to be used as exhibits",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -9280,8 +9280,8 @@
     "id": "CCTV-U2-0039",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Amended Surveillance Camera Code of Practice",
+      "url": "https://www.gov.uk/government/publications/update-to-surveillance-camera-code/amended-surveillance-camera-code-of-practice-accessible-version"
     }
   },
   {
@@ -9301,9 +9301,9 @@
     "answer_index": 0,
     "explanation": "Accurate records let others trace how evidence was handled and test its reliability. They are not a way to finish early or avoid police involvement.",
     "source_chunk_ids": [
-      "sia-cctv-specification-2021#CCTV-U2-S9"
+      "scc-code#principle-9-security"
     ],
-    "source_quote": "produce documents required for the audit trail",
+    "source_quote": "helps ensure the integrity of images and information should they be necessary for use as evidence in legal proceedings",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -9311,8 +9311,8 @@
     "id": "CCTV-U2-0040",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Public Space Surveillance (CCTV) specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061f2e8d3bf7f5ce74c29f3/sia-cctv-specification-2021.pdf"
+      "title": "Amended Surveillance Camera Code of Practice",
+      "url": "https://www.gov.uk/government/publications/update-to-surveillance-camera-code/amended-surveillance-camera-code-of-practice-accessible-version"
     }
   },
   {

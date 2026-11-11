@@ -4,7 +4,7 @@
 - Records accepted: **407**
 - Records rejected: **0**
 - Structurally valid JSONL parse errors: **0**
-- Marked for human review: **102**
+- Marked for human review: **103**
 - Target minimum across units: **1450**
 - Actual bank size: **407**
 
