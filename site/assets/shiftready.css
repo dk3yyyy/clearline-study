@@ -501,3 +501,6 @@ a { color: var(--accent-text); }
   .refresher-row { grid-template-columns: 56px minmax(0, 1fr) auto; }
   .refresher-copy span { display: none; }
 }
+
+.confirm-dialog .confirm-message { margin: 0; color: var(--text-2); font-size: 16px; line-height: 1.5; }
+.confirm-dialog .dialog-actions { margin-top: 24px; }

@@ -7,12 +7,12 @@
   <meta name="description" content="Independent, source-linked syllabus maps and practice questions for SIA licence-linked qualifications." />
   <script>try { const t = localStorage.getItem('theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch (e) {}</script>
   <title>ShiftReady | SIA syllabus and practice</title>
-  <link rel="icon" href="assets/favicon.svg?v=20261111af" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon.svg?v=20261111ag" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/styles.css?v=20261111af" />
-  <link rel="stylesheet" href="assets/shiftready.css?v=20261111af" />
+  <link rel="stylesheet" href="assets/styles.css?v=20261111ag" />
+  <link rel="stylesheet" href="assets/shiftready.css?v=20261111ag" />
 </head>
 <body>
   <a class="skip-link" href="#app">Skip to content</a>
@@ -56,6 +56,14 @@
     </div>
   </footer>
 
+  <dialog class="report-dialog confirm-dialog" id="confirm-dialog" aria-labelledby="confirm-title">
+    <form method="dialog" id="confirm-form">
+      <div class="dialog-head"><div><p class="mini-label">Mock paper</p><h2 id="confirm-title">Submit paper?</h2></div><button class="icon-button" value="cancel" type="submit" formnovalidate aria-label="Close confirmation">×</button></div>
+      <p class="confirm-message" id="confirm-message"></p>
+      <div class="dialog-actions"><button class="button button-ghost" id="confirm-cancel" value="cancel" type="submit" formnovalidate>Continue paper</button><button class="button button-primary" id="confirm-ok" value="confirm" type="submit">Submit paper</button></div>
+    </form>
+  </dialog>
+
   <dialog class="report-dialog" id="report-dialog" aria-labelledby="report-title">
     <form method="dialog" id="report-form">
       <div class="dialog-head"><div><p class="mini-label">Question feedback</p><h2 id="report-title">Report an issue</h2></div><button class="icon-button" value="cancel" type="submit" formnovalidate aria-label="Close report form">×</button></div>
@@ -76,6 +84,6 @@
   </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script type="module" src="assets/app.js?v=20261111af"></script>
+  <script type="module" src="assets/app.js?v=20261111ag"></script>
 </body>
 </html>
