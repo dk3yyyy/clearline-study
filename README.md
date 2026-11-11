@@ -50,6 +50,14 @@ python3 scripts/export_site_data.py
 
 `import_questions.py` reads drafts from `questions/drafts/`, normalises IDs, drops duplicates and invalid records, writes `questions/bank.jsonl`, and produces `questions/VERIFICATION_REPORT.md` and `syllabus/COVERAGE_REPORT.md`. `export_site_data.py` copies the runtime data into `site/data/`.
 
+## Run the checks
+
+```bash
+node --test
+```
+
+`tests/scoring.test.mjs` covers the marking rules in `site/assets/scoring.js`: the published pass marks (50/72 on the common unit, not 51), and the rule that a blank answer is not study progress. The same command runs in CI with the question-bank validation.
+
 ## Important limits
 
 - The current question bank is an initial draft, not the 1,450-question minimum in the brief. `syllabus/COVERAGE_REPORT.md` lists every objective that still has no question.
