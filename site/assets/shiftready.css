@@ -270,6 +270,9 @@ dl.qual-stats dt { color: var(--muted); }
 .feedback.bad h3 { color: var(--bad); }
 .feedback .citation { color: var(--text-2); }
 .feedback .citation a { color: var(--accent-text); }
+/* Small text links are fine with a mouse and fiddly with a thumb. */
+.feedback .citation a, .footer-links a, .report-link { display: inline-flex; align-items: center; min-height: 44px; }
+.footer-links { gap: 0; }
 .empty-card { background: var(--surface); border-color: var(--border-strong); border-radius: 16px; color: var(--text-2); }
 .pill { border-color: var(--border-strong); color: var(--text-2); border-radius: 999px; }
 .timer, .pill.timer { background: var(--accent); border-color: var(--accent); color: var(--on-accent); font-weight: 700; }
