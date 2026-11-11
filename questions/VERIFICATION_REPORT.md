@@ -4,7 +4,7 @@
 - Records accepted: **407**
 - Records rejected: **0**
 - Structurally valid JSONL parse errors: **0**
-- Marked for human review: **101**
+- Marked for human review: **102**
 - Target minimum across units: **1450**
 - Actual bank size: **407**
 
@@ -14,9 +14,9 @@ This is a structural verification pass. It does **not** prove that every answer 
 
 ## Answer position spread
 
-- A: 106
+- A: 107
 - B: 102
-- C: 101
+- C: 100
 - D: 98
 
 ## Counts by unit

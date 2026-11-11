@@ -1,0 +1,114 @@
+Private Security Industry Act 2001 — sections 1, 2, 3 and 7
+Official text from legislation.gov.uk. Open Government Licence v3.0 (OGL-3.0).
+Retrieved 11 November 2026. Wording reproduced as published; no amendments made.
+
+==========================================================================
+Section 1 — The Security Industry Authority
+==========================================================================
+
+Source: https://www.legislation.gov.uk/ukpga/2001/12/section/1
+
+(1) There shall be a body corporate to be known as the Security Industry Authority (in this Act referred to as “the Authority”).
+(2) The functions of the Authority shall be—
+  (a) to carry out the functions relating to licensing and approvals that are conferred on it by this Act;
+  (b) to keep under review generally the provision of security industry services and other services involving the activities of security operatives;
+  (c) for the purpose of protecting the public, to monitor the activities and effectiveness of persons carrying on businesses providing any such services as are mentioned in paragraph (b);
+  (d) to ensure the carrying out of such inspections as it considers necessary of the activities and businesses of—
+    (i) persons engaged in licensable conduct; and
+    (ii) persons registered under section 14 as approved providers of security industry services;
+  (e) to set or approve standards of conduct, training and levels of supervision for adoption by—
+    (i) those who carry on businesses providing security industry services or other services involving the activities of security operatives; and
+    (ii) those who are employed for the purposes of such businesses;
+  (f) to make recommendations and proposals for the maintenance and improvement of standards in the provision of security industry services and other services involving the activities of security operatives;
+  (g) to keep under review the operation of this Act.
+(3) The Authority may do anything that it considers is calculated to facilitate, or is incidental or conducive to, the carrying out of any of its functions.
+(4) Without prejudice to subsection (3), the Authority may, for any purpose connected with the carrying out of its functions—
+  (a) make proposals to the Secretary of State for the modification of any provision contained in or made under this Act; and
+  (b) undertake, or arrange for or support (whether financially or otherwise), the carrying out of research relating to the provision of security industry services and of other services involving the activities of security operatives.
+(5) The Authority shall not be regarded—
+  (a) as the servant or agent of the Crown; or
+  (b) as enjoying any status, immunity or privilege of the Crown;
+and the property of the Authority shall not be regarded as property of, or property held on behalf of, the Crown.
+(6) Schedule 1 (which makes provision about the Authority) shall have effect.
+
+==========================================================================
+Section 2 — Directions etc. by the Secretary of State
+==========================================================================
+
+Source: https://www.legislation.gov.uk/ukpga/2001/12/section/2
+
+(1) In carrying out its functions the Authority shall comply with any general or specific directions given to it in writing by the Secretary of State.
+(2) Before giving directions under subsection (1), the Secretary of State
+  (a) shall consult the Authority, and
+  (b) where any of those directions relates wholly or mainly to the exercise of the Authority's activities in or as regards Scotland, shall obtain the consent of the Scottish Ministers.
+(2A) Before giving a direction under subsection (1) the Secretary of State must obtain the consent of the Department of Justice so far as the direction relates to the Authority’s activities in or as regards Northern Ireland.
+(3) The Authority shall provide
+  (a) the Secretary of State with such information about its activities as he may request, and
+  (b) the Scottish Ministers with such information about its activities in or as regards Scotland as they may request. and
+  (c) the Department of Justice with such information about the Authority’s activities in or as regards Northern Ireland as the Department of Justice may request.
+
+==========================================================================
+Section 3 — Conduct prohibited without a licence
+==========================================================================
+
+Source: https://www.legislation.gov.uk/ukpga/2001/12/section/3
+
+(1) Subject to the following provisions of this Act, it shall be an offence for a person to engage in any licensable conduct except under and in accordance with a licence.
+(2) For the purposes of this Act a person engages in licensable conduct if—
+  (a) he carries out any designated activities for the purposes of, or in connection with, any contract for the supply of services under which—
+    (i) he,
+    (ii) a body corporate of which he is a director, or
+    (iii) a firm of which he is a partner,
+  is or may be required to secure that any such activities are carried out;
+  (b) in the course of any employment of his by any person he carries out any designated activities for the purposes of, or in connection with, any contract for the supply of services under which his employer is or may be so required;
+  (c) he carries out any designated activities in accordance with directions given to him by or on behalf of a person to whom his services are supplied (whether or not for the carrying out of any such activities) by—
+    (i) a body corporate of which he is a director,
+    (ii) a firm of which he is a partner,
+    (iii) a person by whom he is employed, or
+    (iv) a person to whom he supplies his services under a contract for the purposes of which, or in connection with which, he is or may be required to work in accordance with the directions of another;
+  (d) he acts—
+    (i) in the course of any employment of his by any person, or
+    (ii) in accordance with any directions given as mentioned in paragraph (c),
+  as the manager or supervisor of one or more individuals required in the course of their employment to engage in licensable conduct falling within paragraph (b);
+  (e) he acts—
+    (i) in the course of any employment of his by any person, or
+    (ii) in accordance with any directions given as mentioned in paragraph (c),
+  as the manager or supervisor of individuals who are required in accordance with any such directions to engage in conduct which would be licensable conduct falling within paragraph (b) if they were required to engage in that conduct as the employees of the person to whom their services are supplied;
+  (f) he is the director of any body corporate or the partner of any firm at a time when another of the directors or partners of the body or firm, or any employee of the body or firm, engages in licensable conduct falling within any of paragraphs (a) to (e);
+  (g) he is the employer of an individual who in the course of any employment of his with that employer carries out any designated activities subject to additional controls;
+  (h) in the course of any employment of his, or for purposes connected with his being a director or partner of a body corporate or firm, he carries out designated activities subject to additional controls; or
+  (i) in the course of any employment of his by any person he acts as the manager or supervisor of one or more individuals the duties of whose employment involve the carrying out of any designated activities subject to additional controls;...
+  (j) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+(3) In this Act “designated activities” means such of the activities of a security operative as are for the time being designated for the purposes of this section by an order made by the Secretary of State; and an order under this subsection may designate different activities for the purposes of different paragraphs of subsection (2).
+(3A) In the application of this Act to Scotland—
+  (a) the reference in subsection (3) to the Secretary of State must be construed as a reference to the Scottish Ministers; but
+  (b) before making any order under subsection (3) the Scottish Ministers are to consult the Secretary of State.
+(3B) In the application of this Act to Northern Ireland—
+  (a) the reference in subsection (3) to the Secretary of State must be construed as a reference to the Department of Justice;
+  (b) before making any order under subsection (3) the Department of Justice must consult the Secretary of State.
+(4) For the purposes of this section a person shall not be treated as acting as the manager or supervisor of an individual by reason only of his giving directions to that individual in a case in which—
+  (a) the directions are given on behalf of a person to whom the individual’s services are provided under a contract for services, and
+  (b) the person who under the contract provides the individual’s services or another person acting on his behalf, acts as the manager or supervisor of that individual in relation to the activities carried out by him in accordance with those directions.
+(5) Schedule 2 (which defines the activities that are to be treated as the activities of a security operative for the purposes of this Act and those which, so far as they are designated, are subject to additional controls) shall have effect.
+(6) A person guilty of an offence under this section shall be liable, on summary conviction, to imprisonment for a term not exceeding six months or to a fine not exceeding level 5 on the standard scale, or to both.
+
+==========================================================================
+Section 7 — Licensing criteria
+==========================================================================
+
+Source: https://www.legislation.gov.uk/ukpga/2001/12/section/7
+
+(1) It shall be the duty of the Authority, before granting any licences, to prepare and publish a document setting out—
+  (a) the criteria which it proposes to apply in determining whether or not to grant a licence; and
+  (b) the criteria which it proposes to apply in exercising its powers under this Act to revoke or modify a licence.
+(2) The Authority may from time to time revise the document for the time being setting out the criteria mentioned in subsection (1)(a) and (b); and, if it does so, it shall publish the revised document.
+(3) The criteria set out by the Authority under this section—
+  (a) shall include such criteria as the Authority considers appropriate for securing that the persons who engage in licensable conduct are fit and proper persons to engage in such conduct;
+  (b) may include such criteria as the Authority considers appropriate for securing that those persons have the training and skills necessary to engage in the conduct for which they are licensed; and
+  (c) may also include criteria relating to such other matters as the Authority thinks fit.
+(4) In setting out any criteria or revised criteria under this section the Authority may provide for different criteria to apply—
+  (a) in relation to licences for different descriptions of licensable conduct; and
+  (b) in relation to the initial grant of a licence and in relation to a further grant to the same licensee for the purpose of renewing an earlier licence.
+(5) Criteria or revised criteria set out under this section shall not have effect for the purposes of this Act unless the Secretary of State has approved them.
+(5A) Before giving approval under subsection (5), the Secretary of State shall consult the Scottish Ministers and the Department of Justice.
+(6) The publication in accordance with this section of any document setting out any criteria or revised criteria must be in such manner as the Authority considers appropriate for bringing it to the attention of the persons likely to be affected by it.

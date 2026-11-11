@@ -11,16 +11,16 @@
     "stem": "Which statement best describes the key purpose of the private security industry?",
     "options": [
       "To take over the duties of the police in public places",
-      "To protect people and property and help prevent crime",
+      "To help prevent crime and ensure people feel safe",
       "To prosecute offenders and decide their sentences",
       "To make the laws that control licensed premises"
     ],
     "answer_index": 1,
-    "explanation": "Private security exists to protect people and property and to help prevent crime, working alongside the police rather than replacing them.",
+    "explanation": "The SIA describes its work as supporting Home Office priorities to reduce terrorism, prevent and tackle crime, and help people feel safe in their communities.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S1"
+      "sia-about-us#who-we-are"
     ],
-    "source_quote": "define the key purpose of the private security industry",
+    "source_quote": "We support the Home Office priorities of reducing terrorism, preventing and tackling crime, and ensuring people feel safe in their homes and communities.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -28,8 +28,8 @@
     "id": "U1-COMMON-0001",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "About us - Security Industry Authority",
+      "url": "https://www.gov.uk/government/organisations/security-industry-authority/about"
     }
   },
   {
@@ -51,9 +51,9 @@
     "answer_index": 3,
     "explanation": "The SIA licenses individuals who work in licensable security roles once they meet the required training and competency standards.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S1"
+      "sia-about-us#responsibilities"
     ],
-    "source_quote": "state the aims and functions of the Security Industry Authority (SIA)",
+    "source_quote": "licensing people who do certain jobs in the private security industry",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -61,8 +61,8 @@
     "id": "U1-COMMON-0002",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "About us - Security Industry Authority",
+      "url": "https://www.gov.uk/government/organisations/security-industry-authority/about"
     }
   },
   {
@@ -348,9 +348,9 @@
     "answer_index": 0,
     "explanation": "The Approved Contractor Scheme is the SIA-run scheme that independently assesses security companies against recognised standards.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S1"
+      "sia-acs#what-it-is"
     ],
-    "source_quote": "understand the Approved Contractor Scheme",
+    "source_quote": "Our Approved Contractor Scheme (ACS) is a quality assurance scheme for the private security industry.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -358,8 +358,8 @@
     "id": "U1-COMMON-0011",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Learn about our Approved Contractor Scheme",
+      "url": "https://www.gov.uk/guidance/learn-about-our-approved-contractor-scheme"
     }
   },
   {
@@ -744,9 +744,9 @@
     "answer_index": 0,
     "explanation": "Door supervision is a licensable activity, so the operative must hold a valid SIA door supervisor licence.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S2"
+      "psia-2001#s3"
     ],
-    "source_quote": "state the requirements of the Private Security Industry Act 2001",
+    "source_quote": "it shall be an offence for a person to engage in any licensable conduct except under and in accordance with a licence",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -754,8 +754,8 @@
     "id": "U1-COMMON-0023",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Private Security Industry Act 2001",
+      "url": "https://www.legislation.gov.uk/ukpga/2001/12/section/1"
     }
   },
   {
@@ -843,9 +843,9 @@
     "answer_index": 3,
     "explanation": "The SIA issues licences for security roles, including close protection. Premises and alcohol licences are issued by local authorities.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S2"
+      "sia-acs#who-can-be-approved"
     ],
-    "source_quote": "licences issued under the Private Security Industry Act",
+    "source_quote": "So we can approve a company for close protection, but not for installing alarms or providing consultancy services because we do not license those activities.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -853,8 +853,8 @@
     "id": "U1-COMMON-0026",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Learn about our Approved Contractor Scheme",
+      "url": "https://www.gov.uk/guidance/learn-about-our-approved-contractor-scheme"
     }
   },
   {
@@ -1008,9 +1008,9 @@
     "answer_index": 1,
     "explanation": "An operative who makes a citizen's arrest must transfer the person to the police promptly. The power does not include a general right to search or to detain indefinitely.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S3"
+      "pace-1984#s30"
     ],
-    "source_quote": "identify the limitations to a security operative’s powers of arrest",
+    "source_quote": "The person must be taken by a constable to a police station as soon as practicable after the arrest.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1018,8 +1018,8 @@
     "id": "U1-COMMON-0031",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Police and Criminal Evidence Act 1984",
+      "url": "https://www.legislation.gov.uk/ukpga/1984/60/section/28"
     }
   },
   {
@@ -1041,9 +1041,9 @@
     "answer_index": 2,
     "explanation": "The person must be told clearly that they are under arrest and why, and the operative should identify themselves.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S3"
+      "pace-1984#s28"
     ],
-    "source_quote": "state procedures to follow when making an arrest",
+    "source_quote": "the arrest is not lawful unless the person arrested is informed that he is under arrest as soon as is practicable after his arrest",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1051,8 +1051,8 @@
     "id": "U1-COMMON-0032",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Police and Criminal Evidence Act 1984",
+      "url": "https://www.legislation.gov.uk/ukpga/1984/60/section/28"
     }
   },
   {
@@ -1272,9 +1272,9 @@
     "answer_index": 0,
     "explanation": "The common specification gives lone working as an example when describing the health and safety responsibilities of employees, employers and the self-employed.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S4-clean"
+      "hse-violence#risk-assessment"
     ],
-    "source_quote": "e.g. lone working",
+    "source_quote": "lone workers may be at greater risk due to the lack of nearby support to help prevent an incident or help if things go wrong",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -1282,8 +1282,8 @@
     "id": "U1-COMMON-0039",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "How employers can protect workers from violence and aggression at work",
+      "url": "https://www.hse.gov.uk/violence/employer/"
     }
   },
   {
@@ -2320,26 +2320,26 @@
     "difficulty": 3,
     "stem": "An unattended bag is found in a busy concourse. What do the 4 Cs stand for?",
     "options": [
+      "Confirm, Clear, Communicate, Control",
       "Call, Check, Close, Continue",
       "Confirm, Contact, Close, Clear",
-      "Confirm, Clear, Cordon, Control",
       "Cordon, Check, Collect, Call"
     ],
-    "answer_index": 2,
-    "explanation": "The 4 Cs are Confirm, Clear, Cordon and Control: confirm the item is suspicious, clear people away, set a cordon and control the area.",
+    "answer_index": 0,
+    "explanation": "The 4 Cs for a suspicious item are Confirm, Clear, Communicate and Control.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S9"
+      "nactso-suspicious-items#four-cs"
     ],
-    "source_quote": "know the HOT principles and 4 Cs protocols for suspicious items",
+    "source_quote": "CONFIRM, CLEAR, COMMUNICATE AND CONTROL",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
     "id": "U1-COMMON-0071",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Unattended and suspicious items - Crowded Places Guidance",
+      "url": "https://www.gov.uk/government/publications/crowded-places-guidance/unattended-and-suspicious-items"
     }
   },
   {
@@ -2361,9 +2361,9 @@
     "answer_index": 3,
     "explanation": "Hostile reconnaissance often involves repeated visits, photography of security features and unusual questions about procedures.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S9"
+      "nactso-hostile-recon#suspicious-behaviour"
     ],
-    "source_quote": "identify behaviours that could indicate suspicious activity",
+    "source_quote": "Are they paying significant interest to entrances, exits, CCTV cameras or security features or staff?",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -2371,8 +2371,8 @@
     "id": "U1-COMMON-0072",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Hostile Reconnaissance - Crowded Places Guidance",
+      "url": "https://www.gov.uk/government/publications/crowded-places-guidance/hostile-reconnaissance"
     }
   },
   {
@@ -4743,9 +4743,9 @@
     "answer_index": 1,
     "explanation": "Risk in a conflict can change quickly, so the assessment has to be continuous.",
     "source_chunk_ids": [
-      "sia-conflict-management-specification-2021#U3-CONFLICT-S1"
+      "hse-violence#control-measures"
     ],
-    "source_quote": "continually assess the level of risk posed in a conflict situation",
+    "source_quote": "Once you decide on your controls, you must record your findings and periodically review your risk assessment.",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -4753,8 +4753,8 @@
     "id": "U3-CONFLICT-0014",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Conflict Management specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd35d3bf7f5ce4f581ba/sia-conflict-management-specification-2021.pdf"
+      "title": "How employers can protect workers from violence and aggression at work",
+      "url": "https://www.hse.gov.uk/violence/employer/"
     }
   },
   {
@@ -4776,9 +4776,9 @@
     "answer_index": 1,
     "explanation": "Once a risk is identified, the next step is to identify measures that reduce or remove it.",
     "source_chunk_ids": [
-      "sia-conflict-management-specification-2021#U3-CONFLICT-S1"
+      "hse-violence#control-measures"
     ],
-    "source_quote": "identify appropriate measures to reduce or eliminate the risk",
+    "source_quote": "can I get rid of the hazard altogether?",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -4786,8 +4786,8 @@
     "id": "U3-CONFLICT-0015",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Conflict Management specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd35d3bf7f5ce4f581ba/sia-conflict-management-specification-2021.pdf"
+      "title": "How employers can protect workers from violence and aggression at work",
+      "url": "https://www.hse.gov.uk/violence/employer/"
     }
   },
   {
