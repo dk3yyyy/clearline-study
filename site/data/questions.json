@@ -1965,9 +1965,9 @@
     "answer_index": 2,
     "explanation": "Good customer service means treating people courteously and professionally and meeting their reasonable needs within the rules.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S7"
+      "sia-common-specification-2021#standards"
     ],
-    "source_quote": "state the principle of customer service",
+    "source_quote": "carry out his/her duties in a professional and courteous manner with due regard and consideration to others",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -2064,9 +2064,9 @@
     "answer_index": 1,
     "explanation": "Operatives routinely complete incident reports, notebooks, search logs and witness statements.",
     "source_chunk_ids": [
-      "sia-common-specification-2021#U1-COMMON-S8"
+      "hse-first-aid#record-keeping"
     ],
-    "source_quote": "identify the types of records that may need to be completed",
+    "source_quote": "use a book for recording any incidents involving injuries or illness which you have attended",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
@@ -2074,8 +2074,8 @@
     "id": "U1-COMMON-0063",
     "source_quote_exact": true,
     "source": {
-      "title": "SIA Common Security Industry Knowledge specification (2021)",
-      "url": "https://assets.publishing.service.gov.uk/media/6061dd69e90e072d8f8b8638/sia-common-specification-2021.pdf"
+      "title": "Basic advice on first aid at work (INDG347)",
+      "url": "https://www.hse.gov.uk/pubns/indg347.pdf"
     }
   },
   {
