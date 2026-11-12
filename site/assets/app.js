@@ -1,5 +1,5 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ai';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111aj';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -20,7 +20,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111ai';
+const DATA_VERSION = '20261111aj';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -198,7 +198,7 @@ function renderHome() {
     const progress = progressFor(questions);
     const best = bestScore(qual.id);
     const started = progress.answered > 0;
-    return `<a class="qual-card ${qual.id === 'DS' ? 'qual-card--featured' : ''}" href="${href(`qual/${qual.id}`)}" aria-label="Open ${esc(qual.name)}">
+    return `<a class="qual-card ${qual.id === 'DS' ? 'qual-card--featured' : ''}" href="${href(`qual/${qual.id}`)}">
       <div class="qual-card-top"><span class="qual-code">${esc(qual.id)}</span><span class="qual-level">${esc(qual.level)}${best !== null ? `<span class="qual-best">Best ${best}%</span>` : ''}</span></div>
       <h3>${esc(qual.name)}</h3>
       <p>${esc(qual.description)}</p>
@@ -210,7 +210,7 @@ function renderHome() {
   const row = (qual) => {
     const questions = qualQuestions(qual);
     const progress = progressFor(questions);
-    return `<a class="refresher-row" href="${href(`qual/${qual.id}`)}" aria-label="Open ${esc(qual.name)}">
+    return `<a class="refresher-row" href="${href(`qual/${qual.id}`)}">
       <span class="qual-code">${esc(qual.id)}</span>
       <span class="refresher-copy"><strong>${esc(qual.name)}</strong><span>${esc(qual.description)}</span></span>
       <span class="refresher-meta">${questions.length ? `${questions.length} questions` : 'No questions yet'}<span>${questions.length ? (progress.answered ? `${progress.answered} seen` : 'Not started') : '—'}</span></span>
