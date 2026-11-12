@@ -1,0 +1,79 @@
+# Safety signs
+
+Signs are shown in the correct style with descriptive text as required by - The Health and Safety (Safety Signs and Signals) Regulations 1996.
+
+These regulations encourage all member states of the European Union to use standard safety signs and signals, so that safety signs, wherever they are used, have the same meaning. There are four types:
+
+## Banksmans signals
+
+Using banksmen to control reversing operations can put the Banksman in the potential danger area of a reversing vehicle. Every year banksmen suffer serious and fatal injuries whilst at work. If you do use banksmen, make sure they are trained to carry out their duties safely.
+
+There must be a safe system of work that ensures the Banksman and driver are using standard signals, so that they are easily understood, and that the driver knows to stop the vehicle immediately if the Banksman disappears from view.
+
+The standard signals are given in the [Health and Safety (Signs and Signals) Regulations 1996 L64](../../../pubns/books/l64.htm), available from HSE Books.
+
+## Prohibitory signs
+
+Prohibition sign - a sign prohibiting behaviour likely to increase or cause danger (eg no smoking)
+
+Intrinsic features:
+
+- round shape
+- black pictogram on white background, red edging and diagonal red line (the red part to take up at least 35% of the area of the sign)
+![Smoking cigarette with line through](../assets/images/prohibition-smoke-2.gif)
+
+![Lit match with line through](../assets/images/prohibition-flame-2.gif)
+
+![Person walking with line through](../assets/images/prohibition-ped-2.gif)
+
+![Flame with water being thrown from a bucket with line through](../assets/images/prohibition-water-2.gif)
+
+![Person shouting and holding their hand up with line through](../assets/images/prohibition-unauth-2.gif)
+
+![Forklift truck with line through](../assets/images/prohibition-industrial-2.gif)
+
+## Warning signs
+
+Warning sign - a sign giving warning of a hazard or danger (eg danger: electricity)
+
+Intrinsic features:
+
+- triangular shape
+- black picture with at least 50% yellow background
+![Yellow triangle containing exclamation mark](../assets/images/warning-general-2.gif)
+
+![Yellow triangle containing person falling backwards down a step](../assets/images/warning-drop-2.gif)
+
+![Yellow triangle containing a snowflake](../assets/images/warning-temperature-2.gif)
+
+![Yellow triangle containing a load on a hook with a snapped rope](../assets/images/warning-overhead-2.gif)
+
+![Yellow triangle containing forklift truck](../assets/images/warning-vehicles-2.gif)
+
+![Yellow triangle containing a zig-zag arrow](../assets/images/warning-electricity-2.gif)
+
+## Mandatory signs
+
+Mandatory sign - a sign prescribing specific behaviour (eg eye protection must be worn)
+
+Intrinsic features:
+
+- round shape
+- white pictogram on a blue background (the blue part to take up at least 50% of the area of the sign)
+![Blue circle containing head wearing safety glasses](../assets/images/mandatory-eye-2.gif)
+
+![Blue circle containing head with safety helmet on](../assets/images/mandatory-helmet-2.gif)
+
+![Blue circle containing head with ear defenders](../assets/images/mandatory-ear-2.gif)
+
+![Blue circle containing safety boots](../assets/images/mandatory-boots-2.gif)
+
+![Blue circle containing safety gloves](../assets/images/mandatory-gloves-2.gif)
+
+![Blue circle containing overalls](../assets/images/mandatory-overalls-2.gif)
+
+![Blue circle containing a person walking](../assets/images/mandatory-ped-2.gif)
+
+![Blue circle containing exclamation mark](../assets/images/mandatory-general-2.gif)
+
+![Blue circle containing face with face shield](../assets/images/mandatory-face-2.gif)

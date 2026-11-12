@@ -558,5 +558,38 @@
     "bytes": 43009,
     "date": "2026-04-16",
     "note": "Detention Services Order version 2.2; applies to IRCs, PDA, STHFs and escort settings."
+  },
+  {
+    "doc_id": "hse-slips-trips",
+    "title": "Preventing slips and trips at work (INDG225)",
+    "local_path": "sources/08-u1-content/hse-slips-trips.txt",
+    "sha256": "30469355d74cca9284b281d4aebc0a1505ffd31e341ba52cb264123ee02a9ad8",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "Health and Safety Executive",
+    "status": "downloaded",
+    "url": "https://www.hse.gov.uk/pubns/indg225.pdf"
+  },
+  {
+    "doc_id": "hse-safety-signs",
+    "title": "Safety signs",
+    "local_path": "sources/08-u1-content/hse-safety-signs.txt",
+    "sha256": "eb2d3014af37a28b8568b380b1ec3a022f16a9a55d3f85cd372c4654643df75d",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "Health and Safety Executive",
+    "status": "downloaded",
+    "url": "https://www.hse.gov.uk/workplacetransport/safetysigns"
+  },
+  {
+    "doc_id": "govuk-prepare-terrorism",
+    "title": "Terrorism: what to do if caught up in an attack",
+    "local_path": "sources/08-u1-content/govuk-prepare-terrorism.txt",
+    "sha256": "20b0bd39cee5cd7882956180ab90741225731ed2d564a39e7aaf061cd7b64e99",
+    "pages": null,
+    "licence": "OGL-3.0",
+    "publisher": "Home Office / Prepare",
+    "status": "downloaded",
+    "url": "https://prepare.campaign.gov.uk/be-informed-about-hazards/terrorism/"
   }
 ]
