@@ -1052,15 +1052,15 @@
       "CCTV"
     ],
     "difficulty": 2,
-    "stem": "Which of these is a limitation on a security operative's power of arrest?",
+    "stem": "After a security operative makes a citizen’s arrest, what must the constable do with the person?",
     "options": [
       "The operative may search the person without consent",
-      "The operative must hand the person to the police as soon as reasonably practicable",
+      "The constable must take the person to a police station as soon as practicable",
       "The operative may detain the person for as long as they think necessary",
       "The operative may arrest for any offence, including minor traffic offences"
     ],
     "answer_index": 1,
-    "explanation": "An operative who makes a citizen's arrest must transfer the person to the police promptly. The power does not include a general right to search or to detain indefinitely.",
+    "explanation": "PACE section 30(1A) requires a constable to take a person arrested elsewhere than at a police station to a police station as soon as practicable after the arrest.",
     "source_chunk_ids": [
       "pace-1984#s30"
     ],
@@ -8470,15 +8470,15 @@
       "SO"
     ],
     "difficulty": 2,
-    "stem": "An officer sees someone trespassing on site. What should they do?",
+    "stem": "An officer sees a person acting suspiciously and the person is still on scene. They need an immediate police response. What should they do?",
     "options": [
       "Approach and physically remove the person alone",
-      "Observe from a safe distance, report it and call the police if needed",
+      "Dial 999 and report it",
       "Ignore it to avoid conflict",
       "Wait until the next shift to report it"
     ],
     "answer_index": 1,
-    "explanation": "The officer should keep observation, report and request support. Confronting a trespasser alone is unsafe, and ignoring or delaying the report is wrong.",
+    "explanation": "Hostile reconnaissance guidance says to dial 999 if the person is still on scene and an immediate police response is needed.",
     "source_chunk_ids": [
       "nactso-hostile-recon#reporting"
     ],

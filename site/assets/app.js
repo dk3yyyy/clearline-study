@@ -1,6 +1,6 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261112ap';
-import { mergeStore } from './store.js?v=20261112ap';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261112aq';
+import { mergeStore } from './store.js?v=20261112aq';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -35,7 +35,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261112ap';
+const DATA_VERSION = '20261112aq';
 const EXAM_KEY = 'shiftready-exam-v1';
 const PRACTICE_KEY = 'shiftready-practice-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {}, reportsClearedAt: '' };
@@ -347,13 +347,13 @@ function renderLearn(qualId) {
     const up = unitProgress(u);
     return `<a href="${href(`learn/${qual.id}?unit=${u.id}`)}" ${u.id === activeUnit.id ? 'aria-current="true"' : ''}><span>${esc(u.name)}</span><span>${up.studied}/${up.objectives}</span></a>`;
   }).join('');
-  const unitOptions = units.map((u) => `<option value="${u.id}" ${u.id === activeUnit.id ? 'selected' : ''}>${esc(u.name)} (${unitProgress(u).studied}/${unitProgress(u).objectives})</option>`).join('');
+  const unitOptions = units.map((u) => `<option value="${u.id}" ${u.id === activeUnit.id ? 'selected' : ''}>${esc(shortUnitName(u.id, u.name))} (${unitProgress(u).studied}/${unitProgress(u).objectives})</option>`).join('');
   const unitHasObjectives = activeUnit.sessions.some((section) => (section.objectives || []).length);
   const sessions = activeUnit.sessions.map((session, index) => {
     const objectives = session.objectives.map((objective, oi) => {
       const done = !!store.studied[objective.id];
       const hasQuestions = DATA.questions.some((q) => q.objective_id === objective.id);
-      return `<li class="objective"><button class="objective-check" type="button" data-studied="${esc(objective.id)}" aria-pressed="${done}"><span aria-hidden="true">${done ? '✓' : ''}</span><span class="visually-hidden">Mark objective ${oi + 1} studied: ${esc(shortObjective(objective.text))}</span></button><p>${objectiveBody(objective.text)}</p><div class="objective-actions">${hasQuestions ? `<a href="${href(`practice/${qual.id}?objective=${objective.id}`)}">Practice</a>` : ''}<a href="${esc(session.source.url)}" target="_blank" rel="noreferrer" aria-label="Open specification: ${esc(session.title)}">Open specification</a></div></li>`;
+      return `<li class="objective"><button class="objective-check" type="button" data-studied="${esc(objective.id)}" aria-pressed="${done}"><span aria-hidden="true">${done ? '✓' : ''}</span><span class="visually-hidden">Mark objective ${oi + 1} studied: ${esc(shortObjective(objective.text))}</span></button><p>${objectiveBody(objective.text)}</p><div class="objective-actions">${hasQuestions ? `<a href="${href(`practice/${qual.id}?objective=${objective.id}`)}">Practice</a>` : '<span class="small-note">No practice question yet</span>'}<a href="${esc(session.source.url)}" target="_blank" rel="noreferrer" aria-label="Open specification: ${esc(session.title)}">Open specification</a></div></li>`;
     }).join('');
     return `<article class="session-block" id="${esc(session.id)}"><div class="session-title"><span class="session-number">${String(index + 1).padStart(2, '0')}</span><div><h2>${esc(session.title.replace(/^Session\s*\d+[a-c]?\s*:\s*/i, ''))}</h2><p>${esc(session.summary)}</p></div><a class="session-source" href="${esc(session.source.url)}" target="_blank" rel="noreferrer" aria-label="Open specification: ${esc(session.title)}">Open specification</a></div>${session.objectives.length ? `<ul class="objectives">${objectives}</ul>` : unitHasObjectives ? '<p class="empty-inline">No objectives are mapped for this session yet.</p>' : ''}</article>`;
   }).join('');

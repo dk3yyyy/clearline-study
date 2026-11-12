@@ -575,3 +575,12 @@ html[data-text-size="125"] { font-size: 125%; }
 @media (min-width: 761px) and (max-width: 900px) {
   body.menu-open::after { content: ""; position: fixed; inset: 73px 0 0; z-index: 15; background: rgba(3, 7, 18, 0.55); }
 }
+/* Mobile fold: keep the first qualification card in the opening screen. */
+@media (max-width: 640px) {
+  .hero-actions .button.button-ghost { display: none; }
+  #choose .section-heading p { display: none; }
+  #choose .section-heading h2 { font-size: clamp(2rem, 9vw, 2.8rem); }
+}
+/* Give dialog actions room at the bottom and make the close control tappable. */
+.report-dialog form { padding-bottom: 30px; }
+.dialog-head .icon-button { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
