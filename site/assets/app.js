@@ -1,5 +1,6 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111aj';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ak';
+import { mergeStore } from './store.js?v=20261111ak';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -20,7 +21,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111aj';
+const DATA_VERSION = '20261111ak';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -33,10 +34,19 @@ function loadStore() {
   }
 }
 const store = loadStore();
+window.addEventListener('storage', (event) => {
+  if (event.key !== storageKey) return;
+  // Another tab saved; take its progress without disturbing the current view.
+  Object.assign(store, mergeStore(store, loadStore()));
+});
 let storageWarned = false;
 const saveStore = () => {
   try {
-    localStorage.setItem(storageKey, JSON.stringify(store));
+    // Merge with what is on disk so a second tab cannot overwrite answers this
+    // tab never loaded.
+    const merged = mergeStore(store, loadStore());
+    Object.assign(store, merged);
+    localStorage.setItem(storageKey, JSON.stringify(merged));
   } catch (error) {
     if (!storageWarned) {
       storageWarned = true;
