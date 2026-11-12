@@ -11,6 +11,8 @@ import json
 import re
 from pathlib import Path
 
+from syllabus_corrections import apply_corrections
+
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources" / "00-sia-specs"
 SPECS = {

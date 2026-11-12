@@ -658,7 +658,7 @@
             },
             {
               "id": "U3-CONFLICT-S4-O4",
-              "text": "high risk scenario: an obvious risk situation that demands accurate threat assessment, decision-making skills and safe practice. 1 In using the term ‘customer’ we recognise that conflict situations may arise in the security industry from interaction with a number of different people, which includes customers, clients, colleagues etc. For the purposes of convenience these are described as ‘other persons’. To ensure each scenario has a clear focus it should be carefully selected and aligned to the relevant session learning objectives. Scenarios should include issues relating to employment equality, disability and discrimination."
+              "text": "high risk scenario: an obvious risk situation that demands accurate threat assessment, decision-making skills and safe practice."
             }
           ],
           "id": "U3-CONFLICT-S4",
@@ -666,7 +666,10 @@
             "doc_id": "sia-conflict-management-specification-2021",
             "doc_title": "SIA Conflict Management specification (2021)",
             "url": "https://assets.publishing.service.gov.uk/media/6061dd35d3bf7f5ce4f581ba/sia-conflict-management-specification-2021.pdf"
-          }
+          },
+          "notes": [
+            "In using the term ‘customer’ we recognise that conflict situations may arise in the security industry from interaction with a number of different people, which includes customers, clients, colleagues etc. For the purposes of convenience these are described as ‘other persons’. To ensure each scenario has a clear focus it should be carefully selected and aligned to the relevant session learning objectives. Scenarios should include issues relating to employment equality, disability and discrimination."
+          ]
         },
         {
           "title": "Session 4b: Application of communication skills and conflict",
@@ -758,15 +761,83 @@
             },
             {
               "id": "U4-PI-S1-O2",
-              "text": "understand the risks associated with using physical intervention identify the risk factors involved with the use of physical interventions identify the differences between defensive physical skills and physical interventions identify positive alternatives to physical intervention state the signs and symptoms associated with acute behavioural disorder/excited (or agitated) delirium and psychosis state the specific risks associated with positional (or restraint) asphyxia state the specific risks associated with prolonged physical interventions"
+              "text": "understand the risks associated with using physical intervention"
+            },
+            {
+              "id": "U4-PI-S1-O2.1",
+              "text": "identify the risk factors involved with the use of physical interventions"
+            },
+            {
+              "id": "U4-PI-S1-O2.2",
+              "text": "identify the differences between defensive physical skills and physical interventions"
+            },
+            {
+              "id": "U4-PI-S1-O2.3",
+              "text": "identify positive alternatives to physical intervention"
+            },
+            {
+              "id": "U4-PI-S1-O2.4",
+              "text": "state the signs and symptoms associated with acute behavioural disorder/excited (or agitated) delirium and psychosis"
+            },
+            {
+              "id": "U4-PI-S1-O2.5",
+              "text": "state the specific risks associated with positional (or restraint) asphyxia"
+            },
+            {
+              "id": "U4-PI-S1-O2.6",
+              "text": "state the specific risks associated with prolonged physical interventions"
             },
             {
               "id": "U4-PI-S1-O3",
-              "text": "understand how to reduce the risk associated with physical intervention state the specific risks of incidents on the ground, and the importance of dealing with these appropriately identify ways of reducing the risk of harm to all parties involved during physical interventions state the importance of dynamic risk assessment in situations where physical intervention skills are used state how to manage and monitor a person being held state the actions to be taken in a medical emergency"
+              "text": "understand how to reduce the risk associated with physical intervention"
+            },
+            {
+              "id": "U4-PI-S1-O3.1",
+              "text": "state the specific risks of incidents on the ground, and the importance of dealing with these appropriately"
+            },
+            {
+              "id": "U4-PI-S1-O3.2",
+              "text": "identify ways of reducing the risk of harm to all parties involved during physical interventions"
+            },
+            {
+              "id": "U4-PI-S1-O3.3",
+              "text": "state the importance of dynamic risk assessment in situations where physical intervention skills are used"
+            },
+            {
+              "id": "U4-PI-S1-O3.4",
+              "text": "state how to manage and monitor a person being held"
+            },
+            {
+              "id": "U4-PI-S1-O3.5",
+              "text": "state the actions to be taken in a medical emergency"
             },
             {
               "id": "U4-PI-S1-O4",
-              "text": "understand the good practice to follow after physical intervention has been used state responsibilities during and immediately following physical intervention state the importance of keeping physical intervention knowledge and skills current state the importance of accessing help and support following an incident state the importance of reflecting on and learning from previous physical intervention situations state the importance of reporting fully on the use of force state how to provide support to colleagues during a physical intervention"
+              "text": "understand the good practice to follow after physical intervention has been used"
+            },
+            {
+              "id": "U4-PI-S1-O4.1",
+              "text": "state responsibilities during and immediately following physical intervention"
+            },
+            {
+              "id": "U4-PI-S1-O4.2",
+              "text": "state the importance of keeping physical intervention knowledge and skills current"
+            },
+            {
+              "id": "U4-PI-S1-O4.3",
+              "text": "state the importance of accessing help and support following an incident"
+            },
+            {
+              "id": "U4-PI-S1-O4.4",
+              "text": "state the importance of reflecting on and learning from previous physical intervention situations"
+            },
+            {
+              "id": "U4-PI-S1-O4.5",
+              "text": "state the importance of reporting fully on the use of force"
+            },
+            {
+              "id": "U4-PI-S1-O4.6",
+              "text": "state how to provide support to colleagues during a physical intervention"
             }
           ],
           "id": "U4-PI-S1",
@@ -1750,7 +1821,67 @@
           "objectives": [
             {
               "id": "CP-MAIN-S2-O1",
-              "text": "understand and explain the parts of civil, criminal and common law that have an impact on the role of a close protection operative* – including, but not limited to: Data Protection Act 2018 and the General Data Protection Regulation (GDPR) – Control and access of confidential information Corporate Manslaughter and Homicide Act 2007, Criminal Law Act 1996, Equality Act 2010 and Freedom of Information Act 2018 Health and Safety at Work Act 1974 Human Rights Act 1998 Misuse of Drugs Act 1971, Regulation of Investigatory Powers Act 2000 and Road Traffic Act 2018 Criminal Justice & Public Order Act 1994 (specifically Trespass) Offences against the Person Act 1998 Criminal Damage Act 1971 current relevant legislation, regulations, codes of practice and guidelines relating to using physical intervention within close protection Private Hire Vehicles (London) Act 1998 Breach of the Peace Citizen’s Arrest Use of Force Defending Self, Others and Property Harassment"
+              "text": "understand and explain the parts of civil, criminal and common law that have an impact on the role of a close protection operative* – including, but not limited to:"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.1",
+              "text": "Data Protection Act 2018 and the General Data Protection Regulation (GDPR) – Control and access of confidential information"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.2",
+              "text": "Corporate Manslaughter and Homicide Act 2007, Criminal Law Act 1967, Equality Act 2010 and Freedom of Information Act 2000"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.3",
+              "text": "Health and Safety at Work Act 1974"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.4",
+              "text": "Human Rights Act 1998"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.5",
+              "text": "Misuse of Drugs Act 1971, Regulation of Investigatory Powers Act 2000 and Road Traffic Act 1988"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.6",
+              "text": "Criminal Justice & Public Order Act 1994 (specifically Trespass)"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.7",
+              "text": "Offences against the Person Act 1861"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.8",
+              "text": "Criminal Damage Act 1971"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.9",
+              "text": "current relevant legislation, regulations, codes of practice and guidelines relating to using physical intervention within close protection"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.10",
+              "text": "Private Hire Vehicles (London) Act 1998"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.11",
+              "text": "Breach of the Peace"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.12",
+              "text": "Citizen's Arrest"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.13",
+              "text": "Use of Force"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.14",
+              "text": "Defending Self, Others and Property"
+            },
+            {
+              "id": "CP-MAIN-S2-O1.15",
+              "text": "Harassment"
             },
             {
               "id": "CP-MAIN-S2-O2",

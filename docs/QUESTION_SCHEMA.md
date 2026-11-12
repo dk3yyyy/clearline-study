@@ -26,3 +26,5 @@ Rules:
 - `source_quote` must be 25 words or fewer copied from the cited source text.
 - Every question needs a real `objective_id` from `syllabus/syllabus.json`.
 - Vary the correct answer position.
+- `spec_version` and `review_category` are derived at import from `source_chunk_ids` and the record text. Do not hand-write them in a draft. `requires_human_review` is true whenever `review_category` is non-empty; category values are `force`, `drugs`, `search`, `restraint`, `safeguarding`, `arrest`, `first_aid` and `other` (an existing flag with no policy keyword).
+- Objectives split from a merged specification bullet keep the parent ID and use stable sub-IDs such as `CP-MAIN-S2-O1.1`. A question may cite either the parent or a sub-objective.
