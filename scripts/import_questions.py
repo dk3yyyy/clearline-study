@@ -13,6 +13,8 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from review_policy import categories_for, requires_human_review, spec_version_for
+
 ROOT = Path(__file__).resolve().parent.parent
 DRAFTS = ROOT / "questions" / "drafts"
 BANK = ROOT / "questions" / "bank.jsonl"
@@ -117,7 +119,7 @@ def main():
         seen.add(key)
         qualifications = unit_meta[unit].get("qualifications", [])
         review = bool(row.get("requires_human_review")) or bool(HIGH_RISK.search(stem + " " + explanation))
-        clean.append({
+        record = {
             "unit": unit,
             "objective_id": objective_id,
             "qualifications": qualifications,
@@ -128,11 +130,14 @@ def main():
             "explanation": explanation,
             "source_chunk_ids": [str(s) for s in source_ids],
             "source_quote": quote,
-            "spec_version": "2021",
+            "spec_version": spec_version_for([str(s) for s in source_ids]),
             "jurisdiction": "EW",
             "status": "draft",
             "requires_human_review": review,
-        })
+        }
+        record["review_category"] = categories_for(record)
+        record["requires_human_review"] = requires_human_review(record["review_category"])
+        clean.append(record)
 
     # Stable IDs grouped by unit.
     counters = Counter()
