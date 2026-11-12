@@ -1,6 +1,6 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111an';
-import { mergeStore } from './store.js?v=20261111an';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ao';
+import { mergeStore } from './store.js?v=20261111ao';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -48,7 +48,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111an';
+const DATA_VERSION = '20261111ao';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -630,7 +630,9 @@ function renderExamQuestion() {
   const { qual, format, unit, questions, index, answers } = examState;
   const q = questions[index];
   const selected = answers[q.id];
-  const palette = questions.map((item, i) => `<button class="palette-button ${answers[item.id] !== undefined ? 'answered' : ''}" type="button" data-index="${i}" aria-current="${i === index ? 'true' : 'false'}" aria-label="Question ${i + 1}${answers[item.id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('');
+  // One tab stop for the whole map; arrow keys move between questions. Tabbing
+  // through 72 buttons to reach the rest of the page is not usable.
+  const palette = questions.map((item, i) => `<button class="palette-button ${answers[item.id] !== undefined ? 'answered' : ''}" type="button" data-index="${i}" tabindex="${i === index ? '0' : '-1'}" aria-current="${i === index ? 'true' : 'false'}" aria-label="Question ${i + 1}${answers[item.id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('');
   const options = q.options.map((option, i) => `<button class="answer-option" type="button" data-exam-answer="${i}" aria-pressed="${selected === i}"><span class="answer-key">${String.fromCharCode(65 + i)}</span><span>${esc(option)}</span></button>`).join('');
   $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">${esc(unit.name)}</p><h1>${esc(questions.length)}-question mock paper.</h1><div class="exam-meta"><span class="pill timer" id="exam-timer">${formatTime(examState.endsAt - Date.now())}</span><span class="pill">${format.pass_mark}% mock pass · ${requiredMarks(questions.length, format.pass_mark)}/${questions.length}${examState.confirmed ? '' : ' · format unconfirmed'}</span><span class="pill">${questions.length} available${questions.length < format.questions ? ` · ${format.questions - questions.length} short` : ''}</span></div></div><div class="exam-head-actions"><button class="button button-ghost button-small" type="button" id="abandon-exam">Abandon paper</button><button class="button button-danger" type="button" id="submit-exam">Submit paper</button></div></div><div class="exam-layout"><div><div class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>Question ${index + 1} of ${questions.length}</strong></span><span class="meta">No feedback until submission</span></div><h2 class="question-stem" tabindex="-1">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div><div class="exam-actions"><button class="button button-ghost" type="button" id="prev-exam" ${index === 0 ? 'disabled' : ''}>← Previous</button><button class="button button-primary" type="button" id="next-exam">${index + 1 === questions.length ? 'Submit paper' : 'Next question →'}</button></div><p class="exam-note">Answers are not saved as study progress until you submit. The timer runs for the paper length shown above.</p></div></div></div><aside class="exam-palette"><h2>Question map</h2><div class="palette-grid">${palette}</div><p class="exam-note">${Object.keys(answers).length} of ${questions.length} answered</p><button class="button button-ghost" type="button" id="submit-exam-side" style="width:100%;margin-top:12px">Submit paper</button></aside></div></div></section>`;
   $$('[data-exam-answer]').forEach((button) => button.addEventListener('click', () => {
@@ -638,6 +640,27 @@ function renderExamQuestion() {
     renderExamQuestion();
     setTimeout(() => $('#next-exam')?.focus(), 0);
   }));
+  const paletteButtons = $$('[data-index]');
+  const paletteGrid = $('.palette-grid');
+  paletteGrid?.addEventListener('keydown', (event) => {
+    const current = paletteButtons.indexOf(event.target);
+    if (current === -1) return;
+    const columns = (getComputedStyle(paletteGrid).gridTemplateColumns.match(/\S+/g) || []).length || 1;
+    const last = paletteButtons.length - 1;
+    const moves = {
+      ArrowRight: Math.min(last, current + 1),
+      ArrowLeft: Math.max(0, current - 1),
+      ArrowDown: Math.min(last, current + columns),
+      ArrowUp: Math.max(0, current - columns),
+      Home: 0,
+      End: last
+    };
+    if (!(event.key in moves)) return;
+    event.preventDefault();
+    const target = moves[event.key];
+    paletteButtons.forEach((button, i) => button.setAttribute('tabindex', i === target ? '0' : '-1'));
+    paletteButtons[target].focus();
+  });
   $$('[data-index]').forEach((button) => button.addEventListener('click', () => { examState.index = Number(button.dataset.index); renderExamQuestion(); requestAnimationFrame(focusQuestionStem); }));
   $('#prev-exam')?.addEventListener('click', () => { examState.index = Math.max(0, examState.index - 1); renderExamQuestion(); requestAnimationFrame(focusQuestionStem); });
   $('#next-exam')?.addEventListener('click', () => { if (examState.index + 1 < questions.length) { examState.index += 1; renderExamQuestion(); requestAnimationFrame(focusQuestionStem); } else { submitExam(); } });
