@@ -14,7 +14,7 @@ Generated from the exported bank. 407 questions; 109 flagged for review; 40 sour
 | DS-U2 | 60 | 0 | 17 |
 | SG-REF | 20 | 16 | 2 |
 | SO-U2 | 60 | 42 | 11 |
-| U1-COMMON | 72 | 28 | 22 |
+| U1-COMMON | 72 | 26 | 22 |
 | U3-CONFLICT | 30 | 8 | 0 |
 | U4-PI | 30 | 2 | 30 |
 
