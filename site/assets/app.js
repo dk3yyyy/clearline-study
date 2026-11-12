@@ -1,6 +1,6 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261112aq';
-import { mergeStore } from './store.js?v=20261112aq';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261112ar';
+import { mergeStore } from './store.js?v=20261112ar';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -35,7 +35,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261112aq';
+const DATA_VERSION = '20261112ar';
 const EXAM_KEY = 'shiftready-exam-v1';
 const PRACTICE_KEY = 'shiftready-practice-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {}, reportsClearedAt: '' };
@@ -196,6 +196,14 @@ function progressBar(pct, label = '') {
 }
 
 function questionById(id) { return DATA.questions.find((q) => q.id === id); }
+
+function isObjectiveQuote(question) {
+  const obj = objectiveFor(question);
+  return Boolean(obj && normaliseText(question.source_quote) === normaliseText(obj.objective.text));
+}
+function objectiveQuoteCount(questions) {
+  return (questions || []).filter(isObjectiveQuote).length;
+}
 
 function objectiveFor(question) {
   for (const unit of Object.values(DATA.syllabus.units)) {
@@ -671,14 +679,15 @@ function renderExam(qualId) {
     return;
   }
   const confirmed = !/^unconfirmed|confirm against/i.test(config.source || '');
+  const objectiveOnly = objectiveQuoteCount(qualQuestions(qual));
   const rows = config.units.map((format) => {
     const unit = unitById(format.unit);
     const available = unitQuestions(format.unit).length;
     const actual = Math.min(format.questions, available);
     const needed = requiredMarks(actual, format.pass_mark, format.pass_answers, format.questions);
-    return `<tr><td data-label="Unit">${esc(unit?.name || format.unit)}</td><td data-label="Published">${format.questions}</td><td data-label="This mock"><strong>${actual}</strong>${available < format.questions ? ' <span class="pill">short bank</span>' : ''}</td><td data-label="Time">${format.minutes} min</td><td data-label="Pass">${format.pass_mark}% <span class="small-note">${actual ? `${needed}/${actual}` : '—'}</span></td><td data-label="Action"><button class="button button-primary button-small" type="button" data-start="${format.unit}" ${actual ? '' : 'disabled'}>${actual ? `Start ${esc(shortUnitName(format.unit, format.unit))}` : 'No questions yet'}</button></td></tr>`;
+    return `<tr><td data-label="Unit">${esc(unit?.name || format.unit)}</td><td data-label="Published">${format.questions}</td><td data-label="This mock"><strong>${actual}</strong>${available < format.questions ? ` <span class="pill">short bank · needs ${format.questions - available} more</span>` : ''}</td><td data-label="Time">${format.minutes} min</td><td data-label="Pass">${format.pass_mark}% <span class="small-note">${actual ? `${needed}/${actual}` : '—'}</span></td><td data-label="Action"><button class="button button-primary button-small" type="button" data-start="${format.unit}" ${actual ? '' : 'disabled'}>${actual ? `Start ${esc(shortUnitName(format.unit, format.unit))}` : 'No questions yet'}</button></td></tr>`;
   }).join('');
-  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">Mock paper</p><h1>Choose a paper.</h1><p>Choose a unit. The timer starts with the paper. Answers are not marked until you submit; the result shows unit and objective totals.</p><div class="exam-meta"><span class="pill">${config.units.length} paper${config.units.length === 1 ? '' : 's'}</span><span class="pill">No feedback until you submit</span><span class="pill">${confirmed ? 'Pass mark from the source' : 'Pass mark: format unconfirmed'}</span></div></div></div><div class="exam-warning">${esc(config.source)}. Where a question bank is shorter than the published paper, the mock shows the available count before you start. The bank is still in draft, so check the source before relying on an answer.</div><div class="side-card"><div class="table-scroll"><table class="source-list"><caption class="visually-hidden">Mock papers by unit</caption><thead><tr><th scope="col" style="text-align:left">Unit</th><th scope="col">Published</th><th scope="col">This mock</th><th scope="col">Time</th><th scope="col">Pass</th><th scope="col"><span class="visually-hidden">Action</span></th></tr></thead><tbody>${rows}</tbody></table></div><p class="small-note" style="margin-top:12px">${confirmed ? 'Time matches the published paper. The pass column shows the exact correct answers needed for the questions in this paper.' : 'The paper format for this qualification is unconfirmed. Treat the timer and pass mark as study settings.'} A short bank is labelled before you start.</p></div></div></section>`;
+  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">Mock paper</p><h1>Choose a paper.</h1><p>Choose a unit. The timer starts with the paper. Answers are not marked until you submit; the result shows unit and objective totals.</p><div class="exam-meta"><span class="pill">${config.units.length} paper${config.units.length === 1 ? '' : 's'}</span><span class="pill">No feedback until you submit</span><span class="pill">${confirmed ? 'Pass mark from the source' : 'Pass mark: format unconfirmed'}</span></div></div></div><div class="exam-warning">${esc(config.source)}. Where a question bank is shorter than the published paper, the mock shows the available count before you start. ${objectiveOnly ? `${objectiveOnly} of the ${qualQuestions(qual).length} questions in this bank still quote the syllabus objective rather than a passage that proves the answer.` : ''} The bank is still in draft, so check the source before relying on an answer.</div><div class="side-card"><div class="table-scroll"><table class="source-list"><caption class="visually-hidden">Mock papers by unit</caption><thead><tr><th scope="col" style="text-align:left">Unit</th><th scope="col">Published</th><th scope="col">This mock</th><th scope="col">Time</th><th scope="col">Pass</th><th scope="col"><span class="visually-hidden">Action</span></th></tr></thead><tbody>${rows}</tbody></table></div><p class="small-note" style="margin-top:12px">${confirmed ? 'Time matches the published paper. The pass column shows the exact correct answers needed for the questions in this paper.' : 'The paper format for this qualification is unconfirmed. Treat the timer and pass mark as study settings.'} A short bank is labelled before you start.</p></div></div></section>`;
   $$('[data-start]').forEach((button) => button.addEventListener('click', () => startExam(qual, button.dataset.start)));
 }
 
@@ -844,6 +853,7 @@ function renderExamResult() {
   const pct = Math.round((correct / questions.length) * 100);
   const needed = requiredMarks(questions.length, examState.format.pass_mark, examState.format.pass_answers, examState.format.questions);
   const passed = hasPassed(correct, questions.length, examState.format.pass_mark, examState.format.pass_answers, examState.format.questions);
+  const objectiveOnly = objectiveQuoteCount(questions);
   const unitRows = Object.entries(marked.byUnit).map(([id, value]) => `<li><span>${esc(unitById(id)?.name || id)}</span><span>${value.correct}/${value.total}</span></li>`).join('');
   const objectiveEntries = Object.entries(marked.byObjective).sort((a, b) => (a[1].correct / a[1].total) - (b[1].correct / b[1].total));
   const objectiveRows = objectiveEntries.filter(([, value]) => value.correct < value.total).slice(0, 6).map(([id, value]) => {
@@ -860,8 +870,26 @@ function renderExamResult() {
     const ok = selected === q.answer_index;
     return `<div class="review-item"><h3>${i + 1}. ${esc(q.stem)}</h3><p class="${ok ? 'review-answer' : 'review-wrong'}">${ok ? 'Correct' : `Your answer: ${selected === undefined ? 'not answered' : esc(q.options[selected])}`}</p>${ok ? '' : `<p>Correct answer: ${esc(q.options[q.answer_index])}</p>`}<p>${esc(q.explanation)}</p></div>`;
   }).join('');
-  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="result-head"><div class="score-ring" style="--score:${pct}"><strong>${pct}%</strong><span>${correct} of ${questions.length}</span></div><div class="result-copy"><p class="kicker">${esc(unit.name)} · mock result</p><h1>${passed ? 'Above the mock pass mark.' : 'Below the mock pass mark.'}</h1><p>${passed ? `This attempt is above the ${examState.format.pass_mark}% pass mark used for this mock (${needed} of ${questions.length}).` : `This mock uses a ${examState.format.pass_mark}% pass mark: ${needed} of ${questions.length}. Review the paper and the objectives below.`}${questions.length < examState.format.questions ? ` This paper had ${questions.length} of the ${examState.format.questions} published questions, so the result is not comparable with an SIA exam result.` : ''}${examState.confirmed ? '' : ' The paper format is unconfirmed, so this is not a published exam result.'} Draft questions; this is not an SIA assessment.</p><div class="question-foot"><a class="button button-primary" href="${href(`practice/${qual.id}?unit=${unit.id}`)}">Practice this unit</a><button class="button button-ghost" type="button" id="clear-exam">Choose another paper</button></div></div></div><div class="result-grid"><div class="result-block"><h2>By unit</h2><ul class="breakdown-list">${unitRows}</ul><h2 style="margin-top:22px">Objectives to revisit</h2>${revisitCount ? `<p class="small-note">${Math.min(6, revisitCount)} of ${revisitCount} objectives shown.</p><ul class="breakdown-list">${objectiveRows}</ul>${revisitCount > 6 ? `<details class="objective-details"><summary>Show all ${revisitCount} objectives</summary><ul class="breakdown-list">${allObjectiveRows}</ul></details>` : ''}` : '<p>No objectives to revisit. Every marked answer was correct.</p>'}</div><div class="result-block"><h2>Next step</h2>${revisitCount ? `<p>Questions you answered incorrectly are saved for review. The paper review below shows the correct answer and explanation for every question.</p><a class="text-link" href="${href('weak')}">Open weak spots →</a>` : `<p>You answered every question correctly. Try another paper or return to the syllabus to keep the material fresh.</p><a class="text-link" href="${href(`practice/${qual.id}?unit=${unit.id}`)}">Practice this unit again →</a>`}</div></div><div class="review-list"><div class="section-heading"><div><p class="section-label">Review</p><h2>Every question.</h2></div><p>Explanations and source quotations are in practice mode. Open the syllabus if you need more context.</p></div>${review}</div></div></section>`;
+  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="result-head"><div class="score-ring" style="--score:${pct}"><strong>${pct}%</strong><span>${correct} of ${questions.length}</span></div><div class="result-copy"><p class="kicker">${esc(unit.name)} · mock result</p><h1>${passed ? 'Above the mock pass mark.' : 'Below the mock pass mark.'}</h1><p>${passed ? `This attempt is above the ${examState.format.pass_mark}% pass mark used for this mock (${needed} of ${questions.length}).` : `This mock uses a ${examState.format.pass_mark}% pass mark: ${needed} of ${questions.length}. Review the paper and the objectives below.`}${questions.length < examState.format.questions ? ` This paper had ${questions.length} of the ${examState.format.questions} published questions, so the result is not comparable with an SIA exam result.` : ''}${examState.confirmed ? '' : ' The paper format is unconfirmed, so this is not a published exam result.'} ${objectiveOnly ? `${objectiveOnly} of the ${questions.length} questions in this paper use the syllabus objective as their source reference rather than a quotation that proves the answer.` : ''} Draft questions; this is not an SIA assessment.</p><div class="question-foot"><a class="button button-primary" href="${href(`practice/${qual.id}?unit=${unit.id}`)}">Practice this unit</a><button class="button button-ghost" type="button" id="clear-exam">Choose another paper</button></div></div></div><div class="result-grid"><div class="result-block"><h2>By unit</h2><ul class="breakdown-list">${unitRows}</ul><h2 style="margin-top:22px">Objectives to revisit</h2>${revisitCount ? `<p class="small-note">${Math.min(6, revisitCount)} of ${revisitCount} objectives shown.</p><ul class="breakdown-list">${objectiveRows}</ul>${revisitCount > 6 ? `<details class="objective-details"><summary>Show all ${revisitCount} objectives</summary><ul class="breakdown-list">${allObjectiveRows}</ul></details>` : ''}` : '<p>No objectives to revisit. Every marked answer was correct.</p>'}</div><div class="result-block"><h2>Next step</h2>${revisitCount ? `<p>Questions you answered incorrectly are saved for review. The paper review below shows the correct answer and explanation for every question.</p><a class="text-link" href="${href('weak')}">Open weak spots →</a>` : `<p>You answered every question correctly. Try another paper or return to the syllabus to keep the material fresh.</p><a class="text-link" href="${href(`practice/${qual.id}?unit=${unit.id}`)}">Practice this unit again →</a>`}</div></div><div class="review-list"><div class="section-heading"><div><p class="section-label">Review</p><h2>Every question.</h2></div><p>Explanations and source quotations are in practice mode. Open the syllabus if you need more context.</p></div>${review}</div></div></section>`;
   $('#clear-exam')?.addEventListener('click', () => { abandonExam(); renderExam(qual.id); });
+  setTimeout(normaliseLandmarks, 0);
+  setTimeout(() => { const heading = $('#app h1'); if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus(); } }, 0);
+}
+
+function renderAttempt(attemptId) {
+  const attempt = store.attempts.find((item) => item.id === attemptId);
+  if (!attempt) return renderNotFound();
+  setActiveNav('');
+  const questions = (attempt.questionIds || []).map(questionById).filter(Boolean);
+  const answers = attempt.answers || {};
+  const pct = attempt.total ? Math.round((attempt.correct / attempt.total) * 100) : 0;
+  const needsQuestions = !questions.length;
+  const review = questions.map((q, i) => {
+    const selected = answers[q.id];
+    const ok = selected === q.answer_index;
+    return `<div class="review-item"><h3>${i + 1}. ${esc(q.stem)}</h3><p class="${ok ? 'review-answer' : 'review-wrong'}">${ok ? 'Correct' : `Your answer: ${selected === undefined ? 'not answered' : esc(q.options[selected])}`}</p>${ok ? '' : `<p>Correct answer: ${esc(q.options[q.answer_index])}</p>`}<p>${esc(q.explanation)}</p></div>`;
+  }).join('');
+  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href('reports')}">Question reports</a><span>/</span><span>Attempt review</span></div><div class="result-head"><div class="score-ring" style="--score:${pct}"><strong>${pct}%</strong><span>${attempt.correct} of ${attempt.total}</span></div><div class="result-copy"><p class="kicker">${esc(shortUnitName(attempt.unit, attempt.unit))} · saved attempt</p><h1>Attempt review.</h1><p>${esc(new Date(attempt.date).toLocaleString())} · ${attempt.correct}/${attempt.total} · ${pct}%${needsQuestions ? ' · This older attempt has no saved question list.' : ''}</p><div class="question-foot"><a class="button button-primary" href="${href(`practice/${attempt.qual}?unit=${attempt.unit}`)}">Practice this unit</a><a class="button button-ghost" href="${href('reports')}">Back to reports</a></div></div></div>${needsQuestions ? '' : `<div class="result-block"><h2>Questions</h2><div class="review-list">${review}</div></div>`}</div></section>`;
   setTimeout(normaliseLandmarks, 0);
   setTimeout(() => { const heading = $('#app h1'); if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus(); } }, 0);
 }
@@ -886,7 +914,7 @@ function renderReports() {
   const rows = store.reports.map((r) => `<div class="list-row"><div><h3>${esc(r.questionId)}</h3><p>${esc(r.reason)} · ${esc(new Date(r.at).toLocaleString())}${r.note ? ` · ${esc(r.note)}` : ''}</p></div><div class="list-row-actions"><span class="pill">${esc(r.unit || '')}</span></div></div>`).join('');
   const attemptRows = store.attempts.slice(0, 8).map((attempt) => {
     const score = attempt.total ? Math.round((attempt.correct / attempt.total) * 100) : 0;
-    return `<div class="list-row"><div><h3>${esc(attempt.qual)} · ${esc(shortUnitName(attempt.unit, attempt.unit))}</h3><p>${score}% · ${attempt.correct}/${attempt.total} · ${esc(new Date(attempt.date).toLocaleString())}</p></div><div class="list-row-actions"><span class="pill">${score >= (attempt.passMark || 70) ? 'above pass mark' : 'below pass mark'}</span></div></div>`;
+    return `<div class="list-row"><div><h3>${esc(attempt.qual)} · ${esc(shortUnitName(attempt.unit, attempt.unit))}</h3><p>${score}% · ${attempt.correct}/${attempt.total} · ${esc(new Date(attempt.date).toLocaleString())}</p></div><div class="list-row-actions"><span class="pill">${score >= (attempt.passMark || 70) ? 'above pass mark' : 'below pass mark'}</span><a class="text-link" href="${href(`attempt/${attempt.id}`)}">Review</a></div></div>`;
   }).join('');
   $('#app').innerHTML = `<section class="page-head"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><span>Question reports</span></div><div class="page-head-grid"><div><p class="kicker">Question quality</p><h1>Question reports.</h1><p>Reports stay in this browser until you export them. Nothing is sent anywhere automatically. Export the JSON if you want to keep or share a copy.</p></div><aside class="page-head-aside"><dl class="qual-stats"><div><dt>Saved reports</dt><dd>${store.reports.length}</dd></div><div><dt>Storage</dt><dd>Local</dd></div></dl><button class="button button-primary" type="button" id="export-reports" ${store.reports.length ? '' : 'disabled'}>Export JSON</button><button class="button button-ghost" type="button" id="clear-reports" ${store.reports.length ? '' : 'disabled'} style="margin-top:8px">Clear reports</button></aside></div></div></section><section class="page-section"><div class="shell">${rows ? `<div class="list-page">${rows}</div>` : '<div class="empty-card"><h2>Nothing reported.</h2><p>Use “Report an issue” under any practice question.</p></div>'}</div></section><section class="page-section"><div class="shell"><div class="section-heading"><div><h2>Recent mock attempts.</h2></div><p>Stored in this browser. The review list only keeps the questions you answered incorrectly.</p></div>${attemptRows ? `<div class="list-page">${attemptRows}</div>` : '<p class="empty-note">No mock attempts yet.</p>'}</div></section>`;
   $('#export-reports')?.addEventListener('click', () => {
@@ -1160,7 +1188,7 @@ function render() {
   setTimeout(normaliseLandmarks, 0);
   const { path } = routeParts();
   const [section, id] = path;
-  const labels = { '': 'Home', qual: 'Qualification overview', learn: 'Syllabus', practice: 'Practice', exam: 'Mock paper', checklists: 'Practical checklist', weak: 'Weak spots', reports: 'Question reports', about: 'About the sources' };
+  const labels = { '': 'Home', qual: 'Qualification overview', learn: 'Syllabus', practice: 'Practice', exam: 'Mock paper', checklists: 'Practical checklist', weak: 'Weak spots', reports: 'Question reports', about: 'About the sources', attempt: 'Attempt review' };
   const qual = id ? qualById(id) : null;
   document.title = `${labels[section || ''] || 'Page not found'}${qual ? ` · ${qual.id}` : ''} · ShiftReady`;
   if (!section) return renderHome();
@@ -1171,6 +1199,7 @@ function render() {
   if (section === 'checklists') return renderChecklists(id || 'DS');
   if (section === 'weak') return renderWeak();
   if (section === 'reports') return renderReports();
+  if (section === 'attempt') return renderAttempt(id || '');
   if (section === 'about') return renderAbout();
   return renderNotFound();
 }

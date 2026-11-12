@@ -1,20 +1,20 @@
 /* ShiftReady offline shell. Bump CACHE when the app version changes. */
-const CACHE = 'shiftready-20261112aq';
+const CACHE = 'shiftready-20261112ar';
 const SHELL = [
   './',
   './index.html',
-  './assets/styles.css?v=20261112aq',
-  './assets/shiftready.css?v=20261112aq',
-  './assets/app.js?v=20261112aq',
-  './assets/store.js?v=20261112aq',
-  './assets/scoring.js?v=20261112aq',
-  './assets/favicon.svg?v=20261112aq',
+  './assets/styles.css?v=20261112ar',
+  './assets/shiftready.css?v=20261112ar',
+  './assets/app.js?v=20261112ar',
+  './assets/store.js?v=20261112ar',
+  './assets/scoring.js?v=20261112ar',
+  './assets/favicon.svg?v=20261112ar',
   './assets/icon-192.png',
   './assets/icon-512.png',
-  './data/syllabus.json?v=20261112aq',
-  './data/exam_formats.json?v=20261112aq',
-  './data/questions.json?v=20261112aq',
-  './data/checklists.json?v=20261112aq'
+  './data/syllabus.json?v=20261112ar',
+  './data/exam_formats.json?v=20261112ar',
+  './data/questions.json?v=20261112ar',
+  './data/checklists.json?v=20261112ar'
 ];
 
 self.addEventListener('install', (event) => {
