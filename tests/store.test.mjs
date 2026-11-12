@@ -57,6 +57,21 @@ test('studied and checklist flags union; the saving tab wins a conflict', () => 
   assert.deepEqual(merged.checklist, { c1: true, c2: true });
 });
 
+test('a clear marker removes older reports from both tabs', () => {
+  const oldReport = { questionId: 'q1', at: '2026-01-01T10:00:00.000Z', reason: 'typo' };
+  const newerReport = { questionId: 'q2', at: '2026-01-01T12:00:00.000Z', reason: 'typo' };
+  const cleared = { reports: [], reportsClearedAt: '2026-01-01T11:00:00.000Z' };
+  const merged = mergeStore(cleared, { reports: [oldReport, newerReport], reportsClearedAt: '' });
+  assert.deepEqual(merged.reports.map((r) => r.questionId), ['q2']);
+  assert.equal(merged.reportsClearedAt, '2026-01-01T11:00:00.000Z');
+});
+
+test('merging tolerates malformed report and attempt fields', () => {
+  const merged = mergeStore({ reports: {}, attempts: {} }, { reports: {}, attempts: {} });
+  assert.deepEqual(merged.reports, []);
+  assert.deepEqual(merged.attempts, []);
+});
+
 test('merging tolerates empty or missing stores', () => {
   assert.deepEqual(mergeStore({}, {}).answers, {});
   assert.deepEqual(mergeStore(undefined, undefined).attempts, []);

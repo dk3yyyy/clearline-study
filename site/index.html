@@ -5,8 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0B1220" />
   <meta name="description" content="Independent, source-linked syllabus maps and practice questions for SIA licence-linked qualifications." />
-  <script>try { const t = localStorage.getItem('theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; } catch (e) {}</script>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'self'" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ShiftReady | SIA syllabus and practice" />
+  <meta property="og:description" content="Independent syllabus maps, source links and practice questions for SIA licence-linked qualifications." />
+  <meta property="og:url" content="https://dk3yyyy.github.io/clearline-study/" />
+  <meta property="og:image" content="https://dk3yyyy.github.io/clearline-study/assets/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ShiftReady | SIA syllabus and practice" />
+  <meta name="twitter:description" content="Independent syllabus maps, source links and practice questions for SIA licence-linked qualifications." />
+  <meta name="twitter:image" content="https://dk3yyyy.github.io/clearline-study/assets/og.png" />
+  <script>try { const t = localStorage.getItem('theme'); if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t; const s = localStorage.getItem('textSize'); if (['112','125'].includes(s)) document.documentElement.dataset.textSize = s; } catch (e) {}</script>
   <title>ShiftReady | SIA syllabus and practice</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="assets/icon-192.png" />
   <link rel="icon" href="assets/favicon.svg?v=20261111ao" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,10 +39,13 @@
         <a href="#/learn/DS" data-nav="learn">Syllabus</a>
         <a href="#/practice/DS" data-nav="practice">Practice</a>
         <a href="#/exam/DS" data-nav="exam">Mock papers</a>
-        <a href="#/weak" data-nav="weak">Review</a>
+        <a href="#/weak" data-nav="weak">Weak spots</a>
       </nav>
       <div class="topbar-actions">
         <button class="mobile-menu" id="mobile-menu" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <button class="icon-button" id="settings-toggle" type="button" aria-label="Open settings" title="Settings">
+          <span aria-hidden="true">⚙</span>
+        </button>
         <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch theme">
           <span class="theme-icon" aria-hidden="true">☾</span>
         </button>
@@ -50,9 +65,9 @@
         <p class="footer-note">ShiftReady is an independent study site for the SIA licence-linked qualifications. Read the syllabus, check the source, and use the practice and mock questions to find gaps.</p>
       </div>
       <div class="footer-links">
-        <a href="#/learn/DS">Syllabus</a><a href="#/practice/DS">Practice</a><a href="#/exam/DS">Mock papers</a><a href="#/reports">Question reports</a><a href="#/about">About the sources</a>
+        <a href="#/learn/DS">Syllabus</a><a href="#/practice/DS">Practice</a><a href="#/exam/DS">Mock papers</a><a href="#/reports">Question reports</a><a href="#/about">About the sources</a><a href="styleguide.html">Styleguide</a>
       </div>
-      <p class="footer-legal">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noreferrer">Open Government Licence v3.0</a>. Sources include the Security Industry Authority, Home Office, legislation.gov.uk, Health and Safety Executive and Information Commissioner’s Office. The current question bank draws on those sources. This site is not endorsed by or affiliated with the SIA or any awarding organisation. Physical intervention techniques must be learned from a qualified trainer. <span data-year>2026</span>.</p>
+      <p class="footer-legal">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noreferrer">Open Government Licence v3.0</a>. Sources include the Security Industry Authority, Home Office, legislation.gov.uk, Health and Safety Executive and Information Commissioner’s Office. The current question bank draws on those sources. This site is not endorsed by or affiliated with the SIA or any awarding organisation. Physical intervention techniques must be learned from a qualified trainer. Content reviewed 11 November 2026.</p>
     </div>
   </footer>
 
@@ -65,11 +80,11 @@
   </dialog>
 
   <dialog class="report-dialog" id="report-dialog" aria-labelledby="report-title">
-    <form method="dialog" id="report-form">
+    <form method="dialog" id="report-form" novalidate>
       <div class="dialog-head"><div><p class="mini-label">Question feedback</p><h2 id="report-title">Report an issue</h2></div><button class="icon-button" value="cancel" type="submit" formnovalidate aria-label="Close report form">×</button></div>
       <p id="report-question" class="report-question"></p>
       <label for="report-reason">What is wrong?</label>
-      <select id="report-reason" required>
+      <select id="report-reason" required aria-describedby="report-reason-error">
         <option value="">Choose a reason</option>
         <option value="wrong-answer">The answer key is wrong</option>
         <option value="unsupported">The source does not support the answer</option>
@@ -77,13 +92,25 @@
         <option value="typo">Typo or unclear wording</option>
         <option value="other">Something else</option>
       </select>
+      <p id="report-reason-error" class="field-error" role="alert" hidden>Choose a reason before saving the report.</p>
       <label for="report-note">Optional note</label>
       <textarea id="report-note" rows="3" placeholder="What should be checked?"></textarea>
       <div class="dialog-actions"><button class="button button-ghost" value="cancel" type="submit" formnovalidate>Cancel</button><button class="button button-primary" id="report-send" value="default" type="submit">Save report</button></div>
     </form>
   </dialog>
 
+  <dialog class="report-dialog" id="settings-dialog" aria-labelledby="settings-title">
+    <form method="dialog" id="settings-form">
+      <div class="dialog-head"><div><p class="mini-label">Preferences</p><h2 id="settings-title">Settings</h2></div><button class="icon-button" value="cancel" type="submit" formnovalidate aria-label="Close settings">×</button></div>
+      <div class="field"><label for="settings-theme">Theme</label><select id="settings-theme"><option value="system">Follow the system</option><option value="dark">Dark</option><option value="light">Light</option></select></div>
+      <div class="field"><label for="settings-text">Text size</label><select id="settings-text"><option value="100">100%</option><option value="112">112%</option><option value="125">125%</option></select></div>
+      <div class="settings-reset"><p class="small-note">Progress, reports and checklist ticks are stored only in this browser.</p><button class="button button-ghost" type="button" id="reset-progress">Reset local progress</button></div>
+      <div class="dialog-actions"><button class="button button-primary" value="close" type="submit" formnovalidate>Done</button></div>
+    </form>
+  </dialog>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div id="practice-status" class="visually-hidden" role="status" aria-live="polite"></div>
   <script type="module" src="assets/app.js?v=20261111ao"></script>
 </body>
 </html>
