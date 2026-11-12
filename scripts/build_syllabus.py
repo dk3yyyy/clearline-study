@@ -52,7 +52,7 @@ def parse(text: str):
             stripped = raw.strip()
             if not stripped:
                 continue
-            if re.match(r"^(Appendix|Section\s+\d|Page\s+\d)", stripped, re.I):
+            if re.match(r"^(Appendix|Section\s+\d|Page\s+\d|Scenario situations)", stripped, re.I):
                 break
             bullet = re.match(r"^(\s*)[•\-]\s+(.*)$", raw)
             sub = re.match(r"^(\s*)o\s+(.*)$", raw)
