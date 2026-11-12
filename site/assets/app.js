@@ -1,6 +1,6 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111ak';
-import { mergeStore } from './store.js?v=20261111ak';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111al';
+import { mergeStore } from './store.js?v=20261111al';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -14,6 +14,20 @@ const shuffle = (items) => {
 };
 const unique = (items) => [...new Set(items)];
 const normaliseText = (value) => String(value ?? '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+/* Some objectives are whole scenario lists collapsed into one string — the
+   largest is 3,391 characters, which renders as a 650px wall of text on the
+   syllabus page. Show the opening and let the reader open the rest. */
+function objectiveBody(text) {
+  const raw = String(text ?? '');
+  if (raw.length <= 240) return esc(raw);
+  const head = raw.slice(0, 240).replace(/\s+\S*$/, '');
+  const rest = raw.slice(head.length);
+  return `${esc(head)}…<span class="objective-rest" hidden>${esc(rest)}</span><button class="objective-expand" type="button" aria-expanded="false">Show full objective</button>`;
+}
+const shortObjective = (text, limit = 120) => {
+  const raw = String(text ?? '');
+  return raw.length > limit ? `${raw.slice(0, limit - 1).trimEnd()}…` : raw;
+};
 const storageKey = 'clearline-study-v1';
 const shortUnitName = (id, fallback = '') => ({
   'U1-COMMON': 'U1 · Common', 'DS-U2': 'DS · Unit 2', 'U3-CONFLICT': 'U3 · Conflict', 'U4-PI': 'U4 · Physical intervention',
@@ -21,7 +35,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111ak';
+const DATA_VERSION = '20261111al';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -314,13 +328,21 @@ function renderLearn(qualId) {
     const objectives = session.objectives.map((objective, oi) => {
       const done = !!store.studied[objective.id];
       const hasQuestions = DATA.questions.some((q) => q.objective_id === objective.id);
-      return `<li class="objective"><button class="objective-check" type="button" data-studied="${esc(objective.id)}" aria-pressed="${done}"><span aria-hidden="true">${done ? '✓' : ''}</span><span class="visually-hidden">Mark objective ${oi + 1} studied: ${esc(objective.text)}</span></button><p>${esc(objective.text)}</p><div class="objective-actions">${hasQuestions ? `<a href="${href(`practice/${qual.id}?objective=${objective.id}`)}">Practice</a>` : ''}<a href="${esc(session.source.url)}" target="_blank" rel="noreferrer" aria-label="Open specification: ${esc(session.title)}">Open specification</a></div></li>`;
+      return `<li class="objective"><button class="objective-check" type="button" data-studied="${esc(objective.id)}" aria-pressed="${done}"><span aria-hidden="true">${done ? '✓' : ''}</span><span class="visually-hidden">Mark objective ${oi + 1} studied: ${esc(shortObjective(objective.text))}</span></button><p>${objectiveBody(objective.text)}</p><div class="objective-actions">${hasQuestions ? `<a href="${href(`practice/${qual.id}?objective=${objective.id}`)}">Practice</a>` : ''}<a href="${esc(session.source.url)}" target="_blank" rel="noreferrer" aria-label="Open specification: ${esc(session.title)}">Open specification</a></div></li>`;
     }).join('');
     return `<article class="session-block" id="${esc(session.id)}"><div class="session-title"><span class="session-number">${String(index + 1).padStart(2, '0')}</span><div><h2>${esc(session.title.replace(/^Session\s*\d+[a-c]?\s*:\s*/i, ''))}</h2><p>${esc(session.summary)}</p></div><a class="session-source" href="${esc(session.source.url)}" target="_blank" rel="noreferrer" aria-label="Open specification: ${esc(session.title)}">Open specification</a></div>${session.objectives.length ? `<ul class="objectives">${objectives}</ul>` : unitHasObjectives ? '<p class="empty-inline">No objectives are mapped for this session yet.</p>' : ''}</article>`;
   }).join('');
   const up = unitProgress(activeUnit);
   $('#app').innerHTML = `<section class="page-head"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Syllabus</span></div><div class="page-head-grid"><div><p class="kicker">Syllabus</p><h1>${esc(activeUnit.name)}</h1><p>Read the objective, then open the SIA specification to check the detail. Mark it studied when you have read the source.</p></div><aside class="page-head-aside"><dl class="qual-stats"><div><dt>Session</dt><dd>${activeUnit.sessions.length}</dd></div><div><dt>Objectives</dt><dd>${up.objectives}</dd></div><div><dt>Studied</dt><dd>${up.studied}</dd></div><div><dt>Questions</dt><dd>${up.total}</dd></div></dl>${progressBar(up.objectives ? Math.round((up.studied / up.objectives) * 100) : 0, 'Objectives studied')}</aside></div></div></section>
   <section class="page-section"><div class="shell learn-layout"><aside class="learn-nav"><h2>Units</h2>${nav}</aside><div>${unitHasObjectives ? '' : '<p class="empty-inline">The objectives for this unit have not been mapped yet. The session list below links to the specification.</p>'}${sessions || '<div class="empty-inline">No sessions in this unit.</div>'}<p class="source-note">Source: ${sourceLink(activeUnit.sessions[0]?.source)}. Read the source before relying on a summary. The SIA specification is the authority.</p><div class="question-foot"><a class="button button-primary" href="${href(`practice/${qual.id}?unit=${activeUnit.id}`)}">Practice this unit</a><a class="button button-ghost" href="${href(`qual/${qual.id}`)}">Back to overview</a></div></div></div></section>`;
+  $$('.objective-expand').forEach((button) => button.addEventListener('click', () => {
+    const rest = button.previousElementSibling;
+    if (!rest) return;
+    const opening = rest.hidden;
+    rest.hidden = !opening;
+    button.setAttribute('aria-expanded', String(opening));
+    button.textContent = opening ? 'Show less' : 'Show full objective';
+  }));
   $$('[data-studied]').forEach((button) => button.addEventListener('click', () => {
     const id = button.dataset.studied;
     const y = window.scrollY;
@@ -365,7 +387,7 @@ function renderPractice(qualId) {
   const options = units.map((u) => `<option value="${u.id}" ${u.id === selectedUnit ? 'selected' : ''}>${esc(shortUnitName(u.id, u.name))}</option>`).join('');
   $('#app').innerHTML = `<section class="practice-shell"><div class="shell">
     <div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Practice</span></div>
-    <div class="practice-layout"><aside class="practice-aside"><p class="kicker">Practice</p><h1 style="font-size:clamp(2.2rem,4vw,3.6rem);margin-bottom:15px">Practice questions.</h1><p class="small-note" style="margin-bottom:22px">Answer at your own pace. Each answer shows an explanation and the source it came from. No timer.</p><div class="field"><label for="practice-unit">Unit</label><select id="practice-unit"><option value="">All units</option>${options}</select></div>${objectiveText ? `<p class="small-note objective-chip">Objective: ${esc(objectiveText)} <a href="${href(`practice/${qual.id}`)}">Clear</a></p>` : ''}${mode === 'weak' ? '<p class="empty-inline">Questions you answered incorrectly</p>' : ''}<button class="button button-primary" id="start-practice" type="button" ${poolSize ? '' : 'disabled'}>Start practice</button><a class="button button-ghost" href="${href(`qual/${qual.id}`)}" style="margin-top:8px">Back to overview</a><p class="small-note" style="margin-top:16px">${poolSize ? `${poolSize} question${poolSize === 1 ? '' : 's'} in this filter. Each set uses up to 20 at random.` : 'No questions match this filter yet.'}</p><p class="small-note">Draft questions. Check the cited source and report an error if the answer is wrong.</p></aside><div id="practice-stage"><div class="empty-card"><h2>Choose a unit to start.</h2><p>Each set has up to 20 questions. Your answers are saved in this browser.</p></div></div></div>
+    <div class="practice-layout"><aside class="practice-aside"><p class="kicker">Practice</p><h1 style="font-size:clamp(2.2rem,4vw,3.6rem);margin-bottom:15px">Practice questions.</h1><p class="small-note" style="margin-bottom:22px">Answer at your own pace. Each answer shows an explanation and the source it came from. No timer.</p><div class="field"><label for="practice-unit">Unit</label><select id="practice-unit"><option value="">All units</option>${options}</select></div>${objectiveText ? `<p class="small-note objective-chip">Objective: ${esc(shortObjective(objectiveText, 160))} <a href="${href(`practice/${qual.id}`)}">Clear</a></p>` : ''}${mode === 'weak' ? '<p class="empty-inline">Questions you answered incorrectly</p>' : ''}<button class="button button-primary" id="start-practice" type="button" ${poolSize ? '' : 'disabled'}>Start practice</button><a class="button button-ghost" href="${href(`qual/${qual.id}`)}" style="margin-top:8px">Back to overview</a><p class="small-note" style="margin-top:16px">${poolSize ? `${poolSize} question${poolSize === 1 ? '' : 's'} in this filter. Each set uses up to 20 at random.` : 'No questions match this filter yet.'}</p><p class="small-note">Draft questions. Check the cited source and report an error if the answer is wrong.</p></aside><div id="practice-stage"><div class="empty-card"><h2>Choose a unit to start.</h2><p>Each set has up to 20 questions. Your answers are saved in this browser.</p></div></div></div>
   </div></section>`;
   $('#start-practice').addEventListener('click', () => {
     const unit = $('#practice-unit')?.value || '';
