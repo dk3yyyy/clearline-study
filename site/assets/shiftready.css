@@ -246,10 +246,12 @@ dl.qual-stats dt { color: var(--muted); }
 .learn-nav a[aria-current="true"] { box-shadow: inset 2px 0 var(--accent); padding-left: 9px; }
 .objective { border-bottom-color: var(--line); }
 .objective p { color: var(--text-2); }
+.objective-rest { white-space: pre-line; }
+.objective-expand { display: inline; margin-left: 4px; padding: 0; border: 0; background: none; color: var(--accent-text); font: inherit; font-size: 13px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.breakdown-list li > span:first-child { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .objective-check { border-color: var(--border-strong); border-radius: 4px; }
 .objective-check[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
-.objective-actions body, .topbar, .site-footer, .question-card, .side-card, .empty-card, .result-head, .result-block, .study-pass, .feedback { transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease; }
-a { color: var(--accent-text); }
+.objective-actions a { color: var(--accent-text); }
 .session-block { border-top-color: var(--border); }
 
 /* Question surfaces */
@@ -273,8 +275,7 @@ a { color: var(--accent-text); }
 .feedback h3 { color: var(--ok); }
 .feedback.bad h3 { color: var(--bad); }
 .feedback .citation { color: var(--text-2); }
-.feedback .citation body, .topbar, .site-footer, .question-card, .side-card, .empty-card, .result-head, .result-block, .study-pass, .feedback { transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease; }
-a { color: var(--accent-text); }
+.feedback .citation a { color: var(--accent-text); }
 /* Small text links are fine with a mouse and fiddly with a thumb. */
 .feedback .citation a, .footer-links a, .report-link { display: inline-flex; align-items: center; min-height: 44px; }
 .footer-links { gap: 0; }
@@ -330,8 +331,7 @@ a { color: var(--accent-text); }
 /* Footer and dialogs */
 .site-footer { border-top-color: var(--line); background: var(--bg); }
 .footer-note, .footer-links a, .footer-legal { color: var(--muted); }
-.footer-legal body, .topbar, .site-footer, .question-card, .side-card, .empty-card, .result-head, .result-block, .study-pass, .feedback { transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease; }
-a { color: var(--accent-text); }
+.footer-legal a { color: var(--accent-text); }
 .report-dialog { background: var(--surface); border-color: var(--border); color: var(--text); }
 .report-dialog select, .report-dialog textarea { background: var(--bg-alt); border-color: var(--border-option); color: var(--text); }
 .toast { background: var(--accent); color: var(--on-accent); }
