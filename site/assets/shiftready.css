@@ -246,6 +246,8 @@ dl.qual-stats dt { color: var(--muted); }
 .learn-nav a[aria-current="true"] { box-shadow: inset 2px 0 var(--accent); padding-left: 9px; }
 .objective { border-bottom-color: var(--line); }
 .objective p { color: var(--text-2); }
+.question-stem { scroll-margin-top: 88px; }
+.question-card { scroll-margin-top: 88px; }
 .objective-rest { white-space: pre-line; }
 .objective-expand { display: inline; margin-left: 4px; padding: 0; border: 0; background: none; color: var(--accent-text); font: inherit; font-size: 13px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .breakdown-list li > span:first-child { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }

@@ -24,6 +24,19 @@ function objectiveBody(text) {
   const rest = raw.slice(head.length);
   return `${esc(head)}…<span class="objective-rest" hidden>${esc(rest)}</span><button class="objective-expand" type="button" aria-expanded="false">Show full objective</button>`;
 }
+/* After the stage is replaced the focused button no longer exists, so focus
+   falls back to <body> and a keyboard user has to tab from the top again. */
+function focusQuestionStem() {
+  const stem = $('.question-stem');
+  if (!stem) return;
+  const card = stem.closest('.question-card');
+  stem.focus({ preventScroll: true });
+  if (!card) return;
+  const top = card.getBoundingClientRect().top;
+  // Bring a new question to the top of the viewport, but leave one that is
+  // already in place alone.
+  if (top < 0 || top > 120) card.scrollIntoView({ block: 'start' });
+}
 const shortObjective = (text, limit = 120) => {
   const raw = String(text ?? '');
   return raw.length > limit ? `${raw.slice(0, limit - 1).trimEnd()}…` : raw;
@@ -448,7 +461,7 @@ function renderPracticeQuestion() {
   const obj = objectiveFor(q);
   const source = q.source || (obj ? obj.session.source : null);
   const feedback = revealed ? `<div class="feedback ${selected === correctIndex ? '' : 'bad'}" role="status" aria-live="polite"><h3>${selected === correctIndex ? 'Correct.' : 'Not correct.'}</h3><p>${esc(q.explanation)}</p><p class="citation">${obj && normaliseText(q.source_quote) === normaliseText(obj.objective.text) ? `Syllabus objective: ${esc(q.source_quote)}` : q.source_quote_exact === false ? `Source reference: ${esc(q.source_quote)}` : `Source: “${esc(q.source_quote)}”`} ${source ? `· <a href="${esc(source.url)}" target="_blank" rel="noreferrer">${esc(source.title || source.doc_title)}</a>` : ''}</p></div>` : '';
-  stage.innerHTML = `<article class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>${esc(q.unit)}</strong> · question ${index + 1} of ${questions.length}</span><span class="meta">${esc(shortUnitName(obj?.unit.id, obj?.unit.name || ''))}</span></div><p class="draft-note">Draft question. Check the cited source before relying on it.${q.requires_human_review ? ' <strong>Priority review flag:</strong> this item covers force, drugs, search, restraint or safeguarding.' : ''}</p><h2 class="question-stem">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div>${feedback}<div class="question-foot"><button class="button button-primary" type="button" id="next-practice" ${revealed ? '' : 'disabled'}>${index + 1 === questions.length ? 'Finish set' : 'Next question'} →</button><button class="report-link" type="button" data-report="${esc(q.id)}">Report an issue</button></div></div></article>`;
+  stage.innerHTML = `<article class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>${esc(q.unit)}</strong> · question ${index + 1} of ${questions.length}</span><span class="meta">${esc(shortUnitName(obj?.unit.id, obj?.unit.name || ''))}</span></div><p class="draft-note">Draft question. Check the cited source before relying on it.${q.requires_human_review ? ' <strong>Priority review flag:</strong> this item covers force, drugs, search, restraint or safeguarding.' : ''}</p><h2 class="question-stem" tabindex="-1">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div>${feedback}<div class="question-foot"><button class="button button-primary" type="button" id="next-practice" ${revealed ? '' : 'disabled'}>${index + 1 === questions.length ? 'Finish set' : 'Next question'} →</button><button class="report-link" type="button" data-report="${esc(q.id)}">Report an issue</button></div></div></article>`;
   stage.querySelectorAll('[data-answer]').forEach((button) => {
     button.addEventListener('click', () => {
       if (practiceState.revealed) return;
@@ -469,6 +482,7 @@ function renderPracticeQuestion() {
     renderPracticeQuestion();
   });
   stage.querySelector('[data-report]')?.addEventListener('click', () => openReport(q.id));
+  if (!revealed) requestAnimationFrame(focusQuestionStem);
 }
 
 function saveExamState() {
@@ -614,15 +628,15 @@ function renderExamQuestion() {
   const selected = answers[q.id];
   const palette = questions.map((item, i) => `<button class="palette-button ${answers[item.id] !== undefined ? 'answered' : ''}" type="button" data-index="${i}" aria-current="${i === index ? 'true' : 'false'}" aria-label="Question ${i + 1}${answers[item.id] !== undefined ? ', answered' : ''}">${i + 1}</button>`).join('');
   const options = q.options.map((option, i) => `<button class="answer-option" type="button" data-exam-answer="${i}" aria-pressed="${selected === i}"><span class="answer-key">${String.fromCharCode(65 + i)}</span><span>${esc(option)}</span></button>`).join('');
-  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">${esc(unit.name)}</p><h1>${esc(questions.length)}-question mock paper.</h1><div class="exam-meta"><span class="pill timer" id="exam-timer">${formatTime(examState.endsAt - Date.now())}</span><span class="pill">${format.pass_mark}% mock pass · ${requiredMarks(questions.length, format.pass_mark)}/${questions.length}${examState.confirmed ? '' : ' · format unconfirmed'}</span><span class="pill">${questions.length} available${questions.length < format.questions ? ` · ${format.questions - questions.length} short` : ''}</span></div></div><div class="exam-head-actions"><button class="button button-ghost button-small" type="button" id="abandon-exam">Abandon paper</button><button class="button button-danger" type="button" id="submit-exam">Submit paper</button></div></div><div class="exam-layout"><div><div class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>Question ${index + 1} of ${questions.length}</strong></span><span class="meta">No feedback until submission</span></div><h2 class="question-stem">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div><div class="exam-actions"><button class="button button-ghost" type="button" id="prev-exam" ${index === 0 ? 'disabled' : ''}>← Previous</button><button class="button button-primary" type="button" id="next-exam">${index + 1 === questions.length ? 'Submit paper' : 'Next question →'}</button></div><p class="exam-note">Answers are not saved as study progress until you submit. The timer runs for the paper length shown above.</p></div></div></div><aside class="exam-palette"><h2>Question map</h2><div class="palette-grid">${palette}</div><p class="exam-note">${Object.keys(answers).length} of ${questions.length} answered</p><button class="button button-ghost" type="button" id="submit-exam-side" style="width:100%;margin-top:12px">Submit paper</button></aside></div></div></section>`;
+  $('#app').innerHTML = `<section class="exam-shell"><div class="shell"><div class="breadcrumb"><a href="${href('')}">Home</a><span>/</span><a href="${href(`qual/${qual.id}`)}">${esc(qual.id)}</a><span>/</span><span>Mock paper</span></div><div class="exam-head"><div><p class="kicker">${esc(unit.name)}</p><h1>${esc(questions.length)}-question mock paper.</h1><div class="exam-meta"><span class="pill timer" id="exam-timer">${formatTime(examState.endsAt - Date.now())}</span><span class="pill">${format.pass_mark}% mock pass · ${requiredMarks(questions.length, format.pass_mark)}/${questions.length}${examState.confirmed ? '' : ' · format unconfirmed'}</span><span class="pill">${questions.length} available${questions.length < format.questions ? ` · ${format.questions - questions.length} short` : ''}</span></div></div><div class="exam-head-actions"><button class="button button-ghost button-small" type="button" id="abandon-exam">Abandon paper</button><button class="button button-danger" type="button" id="submit-exam">Submit paper</button></div></div><div class="exam-layout"><div><div class="question-card"><div class="question-card-inner"><div class="question-top"><span class="meta"><strong>Question ${index + 1} of ${questions.length}</strong></span><span class="meta">No feedback until submission</span></div><h2 class="question-stem" tabindex="-1">${esc(q.stem)}</h2><div class="answer-list" role="group" aria-label="Answer options">${options}</div><div class="exam-actions"><button class="button button-ghost" type="button" id="prev-exam" ${index === 0 ? 'disabled' : ''}>← Previous</button><button class="button button-primary" type="button" id="next-exam">${index + 1 === questions.length ? 'Submit paper' : 'Next question →'}</button></div><p class="exam-note">Answers are not saved as study progress until you submit. The timer runs for the paper length shown above.</p></div></div></div><aside class="exam-palette"><h2>Question map</h2><div class="palette-grid">${palette}</div><p class="exam-note">${Object.keys(answers).length} of ${questions.length} answered</p><button class="button button-ghost" type="button" id="submit-exam-side" style="width:100%;margin-top:12px">Submit paper</button></aside></div></div></section>`;
   $$('[data-exam-answer]').forEach((button) => button.addEventListener('click', () => {
     examState.answers[q.id] = Number(button.dataset.examAnswer);
     renderExamQuestion();
     setTimeout(() => $('#next-exam')?.focus(), 0);
   }));
-  $$('[data-index]').forEach((button) => button.addEventListener('click', () => { examState.index = Number(button.dataset.index); renderExamQuestion(); }));
-  $('#prev-exam')?.addEventListener('click', () => { examState.index = Math.max(0, examState.index - 1); renderExamQuestion(); });
-  $('#next-exam')?.addEventListener('click', () => { if (examState.index + 1 < questions.length) { examState.index += 1; renderExamQuestion(); } else { submitExam(); } });
+  $$('[data-index]').forEach((button) => button.addEventListener('click', () => { examState.index = Number(button.dataset.index); renderExamQuestion(); requestAnimationFrame(focusQuestionStem); }));
+  $('#prev-exam')?.addEventListener('click', () => { examState.index = Math.max(0, examState.index - 1); renderExamQuestion(); requestAnimationFrame(focusQuestionStem); });
+  $('#next-exam')?.addEventListener('click', () => { if (examState.index + 1 < questions.length) { examState.index += 1; renderExamQuestion(); requestAnimationFrame(focusQuestionStem); } else { submitExam(); } });
   $('#submit-exam')?.addEventListener('click', () => submitExam());
   $('#submit-exam-side')?.addEventListener('click', () => submitExam());
   $('#abandon-exam')?.addEventListener('click', () => {
