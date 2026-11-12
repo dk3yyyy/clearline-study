@@ -1,6 +1,6 @@
 /* ShiftReady: an independent, source-linked SIA study site. Vanilla ES modules, no build step. */
-import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111am';
-import { mergeStore } from './store.js?v=20261111am';
+import { requiredMarks, markPaper, hasPassed } from './scoring.js?v=20261111an';
+import { mergeStore } from './store.js?v=20261111an';
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -48,7 +48,7 @@ const shortUnitName = (id, fallback = '') => ({
   'CP-DSR': 'CP · Door supervision', 'CVIT': 'CViT', 'DS-REF': 'DS refresher', 'SG-REF': 'SG refresher', 'CP-REF': 'CP refresher', 'VI': 'Vehicle immobilisation'
 })[id] || fallback;
 const CONTENT_DATE = '2026-11-11';
-const DATA_VERSION = '20261111am';
+const DATA_VERSION = '20261111an';
 const EXAM_KEY = 'shiftready-exam-v1';
 const defaultStore = { answers: {}, studied: {}, reports: [], attempts: [], checklist: {} };
 
@@ -441,6 +441,10 @@ function renderPracticeQuestion() {
     const answered = questions.filter((q) => store.answers[q.id]).length;
     const correct = questions.filter((q) => store.answers[q.id]?.correct).length;
     stage.innerHTML = `<div class="result-head"><div class="score-ring" style="--score:${Math.round((correct / questions.length) * 100)}"><strong>${correct}</strong><span>of ${questions.length}</span></div><div class="result-copy"><p class="kicker">Practice set complete</p><h1>${correct === questions.length ? 'All correct.' : 'Review the questions you missed.'}</h1><p>You answered ${answered} of ${questions.length}. Questions you missed are saved for review.</p></div></div><div class="result-grid"><div class="result-block"><h2>Next</h2><p>${correct === questions.length ? 'Take a timed mock to check your recall.' : 'Review the questions you missed, then try the set again.'}</p><div class="question-foot"><a class="button button-primary" href="${href(`exam/${qual.id}`)}">Open a mock paper</a><a class="button button-ghost" href="${href(`practice/${qual.id}?mode=weak`)}">Review missed questions</a></div></div><div class="result-block"><h2>Review</h2><p>Every answer is stored in this browser. There is no account and no upload.</p><a class="text-link" href="${href('reports')}">Question reports</a></div></div>`;
+    requestAnimationFrame(() => {
+      const heading = stage.querySelector('h1');
+      if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({ preventScroll: true }); }
+    });
     return;
   }
   const q = questions[index];
