@@ -20,7 +20,9 @@ export function mergeStore(local, remote) {
   }
 
   const attemptsById = new Map();
-  for (const attempt of [...(theirs.attempts || []), ...(mine.attempts || [])]) {
+  const remoteAttempts = Array.isArray(theirs.attempts) ? theirs.attempts : [];
+  const localAttempts = Array.isArray(mine.attempts) ? mine.attempts : [];
+  for (const attempt of [...remoteAttempts, ...localAttempts]) {
     if (attempt?.id) attemptsById.set(attempt.id, attempt);
   }
   const attempts = [...attemptsById.values()]
@@ -28,8 +30,13 @@ export function mergeStore(local, remote) {
     .slice(0, 50);
 
   const seenReports = new Set();
-  const reports = [...(mine.reports || []), ...(theirs.reports || [])]
+  const clearedAt = Math.max(
+    Date.parse(mine.reportsClearedAt || '') || 0,
+    Date.parse(theirs.reportsClearedAt || '') || 0
+  );
+  const reports = [...(Array.isArray(mine.reports) ? mine.reports : []), ...(Array.isArray(theirs.reports) ? theirs.reports : [])]
     .filter((report) => {
+      if (!report || timeOf(report) <= clearedAt) return false;
       const key = `${report.questionId}|${report.at}`;
       if (seenReports.has(key)) return false;
       seenReports.add(key);
@@ -43,6 +50,7 @@ export function mergeStore(local, remote) {
     answers,
     attempts,
     reports,
+    reportsClearedAt: clearedAt ? new Date(clearedAt).toISOString() : '',
     // A flag set in either tab stays set. Turning one off in the tab that is
     // saving wins, because that is the most recent deliberate action.
     studied: { ...(theirs.studied || {}), ...(mine.studied || {}) },

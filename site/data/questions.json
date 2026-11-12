@@ -25,6 +25,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0001",
     "source_quote_exact": true,
     "source": {
@@ -58,6 +59,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0002",
     "source_quote_exact": true,
     "source": {
@@ -91,6 +93,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0003",
     "source_quote_exact": true,
     "source": {
@@ -124,6 +127,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0004",
     "source_quote_exact": true,
     "source": {
@@ -157,6 +161,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "U1-COMMON-0005",
     "source_quote_exact": true,
     "source": {
@@ -190,6 +197,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0006",
     "source_quote_exact": true,
     "source": {
@@ -223,6 +231,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "U1-COMMON-0007",
     "source_quote_exact": true,
     "source": {
@@ -256,6 +267,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0008",
     "source_quote_exact": true,
     "source": {
@@ -289,6 +301,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0009",
     "source_quote_exact": true,
     "source": {
@@ -322,6 +335,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0010",
     "source_quote_exact": true,
     "source": {
@@ -355,6 +369,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0011",
     "source_quote_exact": true,
     "source": {
@@ -387,7 +402,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "U1-COMMON-0012",
     "source_quote_exact": true,
     "source": {
@@ -420,7 +438,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "U1-COMMON-0013",
     "source_quote_exact": true,
     "source": {
@@ -454,6 +475,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "U1-COMMON-0014",
     "source_quote_exact": true,
     "source": {
@@ -487,6 +511,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "U1-COMMON-0015",
     "source_quote_exact": true,
     "source": {
@@ -519,7 +546,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "U1-COMMON-0016",
     "source_quote_exact": true,
     "source": {
@@ -553,6 +583,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U1-COMMON-0017",
     "source_quote_exact": true,
     "source": {
@@ -586,6 +619,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0018",
     "source_quote_exact": true,
     "source": {
@@ -619,6 +653,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0019",
     "source_quote_exact": true,
     "source": {
@@ -652,6 +687,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0020",
     "source_quote_exact": true,
     "source": {
@@ -685,6 +721,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0021",
     "source_quote_exact": true,
     "source": {
@@ -718,6 +755,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0022",
     "source_quote_exact": true,
     "source": {
@@ -751,6 +789,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0023",
     "source_quote_exact": true,
     "source": {
@@ -784,6 +823,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0024",
     "source_quote_exact": true,
     "source": {
@@ -817,6 +857,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U1-COMMON-0025",
     "source_quote_exact": true,
     "source": {
@@ -850,6 +893,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0026",
     "source_quote_exact": true,
     "source": {
@@ -883,6 +927,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0027",
     "source_quote_exact": true,
     "source": {
@@ -901,13 +946,13 @@
     "difficulty": 2,
     "stem": "A customer is seen taking a handbag from a table and leaving the venue without permission. May the door supervisor make a citizen's arrest?",
     "options": [
-      "Yes, because theft is an indictable offence",
+      "Yes, because theft is an either-way offence, which counts as indictable",
       "No, because only the police may arrest for theft",
       "Yes, but only if the handbag is worth more than £100",
       "No, because citizen's arrests are only for assault"
     ],
     "answer_index": 0,
-    "explanation": "A citizen's arrest may be made for an indictable offence. Theft is an either-way offence, so it qualifies.",
+    "explanation": "A citizen's arrest may be made for an indictable offence. Theft is an either-way offence, and either-way offences count as indictable for this purpose.",
     "source_chunk_ids": [
       "pace-1984#s24A"
     ],
@@ -916,6 +961,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "arrest"
+    ],
     "id": "U1-COMMON-0028",
     "source_quote_exact": true,
     "source": {
@@ -949,6 +997,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "arrest"
+    ],
     "id": "U1-COMMON-0029",
     "source_quote_exact": true,
     "source": {
@@ -982,6 +1033,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "arrest"
+    ],
     "id": "U1-COMMON-0030",
     "source_quote_exact": true,
     "source": {
@@ -998,15 +1052,15 @@
       "CCTV"
     ],
     "difficulty": 2,
-    "stem": "Which of these is a limitation on a security operative's power of arrest?",
+    "stem": "After a security operative makes a citizen’s arrest, what must the constable do with the person?",
     "options": [
       "The operative may search the person without consent",
-      "The operative must hand the person to the police as soon as reasonably practicable",
+      "The constable must take the person to a police station as soon as practicable",
       "The operative may detain the person for as long as they think necessary",
       "The operative may arrest for any offence, including minor traffic offences"
     ],
     "answer_index": 1,
-    "explanation": "An operative who makes a citizen's arrest must transfer the person to the police promptly. The power does not include a general right to search or to detain indefinitely.",
+    "explanation": "PACE section 30(1A) requires a constable to take a person arrested elsewhere than at a police station to a police station as soon as practicable after the arrest.",
     "source_chunk_ids": [
       "pace-1984#s30"
     ],
@@ -1015,6 +1069,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "search",
+      "arrest"
+    ],
     "id": "U1-COMMON-0031",
     "source_quote_exact": true,
     "source": {
@@ -1048,6 +1106,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "arrest"
+    ],
     "id": "U1-COMMON-0032",
     "source_quote_exact": true,
     "source": {
@@ -1081,6 +1142,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "arrest"
+    ],
     "id": "U1-COMMON-0033",
     "source_quote_exact": true,
     "source": {
@@ -1114,6 +1178,11 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "restraint",
+      "arrest"
+    ],
     "id": "U1-COMMON-0034",
     "source_quote_exact": true,
     "source": {
@@ -1147,6 +1216,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "arrest"
+    ],
     "id": "U1-COMMON-0035",
     "source_quote_exact": true,
     "source": {
@@ -1180,6 +1252,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U1-COMMON-0036",
     "source_quote_exact": true,
     "source": {
@@ -1213,6 +1288,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U1-COMMON-0037",
     "source_quote_exact": true,
     "source": {
@@ -1246,6 +1324,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0038",
     "source_quote_exact": true,
     "source": {
@@ -1279,6 +1358,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0039",
     "source_quote_exact": true,
     "source": {
@@ -1312,6 +1392,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0040",
     "source_quote_exact": true,
     "source": {
@@ -1345,6 +1426,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0041",
     "source_quote_exact": true,
     "source": {
@@ -1378,6 +1460,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0042",
     "source_quote_exact": true,
     "source": {
@@ -1411,6 +1494,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0043",
     "source_quote_exact": true,
     "source": {
@@ -1444,6 +1528,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0044",
     "source_quote_exact": true,
     "source": {
@@ -1477,6 +1562,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0045",
     "source_quote_exact": true,
     "source": {
@@ -1509,7 +1595,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "first_aid"
+    ],
     "id": "U1-COMMON-0046",
     "source_quote_exact": true,
     "source": {
@@ -1543,6 +1632,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0047",
     "source_quote_exact": true,
     "source": {
@@ -1576,6 +1666,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0048",
     "source_quote_exact": true,
     "source": {
@@ -1609,6 +1700,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0049",
     "source_quote_exact": true,
     "source": {
@@ -1642,6 +1734,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0050",
     "source_quote_exact": true,
     "source": {
@@ -1675,6 +1768,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0051",
     "source_quote_exact": true,
     "source": {
@@ -1708,6 +1802,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0052",
     "source_quote_exact": true,
     "source": {
@@ -1741,6 +1836,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "first_aid"
+    ],
     "id": "U1-COMMON-0053",
     "source_quote_exact": true,
     "source": {
@@ -1774,6 +1872,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U1-COMMON-0054",
     "source_quote_exact": true,
     "source": {
@@ -1807,6 +1908,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "first_aid"
+    ],
     "id": "U1-COMMON-0055",
     "source_quote_exact": true,
     "source": {
@@ -1840,6 +1944,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0056",
     "source_quote_exact": true,
     "source": {
@@ -1873,6 +1978,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0057",
     "source_quote_exact": true,
     "source": {
@@ -1906,6 +2012,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0058",
     "source_quote_exact": true,
     "source": {
@@ -1939,6 +2046,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0059",
     "source_quote_exact": true,
     "source": {
@@ -1972,6 +2080,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0060",
     "source_quote_exact": true,
     "source": {
@@ -2005,6 +2114,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0061",
     "source_quote_exact": true,
     "source": {
@@ -2038,6 +2148,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0062",
     "source_quote_exact": true,
     "source": {
@@ -2070,7 +2181,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "U1-COMMON-0063",
     "source_quote_exact": true,
     "source": {
@@ -2104,6 +2218,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0064",
     "source_quote_exact": true,
     "source": {
@@ -2137,6 +2252,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0065",
     "source_quote_exact": true,
     "source": {
@@ -2170,6 +2286,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0066",
     "source_quote_exact": true,
     "source": {
@@ -2203,6 +2320,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U1-COMMON-0067",
     "source_quote_exact": true,
     "source": {
@@ -2236,6 +2356,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0068",
     "source_quote_exact": true,
     "source": {
@@ -2269,6 +2390,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "U1-COMMON-0069",
     "source_quote_exact": true,
     "source": {
@@ -2302,6 +2426,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0070",
     "source_quote_exact": true,
     "source": {
@@ -2335,6 +2460,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U1-COMMON-0071",
     "source_quote_exact": true,
     "source": {
@@ -2368,6 +2496,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U1-COMMON-0072",
     "source_quote_exact": true,
     "source": {
@@ -2400,6 +2529,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0001",
     "source_quote_exact": true,
     "source": {
@@ -2432,6 +2562,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0002",
     "source_quote_exact": true,
     "source": {
@@ -2464,6 +2595,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0003",
     "source_quote_exact": true,
     "source": {
@@ -2496,6 +2628,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0004",
     "source_quote_exact": true,
     "source": {
@@ -2528,6 +2661,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0005",
     "source_quote_exact": true,
     "source": {
@@ -2560,6 +2694,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0006",
     "source_quote_exact": true,
     "source": {
@@ -2592,6 +2727,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "DS-U2-0007",
     "source_quote_exact": true,
     "source": {
@@ -2624,6 +2762,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "DS-U2-0008",
     "source_quote_exact": true,
     "source": {
@@ -2655,7 +2796,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0009",
     "source_quote_exact": true,
     "source": {
@@ -2687,7 +2831,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0010",
     "source_quote_exact": true,
     "source": {
@@ -2719,7 +2866,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0011",
     "source_quote_exact": true,
     "source": {
@@ -2751,7 +2901,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0012",
     "source_quote_exact": true,
     "source": {
@@ -2783,7 +2936,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0013",
     "source_quote_exact": true,
     "source": {
@@ -2815,7 +2971,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0014",
     "source_quote_exact": true,
     "source": {
@@ -2847,7 +3006,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0015",
     "source_quote_exact": true,
     "source": {
@@ -2880,6 +3042,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "search"
+    ],
     "id": "DS-U2-0016",
     "source_quote_exact": true,
     "source": {
@@ -2911,7 +3077,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0017",
     "source_quote_exact": true,
     "source": {
@@ -2928,13 +3097,13 @@
     "difficulty": 2,
     "stem": "During a search a door supervisor is pricked by a needle. What should be done?",
     "options": [
-      "Wash the wound later at home",
-      "Ask the customer to say sorry",
-      "Carry on and finish the queue",
-      "Contact emergency services"
+      "Carry on searching and clean the needle later",
+      "Put the needle back in the bag and say nothing",
+      "Ask the customer to wash the officer's hand",
+      "Stop the search, wash the area, report the incident and get medical advice"
     ],
     "answer_index": 3,
-    "explanation": "Where there is a risk from a needle or infectious disease, the door supervisor should contact emergency services and follow venue policy.",
+    "explanation": "A needle injury needs immediate first aid, reporting and medical advice. Continuing, hiding it or asking the customer to treat the officer delays proper care.",
     "source_chunk_ids": [
       "door-supervisor-final-unit-content#DS-U2-S2",
       "sia-ds-specification-2021#DS-U2-S2"
@@ -2943,7 +3112,11 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search",
+      "first_aid"
+    ],
     "id": "DS-U2-0018",
     "source_quote_exact": true,
     "source": {
@@ -2975,7 +3148,11 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search",
+      "safeguarding"
+    ],
     "id": "DS-U2-0019",
     "source_quote_exact": true,
     "source": {
@@ -3008,6 +3185,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0020",
     "source_quote_exact": true,
     "source": {
@@ -3039,7 +3217,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0021",
     "source_quote_exact": true,
     "source": {
@@ -3072,6 +3253,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0022",
     "source_quote_exact": true,
     "source": {
@@ -3104,6 +3288,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0023",
     "source_quote_exact": true,
     "source": {
@@ -3135,6 +3322,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0024",
     "source_quote_exact": true,
     "source": {
@@ -3167,6 +3357,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0025",
     "source_quote_exact": true,
     "source": {
@@ -3200,6 +3393,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0026",
     "source_quote_exact": true,
     "source": {
@@ -3232,6 +3428,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0027",
     "source_quote_exact": true,
     "source": {
@@ -3264,6 +3463,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0028",
     "source_quote_exact": true,
     "source": {
@@ -3296,6 +3498,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0029",
     "source_quote_exact": true,
     "source": {
@@ -3328,6 +3533,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0030",
     "source_quote_exact": true,
     "source": {
@@ -3360,6 +3568,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "DS-U2-0031",
     "source_quote_exact": true,
     "source": {
@@ -3392,6 +3603,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0032",
     "source_quote_exact": true,
     "source": {
@@ -3424,6 +3636,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0033",
     "source_quote_exact": true,
     "source": {
@@ -3456,6 +3669,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0034",
     "source_quote_exact": true,
     "source": {
@@ -3488,6 +3702,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0035",
     "source_quote_exact": true,
     "source": {
@@ -3520,6 +3735,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0036",
     "source_quote_exact": true,
     "source": {
@@ -3552,6 +3768,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0037",
     "source_quote_exact": true,
     "source": {
@@ -3584,6 +3801,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0038",
     "source_quote_exact": true,
     "source": {
@@ -3616,6 +3834,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0039",
     "source_quote_exact": true,
     "source": {
@@ -3648,6 +3867,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "DS-U2-0040",
     "source_quote_exact": true,
     "source": {
@@ -3680,6 +3902,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0041",
     "source_quote_exact": true,
     "source": {
@@ -3712,6 +3935,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0042",
     "source_quote_exact": true,
     "source": {
@@ -3744,6 +3968,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "DS-U2-0043",
     "source_quote_exact": true,
     "source": {
@@ -3776,6 +4003,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "DS-U2-0044",
     "source_quote_exact": true,
     "source": {
@@ -3807,7 +4037,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0045",
     "source_quote_exact": true,
     "source": {
@@ -3840,6 +4073,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0046",
     "source_quote_exact": true,
     "source": {
@@ -3872,6 +4106,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0047",
     "source_quote_exact": true,
     "source": {
@@ -3904,6 +4139,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0048",
     "source_quote_exact": true,
     "source": {
@@ -3936,6 +4172,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0049",
     "source_quote_exact": true,
     "source": {
@@ -3968,6 +4205,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0050",
     "source_quote_exact": true,
     "source": {
@@ -4000,6 +4238,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0051",
     "source_quote_exact": true,
     "source": {
@@ -4032,6 +4271,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0052",
     "source_quote_exact": true,
     "source": {
@@ -4064,6 +4304,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0053",
     "source_quote_exact": true,
     "source": {
@@ -4096,6 +4337,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0054",
     "source_quote_exact": true,
     "source": {
@@ -4128,6 +4370,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0055",
     "source_quote_exact": true,
     "source": {
@@ -4160,6 +4403,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs",
+      "safeguarding"
+    ],
     "id": "DS-U2-0056",
     "source_quote_exact": true,
     "source": {
@@ -4192,6 +4439,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0057",
     "source_quote_exact": true,
     "source": {
@@ -4223,7 +4471,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-U2-0058",
     "source_quote_exact": true,
     "source": {
@@ -4256,6 +4507,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0059",
     "source_quote_exact": true,
     "source": {
@@ -4288,6 +4540,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-U2-0060",
     "source_quote_exact": true,
     "source": {
@@ -4321,6 +4574,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0001",
     "source_quote_exact": true,
     "source": {
@@ -4330,7 +4584,7 @@
   },
   {
     "unit": "U3-CONFLICT",
-    "objective_id": "U3-CONFLICT-S1-O1",
+    "objective_id": "U3-CONFLICT-S5-O1",
     "qualifications": [
       "DS",
       "SO",
@@ -4354,6 +4608,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0002",
     "source_quote_exact": true,
     "source": {
@@ -4363,7 +4618,7 @@
   },
   {
     "unit": "U3-CONFLICT",
-    "objective_id": "U3-CONFLICT-S1-O1",
+    "objective_id": "U3-CONFLICT-S5-O3",
     "qualifications": [
       "DS",
       "SO",
@@ -4387,6 +4642,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0003",
     "source_quote_exact": true,
     "source": {
@@ -4396,7 +4652,7 @@
   },
   {
     "unit": "U3-CONFLICT",
-    "objective_id": "U3-CONFLICT-S1-O1",
+    "objective_id": "U3-CONFLICT-S4-O3",
     "qualifications": [
       "DS",
       "SO",
@@ -4420,6 +4676,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0004",
     "source_quote_exact": true,
     "source": {
@@ -4429,7 +4686,7 @@
   },
   {
     "unit": "U3-CONFLICT",
-    "objective_id": "U3-CONFLICT-S1-O1",
+    "objective_id": "U3-CONFLICT-S4-O2",
     "qualifications": [
       "DS",
       "SO",
@@ -4453,6 +4710,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0005",
     "source_quote_exact": true,
     "source": {
@@ -4462,7 +4720,7 @@
   },
   {
     "unit": "U3-CONFLICT",
-    "objective_id": "U3-CONFLICT-S1-O1",
+    "objective_id": "U3-CONFLICT-S4-O1",
     "qualifications": [
       "DS",
       "SO",
@@ -4486,6 +4744,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0006",
     "source_quote_exact": true,
     "source": {
@@ -4519,6 +4778,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0007",
     "source_quote_exact": true,
     "source": {
@@ -4552,6 +4812,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0008",
     "source_quote_exact": true,
     "source": {
@@ -4585,6 +4846,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0009",
     "source_quote_exact": true,
     "source": {
@@ -4618,6 +4880,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0010",
     "source_quote_exact": true,
     "source": {
@@ -4651,6 +4914,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0011",
     "source_quote_exact": true,
     "source": {
@@ -4684,6 +4948,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0012",
     "source_quote_exact": true,
     "source": {
@@ -4717,6 +4982,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0013",
     "source_quote_exact": true,
     "source": {
@@ -4750,6 +5016,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0014",
     "source_quote_exact": true,
     "source": {
@@ -4783,6 +5050,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0015",
     "source_quote_exact": true,
     "source": {
@@ -4816,6 +5084,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0016",
     "source_quote_exact": true,
     "source": {
@@ -4849,6 +5118,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0017",
     "source_quote_exact": true,
     "source": {
@@ -4882,6 +5152,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0018",
     "source_quote_exact": true,
     "source": {
@@ -4915,6 +5186,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0019",
     "source_quote_exact": true,
     "source": {
@@ -4948,6 +5220,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0020",
     "source_quote_exact": true,
     "source": {
@@ -4981,6 +5254,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0021",
     "source_quote_exact": true,
     "source": {
@@ -5014,6 +5288,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0022",
     "source_quote_exact": true,
     "source": {
@@ -5047,6 +5322,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0023",
     "source_quote_exact": true,
     "source": {
@@ -5080,6 +5356,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0024",
     "source_quote_exact": true,
     "source": {
@@ -5113,6 +5390,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0025",
     "source_quote_exact": true,
     "source": {
@@ -5146,6 +5424,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0026",
     "source_quote_exact": true,
     "source": {
@@ -5179,6 +5458,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0027",
     "source_quote_exact": true,
     "source": {
@@ -5212,6 +5492,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0028",
     "source_quote_exact": true,
     "source": {
@@ -5245,6 +5526,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0029",
     "source_quote_exact": true,
     "source": {
@@ -5278,6 +5560,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "U3-CONFLICT-0030",
     "source_quote_exact": true,
     "source": {
@@ -5309,6 +5592,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "U4-PI-0001",
     "source_quote_exact": true,
     "source": {
@@ -5340,6 +5626,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0002",
     "source_quote_exact": true,
     "source": {
@@ -5371,6 +5660,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0003",
     "source_quote_exact": true,
     "source": {
@@ -5402,6 +5694,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "U4-PI-0004",
     "source_quote_exact": true,
     "source": {
@@ -5433,6 +5728,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "arrest"
+    ],
     "id": "U4-PI-0005",
     "source_quote_exact": true,
     "source": {
@@ -5464,6 +5763,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0006",
     "source_quote_exact": true,
     "source": {
@@ -5495,6 +5797,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "U4-PI-0007",
     "source_quote_exact": true,
     "source": {
@@ -5526,6 +5831,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "restraint"
+    ],
     "id": "U4-PI-0008",
     "source_quote_exact": true,
     "source": {
@@ -5557,6 +5866,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0009",
     "source_quote_exact": true,
     "source": {
@@ -5583,11 +5895,14 @@
     "source_chunk_ids": [
       "sia-physical-intervention-specification-2021#U4-PI-S1"
     ],
-    "source_quote": "state the signs and symptoms associated with acute behavioural",
+    "source_quote": "state the signs and symptoms associated with acute behavioural disorder/excited (or agitated) delirium and psychosis",
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0010",
     "source_quote_exact": true,
     "source": {
@@ -5619,6 +5934,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0011",
     "source_quote_exact": true,
     "source": {
@@ -5650,6 +5968,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0012",
     "source_quote_exact": true,
     "source": {
@@ -5681,6 +6002,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "restraint"
+    ],
     "id": "U4-PI-0013",
     "source_quote_exact": true,
     "source": {
@@ -5712,6 +6037,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0014",
     "source_quote_exact": true,
     "source": {
@@ -5743,6 +6071,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U4-PI-0015",
     "source_quote_exact": true,
     "source": {
@@ -5774,6 +6105,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint",
+      "first_aid"
+    ],
     "id": "U4-PI-0016",
     "source_quote_exact": true,
     "source": {
@@ -5805,6 +6140,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U4-PI-0017",
     "source_quote_exact": true,
     "source": {
@@ -5836,6 +6174,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0018",
     "source_quote_exact": true,
     "source": {
@@ -5867,6 +6208,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U4-PI-0019",
     "source_quote_exact": true,
     "source": {
@@ -5898,6 +6242,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0020",
     "source_quote_exact": true,
     "source": {
@@ -5929,6 +6276,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0021",
     "source_quote_exact": true,
     "source": {
@@ -5960,6 +6310,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U4-PI-0022",
     "source_quote_exact": true,
     "source": {
@@ -5991,6 +6344,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U4-PI-0023",
     "source_quote_exact": true,
     "source": {
@@ -6022,6 +6378,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0024",
     "source_quote_exact": true,
     "source": {
@@ -6053,6 +6412,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0025",
     "source_quote_exact": true,
     "source": {
@@ -6084,6 +6446,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0026",
     "source_quote_exact": true,
     "source": {
@@ -6115,6 +6480,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "U4-PI-0027",
     "source_quote_exact": true,
     "source": {
@@ -6146,6 +6514,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0028",
     "source_quote_exact": true,
     "source": {
@@ -6177,6 +6548,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "U4-PI-0029",
     "source_quote_exact": true,
     "source": {
@@ -6208,6 +6582,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "U4-PI-0030",
     "source_quote_exact": true,
     "source": {
@@ -6239,6 +6616,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0001",
     "source_quote_exact": true,
     "source": {
@@ -6270,6 +6648,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0002",
     "source_quote_exact": true,
     "source": {
@@ -6301,6 +6680,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0003",
     "source_quote_exact": true,
     "source": {
@@ -6332,6 +6712,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0004",
     "source_quote_exact": true,
     "source": {
@@ -6363,6 +6744,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0005",
     "source_quote_exact": true,
     "source": {
@@ -6394,6 +6776,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0006",
     "source_quote_exact": true,
     "source": {
@@ -6424,7 +6807,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0007",
     "source_quote_exact": true,
     "source": {
@@ -6456,6 +6842,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0008",
     "source_quote_exact": true,
     "source": {
@@ -6487,6 +6874,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0009",
     "source_quote_exact": true,
     "source": {
@@ -6518,6 +6906,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0010",
     "source_quote_exact": true,
     "source": {
@@ -6549,6 +6940,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0011",
     "source_quote_exact": true,
     "source": {
@@ -6580,6 +6972,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0012",
     "source_quote_exact": true,
     "source": {
@@ -6611,6 +7004,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0013",
     "source_quote_exact": true,
     "source": {
@@ -6642,6 +7036,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0014",
     "source_quote_exact": true,
     "source": {
@@ -6673,6 +7068,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0015",
     "source_quote_exact": true,
     "source": {
@@ -6704,6 +7100,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0016",
     "source_quote_exact": true,
     "source": {
@@ -6735,6 +7132,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0017",
     "source_quote_exact": true,
     "source": {
@@ -6766,6 +7164,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0018",
     "source_quote_exact": true,
     "source": {
@@ -6797,6 +7196,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0019",
     "source_quote_exact": true,
     "source": {
@@ -6828,6 +7228,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0020",
     "source_quote_exact": true,
     "source": {
@@ -6859,6 +7260,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "restraint"
+    ],
     "id": "SO-U2-0021",
     "source_quote_exact": true,
     "source": {
@@ -6890,6 +7295,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0022",
     "source_quote_exact": true,
     "source": {
@@ -6921,6 +7327,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0023",
     "source_quote_exact": true,
     "source": {
@@ -6952,6 +7359,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0024",
     "source_quote_exact": true,
     "source": {
@@ -6983,6 +7391,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0025",
     "source_quote_exact": true,
     "source": {
@@ -7014,6 +7423,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0026",
     "source_quote_exact": true,
     "source": {
@@ -7045,6 +7455,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0027",
     "source_quote_exact": true,
     "source": {
@@ -7076,6 +7487,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0028",
     "source_quote_exact": true,
     "source": {
@@ -7107,6 +7519,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0029",
     "source_quote_exact": true,
     "source": {
@@ -7138,6 +7551,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0030",
     "source_quote_exact": true,
     "source": {
@@ -7169,6 +7583,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0031",
     "source_quote_exact": true,
     "source": {
@@ -7200,6 +7615,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0032",
     "source_quote_exact": true,
     "source": {
@@ -7231,6 +7647,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "SO-U2-0033",
     "source_quote_exact": true,
     "source": {
@@ -7262,6 +7681,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "SO-U2-0034",
     "source_quote_exact": true,
     "source": {
@@ -7293,6 +7715,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "SO-U2-0035",
     "source_quote_exact": true,
     "source": {
@@ -7324,6 +7749,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "SO-U2-0036",
     "source_quote_exact": true,
     "source": {
@@ -7355,6 +7783,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "drugs"
+    ],
     "id": "SO-U2-0037",
     "source_quote_exact": true,
     "source": {
@@ -7385,7 +7816,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0038",
     "source_quote_exact": true,
     "source": {
@@ -7417,6 +7851,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0039",
     "source_quote_exact": true,
     "source": {
@@ -7447,7 +7884,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0040",
     "source_quote_exact": true,
     "source": {
@@ -7478,7 +7918,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0041",
     "source_quote_exact": true,
     "source": {
@@ -7509,7 +7952,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0042",
     "source_quote_exact": true,
     "source": {
@@ -7540,7 +7986,11 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "force",
+      "search"
+    ],
     "id": "SO-U2-0043",
     "source_quote_exact": true,
     "source": {
@@ -7571,7 +8021,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0044",
     "source_quote_exact": true,
     "source": {
@@ -7602,7 +8055,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0045",
     "source_quote_exact": true,
     "source": {
@@ -7634,6 +8090,10 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "search",
+      "first_aid"
+    ],
     "id": "SO-U2-0046",
     "source_quote_exact": true,
     "source": {
@@ -7665,6 +8125,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0047",
     "source_quote_exact": true,
     "source": {
@@ -7695,7 +8158,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0048",
     "source_quote_exact": true,
     "source": {
@@ -7726,7 +8192,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0049",
     "source_quote_exact": true,
     "source": {
@@ -7758,6 +8227,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0050",
     "source_quote_exact": true,
     "source": {
@@ -7789,6 +8259,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "SO-U2-0051",
     "source_quote_exact": true,
     "source": {
@@ -7819,7 +8292,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SO-U2-0052",
     "source_quote_exact": true,
     "source": {
@@ -7851,6 +8327,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0053",
     "source_quote_exact": true,
     "source": {
@@ -7882,6 +8359,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0054",
     "source_quote_exact": true,
     "source": {
@@ -7913,6 +8391,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0055",
     "source_quote_exact": true,
     "source": {
@@ -7944,6 +8423,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0056",
     "source_quote_exact": true,
     "source": {
@@ -7975,6 +8455,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0057",
     "source_quote_exact": true,
     "source": {
@@ -7989,15 +8470,15 @@
       "SO"
     ],
     "difficulty": 2,
-    "stem": "An officer sees someone trespassing on site. What should they do?",
+    "stem": "An officer sees a person acting suspiciously and the person is still on scene. They need an immediate police response. What should they do?",
     "options": [
       "Approach and physically remove the person alone",
-      "Observe from a safe distance, report it and call the police if needed",
+      "Dial 999 and report it",
       "Ignore it to avoid conflict",
       "Wait until the next shift to report it"
     ],
     "answer_index": 1,
-    "explanation": "The officer should keep observation, report and request support. Confronting a trespasser alone is unsafe, and ignoring or delaying the report is wrong.",
+    "explanation": "Hostile reconnaissance guidance says to dial 999 if the person is still on scene and an immediate police response is needed.",
     "source_chunk_ids": [
       "nactso-hostile-recon#reporting"
     ],
@@ -8006,6 +8487,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0058",
     "source_quote_exact": true,
     "source": {
@@ -8037,6 +8519,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0059",
     "source_quote_exact": true,
     "source": {
@@ -8068,6 +8551,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SO-U2-0060",
     "source_quote_exact": true,
     "source": {
@@ -8099,6 +8583,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0001",
     "source_quote_exact": true,
     "source": {
@@ -8129,7 +8614,10 @@
     "spec_version": "2021",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "arrest"
+    ],
     "id": "CCTV-U2-0002",
     "source_quote_exact": true,
     "source": {
@@ -8161,6 +8649,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0003",
     "source_quote_exact": true,
     "source": {
@@ -8192,6 +8681,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0004",
     "source_quote_exact": true,
     "source": {
@@ -8223,6 +8713,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0005",
     "source_quote_exact": true,
     "source": {
@@ -8254,6 +8745,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0006",
     "source_quote_exact": true,
     "source": {
@@ -8285,6 +8777,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0007",
     "source_quote_exact": true,
     "source": {
@@ -8316,6 +8809,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "arrest"
+    ],
     "id": "CCTV-U2-0008",
     "source_quote_exact": true,
     "source": {
@@ -8347,6 +8843,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0009",
     "source_quote_exact": true,
     "source": {
@@ -8378,6 +8875,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0010",
     "source_quote_exact": true,
     "source": {
@@ -8409,6 +8907,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0011",
     "source_quote_exact": true,
     "source": {
@@ -8428,10 +8927,10 @@
       "The Licensing Act 2003",
       "The Police and Criminal Evidence Act 1984",
       "The Health and Safety at Work Act 1974",
-      "The Air Navigation Order 2018"
+      "The Air Navigation Order 2016 (as amended)"
     ],
     "answer_index": 3,
-    "explanation": "The Air Navigation Order 2018 sets the requirements for remote pilots of unmanned aerial vehicles. The other instruments cover licensing, police powers and workplace safety.",
+    "explanation": "The Air Navigation Order 2016 (as amended) sets the requirements for remote pilots of unmanned aerial vehicles. The other instruments cover licensing, police powers and workplace safety.",
     "source_chunk_ids": [
       "sia-cctv-specification-2021#CCTV-U2-S2"
     ],
@@ -8440,6 +8939,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "CCTV-U2-0012",
     "source_quote_exact": true,
     "source": {
@@ -8471,6 +8973,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0013",
     "source_quote_exact": true,
     "source": {
@@ -8502,6 +9005,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0014",
     "source_quote_exact": true,
     "source": {
@@ -8533,6 +9037,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0015",
     "source_quote_exact": true,
     "source": {
@@ -8564,6 +9069,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0016",
     "source_quote_exact": true,
     "source": {
@@ -8595,6 +9101,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0017",
     "source_quote_exact": true,
     "source": {
@@ -8626,6 +9133,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0018",
     "source_quote_exact": true,
     "source": {
@@ -8657,6 +9165,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0019",
     "source_quote_exact": true,
     "source": {
@@ -8688,6 +9197,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0020",
     "source_quote_exact": true,
     "source": {
@@ -8719,6 +9229,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0021",
     "source_quote_exact": true,
     "source": {
@@ -8750,6 +9261,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0022",
     "source_quote_exact": true,
     "source": {
@@ -8781,6 +9293,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0023",
     "source_quote_exact": true,
     "source": {
@@ -8812,6 +9325,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0024",
     "source_quote_exact": true,
     "source": {
@@ -8843,6 +9357,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "CCTV-U2-0025",
     "source_quote_exact": true,
     "source": {
@@ -8874,6 +9391,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0026",
     "source_quote_exact": true,
     "source": {
@@ -8905,6 +9423,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0027",
     "source_quote_exact": true,
     "source": {
@@ -8936,6 +9455,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0028",
     "source_quote_exact": true,
     "source": {
@@ -8967,6 +9487,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0029",
     "source_quote_exact": true,
     "source": {
@@ -8998,6 +9519,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0030",
     "source_quote_exact": true,
     "source": {
@@ -9029,6 +9551,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0031",
     "source_quote_exact": true,
     "source": {
@@ -9060,6 +9583,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0032",
     "source_quote_exact": true,
     "source": {
@@ -9091,6 +9615,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0033",
     "source_quote_exact": true,
     "source": {
@@ -9122,6 +9647,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0034",
     "source_quote_exact": true,
     "source": {
@@ -9153,6 +9679,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0035",
     "source_quote_exact": true,
     "source": {
@@ -9184,6 +9711,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0036",
     "source_quote_exact": true,
     "source": {
@@ -9215,6 +9743,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0037",
     "source_quote_exact": true,
     "source": {
@@ -9246,6 +9775,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "CCTV-U2-0038",
     "source_quote_exact": true,
     "source": {
@@ -9277,6 +9809,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0039",
     "source_quote_exact": true,
     "source": {
@@ -9308,6 +9841,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CCTV-U2-0040",
     "source_quote_exact": true,
     "source": {
@@ -9335,10 +9869,11 @@
       "sia-cp-specification-2022#CP-MAIN-S1"
     ],
     "source_quote": "explain the required standards, behaviours and ethics that apply to a close protection operative in accordance with Appendix A",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0001",
     "source_quote_exact": true,
     "source": {
@@ -9366,10 +9901,11 @@
       "sia-cp-specification-2022#CP-MAIN-S10"
     ],
     "source_quote": "describe the role of a Security Advance Party (SAP)",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0002",
     "source_quote_exact": true,
     "source": {
@@ -9397,10 +9933,11 @@
       "sia-cp-specification-2022#CP-MAIN-S10"
     ],
     "source_quote": "explain the difference between discreet and overt reconnaissance",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0003",
     "source_quote_exact": true,
     "source": {
@@ -9428,10 +9965,11 @@
       "sia-cp-specification-2022#CP-MAIN-S11"
     ],
     "source_quote": "explain the need for alternative transport plans",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0004",
     "source_quote_exact": true,
     "source": {
@@ -9459,10 +9997,11 @@
       "sia-cp-specification-2022#CP-MAIN-S12"
     ],
     "source_quote": "explain the importance and role of Standard Operating Procedures (SOPs) within a close protection context",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0005",
     "source_quote_exact": true,
     "source": {
@@ -9490,10 +10029,13 @@
       "sia-cp-specification-2022#CP-MAIN-S13"
     ],
     "source_quote": "VAAW (Vehicle as a weapon)",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "CP-MAIN-0006",
     "source_quote_exact": true,
     "source": {
@@ -9521,10 +10063,11 @@
       "sia-cp-specification-2022#CP-MAIN-S13"
     ],
     "source_quote": "know the HOT principles and 4 Cs protocols for suspicious items",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0007",
     "source_quote_exact": true,
     "source": {
@@ -9552,10 +10095,11 @@
       "sia-cp-specification-2022#CP-MAIN-S2"
     ],
     "source_quote": "Criminal Justice & Public Order Act 1994 (specifically Trespass)",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0008",
     "source_quote_exact": true,
     "source": {
@@ -9583,10 +10127,11 @@
       "sia-cp-specification-2022#CP-MAIN-S2"
     ],
     "source_quote": "Data Protection Act 2018 and the General Data Protection Regulation (GDPR) – Control and access of confidential information",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0009",
     "source_quote_exact": true,
     "source": {
@@ -9614,10 +10159,13 @@
       "sia-cp-specification-2022#CP-MAIN-S2"
     ],
     "source_quote": "understand what is meant by ‘reasonable’ and ‘necessary force’",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "CP-MAIN-0010",
     "source_quote_exact": true,
     "source": {
@@ -9645,10 +10193,11 @@
       "sia-cp-specification-2022#CP-MAIN-S3"
     ],
     "source_quote": "describe how decision-making models can be used within a threat and risk assessment process e.g. National Decision Model",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0011",
     "source_quote_exact": true,
     "source": {
@@ -9676,10 +10225,11 @@
       "sia-cp-specification-2022#CP-MAIN-S3"
     ],
     "source_quote": "state the importance of profiling the protected person to establish the level of threat and associated risk",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0012",
     "source_quote_exact": true,
     "source": {
@@ -9707,10 +10257,11 @@
       "sia-cp-specification-2022#CP-MAIN-S3"
     ],
     "source_quote": "explain the need for on-going assessment, response and contingency plans",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0013",
     "source_quote_exact": true,
     "source": {
@@ -9738,10 +10289,11 @@
       "sia-cp-specification-2022#CP-MAIN-S4"
     ],
     "source_quote": "be able to use radio protocols effectively in the role of a close protection operative",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0014",
     "source_quote_exact": true,
     "source": {
@@ -9769,10 +10321,13 @@
       "sia-cp-specification-2022#CP-MAIN-S4"
     ],
     "source_quote": "explain why it is important to record details of attacks and use of force, particularly when this may have to be used as evidence",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "CP-MAIN-0015",
     "source_quote_exact": true,
     "source": {
@@ -9800,10 +10355,11 @@
       "sia-cp-specification-2022#CP-MAIN-S5"
     ],
     "source_quote": "have an awareness of Technical Surveillance Counter Measures (TSCM)",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0016",
     "source_quote_exact": true,
     "source": {
@@ -9831,10 +10387,11 @@
       "sia-cp-specification-2022#CP-MAIN-S5"
     ],
     "source_quote": "describe the likely sources of unwanted attention e.g. criminals, media, followers, stalkers, fixated persons",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0017",
     "source_quote_exact": true,
     "source": {
@@ -9862,10 +10419,13 @@
       "sia-cp-specification-2022#CP-MAIN-S6"
     ],
     "source_quote": "explain and demonstrate how to deal with unauthorised / dangerous items",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "CP-MAIN-0018",
     "source_quote_exact": true,
     "source": {
@@ -9893,10 +10453,11 @@
       "sia-cp-specification-2022#CP-MAIN-S6"
     ],
     "source_quote": "explain the process for sanitising and securing a location prior to and after use",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0019",
     "source_quote_exact": true,
     "source": {
@@ -9924,10 +10485,11 @@
       "sia-cp-specification-2022#CP-MAIN-S7"
     ],
     "source_quote": "explain the need for foot route selection and planning",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0020",
     "source_quote_exact": true,
     "source": {
@@ -9955,10 +10517,13 @@
       "sia-cp-specification-2022#CP-MAIN-S8"
     ],
     "source_quote": "conduct a venue search and identify the measures required to maintain a secure environment post search",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "CP-MAIN-0021",
     "source_quote_exact": true,
     "source": {
@@ -9986,10 +10551,11 @@
       "sia-cp-specification-2022#CP-MAIN-S8"
     ],
     "source_quote": "explain the importance of communication within a venue and the most appropriate methods to employ, i.e., radios, public address system",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0022",
     "source_quote_exact": true,
     "source": {
@@ -10017,10 +10583,11 @@
       "sia-cp-specification-2022#CP-MAIN-S8"
     ],
     "source_quote": "state the importance of identifying communication black spots within a venue",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0023",
     "source_quote_exact": true,
     "source": {
@@ -10048,10 +10615,11 @@
       "sia-cp-specification-2022#CP-MAIN-S8"
     ],
     "source_quote": "describe a range of common contingencies that may be employed in venue-based close protection operations e.g. alarms, safe rooms and evacuation contingencies",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0024",
     "source_quote_exact": true,
     "source": {
@@ -10079,10 +10647,11 @@
       "sia-cp-specification-2022#CP-MAIN-S9"
     ],
     "source_quote": "produce a primary and secondary route plan",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-MAIN-0025",
     "source_quote_exact": true,
     "source": {
@@ -10110,10 +10679,11 @@
       "sia-cp-physical-intervention-specification-2022#CP-PI-S1"
     ],
     "source_quote": "understand the requirements of providing clear and concise instructions to the principal and team members in emergency situations",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-PI-0001",
     "source_quote_exact": true,
     "source": {
@@ -10141,10 +10711,11 @@
       "sia-cp-physical-intervention-specification-2022#CP-PI-S1"
     ],
     "source_quote": "know how to respond to a change in operational conditions from Standard Operation Procedures (SOP) to Emergency Operation Procedures (EOP)",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-PI-0002",
     "source_quote_exact": true,
     "source": {
@@ -10172,10 +10743,11 @@
       "sia-cp-physical-intervention-specification-2022#CP-PI-S1"
     ],
     "source_quote": "know the responsibilities of the close protection team when there is an immediate physical threat to the principal",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-PI-0003",
     "source_quote_exact": true,
     "source": {
@@ -10203,10 +10775,11 @@
       "sia-cp-physical-intervention-specification-2022#CP-PI-S1"
     ],
     "source_quote": "understand the necessity for narrowing the concentric layers of protection when managing an immediate threat to the principal",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-PI-0004",
     "source_quote_exact": true,
     "source": {
@@ -10234,10 +10807,13 @@
       "sia-cp-physical-intervention-specification-2022#rights"
     ],
     "source_quote": "a close protection operative has the same rights as a private individual and no more",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "CP-PI-0005",
     "source_quote_exact": true,
     "source": {
@@ -10265,10 +10841,13 @@
       "sia-cp-physical-intervention-specification-2022#CP-PI-S1"
     ],
     "source_quote": "understand the implications of common and criminal law when using force on another person",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "CP-PI-0006",
     "source_quote_exact": true,
     "source": {
@@ -10296,10 +10875,13 @@
       "sia-cp-physical-intervention-specification-2022#CP-PI-S1"
     ],
     "source_quote": "know the positive alternatives to using physical intervention skills in a close protection environment",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "CP-PI-0007",
     "source_quote_exact": true,
     "source": {
@@ -10327,10 +10909,14 @@
       "sia-cp-physical-intervention-specification-2022#rights"
     ],
     "source_quote": "Achieving the qualification does not remove their obligation to act in accordance with the law regarding the use of force",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "restraint"
+    ],
     "id": "CP-PI-0008",
     "source_quote_exact": true,
     "source": {
@@ -10358,10 +10944,13 @@
       "sia-cp-physical-intervention-specification-2022#CP-PI-S2"
     ],
     "source_quote": "know how to apply physical intervention skills in a justifiable, ethical, and professional manner",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "CP-PI-0009",
     "source_quote_exact": true,
     "source": {
@@ -10389,10 +10978,11 @@
       "sia-cp-physical-intervention-specification-2022#CP-PI-S2"
     ],
     "source_quote": "explain the legal, medical, and ethical implications of physical interventions within the context and boundaries of UK legislation",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-PI-0010",
     "source_quote_exact": true,
     "source": {
@@ -10420,10 +11010,13 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S1"
     ],
     "source_quote": "recognise their duty of care with regards to vulnerable people",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "CP-DSR-0001",
     "source_quote_exact": true,
     "source": {
@@ -10451,10 +11044,14 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S1"
     ],
     "source_quote": "including use of drugs, and know when to report them",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "drugs",
+      "safeguarding"
+    ],
     "id": "CP-DSR-0002",
     "source_quote_exact": true,
     "source": {
@@ -10482,10 +11079,13 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S1"
     ],
     "source_quote": "use of force, law appropriate person, theft",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "CP-DSR-0003",
     "source_quote_exact": true,
     "source": {
@@ -10513,10 +11113,11 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S2"
     ],
     "source_quote": "understand the law in relation to refusing entry and ejecting customers",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-DSR-0004",
     "source_quote_exact": true,
     "source": {
@@ -10544,10 +11145,11 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S2"
     ],
     "source_quote": "understand the rights and duties of licensees and door supervisors as their representatives",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-DSR-0005",
     "source_quote_exact": true,
     "source": {
@@ -10575,10 +11177,13 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S2"
     ],
     "source_quote": "understand the law in relation to children and young persons",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "CP-DSR-0006",
     "source_quote_exact": true,
     "source": {
@@ -10606,10 +11211,11 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S2"
     ],
     "source_quote": "know what conduct is considered unlawful under licensing, gaming and sexual offences legislation",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-DSR-0007",
     "source_quote_exact": true,
     "source": {
@@ -10637,10 +11243,13 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S2"
     ],
     "source_quote": "identify acceptable forms of proof of age",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "CP-DSR-0008",
     "source_quote_exact": true,
     "source": {
@@ -10668,10 +11277,13 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S3"
     ],
     "source_quote": "explain the importance of following dispersal processes",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "CP-DSR-0009",
     "source_quote_exact": true,
     "source": {
@@ -10699,10 +11311,11 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S3"
     ],
     "source_quote": "know the responsibilities in relation to crowd capacity regulations (including specific areas of venues)",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-DSR-0010",
     "source_quote_exact": true,
     "source": {
@@ -10730,10 +11343,11 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S3"
     ],
     "source_quote": "know how and when to monitor the queue for potential safety issues (including safety of barriers and welfare issues)",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-DSR-0011",
     "source_quote_exact": true,
     "source": {
@@ -10761,10 +11375,13 @@
       "sia-cp-ds-responsiblities-specification-2022#CP-DSR-S3"
     ],
     "source_quote": "state the factors to consider when ejecting or refusing entry to a person who may be vulnerable",
-    "spec_version": "2021",
+    "spec_version": "2022",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "CP-DSR-0012",
     "source_quote_exact": true,
     "source": {
@@ -10796,6 +11413,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0001",
     "source_quote_exact": true,
     "source": {
@@ -10827,6 +11445,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0002",
     "source_quote_exact": true,
     "source": {
@@ -10858,6 +11477,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0003",
     "source_quote_exact": true,
     "source": {
@@ -10889,6 +11509,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0004",
     "source_quote_exact": true,
     "source": {
@@ -10920,6 +11541,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "CVIT-0005",
     "source_quote_exact": true,
     "source": {
@@ -10951,6 +11575,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0006",
     "source_quote_exact": true,
     "source": {
@@ -10982,6 +11607,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0007",
     "source_quote_exact": true,
     "source": {
@@ -11013,6 +11639,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0008",
     "source_quote_exact": true,
     "source": {
@@ -11044,6 +11671,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "CVIT-0009",
     "source_quote_exact": true,
     "source": {
@@ -11075,6 +11705,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0010",
     "source_quote_exact": true,
     "source": {
@@ -11106,6 +11737,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0011",
     "source_quote_exact": true,
     "source": {
@@ -11137,6 +11769,7 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CVIT-0012",
     "source_quote_exact": true,
     "source": {
@@ -11168,6 +11801,9 @@
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "CVIT-0013",
     "source_quote_exact": true,
     "source": {
@@ -11195,10 +11831,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S1"
     ],
     "source_quote": "complete search documentation",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-REF-0001",
     "source_quote_exact": true,
     "source": {
@@ -11226,10 +11865,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S1"
     ],
     "source_quote": "know what actions to take when a prohibited or restricted item is found",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-REF-0002",
     "source_quote_exact": true,
     "source": {
@@ -11257,10 +11899,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S1"
     ],
     "source_quote": "understand considerations in searching individuals with diverse needs",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-REF-0003",
     "source_quote_exact": true,
     "source": {
@@ -11288,10 +11933,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S1"
     ],
     "source_quote": "the importance of obtaining permission to search",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-REF-0004",
     "source_quote_exact": true,
     "source": {
@@ -11319,10 +11967,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S1"
     ],
     "source_quote": "understand the hazards associated with conducting an effective search",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-REF-0005",
     "source_quote_exact": true,
     "source": {
@@ -11350,10 +12001,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S1"
     ],
     "source_quote": "know what actions to take in the event of a refusal to be searched",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "DS-REF-0006",
     "source_quote_exact": true,
     "source": {
@@ -11381,10 +12035,11 @@
       "sia-ds-refresher-specification-2024#DS-REF-S2"
     ],
     "source_quote": "identify the different threat levels",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-REF-0007",
     "source_quote_exact": true,
     "source": {
@@ -11412,10 +12067,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S2"
     ],
     "source_quote": "recognise the common terror attack methods",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "DS-REF-0008",
     "source_quote_exact": true,
     "source": {
@@ -11443,10 +12101,11 @@
       "sia-ds-refresher-specification-2024#DS-REF-S2"
     ],
     "source_quote": "recognise the actions to take in the event of a terror threat",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-REF-0009",
     "source_quote_exact": true,
     "source": {
@@ -11474,10 +12133,11 @@
       "sia-ds-refresher-specification-2024#DS-REF-S2"
     ],
     "source_quote": "identify the procedures for dealing with suspicious items",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-REF-0010",
     "source_quote_exact": true,
     "source": {
@@ -11505,10 +12165,11 @@
       "sia-ds-refresher-specification-2024#DS-REF-S2"
     ],
     "source_quote": "identify behaviours that could indicate suspicious activity",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-REF-0011",
     "source_quote_exact": true,
     "source": {
@@ -11536,10 +12197,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S3"
     ],
     "source_quote": "recognise their duty of care with regards to vulnerable people",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "DS-REF-0012",
     "source_quote_exact": true,
     "source": {
@@ -11567,10 +12231,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S3"
     ],
     "source_quote": "the actions that the security operative should take towards vulnerable people",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "DS-REF-0013",
     "source_quote_exact": true,
     "source": {
@@ -11598,10 +12265,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S3"
     ],
     "source_quote": "identify the behaviours shown by of potential sexual predators",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "DS-REF-0014",
     "source_quote_exact": true,
     "source": {
@@ -11629,10 +12299,11 @@
       "sia-ds-refresher-specification-2024#DS-REF-S3"
     ],
     "source_quote": "know how to deal with allegations of sexual assault",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-REF-0015",
     "source_quote_exact": true,
     "source": {
@@ -11660,10 +12331,14 @@
       "sia-ds-refresher-specification-2024#DS-REF-S4"
     ],
     "source_quote": "state the different methods of spiking",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "drugs",
+      "safeguarding"
+    ],
     "id": "DS-REF-0016",
     "source_quote_exact": true,
     "source": {
@@ -11691,10 +12366,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S4"
     ],
     "source_quote": "state the law in relation to spiking",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "DS-REF-0017",
     "source_quote_exact": true,
     "source": {
@@ -11722,10 +12400,11 @@
       "sia-ds-refresher-specification-2024#DS-REF-S4"
     ],
     "source_quote": "state indicators that drinks have been spiked",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-REF-0018",
     "source_quote_exact": true,
     "source": {
@@ -11753,10 +12432,13 @@
       "sia-ds-refresher-specification-2024#DS-REF-S4"
     ],
     "source_quote": "state the actions door supervisors and/or venues may take",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "DS-REF-0019",
     "source_quote_exact": true,
     "source": {
@@ -11784,10 +12466,11 @@
       "sia-ds-refresher-specification-2024#DS-REF-S4"
     ],
     "source_quote": "state how to manage a spiking incident",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "DS-REF-0020",
     "source_quote_exact": true,
     "source": {
@@ -11815,10 +12498,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S1"
     ],
     "source_quote": "state the actions which may need to be taken in the event of a refusal",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SG-REF-0001",
     "source_quote_exact": true,
     "source": {
@@ -11846,10 +12532,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S1"
     ],
     "source_quote": "reasons for completing search documentation",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SG-REF-0002",
     "source_quote_exact": true,
     "source": {
@@ -11877,10 +12566,14 @@
       "sia-sg-refresher-specification-2024#SG-REF-S1"
     ],
     "source_quote": "identify actions to take if a prohibited or restricted item is found during a search",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "search"
+    ],
     "id": "SG-REF-0003",
     "source_quote_exact": true,
     "source": {
@@ -11908,10 +12601,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S1"
     ],
     "source_quote": "explain a security officer's right of search",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SG-REF-0004",
     "source_quote_exact": true,
     "source": {
@@ -11939,10 +12635,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S1"
     ],
     "source_quote": "state the possible hazards that might be encountered when conducting a search",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SG-REF-0005",
     "source_quote_exact": true,
     "source": {
@@ -11970,10 +12669,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S1"
     ],
     "source_quote": "state the precautions to take when conducting a search",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SG-REF-0006",
     "source_quote_exact": true,
     "source": {
@@ -12001,10 +12703,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S1"
     ],
     "source_quote": "state typical areas of vehicles to be searched",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SG-REF-0007",
     "source_quote_exact": true,
     "source": {
@@ -12032,10 +12737,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S1"
     ],
     "source_quote": "identify reasons for carrying out a premises search",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "search"
+    ],
     "id": "SG-REF-0008",
     "source_quote_exact": true,
     "source": {
@@ -12058,15 +12766,16 @@
       "An attack is possible but not likely"
     ],
     "answer_index": 1,
-    "explanation": "Severe means an attack is highly likely. Critical, the highest level, means an attack is expected imminently.",
+    "explanation": "Severe means an attack is highly likely. Critical, the highest level, means an attack is highly likely in the near future.",
     "source_chunk_ids": [
       "sia-sg-refresher-specification-2024#SG-REF-S2"
     ],
     "source_quote": "identify the different threat levels",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SG-REF-0009",
     "source_quote_exact": true,
     "source": {
@@ -12094,10 +12803,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S2"
     ],
     "source_quote": "recognise the common terror attack methods",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "SG-REF-0010",
     "source_quote_exact": true,
     "source": {
@@ -12125,10 +12837,11 @@
       "sia-sg-refresher-specification-2024#SG-REF-S2"
     ],
     "source_quote": "recognise the actions to take in the event of a terror threat",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SG-REF-0011",
     "source_quote_exact": true,
     "source": {
@@ -12156,10 +12869,11 @@
       "sia-sg-refresher-specification-2024#SG-REF-S2"
     ],
     "source_quote": "identify the procedures for dealing with suspicious items",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SG-REF-0012",
     "source_quote_exact": true,
     "source": {
@@ -12187,10 +12901,11 @@
       "sia-sg-refresher-specification-2024#SG-REF-S2"
     ],
     "source_quote": "identify behaviours that could indicate suspicious activity",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SG-REF-0013",
     "source_quote_exact": true,
     "source": {
@@ -12218,10 +12933,11 @@
       "sia-sg-refresher-specification-2024#SG-REF-S2"
     ],
     "source_quote": "identify how to respond to suspicious behaviour",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SG-REF-0014",
     "source_quote_exact": true,
     "source": {
@@ -12249,10 +12965,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S3"
     ],
     "source_quote": "recognise their duty of care with regards to vulnerable people",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "SG-REF-0015",
     "source_quote_exact": true,
     "source": {
@@ -12280,10 +12999,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S3"
     ],
     "source_quote": "identify factors that could make someone vulnerable",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "SG-REF-0016",
     "source_quote_exact": true,
     "source": {
@@ -12311,10 +13033,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S3"
     ],
     "source_quote": "the actions that the security operative should take towards vulnerable people",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "SG-REF-0017",
     "source_quote_exact": true,
     "source": {
@@ -12342,10 +13067,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S3"
     ],
     "source_quote": "identify indicators of abuse",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "safeguarding"
+    ],
     "id": "SG-REF-0018",
     "source_quote_exact": true,
     "source": {
@@ -12373,10 +13101,11 @@
       "sia-sg-refresher-specification-2024#SG-REF-S3"
     ],
     "source_quote": "know how to deal with allegations of sexual assault",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "SG-REF-0019",
     "source_quote_exact": true,
     "source": {
@@ -12404,10 +13133,13 @@
       "sia-sg-refresher-specification-2024#SG-REF-S3"
     ],
     "source_quote": "know how to deal with anti-social behaviour",
-    "spec_version": "2021",
+    "spec_version": "2024",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "other"
+    ],
     "id": "SG-REF-0020",
     "source_quote_exact": true,
     "source": {
@@ -12435,10 +13167,11 @@
       "sia-cp-physical-intervention-refresher-specification-2025#risk"
     ],
     "source_quote": "Conducting a risk assessment of a particular venue or event may identify the need for additional training",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-REF-0001",
     "source_quote_exact": true,
     "source": {
@@ -12466,10 +13199,11 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S1"
     ],
     "source_quote": "identify and mitigate risks to safety",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-REF-0002",
     "source_quote_exact": true,
     "source": {
@@ -12497,10 +13231,13 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S1"
     ],
     "source_quote": "understand alternative considerations to the use of force",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "CP-REF-0003",
     "source_quote_exact": true,
     "source": {
@@ -12528,10 +13265,11 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S1"
     ],
     "source_quote": "extended risks from the initial event",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-REF-0004",
     "source_quote_exact": true,
     "source": {
@@ -12559,10 +13297,11 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S1"
     ],
     "source_quote": "narrowing the concentric layers of protection",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-REF-0005",
     "source_quote_exact": true,
     "source": {
@@ -12590,10 +13329,13 @@
       "sia-cp-physical-intervention-refresher-specification-2025#rights"
     ],
     "source_quote": "Achieving the qualification does not remove their obligation to act in accordance with the law regarding the use of force",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "CP-REF-0006",
     "source_quote_exact": true,
     "source": {
@@ -12621,10 +13363,13 @@
       "sia-cp-physical-intervention-refresher-specification-2025#rights"
     ],
     "source_quote": "a close protection operative has the same rights as a private individual and no more",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "CP-REF-0007",
     "source_quote_exact": true,
     "source": {
@@ -12652,10 +13397,15 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S2"
     ],
     "source_quote": "medical, and ethical implications of physical interventions",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force",
+      "restraint",
+      "first_aid"
+    ],
     "id": "CP-REF-0008",
     "source_quote_exact": true,
     "source": {
@@ -12683,10 +13433,13 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S2"
     ],
     "source_quote": "justifiable, ethical, and professional manner",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "CP-REF-0009",
     "source_quote_exact": true,
     "source": {
@@ -12714,10 +13467,13 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S2"
     ],
     "source_quote": "explain the legal, medical, and ethical implications of physical interventions",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
-    "requires_human_review": false,
+    "requires_human_review": true,
+    "review_category": [
+      "first_aid"
+    ],
     "id": "CP-REF-0010",
     "source_quote_exact": true,
     "source": {
@@ -12745,10 +13501,13 @@
       "sia-cp-physical-intervention-refresher-specification-2025#rights"
     ],
     "source_quote": "regarding the use of force",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "CP-REF-0011",
     "source_quote_exact": true,
     "source": {
@@ -12776,10 +13535,11 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S2"
     ],
     "source_quote": "use non-pain compliant soft skills to prevent harm to a principal",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-REF-0012",
     "source_quote_exact": true,
     "source": {
@@ -12807,10 +13567,13 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S2"
     ],
     "source_quote": "demonstrate skills to protect self from choke holds and strangulation",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "force"
+    ],
     "id": "CP-REF-0013",
     "source_quote_exact": true,
     "source": {
@@ -12838,10 +13601,11 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S2"
     ],
     "source_quote": "use non-pain complaint methods of protecting the inner cordon",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": false,
+    "review_category": [],
     "id": "CP-REF-0014",
     "source_quote_exact": true,
     "source": {
@@ -12869,10 +13633,13 @@
       "sia-cp-physical-intervention-refresher-specification-2025#CP-REF-S2"
     ],
     "source_quote": "effective communication with the subject throughout",
-    "spec_version": "2021",
+    "spec_version": "2025",
     "jurisdiction": "EW",
     "status": "draft",
     "requires_human_review": true,
+    "review_category": [
+      "restraint"
+    ],
     "id": "CP-REF-0015",
     "source_quote_exact": true,
     "source": {

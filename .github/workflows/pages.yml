@@ -23,6 +23,18 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v4
+      - name: Check JavaScript syntax
+        run: |
+          node --check site/assets/app.js
+          node --check site/assets/scoring.js
+          node --check site/assets/store.js
+          node --check site/sw.js
+      - name: Run the marking and storage tests
+        run: node --test tests/*.test.mjs
+      - name: Check quote-to-source grounding
+        run: python3 scripts/audit_questions.py
+      - name: Validate exported site data
+        run: python3 scripts/validate_site.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site

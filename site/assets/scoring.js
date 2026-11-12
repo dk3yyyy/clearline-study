@@ -3,10 +3,16 @@
    Loaded by app.js; bump the ?v= in that import when this file changes. */
 
 /* Awarding organisations publish the pass as a mark, not a rounded percentage.
-   50/72 is 69.4%, which rounds to 69 and would fail if compared as a percentage. */
-export function requiredMarks(total, passMark) {
+   Where that mark is known it wins: 50/72 is 69.4%, which rounds to 69, yet
+   50 is the published pass. On a short practice paper the published mark no
+   longer applies, so the threshold is rounded up instead: that keeps the
+   achieved percentage from falling below the advertised pass percentage. */
+export function requiredMarks(total, passMark, publishedMark = null, publishedTotal = null) {
   if (!total) return 0;
-  return Math.min(total, Math.max(1, Math.round((total * passMark) / 100)));
+  if (Number.isInteger(publishedMark) && publishedTotal === total) {
+    return Math.min(total, Math.max(1, publishedMark));
+  }
+  return Math.min(total, Math.max(1, Math.ceil((total * passMark) / 100)));
 }
 
 /* Mark a paper. Only answered questions become records, because a blank answer
@@ -42,6 +48,6 @@ export function markPaper(questions, answers = {}) {
 }
 
 /* Did a paper pass, using the published mark rather than a rounded percentage. */
-export function hasPassed(correct, total, passMark) {
-  return correct >= requiredMarks(total, passMark);
+export function hasPassed(correct, total, passMark, publishedMark = null, publishedTotal = null) {
+  return correct >= requiredMarks(total, passMark, publishedMark, publishedTotal);
 }

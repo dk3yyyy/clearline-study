@@ -507,3 +507,80 @@ dl.qual-stats dt { color: var(--muted); }
 
 .hero-random { margin: 10px 0 0; font-size: 14px; }
 .hero-random a { font-weight: 600; }
+
+/* Review pass 2: functional and accessibility corrections. */
+[hidden] { display: none !important; }
+html[data-text-size="112"] { font-size: 112.5%; }
+html[data-text-size="125"] { font-size: 125%; }
+#choose { scroll-margin-top: 84px; }
+.hero { padding-top: 34px; padding-bottom: 42px; }
+.hero h1 { margin-bottom: 18px; }
+.hero-lede { margin-bottom: 18px; }
+.hero-facts { margin-top: 16px; }
+.practice-title { font-family: var(--font-display); font-size: clamp(2.1rem, 4vw, 3.2rem) !important; color: var(--text) !important; text-transform: none !important; letter-spacing: 0 !important; margin-bottom: 14px !important; }
+.field-error { margin: 6px 0 0; color: var(--bad); font-size: 13px; font-weight: 700; }
+.source-index { margin: 0 0 24px; padding-left: 20px; }
+.source-index li { margin: 7px 0; overflow-wrap: anywhere; }
+.source-index a { color: var(--accent-text); }
+.objective-details { margin-top: 12px; }
+.objective-details summary { cursor: pointer; color: var(--accent-text); font-weight: 700; min-height: 44px; display: flex; align-items: center; }
+.review-item h3 { font-family: var(--font-body); font-size: 16px; font-weight: 700; line-height: 1.35; letter-spacing: 0; text-transform: none; }
+.palette-button { min-width: 44px; min-height: 44px; }
+.palette-grid { grid-template-columns: repeat(auto-fit, minmax(44px, 1fr)); }
+.text-link, .hero-random a, .objective-actions a, .session-source { min-height: 44px; display: inline-flex; align-items: center; }
+.button-small { min-height: 44px; }
+.tabs .tab { outline-offset: -3px; }
+.learn-nav a { outline-offset: -3px; }
+.settings-reset { margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--border); }
+.settings-reset .button { width: 100%; margin-top: 10px; }
+@media (max-width: 900px) {
+  .topbar { position: relative; }
+  .main-nav.mobile-open { top: 100%; flex-direction: column; align-items: stretch; gap: 0; }
+  .main-nav.mobile-open a { min-height: 44px; padding: 12px 4px; border-bottom: 1px solid var(--line); border-radius: 0; }
+  .main-nav.mobile-open a:last-child { border-bottom: 0; }
+  .tabs, .learn-nav { flex-wrap: wrap; overflow: visible; -webkit-mask-image: none; mask-image: none; }
+  .tabs .tab { flex: 1 1 30%; min-height: 44px; justify-content: center; }
+  .learn-nav a { max-width: 100%; white-space: normal; }
+}
+@media (max-width: 760px) {
+  .hero { padding-top: 24px; padding-bottom: 30px; }
+  .hero h1 { font-size: clamp(38px, 11vw, 50px); }
+  .hero-panel { margin-top: 8px; }
+  .hero-panel .study-pass { margin-top: 10px; }
+  .tabs .tab { flex: 1 1 45%; }
+  .learn-nav a { flex: 1 1 100%; }
+}
+:root { --border-option: #66759A; }
+:root[data-theme="light"] { --border-option: #6B7A90; }
+.report-dialog ::placeholder { color: var(--text-2); opacity: .9; }
+.hero-grid { grid-template-columns: minmax(0, 1fr) !important; }
+.home-pass-section { display: flex; align-items: center; gap: 28px; }
+.home-pass-section > div { flex: 0 1 520px; }
+.home-pass-section > p { margin: 0; max-width: 38ch; }
+@media (max-width: 760px) { .home-pass-section { display: block; } .home-pass-section > p { margin-top: 12px; } }
+@media (max-width: 640px) {
+  #choose .section-heading { margin-bottom: 16px; }
+  #choose .section-heading p { font-size: 14px; }
+  #choose .group-heading { margin: 14px 0 10px; }
+  #choose { padding-top: 26px; }
+}
+.mobile-unit { display: none; }
+@media (max-width: 760px) {
+  .learn-nav { display: none !important; }
+  .learn-stats { display: none !important; }
+  .mobile-unit { display: grid; margin-bottom: 16px; }
+  .page-head .breadcrumb { margin-bottom: 16px; }
+  .page-head h1 { font-size: clamp(2rem, 8vw, 2.8rem); }
+}
+@media (min-width: 761px) and (max-width: 900px) {
+  body.menu-open::after { content: ""; position: fixed; inset: 73px 0 0; z-index: 15; background: rgba(3, 7, 18, 0.55); }
+}
+/* Mobile fold: keep the first qualification card in the opening screen. */
+@media (max-width: 640px) {
+  .hero-actions .button.button-ghost { display: none; }
+  #choose .section-heading p { display: none; }
+  #choose .section-heading h2 { font-size: clamp(2rem, 9vw, 2.8rem); }
+}
+/* Give dialog actions room at the bottom and make the close control tappable. */
+.report-dialog form { padding-bottom: 30px; }
+.dialog-head .icon-button { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }

@@ -6,24 +6,44 @@ const question = (id, answer_index, unit = 'U1-COMMON', objective_id = 'U1-COMMO
   id, answer_index, unit, objective_id
 });
 
-test('requiredMarks matches the published mark for every confirmed paper', () => {
+test('requiredMarks uses the published mark for every confirmed full paper', () => {
   const papers = [
     ['U1 common', 72, 70, 50],
     ['DS unit 2', 50, 70, 35],
     ['SO unit 2', 60, 70, 42],
     ['CCTV unit 2', 40, 70, 28],
     ['U3 conflict', 20, 70, 14],
-    ['U4 physical intervention', 30, 80, 24]
+    ['U4 physical intervention', 30, 80, 24],
+    ['CP main', 52, 70, 37],
+    ['SG refresher', 28, 71, 20]
   ];
   for (const [name, total, passMark, mark] of papers) {
-    assert.equal(requiredMarks(total, passMark), mark, name);
+    assert.equal(requiredMarks(total, passMark, mark, total), mark, name);
+    assert.equal(hasPassed(mark, total, passMark, mark, total), true, `${name} at the mark`);
+    assert.equal(hasPassed(mark - 1, total, passMark, mark, total), false, `${name} one below`);
   }
 });
 
-test('requiredMarks rounds down where the awarding organisation does', () => {
-  // 70% of 72 is 50.4. Pearson publishes 50/72, so Math.ceil would be wrong.
-  assert.equal(requiredMarks(72, 70), 50);
-  assert.notEqual(requiredMarks(72, 70), Math.ceil((72 * 70) / 100));
+test('a published mark wins over a rounded percentage', () => {
+  // 70% of 72 is 50.4 and 50/72 is 69%. Pearson publishes 50/72, so neither
+  // rounding nor ceiling alone is right when the mark is known.
+  assert.equal(requiredMarks(72, 70, 50, 72), 50);
+  // Without the published mark the safe threshold is the ceiling.
+  assert.equal(requiredMarks(72, 70), 51);
+});
+
+test('a short paper cannot set a mark below the advertised percentage', () => {
+  for (const passMark of [70, 71, 72, 80]) {
+    for (let total = 1; total <= 120; total += 1) {
+      const mark = requiredMarks(total, passMark);
+      assert.ok((mark / total) * 100 >= passMark, `${mark}/${total} is below ${passMark}%`);
+    }
+  }
+});
+
+test('a published mark is ignored when the paper is shorter than the published paper', () => {
+  assert.equal(requiredMarks(60, 70, 50, 72), 42);
+  assert.equal(requiredMarks(25, 70, 37, 52), 18);
 });
 
 test('requiredMarks handles empty and short papers', () => {
@@ -33,17 +53,17 @@ test('requiredMarks handles empty and short papers', () => {
 });
 
 test('a paper at the published mark passes, one mark below fails', () => {
-  assert.equal(hasPassed(50, 72, 70), true);
-  assert.equal(hasPassed(49, 72, 70), false);
-  assert.equal(hasPassed(28, 40, 70), true);
-  assert.equal(hasPassed(27, 40, 70), false);
-  assert.equal(hasPassed(24, 30, 80), true);
-  assert.equal(hasPassed(23, 30, 80), false);
+  assert.equal(hasPassed(50, 72, 70, 50, 72), true);
+  assert.equal(hasPassed(49, 72, 70, 50, 72), false);
+  assert.equal(hasPassed(28, 40, 70, 28, 40), true);
+  assert.equal(hasPassed(27, 40, 70, 28, 40), false);
+  assert.equal(hasPassed(24, 30, 80, 24, 30), true);
+  assert.equal(hasPassed(23, 30, 80, 24, 30), false);
 });
 
-test('50 out of 72 is 69% and still a pass', () => {
+test('50 out of 72 is 69% and still a pass when 50 is published', () => {
   assert.equal(Math.round((50 / 72) * 100), 69);
-  assert.equal(hasPassed(50, 72, 70), true);
+  assert.equal(hasPassed(50, 72, 70, 50, 72), true);
 });
 
 test('markPaper records only answered questions', () => {

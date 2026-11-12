@@ -7,6 +7,7 @@
         "questions": 72,
         "minutes": 110,
         "pass_mark": 70,
+        "pass_answers": 50,
         "practical": false
       },
       {
@@ -14,6 +15,7 @@
         "questions": 50,
         "minutes": 75,
         "pass_mark": 70,
+        "pass_answers": 35,
         "practical": true
       },
       {
@@ -21,6 +23,7 @@
         "questions": 20,
         "minutes": 30,
         "pass_mark": 70,
+        "pass_answers": 14,
         "practical": true
       },
       {
@@ -28,6 +31,7 @@
         "questions": 30,
         "minutes": 45,
         "pass_mark": 80,
+        "pass_answers": 24,
         "practical": true
       }
     ]
@@ -40,6 +44,7 @@
         "questions": 72,
         "minutes": 110,
         "pass_mark": 70,
+        "pass_answers": 50,
         "practical": false
       },
       {
@@ -47,6 +52,7 @@
         "questions": 60,
         "minutes": 90,
         "pass_mark": 70,
+        "pass_answers": 42,
         "practical": true
       },
       {
@@ -54,6 +60,7 @@
         "questions": 20,
         "minutes": 30,
         "pass_mark": 70,
+        "pass_answers": 14,
         "practical": true
       }
     ]
@@ -66,6 +73,7 @@
         "questions": 72,
         "minutes": 110,
         "pass_mark": 70,
+        "pass_answers": 50,
         "practical": false
       },
       {
@@ -73,19 +81,21 @@
         "questions": 40,
         "minutes": 60,
         "pass_mark": 70,
+        "pass_answers": 28,
         "practical": true,
         "workbook_pass_mark": 80
       }
     ]
   },
   "CP": {
-    "source": "SIA Get Training (April 2022 edition); confirm against current CP spec before publication",
+    "source": "SIA Get Training (April 2022 edition); confirm against the current CP specification: CP-MAIN duration is not stated in the held source text, so the 80-minute length is a review correction pending a citable awarding-organisation document",
     "units": [
       {
         "unit": "CP-MAIN",
         "questions": 52,
-        "minutes": 60,
+        "minutes": 80,
         "pass_mark": 70,
+        "pass_answers": 37,
         "practical": true
       },
       {
@@ -117,7 +127,7 @@
     ]
   },
   "DS-REF": {
-    "source": "unconfirmed: SIA refresher specification does not state a fixed MCQ count",
+    "source": "unconfirmed: site practice format, not a published SIA format: the refresher specification held in this repository does not state a fixed MCQ count, duration or pass mark. The 30-question, 45-minute, 70% paper is a study-bank size only; the site does not model a two-unit split.",
     "units": [
       {
         "unit": "DS-REF",
@@ -129,19 +139,20 @@
     ]
   },
   "SG-REF": {
-    "source": "unconfirmed: SIA refresher specification does not state a fixed MCQ count",
+    "source": "unconfirmed paper format: SIA Security Guarding Refresher specification (2024) for content; the 28-question, 45-minute, 71% paper format is a review correction and is not stated in the held specification text",
     "units": [
       {
         "unit": "SG-REF",
-        "questions": 30,
+        "questions": 28,
         "minutes": 45,
-        "pass_mark": 70,
+        "pass_mark": 71,
+        "pass_answers": 20,
         "practical": true
       }
     ]
   },
   "CP-REF": {
-    "source": "unconfirmed: SIA refresher specification does not state a fixed MCQ count",
+    "source": "unconfirmed: site practice format, not a published SIA format: the refresher specification held in this repository does not state a fixed MCQ count, duration or pass mark. The 30-question, 45-minute, 80% paper is a study-bank size only; the site does not model a two-unit split.",
     "units": [
       {
         "unit": "CP-REF",
